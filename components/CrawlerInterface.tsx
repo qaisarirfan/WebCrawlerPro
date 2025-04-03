@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { CrawlerStatus } from '../types/crawler';
 import CrawlerControls from './CrawlerControls';
+import CrawlerSettings from './CrawlerSettings';
 import StatusDisplay from './StatusDisplay';
 import UrlInput from './UrlInput';
 import UrlList from './UrlList';
@@ -33,6 +34,12 @@ const CrawlerInterface: React.FC = () => {
       }
     } catch (error) {
       console.error('Failed to fetch crawler status:', error);
+      // Don't update status on error to prevent UI flickering
+      // If we have a failed request, ensure we still maintain polling
+      if (!statusPollingInterval) {
+        const interval = setInterval(fetchStatus, 5000); // Longer retry interval on error
+        setStatusPollingInterval(interval);
+      }
     }
   };
 
@@ -73,6 +80,7 @@ const CrawlerInterface: React.FC = () => {
             isRunning={status.isRunning} 
             refreshStatus={fetchStatus} 
           />
+          <CrawlerSettings isRunning={status.isRunning} />
           <StatusDisplay status={status} />
         </div>
         

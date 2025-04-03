@@ -353,9 +353,78 @@
   border-bottom: none;
 }
 
+.urlItemContent {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+  overflow: hidden;
+}
+
+.urlItem {
+  justify-content: space-between;
+}
+
 .urlItem svg {
   color: var(--primary-color);
   flex-shrink: 0;
+}
+
+.urlItem.crawling {
+  background-color: rgba(79, 70, 229, 0.05);
+}
+
+.urlItem.success {
+  background-color: rgba(16, 185, 129, 0.05);
+}
+
+.urlItem.error {
+  background-color: rgba(239, 68, 68, 0.05);
+}
+
+.crawlButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  transition: all 0.2s ease;
+}
+
+.crawlButton:hover:not(:disabled) {
+  background-color: rgba(79, 70, 229, 0.05);
+  border-color: var(--primary-color);
+}
+
+.crawlButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.urlMessage {
+  font-size: 0.75rem;
+  color: var(--secondary-color);
+  margin-left: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.idle .urlMessage {
+  display: none;
+}
+
+.success .urlMessage {
+  color: var(--success-color);
+}
+
+.error .urlMessage {
+  color: var(--error-color);
 }
 
 .emptyState {
@@ -390,6 +459,121 @@
   border-top-color: var(--primary-color);
   border-radius: 50%;
   animation: spin 1s linear infinite;
+}
+
+/* CrawlerSettings component styles */
+.settingsContainer {
+  background-color: var(--card-background);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-md);
+}
+
+.settingsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.expandArrow {
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.expandArrow.expanded {
+  transform: rotate(180deg);
+}
+
+.settingsForm {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .settingsForm {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formGroup label {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.formControl {
+  padding: 0.625rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+}
+
+.formControl:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+.formControl:disabled {
+  background-color: var(--background-color);
+  opacity: 0.7;
+}
+
+.formGroup small {
+  color: var(--secondary-color);
+  font-size: 0.75rem;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.formCheckbox {
+  width: 1rem;
+  height: 1rem;
+  accent-color: var(--primary-color);
+}
+
+.formActions {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.saveButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.saveButton:hover:not(:disabled) {
+  background-color: var(--primary-hover);
+}
+
+.saveButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
 }
 
 @keyframes spin {

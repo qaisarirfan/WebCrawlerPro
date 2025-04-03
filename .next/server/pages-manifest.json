@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/api/crawler/status": "pages/api/crawler/status.js",
   "/": "pages/index.js",
-  "/api/crawler/get-urls": "pages/api/crawler/get-urls.js",
-  "/api/crawler/status": "pages/api/crawler/status.js"
+  "/api/crawler/config": "pages/api/crawler/config.js",
+  "/api/crawler/get-urls": "pages/api/crawler/get-urls.js"
 }

@@ -16,9 +16,13 @@ export interface UrlItem {
 }
 
 export interface CrawlerConfig {
-  urls: string[];
-  maxConcurrency?: number;
-  maxRequestsPerCrawl?: number;
+  maxConcurrency: number;
+  maxRequestsPerCrawl: number;
+  maxRequestRetries: number;
+  requestHandlerTimeoutSecs: number;
+  navigationTimeoutSecs: number;
+  sameDomainDelaySecs: number;
+  useHeadless: boolean;
 }
 
 export interface CrawlResult {
