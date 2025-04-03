@@ -1,0 +1,399 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title svg {
+  margin-right: 0.75rem;
+  color: var(--primary-color);
+}
+
+.description {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.controlPanel, .urlPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Common section styles */
+.sectionTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.sectionTitle svg {
+  margin-right: 0.5rem;
+}
+
+/* CrawlerControls component styles */
+.controlsContainer {
+  background-color: var(--card-background);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-md);
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  color: white;
+  border: none;
+  transition: all 0.2s ease;
+  min-width: 140px;
+}
+
+.startButton {
+  background-color: var(--primary-color);
+}
+
+.startButton:hover:not(:disabled) {
+  background-color: var(--primary-hover);
+}
+
+.stopButton {
+  background-color: var(--error-color);
+}
+
+.stopButton:hover:not(:disabled) {
+  background-color: #dc2626;
+}
+
+/* StatusDisplay component styles */
+.statusContainer {
+  background-color: var(--card-background);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-md);
+}
+
+.statusCard {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.statusRow {
+  display: flex;
+  margin-bottom: 0.75rem;
+  align-items: center;
+}
+
+.statusLabel {
+  font-weight: 600;
+  width: 120px;
+  color: var(--secondary-color);
+}
+
+.statusValue {
+  flex: 1;
+}
+
+.statusBadge {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: var(--radius-sm);
+  padding: 0.25rem 0.75rem;
+}
+
+.running {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--running-color);
+}
+
+.stopped {
+  background-color: rgba(100, 116, 139, 0.1);
+  color: var(--stopped-color);
+}
+
+.progressBarContainer {
+  height: 8px;
+  background-color: var(--progress-bg);
+  border-radius: var(--radius-sm);
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+
+.progressBar {
+  height: 100%;
+  background-color: var(--progress-fill);
+  border-radius: var(--radius-sm);
+  transition: width 0.3s ease;
+}
+
+.elapsedTime {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.errorsSection {
+  margin-top: 1rem;
+}
+
+.errorsSection h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--error-color);
+}
+
+.errorsList {
+  background-color: rgba(239, 68, 68, 0.05);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: var(--radius-md);
+  padding: 0.75rem;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.errorItem {
+  padding: 0.5rem;
+  border-bottom: 1px solid rgba(239, 68, 68, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.errorItem:last-child {
+  border-bottom: none;
+}
+
+.errorItem svg {
+  color: var(--error-color);
+  flex-shrink: 0;
+}
+
+.moreErrors {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--secondary-color);
+}
+
+/* UrlInput component styles */
+.urlInputContainer {
+  background-color: var(--card-background);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-md);
+}
+
+.urlForm {
+  width: 100%;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.urlInput {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+}
+
+.urlInput:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+.addButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+}
+
+.addButton:hover:not(:disabled) {
+  background-color: var(--primary-hover);
+}
+
+.errorMessage {
+  color: var(--error-color);
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.successMessage {
+  color: var(--success-color);
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+/* UrlList component styles */
+.urlListContainer {
+  background-color: var(--card-background);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+}
+
+.urlListHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.importButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: var(--primary-color);
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+}
+
+.importButton:hover:not(:disabled) {
+  background-color: rgba(79, 70, 229, 0.05);
+}
+
+.urlListScroll {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.urlCount {
+  font-size: 0.875rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.urlList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.urlItem {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.urlItem:last-child {
+  border-bottom: none;
+}
+
+.urlItem svg {
+  color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.emptyState svg {
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 2rem;
+  color: var(--secondary-color);
+}
+
+.loadingSpinner {
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid rgba(79, 70, 229, 0.25);
+  border-top-color: var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
