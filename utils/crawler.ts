@@ -1,7 +1,7 @@
-import axios from 'axios';
-import * as cheerio from 'cheerio';
+import { CheerioCrawler } from 'crawlee';
 import { WhatsAppLink, CrawlerStatus } from '../types/crawler';
 import { saveWhatsAppLinks, saveStatus, getStatus } from './fileSystem';
+import { defaultUrls } from './defaultUrls';
 
 // Regular expression to find WhatsApp invite links
 const whatsappLinkRegex = /https:\/\/chat\.whatsapp\.com(?:\/invite)?\/([A-Za-z0-9]{22})/gm;
@@ -16,6 +16,8 @@ let currentStatus: CrawlerStatus = {
   processedUrls: 0,
   errors: []
 };
+
+let crawler: CheerioCrawler | null = null;
 
 // Extract invite link code from URL
 export const extractInviteLink = (url: string | null | undefined): WhatsAppLink | null => {
@@ -33,60 +35,6 @@ export const extractInviteLink = (url: string | null | undefined): WhatsAppLink 
     console.error('Error extracting invite link:', error);
   }
   return null;
-};
-
-// Fetch and parse a webpage to extract WhatsApp group links
-const crawlUrl = async (url: string): Promise<WhatsAppLink[]> => {
-  try {
-    // Update status
-    currentStatus.currentUrl = url;
-    saveStatus(currentStatus);
-    
-    // Fetch page content
-    const response = await axios.get(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-      },
-      timeout:
- 30000
-    });
-    
-    const $ = cheerio.load(response.data);
-    const waLinks: WhatsAppLink[] = [];
-    
-    // Extract links from <a> tags
-    $('a').each((_, element) => {
-      const link = extractInviteLink($(element).attr('href'));
-      if (link) {
-        waLinks.push(link);
-      }
-    });
-    
-    // Extract links from body text
-    const bodyText = $('body').text();
-    let match;
-    while ((match = whatsappLinkRegex.exec(bodyText)) !== null) {
-      const link = extractInviteLink(match[0]);
-      if (link) {
-        waLinks.push(link);
-      }
-    }
-    
-    // Get domain for file naming
-    const domain = new URL(url).hostname;
-    
-    // Save the links
-    if (waLinks.length > 0) {
-      saveWhatsAppLinks(domain, waLinks);
-    }
-    
-    return waLinks;
-  } catch (error) {
-    console.error(`Error crawling ${url}:`, error);
-    currentStatus.errors.push(`Failed to crawl ${url}: ${error.message}`);
-    saveStatus(currentStatus);
-    return [];
-  }
 };
 
 // Start the crawler with the given URLs
@@ -110,37 +58,115 @@ export const startCrawler = async (urls: string[]): Promise<void> => {
   };
   saveStatus(currentStatus);
   
-  // Process URLs sequentially
-  for (let i = 0; i < urls.length; i++) {
-    if (stopRequested) {
-      break;
-    }
+  // Initialize Crawler
+  crawler = new CheerioCrawler({
+    // Use maxRequestsPerCrawl to limit the number of requests
+    // Using a high number but not too high to avoid overloading
+    maxRequestsPerCrawl: 1000,
     
-    try {
-      await crawlUrl(urls[i]);
-      currentStatus.processedUrls++;
-      currentStatus.progress = (currentStatus.processedUrls / currentStatus.totalUrls) * 100;
+    // Set a reasonable concurrency
+    maxConcurrency: 10,
+    
+    // Add timeout for each request
+    requestHandlerTimeoutSecs: 60,
+    
+    // Handle each request
+    async requestHandler({ $, enqueueLinks, request }) {
+      // Update status
+      console.log(`Crawling: ${request.url}`);
+      currentStatus.currentUrl = request.url;
       currentStatus.lastUpdate = new Date();
       saveStatus(currentStatus);
-    } catch (error) {
-      console.error(`Error processing URL ${urls[i]}:`, error);
-      currentStatus.errors.push(`Error processing URL ${urls[i]}: ${error.message}`);
+      
+      if (stopRequested) {
+        return;
+      }
+      
+      try {
+        const waLinks: WhatsAppLink[] = [];
+        
+        // Extract links from <a> tags
+        $('a').each((_, element) => {
+          const link = extractInviteLink($(element).attr('href'));
+          if (link) {
+            waLinks.push(link);
+          }
+        });
+        
+        // Extract links from body text
+        const bodyText = $('body').text();
+        let match;
+        // Reset regex lastIndex before using it again
+        whatsappLinkRegex.lastIndex = 0;
+        while ((match = whatsappLinkRegex.exec(bodyText)) !== null) {
+          const link = extractInviteLink(match[0]);
+          if (link) {
+            waLinks.push(link);
+          }
+        }
+        
+        // Save the extracted links
+        if (waLinks.length > 0) {
+          const domain = new URL(request.url).hostname;
+          saveWhatsAppLinks(domain, waLinks);
+        }
+        
+        // Enqueue links for crawling (only for the same domain)
+        if (!stopRequested) {
+          await enqueueLinks({
+            strategy: 'same-domain',
+            // Exclude some problematic URLs
+            exclude: ['https://www.hindustantimes.com'],
+          });
+        }
+        
+        // Update progress
+        currentStatus.processedUrls++;
+        currentStatus.progress = (currentStatus.processedUrls / currentStatus.totalUrls) * 100;
+        saveStatus(currentStatus);
+        
+      } catch (error) {
+        console.error(`Error processing ${request.url}:`, error);
+        currentStatus.errors.push(`Error processing ${request.url}: ${error.message}`);
+        saveStatus(currentStatus);
+      }
+    },
+    
+    // Handle failed requests
+    failedRequestHandler({ request, error }) {
+      console.error(`Request ${request.url} failed: ${error.message}`);
+      currentStatus.errors.push(`Failed to crawl ${request.url}: ${error.message}`);
+      currentStatus.processedUrls++;
+      currentStatus.progress = (currentStatus.processedUrls / currentStatus.totalUrls) * 100;
       saveStatus(currentStatus);
     }
-  }
+  });
   
-  // Mark crawler as stopped
-  isCrawlerRunning = false;
-  currentStatus.isRunning = false;
-  currentStatus.lastUpdate = new Date();
-  saveStatus(currentStatus);
+  try {
+    // Start the crawler with the provided URLs
+    await crawler.run(urls);
+  } catch (error) {
+    console.error('Crawler error:', error);
+    currentStatus.errors.push(`Crawler error: ${error.message}`);
+  } finally {
+    // Mark crawler as stopped
+    isCrawlerRunning = false;
+    currentStatus.isRunning = false;
+    currentStatus.lastUpdate = new Date();
+    saveStatus(currentStatus);
+    crawler = null;
+  }
 };
 
 // Stop the crawler
 export const stopCrawler = (): void => {
-  stopRequested = true;
-  currentStatus.lastUpdate = new Date();
-  saveStatus(currentStatus);
+  if (crawler) {
+    stopRequested = true;
+    crawler.autoscaledPool?.abort();
+    console.log('Crawler stopping...');
+    currentStatus.lastUpdate = new Date();
+    saveStatus(currentStatus);
+  }
 };
 
 // Get current crawler status

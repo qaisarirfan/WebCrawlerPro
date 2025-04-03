@@ -1,0 +1,10 @@
+{
+  "isRunning": false,
+  "progress": 100,
+  "totalUrls": 1,
+  "processedUrls": 1,
+  "errors": [],
+  "startTime": "2025-04-03T15:49:05.806Z",
+  "lastUpdate": "2025-04-03T15:49:06.487Z",
+  "currentUrl": "http://findgroups.net"
+}

@@ -36,3 +36,7 @@ run = ["sh", "-c", "npm install && npm run dev"]
 [[ports]]
 localPort = 5000
 externalPort = 80
+
+[[ports]]
+localPort = 44563
+externalPort = 3000
