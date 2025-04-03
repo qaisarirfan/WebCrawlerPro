@@ -1,0 +1,9 @@
+{
+	"id": "VsLY9g5eBP4pqVp",
+	"json": "{\"id\":\"VsLY9g5eBP4pqVp\",\"url\":\"http://findgroups.net/privacy-policy\",\"loadedUrl\":\"http://findgroups.net/privacy-policy\",\"uniqueKey\":\"http://findgroups.net/privacy-policy\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-03T16:03:02.342Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "http://findgroups.net/privacy-policy",
+	"url": "http://findgroups.net/privacy-policy"
+}

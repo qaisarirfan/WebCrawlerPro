@@ -1,0 +1,9 @@
+{
+	"id": "soz62k4E2t7Flcx",
+	"json": "{\"id\":\"soz62k4E2t7Flcx\",\"url\":\"http://findgroups.net/post/fTHZ6/bbc-news\",\"loadedUrl\":\"http://findgroups.net/post/fTHZ6/bbc-news\",\"uniqueKey\":\"http://findgroups.net/post/fTHZ6/bbc-news\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-03T16:05:08.365Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "http://findgroups.net/post/fTHZ6/bbc-news",
+	"url": "http://findgroups.net/post/fTHZ6/bbc-news"
+}

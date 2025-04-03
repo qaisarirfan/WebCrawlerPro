@@ -1,0 +1,9 @@
+{
+	"id": "zTBPSP4lsH3tFZx",
+	"json": "{\"id\":\"zTBPSP4lsH3tFZx\",\"url\":\"http://findgroups.net/category-dtl/internet\",\"uniqueKey\":\"http://findgroups.net/category-dtl/internet\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":3,\"errorMessages\":[\"Error: request timed out after 30 seconds.\\n    at Timeout._onTimeout (/home/runner/workspace/node_modules/@apify/timeout/cjs/index.cjs:64:68)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\",\"Error: request timed out after 30 seconds.\\n    at Timeout._onTimeout (/home/runner/workspace/node_modules/@apify/timeout/cjs/index.cjs:64:68)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\",\"Error: request timed out after 30 seconds.\\n    at Timeout._onTimeout (/home/runner/workspace/node_modules/@apify/timeout/cjs/index.cjs:64:68)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\",\"Error: request timed out after 30 seconds.\\n    at Timeout._onTimeout (/home/runner/workspace/node_modules/@apify/timeout/cjs/index.cjs:64:68)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\"],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":5}},\"handledAt\":\"2025-04-03T16:04:36.930Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 3,
+	"uniqueKey": "http://findgroups.net/category-dtl/internet",
+	"url": "http://findgroups.net/category-dtl/internet"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "iuXTeqPWqzE5V1r",
+	"json": "{\"id\":\"iuXTeqPWqzE5V1r\",\"url\":\"http://findgroups.net/store-dtl/all-groups?page=40\",\"uniqueKey\":\"http://findgroups.net/store-dtl/all-groups?page=40\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743696314727,
+	"retryCount": 0,
+	"uniqueKey": "http://findgroups.net/store-dtl/all-groups?page=40",
+	"url": "http://findgroups.net/store-dtl/all-groups?page=40"
+}

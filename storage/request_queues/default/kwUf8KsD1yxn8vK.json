@@ -1,0 +1,9 @@
+{
+	"id": "kwUf8KsD1yxn8vK",
+	"json": "{\"id\":\"kwUf8KsD1yxn8vK\",\"url\":\"http://findgroups.net/sitemap\",\"loadedUrl\":\"http://findgroups.net/sitemap\",\"uniqueKey\":\"http://findgroups.net/sitemap\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-03T16:03:32.910Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "http://findgroups.net/sitemap",
+	"url": "http://findgroups.net/sitemap"
+}

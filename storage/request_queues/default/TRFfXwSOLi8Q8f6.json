@@ -1,0 +1,9 @@
+{
+	"id": "TRFfXwSOLi8Q8f6",
+	"json": "{\"id\":\"TRFfXwSOLi8Q8f6\",\"url\":\"http://findgroups.net/post/Mbqvr/global-trip-advisor\",\"loadedUrl\":\"http://findgroups.net/post/Mbqvr/global-trip-advisor\",\"uniqueKey\":\"http://findgroups.net/post/Mbqvr/global-trip-advisor\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-03T16:05:29.967Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "http://findgroups.net/post/Mbqvr/global-trip-advisor",
+	"url": "http://findgroups.net/post/Mbqvr/global-trip-advisor"
+}

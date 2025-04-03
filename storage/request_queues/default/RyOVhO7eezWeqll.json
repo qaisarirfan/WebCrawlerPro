@@ -1,0 +1,9 @@
+{
+	"id": "RyOVhO7eezWeqll",
+	"json": "{\"id\":\"RyOVhO7eezWeqll\",\"url\":\"http://findgroups.net/forum\",\"loadedUrl\":\"http://findgroups.net/forum\",\"uniqueKey\":\"http://findgroups.net/forum\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-03T16:01:18.937Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "http://findgroups.net/forum",
+	"url": "http://findgroups.net/forum"
+}

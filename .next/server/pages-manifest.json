@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/": "pages/index.js",
-  "/api/crawler/get-urls": "pages/api/crawler/get-urls.js",
-  "/api/crawler/status": "pages/api/crawler/status.js"
+  "/": "pages/index.js"
 }
