@@ -1,9 +1,0 @@
-{
-	"id": "4RtbL9z0pBTFw0o",
-	"json": "{\"id\":\"4RtbL9z0pBTFw0o\",\"url\":\"http://findgroups.net/post/QVOfx/books-news-novels\",\"loadedUrl\":\"http://findgroups.net/post/QVOfx/books-news-novels\",\"uniqueKey\":\"http://findgroups.net/post/QVOfx/books-news-novels\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-03T16:05:32.520Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/post/QVOfx/books-news-novels",
-	"url": "http://findgroups.net/post/QVOfx/books-news-novels"
-}

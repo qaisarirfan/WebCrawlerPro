@@ -1,9 +1,0 @@
-{
-	"id": "3Pq6Tn9i4dhpoIf",
-	"json": "{\"id\":\"3Pq6Tn9i4dhpoIf\",\"url\":\"https://www.findgroups.net/contact\",\"loadedUrl\":\"http://findgroups.net/contact\",\"uniqueKey\":\"https://www.findgroups.net/contact\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-03T16:01:20.771Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.findgroups.net/contact",
-	"url": "https://www.findgroups.net/contact"
-}

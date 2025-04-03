@@ -1,9 +1,0 @@
-{
-	"id": "kXr5gjlyXp4b9lX",
-	"json": "{\"id\":\"kXr5gjlyXp4b9lX\",\"url\":\"http://findgroups.net/post/EPMm7/daily-news\",\"uniqueKey\":\"http://findgroups.net/post/EPMm7/daily-news\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743696093674,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/post/EPMm7/daily-news",
-	"url": "http://findgroups.net/post/EPMm7/daily-news"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Lt9bEOcBe6zQq3d",
-	"json": "{\"id\":\"Lt9bEOcBe6zQq3d\",\"url\":\"http://findgroups.net/post/3TcIe/foodies\",\"uniqueKey\":\"http://findgroups.net/post/3TcIe/foodies\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743696090396,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/post/3TcIe/foodies",
-	"url": "http://findgroups.net/post/3TcIe/foodies"
-}

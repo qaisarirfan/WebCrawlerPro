@@ -1,9 +1,0 @@
-{
-	"id": "4gCxnF9NNUKpInv",
-	"json": "{\"id\":\"4gCxnF9NNUKpInv\",\"url\":\"http://findgroups.net/post/2XMdJ/quick-shop\",\"loadedUrl\":\"http://findgroups.net/post/2XMdJ/quick-shop\",\"uniqueKey\":\"http://findgroups.net/post/2XMdJ/quick-shop\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-03T16:05:30.451Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/post/2XMdJ/quick-shop",
-	"url": "http://findgroups.net/post/2XMdJ/quick-shop"
-}

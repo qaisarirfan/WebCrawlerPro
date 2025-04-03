@@ -1,9 +1,0 @@
-{
-	"id": "Pr3jt0ll6wgIaDN",
-	"json": "{\"id\":\"Pr3jt0ll6wgIaDN\",\"url\":\"http://findgroups.net/auth/facebook\",\"loadedUrl\":\"https://www.facebook.com/v2.10/dialog/oauth?client_id=&redirect_uri=&scope=email&response_type=code&state=Xbtv1Fsi1363pMtLIac9R3dCF3wkkwmGpXA3cFwy\",\"uniqueKey\":\"http://findgroups.net/auth/facebook\",\"method\":\"GET\",\"noRetry\":true,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":7}},\"handledAt\":\"2025-04-03T16:00:17.864Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/auth/facebook",
-	"url": "http://findgroups.net/auth/facebook"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "cIXHBbt8yNk7Qe1",
-	"json": "{\"id\":\"cIXHBbt8yNk7Qe1\",\"url\":\"http://findgroups.net\",\"loadedUrl\":\"http://findgroups.net/\",\"uniqueKey\":\"http://findgroups.net\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-03T16:00:16.768Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net",
-	"url": "http://findgroups.net"
-}

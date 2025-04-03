@@ -1,9 +1,0 @@
-{
-	"id": "2Vs358ges1VsG6b",
-	"json": "{\"id\":\"2Vs358ges1VsG6b\",\"url\":\"http://findgroups.net/post/srRUk/friends\",\"loadedUrl\":\"http://findgroups.net/post/srRUk/friends\",\"uniqueKey\":\"http://findgroups.net/post/srRUk/friends\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-03T16:05:39.418Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/post/srRUk/friends",
-	"url": "http://findgroups.net/post/srRUk/friends"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Nz0Y4t3qLeTlr4A",
-	"json": "{\"id\":\"Nz0Y4t3qLeTlr4A\",\"url\":\"http://findgroups.net/post/FU19W/quran\",\"loadedUrl\":\"http://findgroups.net/post/FU19W/quran\",\"uniqueKey\":\"http://findgroups.net/post/FU19W/quran\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-03T16:04:48.855Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/post/FU19W/quran",
-	"url": "http://findgroups.net/post/FU19W/quran"
-}

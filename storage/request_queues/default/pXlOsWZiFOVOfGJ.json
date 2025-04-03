@@ -1,9 +1,0 @@
-{
-	"id": "pXlOsWZiFOVOfGJ",
-	"json": "{\"id\":\"pXlOsWZiFOVOfGJ\",\"url\":\"http://findgroups.net/post/zy4y6\",\"uniqueKey\":\"http://findgroups.net/post/zy4y6\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":2,\"errorMessages\":[\"Error: 500 - Internal Server Error: <!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n    <head>\\n        <meta charset=\\\"utf-8\\\">\\n        <meta http-equiv=\\n    at CheerioCrawler._parseResponse (/home/runner/workspace/node_modules/@crawlee/http/internals/http-crawler.js:486:19)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\\n    at async CheerioCrawler._runRequestHandler (/home/runner/workspace/node_modules/@crawlee/http/internals/http-crawler.js:305:28)\\n    at async CheerioCrawler._runRequestHandler (/home/runner/workspace/node_modules/@crawlee/cheerio/internals/cheerio-crawler.js:149:9)\\n    at async wrap (/home/runner/workspace/node_modules/@apify/timeout/cjs/index.cjs:54:21)\",\"Error: 500 - Internal Server Error: <!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n    <head>\\n        <meta charset=\\\"utf-8\\\">\\n        <meta http-equiv=\\n    at CheerioCrawler._parseResponse (/home/runner/workspace/node_modules/@crawlee/http/internals/http-crawler.js:486:19)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\\n    at async CheerioCrawler._runRequestHandler (/home/runner/workspace/node_modules/@crawlee/http/internals/http-crawler.js:305:28)\\n    at async CheerioCrawler._runRequestHandler (/home/runner/workspace/node_modules/@crawlee/cheerio/internals/cheerio-crawler.js:149:9)\\n    at async wrap (/home/runner/workspace/node_modules/@apify/timeout/cjs/index.cjs:54:21)\"],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":5}}}",
-	"method": "GET",
-	"orderNo": 1743696340296,
-	"retryCount": 2,
-	"uniqueKey": "http://findgroups.net/post/zy4y6",
-	"url": "http://findgroups.net/post/zy4y6"
-}
