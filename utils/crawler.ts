@@ -82,6 +82,7 @@ export const extractInviteLink = (url: string | null | undefined): WhatsAppLink 
   if (!url) return null;
   
   try {
+    // Updated regex to match WhatsApp invite links with more flexibility
     const match = url.match(/https:\/\/chat\.whatsapp\.com(?:\/invite)?\/([A-Za-z0-9]{22})/);
     if (match && match[1]) {
       return {

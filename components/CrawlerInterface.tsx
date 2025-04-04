@@ -10,6 +10,7 @@ import ThemeToggle from './ThemeToggle';
 import SettingsModal from './SettingsModal';
 import AddUrlModal from './AddUrlModal';
 import CrawledDataList from './CrawledDataList';
+import QuickStartTutorial from './QuickStartTutorial';
 import { Cog6ToothIcon, PlusIcon } from '@heroicons/react/24/outline';
 import styles from '../styles/CrawlerInterface.module.css';
 
@@ -96,6 +97,7 @@ const CrawlerInterface: React.FC = () => {
           </div>
           
           <div className="flex items-center space-x-2">
+            <QuickStartTutorial />
             <ThemeToggle />
             
             <button
