@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import {
   Container,
@@ -32,6 +32,8 @@ const CrawlerInterface: React.FC = () => {
     totalUrls: 0,
     processedUrls: 0,
     errors: [],
+    enqueuedUrls: [],
+    pendingUrls: 0
   });
   const [refreshUrlsTrigger, setRefreshUrlsTrigger] = useState(0);
   const [statusPollingInterval, setStatusPollingInterval] =
@@ -39,16 +41,15 @@ const CrawlerInterface: React.FC = () => {
   const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false);
   const [isAddUrlModalOpen, setIsAddUrlModalOpen] = useState(false);
 
-  const fetchStatus = async () => {
+  const fetchStatus = useCallback(async () => {
     try {
       const response = await axios.get("/api/crawler/status");
-      console.log(response);
       setStatus(response.data);
 
       // Set up polling if crawler is running, stop polling if it's not
       if (response.data.isRunning && !statusPollingInterval) {
-        // Poll every 5 minutes (300000ms) instead of every 2 seconds
-        const interval = setInterval(fetchStatus, 300000);
+        // Poll more frequently when crawler is running (3 seconds)
+        const interval = setInterval(fetchStatus, 3000);
         setStatusPollingInterval(interval);
       } else if (!response.data.isRunning && statusPollingInterval) {
         clearInterval(statusPollingInterval);
@@ -59,11 +60,11 @@ const CrawlerInterface: React.FC = () => {
       // Don't update status on error to prevent UI flickering
       // If we have a failed request, ensure we still maintain polling
       if (!statusPollingInterval) {
-        const interval = setInterval(fetchStatus, 300000); // 5 minute retry interval on error
+        const interval = setInterval(fetchStatus, 10000); // 10 second retry interval on error
         setStatusPollingInterval(interval);
       }
     }
-  };
+  }, [statusPollingInterval]);
 
   const handleUrlAdded = () => {
     setRefreshUrlsTrigger((prev) => prev + 1);
@@ -79,7 +80,7 @@ const CrawlerInterface: React.FC = () => {
         clearInterval(statusPollingInterval);
       }
     };
-  }, []);
+  }, [fetchStatus]);
 
   const theme = useTheme();
 

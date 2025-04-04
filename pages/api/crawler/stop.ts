@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { stopCrawler, isRunning } from '../../../utils/crawler';
+import { stopCrawler, isRunning } from '../../../utils/crawler-updated';
 import { GenericResponse } from '../../../types/crawler';
 
 export default async function handler(
@@ -26,11 +26,11 @@ export default async function handler(
       success: true, 
       message: 'Crawler stop requested successfully' 
     });
-  } catch (error) {
+  } catch (error: any) {
     console.error('Error stopping crawler:', error);
     return res.status(500).json({ 
       success: false, 
-      message: `Failed to stop crawler: ${error.message}` 
+      message: `Failed to stop crawler: ${error?.message || 'Unknown error'}` 
     });
   }
 }

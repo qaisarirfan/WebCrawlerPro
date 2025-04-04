@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { startCrawler, isRunning } from '../../../utils/crawler';
+import { startCrawler, isRunning } from '../../../utils/crawler-updated';
 import { getUrls } from '../../../utils/fileSystem';
 import { GenericResponse } from '../../../types/crawler';
 
@@ -39,11 +39,11 @@ export default async function handler(
       success: true, 
       message: 'Crawler started successfully' 
     });
-  } catch (error) {
+  } catch (error: any) {
     console.error('Error starting crawler:', error);
     return res.status(500).json({ 
       success: false, 
-      message: `Failed to start crawler: ${error.message}` 
+      message: `Failed to start crawler: ${error?.message || 'Unknown error'}` 
     });
   }
 }

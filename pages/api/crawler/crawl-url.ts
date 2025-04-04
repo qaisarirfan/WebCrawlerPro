@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { isRunning, crawlSingleUrl } from '../../../utils/crawler';
+import { isRunning, crawlSingleUrl } from '../../../utils/crawler-updated';
 
 interface RequestBody {
   url: string;

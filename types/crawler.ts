@@ -7,6 +7,14 @@ export interface CrawlerStatus {
   startTime?: Date;
   lastUpdate?: Date;
   errors: string[];
+  enqueuedUrls: EnqueuedUrl[];
+  pendingUrls: number;
+}
+
+export interface EnqueuedUrl {
+  url: string;
+  enqueuedAt: Date;
+  status: 'pending' | 'processing' | 'done' | 'failed';
 }
 
 export interface UrlItem {

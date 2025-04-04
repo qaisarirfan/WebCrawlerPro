@@ -23,6 +23,7 @@ import {
   Circle as CircleIcon
 } from '@mui/icons-material';
 import { CrawlerStatus } from '../types/crawler';
+import EnqueuedUrlsList from './EnqueuedUrlsList';
 
 interface StatusDisplayProps {
   status: CrawlerStatus;
@@ -226,6 +227,14 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ status, onRefresh }) => {
         )}
       </Stack>
 
+      {/* Display enqueued URLs list if the crawler is running and we have URLs */}
+      {status.isRunning && status.enqueuedUrls && status.enqueuedUrls.length > 0 && (
+        <EnqueuedUrlsList 
+          enqueuedUrls={status.enqueuedUrls} 
+          pendingUrls={status.pendingUrls || 0} 
+        />
+      )}
+      
       {status.errors.length > 0 && (
         <Box sx={{ mt: 3 }}>
           <Typography
