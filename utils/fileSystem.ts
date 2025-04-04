@@ -3,11 +3,15 @@ import path from 'path';
 import { CrawlResult, WhatsAppLink } from '../types/crawler';
 
 // Create data directory if it doesn't exist
-const dataDir = path.join(process.cwd(), 'data');
-const configPath = path.join(dataDir, 'crawler-config.json');
-const statusPath = path.join(dataDir, 'crawler-status.json');
+const dataDir = path.join(process.cwd(), "data");
+const crawlerDir = path.join(process.cwd(), "crawler");
+const configPath = path.join(crawlerDir, "config.json");
+const statusPath = path.join(crawlerDir, "status.json");
 
 export const initFileSystem = () => {
+  if (!fs.existsSync(crawlerDir)) {
+    fs.mkdirSync(crawlerDir, { recursive: true });
+  }
   if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
   }
@@ -24,11 +28,11 @@ export const getUrls = (): string[] => {
     return [];
   }
   try {
-    const data = fs.readFileSync(configPath, 'utf8');
+    const data = fs.readFileSync(configPath, "utf8");
     const config = JSON.parse(data);
     return config.urls || [];
   } catch (error) {
-    console.error('Error reading URL configuration:', error);
+    console.error("Error reading URL configuration:", error);
     return [];
   }
 };
@@ -37,10 +41,10 @@ export const getUrls = (): string[] => {
 const getConsistentDomainName = (domain: string): string => {
   // Extract the root domain (e.g., example.com from sub.example.com)
   // First remove www. if present
-  let cleanDomain = domain.replace(/^www\./, '');
-  
+  let cleanDomain = domain.replace(/^www\./, "");
+
   // Split by dots and take the last two parts if there are at least two parts
-  const parts = cleanDomain.split('.');
+  const parts = cleanDomain.split(".");
   if (parts.length >= 2) {
     // For domains like example.co.uk, we'd want to keep "example"
     // For normal domains like example.com, we'd keep "example"
@@ -51,43 +55,43 @@ const getConsistentDomainName = (domain: string): string => {
       cleanDomain = parts[parts.length - 2];
     }
   }
-  
+
   return cleanDomain.toLowerCase();
 };
 
-export const saveWhatsAppLinks = (domain: string, links: WhatsAppLink[]): void => {
+export const saveWhatsAppLinks = (
+  domain: string,
+  links: WhatsAppLink[]
+): void => {
   initFileSystem();
-  
-  // Get consistent domain name for the filename
-  const rootDomain = getConsistentDomainName(domain);
-  
+
   // Sanitize domain for filename
-  const sanitizedDomain = rootDomain.replace(/[^a-zA-Z0-9]/g, '_');
-  const filePath = path.join(dataDir, `${sanitizedDomain}.json`);
-  
-  console.log(`Saving WhatsApp links from ${domain} to ${sanitizedDomain}.json`);
-  
+
+  const filePath = path.join(dataDir, `results.json`);
+
+  console.log(`Saving WhatsApp links from ${domain} to results.json`);
+
   // Load existing data if file exists
   let existingLinks: WhatsAppLink[] = [];
   if (fs.existsSync(filePath)) {
     try {
-      const data = fs.readFileSync(filePath, 'utf8');
+      const data = fs.readFileSync(filePath, "utf8");
       existingLinks = JSON.parse(data);
     } catch (error) {
       console.error(`Error reading existing links for ${domain}:`, error);
     }
   }
-  
+
   // Merge links and remove duplicates based on code
   const uniqueCodes = new Set();
-  const uniqueLinks = [...existingLinks, ...links].filter(link => {
+  const uniqueLinks = [...existingLinks, ...links].filter((link) => {
     if (uniqueCodes.has(link.code)) {
       return false;
     }
     uniqueCodes.add(link.code);
     return true;
   });
-  
+
   // Save the updated links
   fs.writeFileSync(filePath, JSON.stringify(uniqueLinks, null, 2));
 };

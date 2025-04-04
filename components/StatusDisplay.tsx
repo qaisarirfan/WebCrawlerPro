@@ -30,32 +30,40 @@ interface StatusDisplayProps {
 }
 
 const StatusDisplay: React.FC<StatusDisplayProps> = ({ status, onRefresh }) => {
-  const [elapsedTime, setElapsedTime] = useState<string>('00:00:00');
+  const [elapsedTime, setElapsedTime] = useState<string>("00:00:00");
   const [refreshing, setRefreshing] = useState(false);
   const theme = useTheme();
-  
+
+  console.log(status);
+
   // Calculate elapsed time when running
   useEffect(() => {
     if (!status.isRunning || !status.startTime) {
       return;
     }
-    
+
     const startTime = new Date(status.startTime).getTime();
-    
+
     const timer = setInterval(() => {
       const now = Date.now();
       const elapsed = now - startTime;
-      
-      const hours = Math.floor(elapsed / 3600000).toString().padStart(2, '0');
-      const minutes = Math.floor((elapsed % 3600000) / 60000).toString().padStart(2, '0');
-      const seconds = Math.floor((elapsed % 60000) / 1000).toString().padStart(2, '0');
-      
+
+      const hours = Math.floor(elapsed / 3600000)
+        .toString()
+        .padStart(2, "0");
+      const minutes = Math.floor((elapsed % 3600000) / 60000)
+        .toString()
+        .padStart(2, "0");
+      const seconds = Math.floor((elapsed % 60000) / 1000)
+        .toString()
+        .padStart(2, "0");
+
       setElapsedTime(`${hours}:${minutes}:${seconds}`);
     }, 1000);
-    
+
     return () => clearInterval(timer);
   }, [status.isRunning, status.startTime]);
-  
+
   const handleRefresh = async () => {
     if (onRefresh && !refreshing) {
       setRefreshing(true);
@@ -66,19 +74,21 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ status, onRefresh }) => {
       }
     }
   };
-  
+
   return (
     <Box>
-      <Box sx={{ 
-        display: 'flex', 
-        justifyContent: 'space-between', 
-        alignItems: 'center', 
-        mb: 2 
-      }}>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          mb: 2,
+        }}
+      >
         <Typography variant="h6" fontWeight="medium">
           Crawler Status
         </Typography>
-        
+
         {onRefresh && (
           <Tooltip title="Manually refresh status">
             <IconButton
@@ -88,16 +98,16 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ status, onRefresh }) => {
               color="primary"
               sx={{ ml: 1 }}
             >
-              <RefreshIcon 
-                fontSize="small" 
-                sx={{ 
-                  animation: refreshing ? 'spin 1s linear infinite' : 'none',
-                  '@keyframes spin': {
-                    '0%': {
-                      transform: 'rotate(0deg)',
+              <RefreshIcon
+                fontSize="small"
+                sx={{
+                  animation: refreshing ? "spin 1s linear infinite" : "none",
+                  "@keyframes spin": {
+                    "0%": {
+                      transform: "rotate(0deg)",
                     },
-                    '100%': {
-                      transform: 'rotate(360deg)',
+                    "100%": {
+                      transform: "rotate(360deg)",
                     },
                   },
                 }}
@@ -106,98 +116,160 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ status, onRefresh }) => {
           </Tooltip>
         )}
       </Box>
-      
+
       <Stack spacing={2}>
-        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <Typography variant="body2" color="text.secondary">Status:</Typography>
-          <Chip 
-            label={status.isRunning ? 'Running' : 'Stopped'} 
-            color={status.isRunning ? 'success' : 'default'}
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <Typography variant="body2" color="text.secondary">
+            Status:
+          </Typography>
+          <Chip
+            label={status.isRunning ? "Running" : "Stopped"}
+            color={status.isRunning ? "success" : "default"}
             size="small"
             variant="outlined"
           />
         </Box>
-        
+
         {status.currentUrl && (
-          <Box sx={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between' }}>
-            <Typography variant="body2" color="text.secondary">Current URL:</Typography>
-            <Typography 
-              variant="body2" 
-              sx={{ maxWidth: '70%', wordBreak: 'break-all', textAlign: 'right' }}
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "flex-start",
+              justifyContent: "space-between",
+            }}
+          >
+            <Typography variant="body2" color="text.secondary">
+              Current URL:
+            </Typography>
+            <Typography
+              variant="body2"
+              sx={{
+                maxWidth: "70%",
+                wordBreak: "break-all",
+                textAlign: "right",
+              }}
               title={status.currentUrl}
             >
-              {status.currentUrl.length > 40 ? `${status.currentUrl.substring(0, 40)}...` : status.currentUrl}
+              {status.currentUrl.length > 40
+                ? `${status.currentUrl.substring(0, 40)}...`
+                : status.currentUrl}
             </Typography>
           </Box>
         )}
-        
+
         <Box>
-          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 1 }}>
-            <Typography variant="body2" color="text.secondary">Progress:</Typography>
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              mb: 1,
+            }}
+          >
+            <Typography variant="body2" color="text.secondary">
+              Progress:
+            </Typography>
             <Typography variant="body2">
-              {status.processedUrls} / {status.totalUrls} URLs ({Math.round(status.progress)}%)
+              {status.processedUrls} / {status.totalUrls} URLs (
+              {Math.round(status.progress)}%)
             </Typography>
           </Box>
-          <LinearProgress 
-            variant="determinate" 
-            value={status.progress} 
+          <LinearProgress
+            variant="determinate"
+            value={status.progress}
             sx={{ height: 8, borderRadius: 1 }}
           />
         </Box>
-        
+
         {status.isRunning && status.startTime && (
-          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <Typography variant="body2" color="text.secondary">Running Time:</Typography>
-            <Box sx={{ display: 'flex', alignItems: 'center' }}>
-              <ClockIcon fontSize="small" sx={{ mr: 0.5, color: 'text.secondary' }} />
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+            }}
+          >
+            <Typography variant="body2" color="text.secondary">
+              Running Time:
+            </Typography>
+            <Box sx={{ display: "flex", alignItems: "center" }}>
+              <ClockIcon
+                fontSize="small"
+                sx={{ mr: 0.5, color: "text.secondary" }}
+              />
               <Typography variant="body2">{elapsedTime}</Typography>
             </Box>
           </Box>
         )}
-        
+
         {status.lastUpdate && (
-          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <Typography variant="body2" color="text.secondary">Last Updated:</Typography>
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+            }}
+          >
+            <Typography variant="body2" color="text.secondary">
+              Last Updated:
+            </Typography>
             <Typography variant="body2">
               {new Date(status.lastUpdate).toLocaleString()}
             </Typography>
           </Box>
         )}
       </Stack>
-      
+
       {status.errors.length > 0 && (
         <Box sx={{ mt: 3 }}>
-          <Typography variant="subtitle2" color="error" sx={{ mb: 1, display: 'flex', alignItems: 'center' }}>
+          <Typography
+            variant="subtitle2"
+            color="error"
+            sx={{ mb: 1, display: "flex", alignItems: "center" }}
+          >
             <ErrorIcon fontSize="small" sx={{ mr: 0.5 }} />
             Errors ({status.errors.length})
           </Typography>
-          
-          <Paper 
-            variant="outlined" 
-            sx={{ 
-              p: 1.5, 
-              maxHeight: '150px', 
-              overflowY: 'auto',
-              bgcolor: theme => theme.palette.mode === 'dark' ? 'rgba(244, 67, 54, 0.1)' : 'rgba(244, 67, 54, 0.05)',
+
+          <Paper
+            variant="outlined"
+            sx={{
+              p: 1.5,
+              maxHeight: "150px",
+              overflowY: "auto",
+              bgcolor: (theme) =>
+                theme.palette.mode === "dark"
+                  ? "rgba(244, 67, 54, 0.1)"
+                  : "rgba(244, 67, 54, 0.05)",
             }}
           >
             <List dense disablePadding>
               {status.errors.slice(-5).map((error, index) => (
                 <ListItem key={index} sx={{ py: 0.5, px: 0 }}>
                   <ListItemIcon sx={{ minWidth: 24 }}>
-                    <CircleIcon sx={{ fontSize: 8, color: 'error.main' }} />
+                    <CircleIcon sx={{ fontSize: 8, color: "error.main" }} />
                   </ListItemIcon>
-                  <ListItemText 
+                  <ListItemText
                     primary={
-                      <Typography variant="body2" color="error.main" sx={{ wordBreak: 'break-word' }}>
+                      <Typography
+                        variant="body2"
+                        color="error.main"
+                        sx={{ wordBreak: "break-word" }}
+                      >
                         {error}
                       </Typography>
-                    } 
+                    }
                   />
                 </ListItem>
               ))}
               {status.errors.length > 5 && (
-                <ListItem sx={{ justifyContent: 'center', py: 1 }}>
+                <ListItem sx={{ justifyContent: "center", py: 1 }}>
                   <Typography variant="caption" color="text.secondary">
                     + {status.errors.length - 5} more errors
                   </Typography>

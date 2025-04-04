@@ -1,9 +1,0 @@
-{
-  "maxConcurrency": 10,
-  "maxRequestsPerCrawl": 1000,
-  "maxRequestRetries": 3,
-  "requestHandlerTimeoutSecs": 60,
-  "navigationTimeoutSecs": 30,
-  "sameDomainDelaySecs": 1,
-  "useHeadless": false
-}

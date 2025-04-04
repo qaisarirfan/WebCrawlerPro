@@ -3,8 +3,8 @@ import fs from 'fs';
 import path from 'path';
 
 // Create data directory if it doesn't exist
-const dataDir = path.join(process.cwd(), 'data');
-const configPath = path.join(dataDir, 'crawler-settings.json');
+const crawlerDir = path.join(process.cwd(), "crawler");
+const configPath = path.join(crawlerDir, "settings.json");
 
 // Default crawler configuration
 const defaultConfig = {
@@ -14,13 +14,13 @@ const defaultConfig = {
   requestHandlerTimeoutSecs: 60,
   navigationTimeoutSecs: 30,
   sameDomainDelaySecs: 1,
-  useHeadless: false
+  useHeadless: false,
 };
 
 // Ensure data directory exists
 const initFileSystem = () => {
-  if (!fs.existsSync(dataDir)) {
-    fs.mkdirSync(dataDir, { recursive: true });
+  if (!fs.existsSync(crawlerDir)) {
+    fs.mkdirSync(crawlerDir, { recursive: true });
   }
 };
 
