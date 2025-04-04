@@ -1,0 +1,9 @@
+{
+	"id": "V4NiRrr882PJD8K",
+	"json": "{\"id\":\"V4NiRrr882PJD8K\",\"url\":\"https://www.hindustantimes.com/lifestyle/recipe\",\"uniqueKey\":\"https://www.hindustantimes.com/lifestyle/recipe\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017354,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/lifestyle/recipe",
+	"url": "https://www.hindustantimes.com/lifestyle/recipe"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "GZVC5vtyaCrA8WE",
+	"json": "{\"id\":\"GZVC5vtyaCrA8WE\",\"url\":\"https://findgroups.net/coupon-dtl/all-groups\",\"loadedUrl\":\"https://findgroups.net/coupon-dtl/all-groups\",\"uniqueKey\":\"https://findgroups.net/coupon-dtl/all-groups\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:48:03.687Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://findgroups.net/coupon-dtl/all-groups",
+	"url": "https://findgroups.net/coupon-dtl/all-groups"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "nSijh1CLHRHYaAf",
+	"json": "{\"id\":\"nSijh1CLHRHYaAf\",\"url\":\"https://kannada.hindustantimes.com/\",\"uniqueKey\":\"https://kannada.hindustantimes.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017397,
+	"retryCount": 0,
+	"uniqueKey": "https://kannada.hindustantimes.com",
+	"url": "https://kannada.hindustantimes.com/"
+}

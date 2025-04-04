@@ -1,0 +1,9 @@
+{
+	"id": "6dh3ZfTJ7aHDtie",
+	"json": "{\"id\":\"6dh3ZfTJ7aHDtie\",\"url\":\"https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release\",\"uniqueKey\":\"https://web.whatsapp.com/desktop/mac_native/release?configuration=Release\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749294363,
+	"retryCount": 0,
+	"uniqueKey": "https://web.whatsapp.com/desktop/mac_native/release?configuration=Release",
+	"url": "https://web.whatsapp.com/desktop/mac_native/release/?configuration=Release"
+}

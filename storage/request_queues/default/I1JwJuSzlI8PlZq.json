@@ -1,0 +1,9 @@
+{
+	"id": "I1JwJuSzlI8PlZq",
+	"json": "{\"id\":\"I1JwJuSzlI8PlZq\",\"url\":\"https://www.nairaland.com/business\",\"uniqueKey\":\"https://www.nairaland.com/business\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017944,
+	"retryCount": 0,
+	"uniqueKey": "https://www.nairaland.com/business",
+	"url": "https://www.nairaland.com/business"
+}

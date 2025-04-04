@@ -1,0 +1,9 @@
+{
+	"id": "sM6Uo7yBfvpZ2VO",
+	"json": "{\"id\":\"sM6Uo7yBfvpZ2VO\",\"url\":\"https://t.me/freecourse\",\"uniqueKey\":\"https://t.me/freecourse\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016022,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/freecourse",
+	"url": "https://t.me/freecourse"
+}

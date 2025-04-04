@@ -1,0 +1,9 @@
+{
+	"id": "o2oaKtJiz8sAZsC",
+	"json": "{\"id\":\"o2oaKtJiz8sAZsC\",\"url\":\"https://wa.waziper.com/spanish\",\"uniqueKey\":\"https://wa.waziper.com/spanish\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007815,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/spanish",
+	"url": "https://wa.waziper.com/spanish"
+}

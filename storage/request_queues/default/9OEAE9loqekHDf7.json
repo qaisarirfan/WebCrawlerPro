@@ -1,0 +1,9 @@
+{
+	"id": "9OEAE9loqekHDf7",
+	"json": "{\"id\":\"9OEAE9loqekHDf7\",\"url\":\"https://en.groupio.app/group/join/Amigos-Internacionales-31343\",\"loadedUrl\":\"https://en.groupio.app/group/join/Amigos-Internacionales-31343\",\"uniqueKey\":\"https://en.groupio.app/group/join/Amigos-Internacionales-31343\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:48:50.511Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://en.groupio.app/group/join/Amigos-Internacionales-31343",
+	"url": "https://en.groupio.app/group/join/Amigos-Internacionales-31343"
+}

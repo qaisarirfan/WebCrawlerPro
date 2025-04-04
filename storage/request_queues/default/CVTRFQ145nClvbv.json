@@ -1,0 +1,9 @@
+{
+	"id": "CVTRFQ145nClvbv",
+	"json": "{\"id\":\"CVTRFQ145nClvbv\",\"url\":\"https://chat.whatsapp.com/DpPsU4NASvCH8312KMrb4Z\",\"uniqueKey\":\"https://chat.whatsapp.com/DpPsU4NASvCH8312KMrb4Z\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749024248,
+	"retryCount": 0,
+	"uniqueKey": "https://chat.whatsapp.com/DpPsU4NASvCH8312KMrb4Z",
+	"url": "https://chat.whatsapp.com/DpPsU4NASvCH8312KMrb4Z"
+}

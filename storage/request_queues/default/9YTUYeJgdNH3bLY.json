@@ -1,0 +1,9 @@
+{
+	"id": "9YTUYeJgdNH3bLY",
+	"json": "{\"id\":\"9YTUYeJgdNH3bLY\",\"url\":\"https://www.make.com/en/integrations\",\"uniqueKey\":\"https://www.make.com/en/integrations\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749300002,
+	"retryCount": 0,
+	"uniqueKey": "https://www.make.com/en/integrations",
+	"url": "https://www.make.com/en/integrations"
+}

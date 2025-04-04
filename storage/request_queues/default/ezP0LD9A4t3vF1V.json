@@ -1,0 +1,9 @@
+{
+	"id": "ezP0LD9A4t3vF1V",
+	"json": "{\"id\":\"ezP0LD9A4t3vF1V\",\"url\":\"https://t.me/bollywood_latest_movies\",\"uniqueKey\":\"https://t.me/bollywood_latest_movies\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749015915,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/bollywood_latest_movies",
+	"url": "https://t.me/bollywood_latest_movies"
+}

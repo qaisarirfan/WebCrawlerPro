@@ -1,0 +1,9 @@
+{
+	"id": "EKQ0nZaKGvxiFcQ",
+	"json": "{\"id\":\"EKQ0nZaKGvxiFcQ\",\"url\":\"https://t.me/amazon_flipkart_offers_hot\",\"uniqueKey\":\"https://t.me/amazon_flipkart_offers_hot\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016155,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/amazon_flipkart_offers_hot",
+	"url": "https://t.me/amazon_flipkart_offers_hot"
+}

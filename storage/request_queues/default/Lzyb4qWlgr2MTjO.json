@@ -1,0 +1,9 @@
+{
+	"id": "Lzyb4qWlgr2MTjO",
+	"json": "{\"id\":\"Lzyb4qWlgr2MTjO\",\"url\":\"https://www.riarai.in/ror.xml\",\"uniqueKey\":\"https://www.riarai.in/ror.xml\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749018433,
+	"retryCount": 0,
+	"uniqueKey": "https://www.riarai.in/ror.xml",
+	"url": "https://www.riarai.in/ror.xml"
+}

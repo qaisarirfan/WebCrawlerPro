@@ -1,0 +1,9 @@
+{
+	"id": "x7OY4LWZc1Etw0d",
+	"json": "{\"id\":\"x7OY4LWZc1Etw0d\",\"url\":\"https://wa.waziper.com/estonian\",\"uniqueKey\":\"https://wa.waziper.com/estonian\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007772,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/estonian",
+	"url": "https://wa.waziper.com/estonian"
+}

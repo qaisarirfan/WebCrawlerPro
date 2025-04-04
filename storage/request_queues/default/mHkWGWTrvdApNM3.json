@@ -1,0 +1,9 @@
+{
+	"id": "mHkWGWTrvdApNM3",
+	"json": "{\"id\":\"mHkWGWTrvdApNM3\",\"url\":\"https://community.make.com/t/output-mismatch-summarized-news-doesnt-match-input/75871\",\"uniqueKey\":\"https://community.make.com/t/output-mismatch-summarized-news-doesnt-match-input/75871\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749247221,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/t/output-mismatch-summarized-news-doesnt-match-input/75871",
+	"url": "https://community.make.com/t/output-mismatch-summarized-news-doesnt-match-input/75871"
+}

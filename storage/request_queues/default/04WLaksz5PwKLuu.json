@@ -1,0 +1,9 @@
+{
+	"id": "04WLaksz5PwKLuu",
+	"json": "{\"id\":\"04WLaksz5PwKLuu\",\"url\":\"https://community.make.com/tag/mapping?match_all_tags=true&page=1&tags%5B%5D=mapping\",\"uniqueKey\":\"https://community.make.com/tag/mapping?match_all_tags=true&page=1&tags%5B%5D=mapping\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749452180,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/tag/mapping?match_all_tags=true&page=1&tags%5B%5D=mapping",
+	"url": "https://community.make.com/tag/mapping?match_all_tags=true&page=1&tags%5B%5D=mapping"
+}

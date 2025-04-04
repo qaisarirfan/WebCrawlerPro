@@ -1,0 +1,9 @@
+{
+	"id": "9lHvOVdNi8Ht1Eg",
+	"json": "{\"id\":\"9lHvOVdNi8Ht1Eg\",\"url\":\"https://en.groupio.app/groups/adult?style=list\",\"uniqueKey\":\"https://en.groupio.app/groups/adult?style=list\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749239532,
+	"retryCount": 0,
+	"uniqueKey": "https://en.groupio.app/groups/adult?style=list",
+	"url": "https://en.groupio.app/groups/adult?style=list"
+}

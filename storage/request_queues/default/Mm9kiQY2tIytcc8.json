@@ -1,0 +1,9 @@
+{
+	"id": "Mm9kiQY2tIytcc8",
+	"json": "{\"id\":\"Mm9kiQY2tIytcc8\",\"url\":\"https://www.italki.com/en/learn/japanese\",\"uniqueKey\":\"https://www.italki.com/en/learn/japanese\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749018087,
+	"retryCount": 0,
+	"uniqueKey": "https://www.italki.com/en/learn/japanese",
+	"url": "https://www.italki.com/en/learn/japanese"
+}

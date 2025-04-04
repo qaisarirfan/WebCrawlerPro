@@ -1,0 +1,9 @@
+{
+	"id": "KLU2ly2aRFuS3Lj",
+	"json": "{\"id\":\"KLU2ly2aRFuS3Lj\",\"url\":\"https://www.group4whatsup.com\",\"loadedUrl\":\"https://www.groupchaton.com/\",\"uniqueKey\":\"https://www.group4whatsup.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:34.697Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.group4whatsup.com",
+	"url": "https://www.group4whatsup.com"
+}

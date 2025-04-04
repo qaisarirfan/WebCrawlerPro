@@ -1,0 +1,9 @@
+{
+	"id": "MTF0NMfvrtH9mYB",
+	"json": "{\"id\":\"MTF0NMfvrtH9mYB\",\"url\":\"https://t.me/free_fire\",\"uniqueKey\":\"https://t.me/free_fire\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016271,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/free_fire",
+	"url": "https://t.me/free_fire"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "FJUW2a1JPQcLSTF",
+	"json": "{\"id\":\"FJUW2a1JPQcLSTF\",\"url\":\"https://community.make.com/u/Marcin_Zakrzewski\",\"loadedUrl\":\"https://community.make.com/u/Marcin_Zakrzewski\",\"uniqueKey\":\"https://community.make.com/u/Marcin_Zakrzewski\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:48:23.271Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/u/Marcin_Zakrzewski",
+	"url": "https://community.make.com/u/Marcin_Zakrzewski"
+}

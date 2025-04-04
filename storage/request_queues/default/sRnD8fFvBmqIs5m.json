@@ -1,0 +1,9 @@
+{
+	"id": "sRnD8fFvBmqIs5m",
+	"json": "{\"id\":\"sRnD8fFvBmqIs5m\",\"url\":\"https://wpgroup.in/games/\",\"uniqueKey\":\"https://wpgroup.in/games\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749013389,
+	"retryCount": 0,
+	"uniqueKey": "https://wpgroup.in/games",
+	"url": "https://wpgroup.in/games/"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "GjQxnWASOZNUXtv",
+	"json": "{\"id\":\"GjQxnWASOZNUXtv\",\"url\":\"https://telegram.me/netflix\",\"uniqueKey\":\"https://telegram.me/netflix\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749015932,
+	"retryCount": 0,
+	"uniqueKey": "https://telegram.me/netflix",
+	"url": "https://telegram.me/netflix"
+}

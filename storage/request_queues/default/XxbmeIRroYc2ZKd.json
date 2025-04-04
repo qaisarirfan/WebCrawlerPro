@@ -1,0 +1,9 @@
+{
+	"id": "XxbmeIRroYc2ZKd",
+	"json": "{\"id\":\"XxbmeIRroYc2ZKd\",\"url\":\"https://community.make.com/t/extracting-items-from-deeply-nested-arrays-and-collections/38692\",\"uniqueKey\":\"https://community.make.com/t/extracting-items-from-deeply-nested-arrays-and-collections/38692\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749449117,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/t/extracting-items-from-deeply-nested-arrays-and-collections/38692",
+	"url": "https://community.make.com/t/extracting-items-from-deeply-nested-arrays-and-collections/38692"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "1lepKLK31IIOq6x",
+	"json": "{\"id\":\"1lepKLK31IIOq6x\",\"url\":\"https://wa.waziper.com/persian\",\"uniqueKey\":\"https://wa.waziper.com/persian\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007861,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/persian",
+	"url": "https://wa.waziper.com/persian"
+}

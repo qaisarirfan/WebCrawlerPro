@@ -1,0 +1,9 @@
+{
+	"id": "qI7utGwZBTdqGcz",
+	"json": "{\"id\":\"qI7utGwZBTdqGcz\",\"url\":\"https://www.liveinternet.ru/rating/ru/auto/\",\"uniqueKey\":\"https://www.liveinternet.ru/rating/ru/auto\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749043151,
+	"retryCount": 0,
+	"uniqueKey": "https://www.liveinternet.ru/rating/ru/auto",
+	"url": "https://www.liveinternet.ru/rating/ru/auto/"
+}

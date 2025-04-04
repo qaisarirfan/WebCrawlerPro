@@ -1,0 +1,9 @@
+{
+	"id": "4NIydJMQkgdOokn",
+	"json": "{\"id\":\"4NIydJMQkgdOokn\",\"url\":\"https://en.groupio.app/groups/tag/pudding\",\"loadedUrl\":\"https://en.groupio.app/groups/tag/pudding\",\"uniqueKey\":\"https://en.groupio.app/groups/tag/pudding\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:50:58.543Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://en.groupio.app/groups/tag/pudding",
+	"url": "https://en.groupio.app/groups/tag/pudding"
+}

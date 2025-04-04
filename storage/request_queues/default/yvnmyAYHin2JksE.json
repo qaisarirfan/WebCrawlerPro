@@ -1,0 +1,9 @@
+{
+	"id": "yvnmyAYHin2JksE",
+	"json": "{\"id\":\"yvnmyAYHin2JksE\",\"url\":\"https://t.me/Entertainment\",\"uniqueKey\":\"https://t.me/Entertainment\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749015919,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/Entertainment",
+	"url": "https://t.me/Entertainment"
+}

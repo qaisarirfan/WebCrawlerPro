@@ -1,0 +1,9 @@
+{
+	"id": "CGGF2hmg22nl03J",
+	"json": "{\"id\":\"CGGF2hmg22nl03J\",\"url\":\"https://groupda.group/category/friends/\",\"uniqueKey\":\"https://groupda.group/category/friends\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748996146,
+	"retryCount": 0,
+	"uniqueKey": "https://groupda.group/category/friends",
+	"url": "https://groupda.group/category/friends/"
+}

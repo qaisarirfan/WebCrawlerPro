@@ -1,0 +1,9 @@
+{
+	"id": "MS4Klk6CI2MhJrn",
+	"json": "{\"id\":\"MS4Klk6CI2MhJrn\",\"url\":\"https://wappgroups.com/countries/\",\"uniqueKey\":\"https://wappgroups.com/countries\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749006030,
+	"retryCount": 0,
+	"uniqueKey": "https://wappgroups.com/countries",
+	"url": "https://wappgroups.com/countries/"
+}

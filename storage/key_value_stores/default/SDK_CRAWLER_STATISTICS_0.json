@@ -1,59 +1,88 @@
 {
-  "requestsFinished": 953,
-  "requestsFailed": 47,
-  "requestsRetries": 53,
-  "requestsFailedPerMinute": 3,
-  "requestsFinishedPerMinute": 75,
-  "requestMinDurationMillis": 489,
-  "requestMaxDurationMillis": 38713,
-  "requestTotalFailedDurationMillis": 1036778,
-  "requestTotalFinishedDurationMillis": 2915217,
-  "crawlerStartedAt": "2025-04-03T16:11:04.754Z",
-  "crawlerFinishedAt": "2025-04-03T16:23:47.197Z",
-  "statsPersistedAt": "2025-04-03T16:23:47.197Z",
-  "crawlerRuntimeMillis": 762518,
-  "crawlerLastStartTimestamp": 1743696664679,
+  "requestsFinished": 631,
+  "requestsFailed": 50,
+  "requestsRetries": 52,
+  "requestsFailedPerMinute": 7,
+  "requestsFinishedPerMinute": 90,
+  "requestMinDurationMillis": 92,
+  "requestMaxDurationMillis": 35652,
+  "requestTotalFailedDurationMillis": 416407,
+  "requestTotalFinishedDurationMillis": 820663,
+  "crawlerStartedAt": "2025-04-04T06:43:11.598Z",
+  "crawlerFinishedAt": null,
+  "statsPersistedAt": "2025-04-04T06:50:11.750Z",
+  "crawlerRuntimeMillis": 420162,
+  "crawlerLastStartTimestamp": 1743748991588,
   "requestRetryHistogram": [
-    947,
-    4,
-    1,
-    48
+    629,
+    null,
+    null,
+    49,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    3
   ],
   "statsId": 0,
-  "requestAvgFailedDurationMillis": 22059,
-  "requestAvgFinishedDurationMillis": 3059,
-  "requestTotalDurationMillis": 3951995,
-  "requestsTotal": 1000,
+  "requestAvgFailedDurationMillis": 8328,
+  "requestAvgFinishedDurationMillis": 1301,
+  "requestTotalDurationMillis": 1237070,
+  "requestsTotal": 681,
   "requestsWithStatusCode": {
-    "500": 55,
-    "503": 14
+    "403": 4,
+    "404": 2,
+    "500": 4,
+    "522": 3,
+    "525": 4
   },
   "errors": {
-    "/home/runner/workspace/node_modules/@apify/timeout/cjs/index.cjs:64:68": {
-      "missing error code": {
-        "Error": {
-          "request timed out after 30 seconds.": {
-            "count": 33
+    "file:///home/runner/workspace/node_modules/got/dist/source/core/index.js:189:21": {
+      "ENOTFOUND": {
+        "RequestError": {
+          "getaddrinfo ENOTFOUND _": {
+            "count": 23
+          }
+        }
+      },
+      "ERR_SSL_TLSV1_UNRECOGNIZED_NAME": {
+        "RequestError": {
+          "803CAC79277F0000:error:0A000458:SSL routines:ssl3_read_bytes:tlsv1 unrecognized name:ssl/record/rec_layer_s3.c:907:SSL alert number 112": {
+            "count": 1
+          }
+        }
+      },
+      "EAI_AGAIN": {
+        "RequestError": {
+          "getaddrinfo EAI_AGAIN _": {
+            "count": 6
           }
         }
       }
     },
-    "/home/runner/workspace/node_modules/@crawlee/http/internals/http-crawler.js:486:19": {
-      "missing error code": {
+    "node:dns:120:26": {
+      "ENOTFOUND": {
         "Error": {
-          "500 - Internal Server Error: <!DOCTYPE html>": {
-            "count": 14
+          "getaddrinfo ENOTFOUND _": {
+            "count": 23
+          }
+        }
+      },
+      "EAI_AGAIN": {
+        "Error": {
+          "getaddrinfo EAI_AGAIN _": {
+            "count": 6
           }
         }
       }
-    }
-  },
-  "retryErrors": {
-    "/home/runner/workspace/node_modules/@apify/timeout/cjs/index.cjs:64:68": {
-      "missing error code": {
+    },
+    "missing stack trace": {
+      "ERR_SSL_TLSV1_UNRECOGNIZED_NAME": {
         "Error": {
-          "request timed out after 30 seconds.": {
-            "count": 95
+          "803CAC79277F0000:error:0A000458:SSL routines:ssl3_read_bytes:tlsv1 unrecognized name:ssl/record/rec_layer_s3.c:907:SSL alert number 112": {
+            "count": 1
           }
         }
       }
@@ -62,7 +91,129 @@
       "missing error code": {
         "Error": {
           "_ - Internal Server Error: <!DOCTYPE html>": {
-            "count": 55
+            "count": 2
+          }
+        }
+      }
+    },
+    "/home/runner/workspace/node_modules/@crawlee/http/internals/http-crawler.js:451:23": {
+      "missing error code": {
+        "Error": {
+          "Detected a session error, rotating session... ": {
+            "count": 3
+          }
+        }
+      }
+    },
+    "/home/runner/workspace/node_modules/@crawlee/basic/internals/basic-crawler.js:729:19": {
+      "missing error code": {
+        "Error": {
+          "Request blocked - received 403 status code.": {
+            "count": 1
+          }
+        }
+      }
+    },
+    "/home/runner/workspace/node_modules/@crawlee/http/internals/http-crawler.js:611:19": {
+      "missing error code": {
+        "Error": {
+          "Resource https://activewhatslink.com/cdn-cgi/l/email-protection#e99e8c8b84889a9d8c9ba9888a9d809f8c9e81889d9a85808782c78a8684 served Content-Type application/octet-stream, but only text/html, text/xml, application/xhtml+xml, application/xml, application/json are allowed. Skipping resource.": {
+            "count": 1
+          }
+        }
+      }
+    },
+    "/home/runner/workspace/node_modules/@apify/timeout/cjs/index.cjs:64:68": {
+      "missing error code": {
+        "Error": {
+          "request timed out after 30 seconds.": {
+            "count": 13
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "file:///home/runner/workspace/node_modules/got/dist/source/core/index.js:189:21": {
+      "ENOTFOUND": {
+        "RequestError": {
+          "getaddrinfo ENOTFOUND _": {
+            "count": 69
+          }
+        }
+      },
+      "ERR_SSL_TLSV1_UNRECOGNIZED_NAME": {
+        "RequestError": {
+          "803CAC79277F0000:error:0A000458:SSL routines:ssl3_read_bytes:tlsv1 unrecognized name:ssl/record/rec_layer_s3.c:907:SSL alert number 112": {
+            "count": 3
+          }
+        }
+      },
+      "EAI_AGAIN": {
+        "RequestError": {
+          "getaddrinfo EAI_AGAIN _": {
+            "count": 18
+          }
+        }
+      }
+    },
+    "node:dns:120:26": {
+      "ENOTFOUND": {
+        "Error": {
+          "getaddrinfo ENOTFOUND _": {
+            "count": 69
+          }
+        }
+      },
+      "EAI_AGAIN": {
+        "Error": {
+          "getaddrinfo EAI_AGAIN _": {
+            "count": 18
+          }
+        }
+      }
+    },
+    "/home/runner/workspace/node_modules/@crawlee/http/internals/http-crawler.js:451:23": {
+      "missing error code": {
+        "Error": {
+          "Detected a session error, rotating session... ": {
+            "count": 30
+          }
+        }
+      }
+    },
+    "missing stack trace": {
+      "ERR_SSL_TLSV1_UNRECOGNIZED_NAME": {
+        "Error": {
+          "803CAC79277F0000:error:0A000458:SSL routines:ssl3_read_bytes:tlsv1 unrecognized name:ssl/record/rec_layer_s3.c:907:SSL alert number 112": {
+            "count": 3
+          }
+        }
+      }
+    },
+    "/home/runner/workspace/node_modules/@crawlee/http/internals/http-crawler.js:486:19": {
+      "missing error code": {
+        "Error": {
+          "_ - Internal Server Error: _": {
+            "count": 9
+          }
+        }
+      }
+    },
+    "/home/runner/workspace/node_modules/@crawlee/basic/internals/basic-crawler.js:729:19": {
+      "missing error code": {
+        "Error": {
+          "Request blocked - received 403 status code.": {
+            "count": 3
+          }
+        }
+      }
+    },
+    "/home/runner/workspace/node_modules/@apify/timeout/cjs/index.cjs:64:68": {
+      "missing error code": {
+        "Error": {
+          "request timed out after 30 seconds.": {
+            "count": 45
           }
         }
       }

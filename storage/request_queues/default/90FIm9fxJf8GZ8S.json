@@ -1,0 +1,9 @@
+{
+	"id": "90FIm9fxJf8GZ8S",
+	"json": "{\"id\":\"90FIm9fxJf8GZ8S\",\"url\":\"https://www.gbapps.mobi/about/\",\"uniqueKey\":\"https://www.gbapps.mobi/about\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749013843,
+	"retryCount": 0,
+	"uniqueKey": "https://www.gbapps.mobi/about",
+	"url": "https://www.gbapps.mobi/about/"
+}

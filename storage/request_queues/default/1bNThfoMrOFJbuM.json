@@ -1,0 +1,9 @@
+{
+	"id": "1bNThfoMrOFJbuM",
+	"json": "{\"id\":\"1bNThfoMrOFJbuM\",\"url\":\"https://justin-travel.com/2019/07/\",\"uniqueKey\":\"https://justin-travel.com/2019/07\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749001808,
+	"retryCount": 0,
+	"uniqueKey": "https://justin-travel.com/2019/07",
+	"url": "https://justin-travel.com/2019/07/"
+}

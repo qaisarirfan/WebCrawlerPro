@@ -1,0 +1,9 @@
+{
+	"id": "9DJ4ginU3gtM5vx",
+	"json": "{\"id\":\"9DJ4ginU3gtM5vx\",\"url\":\"https://justin-travel.com\",\"loadedUrl\":\"https://justin-travel.com/\",\"uniqueKey\":\"https://justin-travel.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:21.814Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://justin-travel.com",
+	"url": "https://justin-travel.com"
+}

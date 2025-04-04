@@ -1,0 +1,9 @@
+{
+	"id": "8j96d5AQEWg8n0N",
+	"json": "{\"id\":\"8j96d5AQEWg8n0N\",\"url\":\"https://wa.waziper.com/sports-games\",\"uniqueKey\":\"https://wa.waziper.com/sports-games\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007733,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/sports-games",
+	"url": "https://wa.waziper.com/sports-games"
+}

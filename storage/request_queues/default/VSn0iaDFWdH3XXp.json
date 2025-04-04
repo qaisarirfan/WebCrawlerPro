@@ -1,0 +1,9 @@
+{
+	"id": "VSn0iaDFWdH3XXp",
+	"json": "{\"id\":\"VSn0iaDFWdH3XXp\",\"url\":\"https://t.me/bitcoin\",\"uniqueKey\":\"https://t.me/bitcoin\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016093,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/bitcoin",
+	"url": "https://t.me/bitcoin"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "oXtSXuWXLWXVeil",
+	"json": "{\"id\":\"oXtSXuWXLWXVeil\",\"url\":\"https://community.make.com/t/runtimeerror-403-invalid-permissions/77444\",\"uniqueKey\":\"https://community.make.com/t/runtimeerror-403-invalid-permissions/77444\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749128749,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/t/runtimeerror-403-invalid-permissions/77444",
+	"url": "https://community.make.com/t/runtimeerror-403-invalid-permissions/77444"
+}

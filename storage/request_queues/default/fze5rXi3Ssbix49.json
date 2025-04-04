@@ -1,0 +1,9 @@
+{
+	"id": "fze5rXi3Ssbix49",
+	"json": "{\"id\":\"fze5rXi3Ssbix49\",\"url\":\"https://www.hindustantimes.com/cricket/teams/chennai-super-kings-1108\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket/teams/chennai-super-kings-1108\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017309,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/cricket/teams/chennai-super-kings-1108",
+	"url": "https://www.hindustantimes.com/cricket/teams/chennai-super-kings-1108"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "WbKCiK8c31zwKeD",
+	"json": "{\"id\":\"WbKCiK8c31zwKeD\",\"url\":\"https://twitter.com/tos\",\"uniqueKey\":\"https://twitter.com/tos\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749011113,
+	"retryCount": 0,
+	"uniqueKey": "https://twitter.com/tos",
+	"url": "https://twitter.com/tos"
+}

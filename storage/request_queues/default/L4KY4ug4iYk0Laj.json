@@ -1,0 +1,9 @@
+{
+	"id": "L4KY4ug4iYk0Laj",
+	"json": "{\"id\":\"L4KY4ug4iYk0Laj\",\"url\":\"https://wa.waziper.com/whatsapp_channels\",\"uniqueKey\":\"https://wa.waziper.com/whatsapp_channels\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007881,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/whatsapp_channels",
+	"url": "https://wa.waziper.com/whatsapp_channels"
+}

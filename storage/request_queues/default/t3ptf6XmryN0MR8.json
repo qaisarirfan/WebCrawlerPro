@@ -1,0 +1,9 @@
+{
+	"id": "t3ptf6XmryN0MR8",
+	"json": "{\"id\":\"t3ptf6XmryN0MR8\",\"url\":\"https://wa.waziper.com/marathi\",\"uniqueKey\":\"https://wa.waziper.com/marathi\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007855,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/marathi",
+	"url": "https://wa.waziper.com/marathi"
+}

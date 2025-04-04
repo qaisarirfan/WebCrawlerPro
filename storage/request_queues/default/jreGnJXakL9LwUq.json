@@ -1,0 +1,9 @@
+{
+	"id": "jreGnJXakL9LwUq",
+	"json": "{\"id\":\"jreGnJXakL9LwUq\",\"url\":\"https://www.techchotu.com\",\"loadedUrl\":\"http://ww7.techchotu.com/?usid=20&utid=15584951285\",\"uniqueKey\":\"https://www.techchotu.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:38.755Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.techchotu.com",
+	"url": "https://www.techchotu.com"
+}

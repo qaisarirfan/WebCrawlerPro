@@ -1,0 +1,9 @@
+{
+	"id": "RLApMWyPAjQNJGo",
+	"json": "{\"id\":\"RLApMWyPAjQNJGo\",\"url\":\"https://techiestechguide.com/category/solved/\",\"uniqueKey\":\"https://techiestechguide.com/category/solved\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749004989,
+	"retryCount": 0,
+	"uniqueKey": "https://techiestechguide.com/category/solved",
+	"url": "https://techiestechguide.com/category/solved/"
+}

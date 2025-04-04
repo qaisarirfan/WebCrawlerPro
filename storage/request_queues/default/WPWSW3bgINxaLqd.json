@@ -1,0 +1,9 @@
+{
+	"id": "WPWSW3bgINxaLqd",
+	"json": "{\"id\":\"WPWSW3bgINxaLqd\",\"url\":\"https://www.hindustantimes.com/lifestyle/brunch\",\"uniqueKey\":\"https://www.hindustantimes.com/lifestyle/brunch\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017287,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/lifestyle/brunch",
+	"url": "https://www.hindustantimes.com/lifestyle/brunch"
+}

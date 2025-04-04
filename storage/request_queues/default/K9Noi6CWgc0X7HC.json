@@ -1,0 +1,9 @@
+{
+	"id": "K9Noi6CWgc0X7HC",
+	"json": "{\"id\":\"K9Noi6CWgc0X7HC\",\"url\":\"https://www.hindustantimes.com/business\",\"uniqueKey\":\"https://www.hindustantimes.com/business\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017141,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/business",
+	"url": "https://www.hindustantimes.com/business"
+}

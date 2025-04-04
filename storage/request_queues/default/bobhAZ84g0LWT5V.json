@@ -1,0 +1,9 @@
+{
+	"id": "bobhAZ84g0LWT5V",
+	"json": "{\"id\":\"bobhAZ84g0LWT5V\",\"url\":\"http://findgroups.net/post/VoYFI/all-news\",\"uniqueKey\":\"http://findgroups.net/post/VoYFI/all-news\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749124784,
+	"retryCount": 0,
+	"uniqueKey": "http://findgroups.net/post/VoYFI/all-news",
+	"url": "http://findgroups.net/post/VoYFI/all-news"
+}

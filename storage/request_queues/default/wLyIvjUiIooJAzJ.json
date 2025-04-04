@@ -1,0 +1,9 @@
+{
+	"id": "wLyIvjUiIooJAzJ",
+	"json": "{\"id\":\"wLyIvjUiIooJAzJ\",\"url\":\"https://wa.waziper.com/hebrew\",\"uniqueKey\":\"https://wa.waziper.com/hebrew\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007759,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/hebrew",
+	"url": "https://wa.waziper.com/hebrew"
+}

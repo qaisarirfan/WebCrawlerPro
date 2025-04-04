@@ -1,0 +1,9 @@
+{
+	"id": "9VwqafcCtFwZeox",
+	"json": "{\"id\":\"9VwqafcCtFwZeox\",\"url\":\"https://appgrouplink.com/disclaimer/\",\"loadedUrl\":\"https://appgrouplink.com/disclaimer/\",\"uniqueKey\":\"https://appgrouplink.com/disclaimer\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:44:24.126Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://appgrouplink.com/disclaimer",
+	"url": "https://appgrouplink.com/disclaimer/"
+}

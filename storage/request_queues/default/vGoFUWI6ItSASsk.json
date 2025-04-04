@@ -1,0 +1,9 @@
+{
+	"id": "vGoFUWI6ItSASsk",
+	"json": "{\"id\":\"vGoFUWI6ItSASsk\",\"url\":\"https://whatslinkhub.com/games/\",\"uniqueKey\":\"https://whatslinkhub.com/games\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749010222,
+	"retryCount": 0,
+	"uniqueKey": "https://whatslinkhub.com/games",
+	"url": "https://whatslinkhub.com/games/"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "mpydNOvCFrBNj9R",
+	"json": "{\"id\":\"mpydNOvCFrBNj9R\",\"url\":\"https://wa.waziper.com/food-drinks\",\"uniqueKey\":\"https://wa.waziper.com/food-drinks\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007718,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/food-drinks",
+	"url": "https://wa.waziper.com/food-drinks"
+}

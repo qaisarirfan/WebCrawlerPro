@@ -1,0 +1,9 @@
+{
+	"id": "xLNW9xgqOMihF5g",
+	"json": "{\"id\":\"xLNW9xgqOMihF5g\",\"url\":\"https://en.groupio.app/?style=list\",\"loadedUrl\":\"https://en.groupio.app/?style=list\",\"uniqueKey\":\"https://en.groupio.app?style=list\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:47:25.116Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://en.groupio.app?style=list",
+	"url": "https://en.groupio.app/?style=list"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "QmGOxLpcjjBrfPL",
+	"json": "{\"id\":\"QmGOxLpcjjBrfPL\",\"url\":\"https://www.groupchaton.com/search/label/Stock%20Market%20%26%20Investments\",\"uniqueKey\":\"https://www.groupchaton.com/search/label/Stock%20Market%20%26%20Investments\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749014681,
+	"retryCount": 0,
+	"uniqueKey": "https://www.groupchaton.com/search/label/Stock%20Market%20%26%20Investments",
+	"url": "https://www.groupchaton.com/search/label/Stock%20Market%20%26%20Investments"
+}

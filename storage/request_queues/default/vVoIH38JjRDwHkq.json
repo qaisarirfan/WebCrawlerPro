@@ -1,0 +1,9 @@
+{
+	"id": "vVoIH38JjRDwHkq",
+	"json": "{\"id\":\"vVoIH38JjRDwHkq\",\"url\":\"https://forum.lingq.com/c/knowledge-base/299\",\"loadedUrl\":\"https://forum.lingq.com/c/knowledge-base/299\",\"uniqueKey\":\"https://forum.lingq.com/c/knowledge-base/299\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:47:24.041Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://forum.lingq.com/c/knowledge-base/299",
+	"url": "https://forum.lingq.com/c/knowledge-base/299"
+}

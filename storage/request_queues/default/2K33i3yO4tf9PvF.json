@@ -1,0 +1,9 @@
+{
+	"id": "2K33i3yO4tf9PvF",
+	"json": "{\"id\":\"2K33i3yO4tf9PvF\",\"url\":\"https://community.make.com/t/extract-variable-from-nested-arrays/56316\",\"uniqueKey\":\"https://community.make.com/t/extract-variable-from-nested-arrays/56316\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749449114,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/t/extract-variable-from-nested-arrays/56316",
+	"url": "https://community.make.com/t/extract-variable-from-nested-arrays/56316"
+}

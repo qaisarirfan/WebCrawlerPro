@@ -1,0 +1,9 @@
+{
+	"id": "MG35wLkWkx5OvHG",
+	"json": "{\"id\":\"MG35wLkWkx5OvHG\",\"url\":\"https://www.italki.com/en/learn/french\",\"uniqueKey\":\"https://www.italki.com/en/learn/french\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749018088,
+	"retryCount": 0,
+	"uniqueKey": "https://www.italki.com/en/learn/french",
+	"url": "https://www.italki.com/en/learn/french"
+}

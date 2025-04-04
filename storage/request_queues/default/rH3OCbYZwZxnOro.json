@@ -1,0 +1,9 @@
+{
+	"id": "rH3OCbYZwZxnOro",
+	"json": "{\"id\":\"rH3OCbYZwZxnOro\",\"url\":\"https://t.me/aso_ebooks\",\"uniqueKey\":\"https://t.me/aso_ebooks\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016310,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/aso_ebooks",
+	"url": "https://t.me/aso_ebooks"
+}

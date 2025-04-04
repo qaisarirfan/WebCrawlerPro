@@ -1,0 +1,9 @@
+{
+	"id": "vfTUecp0F2AzZFh",
+	"json": "{\"id\":\"vfTUecp0F2AzZFh\",\"url\":\"https://www.hindustantimes.com/real-estate\",\"uniqueKey\":\"https://www.hindustantimes.com/real-estate\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017118,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/real-estate",
+	"url": "https://www.hindustantimes.com/real-estate"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "NzLtMCt3jS3x4T5",
+	"json": "{\"id\":\"NzLtMCt3jS3x4T5\",\"url\":\"https://t.me/a2z_new_movie\",\"uniqueKey\":\"https://t.me/a2z_new_movie\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749015914,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/a2z_new_movie",
+	"url": "https://t.me/a2z_new_movie"
+}

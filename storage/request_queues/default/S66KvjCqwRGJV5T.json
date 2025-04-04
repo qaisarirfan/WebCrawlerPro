@@ -1,0 +1,9 @@
+{
+	"id": "S66KvjCqwRGJV5T",
+	"json": "{\"id\":\"S66KvjCqwRGJV5T\",\"url\":\"https://t.me/AnimeLibrary_Movies\",\"uniqueKey\":\"https://t.me/AnimeLibrary_Movies\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749015945,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/AnimeLibrary_Movies",
+	"url": "https://t.me/AnimeLibrary_Movies"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "vMQMFQLAphNBmpS",
+	"json": "{\"id\":\"vMQMFQLAphNBmpS\",\"url\":\"https://geetworld.com/page/2/\",\"uniqueKey\":\"https://geetworld.com/page/2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748995906,
+	"retryCount": 0,
+	"uniqueKey": "https://geetworld.com/page/2",
+	"url": "https://geetworld.com/page/2/"
+}

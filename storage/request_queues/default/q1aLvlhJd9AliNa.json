@@ -1,0 +1,9 @@
+{
+	"id": "q1aLvlhJd9AliNa",
+	"json": "{\"id\":\"q1aLvlhJd9AliNa\",\"url\":\"https://t.me/btctrunk\",\"uniqueKey\":\"https://t.me/btctrunk\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016085,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/btctrunk",
+	"url": "https://t.me/btctrunk"
+}

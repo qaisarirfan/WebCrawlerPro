@@ -1,0 +1,9 @@
+{
+	"id": "g89fjheyx7dC3Ax",
+	"json": "{\"id\":\"g89fjheyx7dC3Ax\",\"url\":\"https://www.hindustantimes.com/cities\",\"uniqueKey\":\"https://www.hindustantimes.com/cities\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017143,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/cities",
+	"url": "https://www.hindustantimes.com/cities"
+}

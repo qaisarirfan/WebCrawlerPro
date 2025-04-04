@@ -1,0 +1,9 @@
+{
+	"id": "SN01EUK9E56DBko",
+	"json": "{\"id\":\"SN01EUK9E56DBko\",\"url\":\"https://t.me/BusinessInsider\",\"uniqueKey\":\"https://t.me/BusinessInsider\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016363,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/BusinessInsider",
+	"url": "https://t.me/BusinessInsider"
+}

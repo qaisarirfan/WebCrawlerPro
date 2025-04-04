@@ -1,0 +1,9 @@
+{
+	"id": "wNYq1TziegVcxYN",
+	"json": "{\"id\":\"wNYq1TziegVcxYN\",\"url\":\"https://t.me/usjobs\",\"uniqueKey\":\"https://t.me/usjobs\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016119,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/usjobs",
+	"url": "https://t.me/usjobs"
+}

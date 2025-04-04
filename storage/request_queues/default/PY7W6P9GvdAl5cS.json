@@ -1,0 +1,9 @@
+{
+	"id": "PY7W6P9GvdAl5cS",
+	"json": "{\"id\":\"PY7W6P9GvdAl5cS\",\"url\":\"https://www.nairaland.com/food\",\"uniqueKey\":\"https://www.nairaland.com/food\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017952,
+	"retryCount": 0,
+	"uniqueKey": "https://www.nairaland.com/food",
+	"url": "https://www.nairaland.com/food"
+}

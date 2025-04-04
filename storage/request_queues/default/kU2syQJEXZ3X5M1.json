@@ -1,0 +1,9 @@
+{
+	"id": "kU2syQJEXZ3X5M1",
+	"json": "{\"id\":\"kU2syQJEXZ3X5M1\",\"url\":\"https://t.me/Cricket\",\"uniqueKey\":\"https://t.me/Cricket\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016219,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/Cricket",
+	"url": "https://t.me/Cricket"
+}

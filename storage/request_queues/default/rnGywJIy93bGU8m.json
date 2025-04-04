@@ -1,0 +1,9 @@
+{
+	"id": "rnGywJIy93bGU8m",
+	"json": "{\"id\":\"rnGywJIy93bGU8m\",\"url\":\"http://findgroups.net/post/94sGj/news-everyday\",\"uniqueKey\":\"http://findgroups.net/post/94sGj/news-everyday\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749129806,
+	"retryCount": 0,
+	"uniqueKey": "http://findgroups.net/post/94sGj/news-everyday",
+	"url": "http://findgroups.net/post/94sGj/news-everyday"
+}

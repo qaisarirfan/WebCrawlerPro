@@ -1,0 +1,9 @@
+{
+	"id": "2r5eLJ4bZNHeUbR",
+	"json": "{\"id\":\"2r5eLJ4bZNHeUbR\",\"url\":\"https://wappgroups.com/tech/\",\"uniqueKey\":\"https://wappgroups.com/tech\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749006087,
+	"retryCount": 0,
+	"uniqueKey": "https://wappgroups.com/tech",
+	"url": "https://wappgroups.com/tech/"
+}

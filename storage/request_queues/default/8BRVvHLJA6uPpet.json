@@ -1,0 +1,9 @@
+{
+	"id": "8BRVvHLJA6uPpet",
+	"json": "{\"id\":\"8BRVvHLJA6uPpet\",\"url\":\"https://www.hindustantimes.com/cricket/players/yashasvi-jaiswal-69238\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket/players/yashasvi-jaiswal-69238\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017316,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/cricket/players/yashasvi-jaiswal-69238",
+	"url": "https://www.hindustantimes.com/cricket/players/yashasvi-jaiswal-69238"
+}

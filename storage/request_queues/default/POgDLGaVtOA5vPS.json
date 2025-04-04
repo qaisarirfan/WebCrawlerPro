@@ -1,0 +1,9 @@
+{
+	"id": "POgDLGaVtOA5vPS",
+	"json": "{\"id\":\"POgDLGaVtOA5vPS\",\"url\":\"https://findgroups.net/category-dtl/fashion\",\"loadedUrl\":\"https://findgroups.net/category-dtl/fashion\",\"uniqueKey\":\"https://findgroups.net/category-dtl/fashion\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:50:36.142Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://findgroups.net/category-dtl/fashion",
+	"url": "https://findgroups.net/category-dtl/fashion"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "dXI7RK75hYgoA8R",
+	"json": "{\"id\":\"dXI7RK75hYgoA8R\",\"url\":\"https://www.groupchaton.com/p/contact-us.html\",\"uniqueKey\":\"https://www.groupchaton.com/p/contact-us.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749014647,
+	"retryCount": 0,
+	"uniqueKey": "https://www.groupchaton.com/p/contact-us.html",
+	"url": "https://www.groupchaton.com/p/contact-us.html"
+}

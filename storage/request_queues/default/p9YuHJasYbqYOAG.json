@@ -1,0 +1,9 @@
+{
+	"id": "p9YuHJasYbqYOAG",
+	"json": "{\"id\":\"p9YuHJasYbqYOAG\",\"url\":\"https://wa.waziper.com/danish\",\"uniqueKey\":\"https://wa.waziper.com/danish\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007777,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/danish",
+	"url": "https://wa.waziper.com/danish"
+}

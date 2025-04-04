@@ -1,0 +1,9 @@
+{
+	"id": "2ejNAs1jnafvTs0",
+	"json": "{\"id\":\"2ejNAs1jnafvTs0\",\"url\":\"https://justin-travel.com/travel-guides/italy-digital-nomad-guide/\",\"uniqueKey\":\"https://justin-travel.com/travel-guides/italy-digital-nomad-guide\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749001756,
+	"retryCount": 0,
+	"uniqueKey": "https://justin-travel.com/travel-guides/italy-digital-nomad-guide",
+	"url": "https://justin-travel.com/travel-guides/italy-digital-nomad-guide/"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "zQ4qZWBWOly7qAE",
+	"json": "{\"id\":\"zQ4qZWBWOly7qAE\",\"url\":\"https://nl.groupio.app/groups/adult\",\"uniqueKey\":\"https://nl.groupio.app/groups/adult\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749239558,
+	"retryCount": 0,
+	"uniqueKey": "https://nl.groupio.app/groups/adult",
+	"url": "https://nl.groupio.app/groups/adult"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "EZvxLTddhwy7M2x",
+	"json": "{\"id\":\"EZvxLTddhwy7M2x\",\"url\":\"https://www.whatsgroup.in\",\"loadedUrl\":\"https://www.whatsgroup.in/\",\"uniqueKey\":\"https://www.whatsgroup.in\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:44.808Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.whatsgroup.in",
+	"url": "https://www.whatsgroup.in"
+}

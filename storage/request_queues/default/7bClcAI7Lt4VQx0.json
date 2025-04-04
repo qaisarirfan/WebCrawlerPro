@@ -1,0 +1,9 @@
+{
+	"id": "7bClcAI7Lt4VQx0",
+	"json": "{\"id\":\"7bClcAI7Lt4VQx0\",\"url\":\"https://www.grouplinksforyou.com/search/label/Education\",\"uniqueKey\":\"https://www.grouplinksforyou.com/search/label/Education\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749013788,
+	"retryCount": 0,
+	"uniqueKey": "https://www.grouplinksforyou.com/search/label/Education",
+	"url": "https://www.grouplinksforyou.com/search/label/Education"
+}

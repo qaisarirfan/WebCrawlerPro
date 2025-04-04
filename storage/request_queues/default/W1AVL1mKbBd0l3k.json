@@ -1,0 +1,9 @@
+{
+	"id": "W1AVL1mKbBd0l3k",
+	"json": "{\"id\":\"W1AVL1mKbBd0l3k\",\"url\":\"https://www.groupchaton.com/search/label/Sher-O-Shayari\",\"uniqueKey\":\"https://www.groupchaton.com/search/label/Sher-O-Shayari\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749014679,
+	"retryCount": 0,
+	"uniqueKey": "https://www.groupchaton.com/search/label/Sher-O-Shayari",
+	"url": "https://www.groupchaton.com/search/label/Sher-O-Shayari"
+}

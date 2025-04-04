@@ -1,0 +1,9 @@
+{
+	"id": "2LsiElHIzhTJFKb",
+	"json": "{\"id\":\"2LsiElHIzhTJFKb\",\"url\":\"https://support.italki.com/hc/en-us/sections/360004595594-How-italki-Works\",\"uniqueKey\":\"https://support.italki.com/hc/en-us/sections/360004595594-How-italki-Works\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749018081,
+	"retryCount": 0,
+	"uniqueKey": "https://support.italki.com/hc/en-us/sections/360004595594-How-italki-Works",
+	"url": "https://support.italki.com/hc/en-us/sections/360004595594-How-italki-Works"
+}

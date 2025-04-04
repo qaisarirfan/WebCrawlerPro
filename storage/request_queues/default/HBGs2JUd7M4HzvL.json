@@ -1,0 +1,9 @@
+{
+	"id": "HBGs2JUd7M4HzvL",
+	"json": "{\"id\":\"HBGs2JUd7M4HzvL\",\"url\":\"https://www.gruposwats.com/legal.php\",\"uniqueKey\":\"https://www.gruposwats.com/legal.php\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749014348,
+	"retryCount": 0,
+	"uniqueKey": "https://www.gruposwats.com/legal.php",
+	"url": "https://www.gruposwats.com/legal.php"
+}

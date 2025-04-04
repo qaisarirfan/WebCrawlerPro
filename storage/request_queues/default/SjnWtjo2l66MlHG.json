@@ -1,0 +1,9 @@
+{
+	"id": "SjnWtjo2l66MlHG",
+	"json": "{\"id\":\"SjnWtjo2l66MlHG\",\"url\":\"https://globylink.com/add\",\"uniqueKey\":\"https://globylink.com/add\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748996809,
+	"retryCount": 0,
+	"uniqueKey": "https://globylink.com/add",
+	"url": "https://globylink.com/add"
+}

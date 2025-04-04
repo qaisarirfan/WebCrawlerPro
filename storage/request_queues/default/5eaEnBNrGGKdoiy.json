@@ -1,0 +1,9 @@
+{
+	"id": "5eaEnBNrGGKdoiy",
+	"json": "{\"id\":\"5eaEnBNrGGKdoiy\",\"url\":\"https://wa.waziper.com/chinese\",\"uniqueKey\":\"https://wa.waziper.com/chinese\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007810,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/chinese",
+	"url": "https://wa.waziper.com/chinese"
+}

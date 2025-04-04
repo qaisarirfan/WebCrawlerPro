@@ -1,0 +1,9 @@
+{
+	"id": "BjA0oaFXyCyATjV",
+	"json": "{\"id\":\"BjA0oaFXyCyATjV\",\"url\":\"https://www.groupchaton.com/search/label/Internet%20%26%20Technology\",\"uniqueKey\":\"https://www.groupchaton.com/search/label/Internet%20%26%20Technology\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749014671,
+	"retryCount": 0,
+	"uniqueKey": "https://www.groupchaton.com/search/label/Internet%20%26%20Technology",
+	"url": "https://www.groupchaton.com/search/label/Internet%20%26%20Technology"
+}

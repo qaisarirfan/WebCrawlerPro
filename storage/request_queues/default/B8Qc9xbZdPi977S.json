@@ -1,0 +1,9 @@
+{
+	"id": "B8Qc9xbZdPi977S",
+	"json": "{\"id\":\"B8Qc9xbZdPi977S\",\"url\":\"https://htschool.hindustantimes.com/\",\"uniqueKey\":\"https://htschool.hindustantimes.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017452,
+	"retryCount": 0,
+	"uniqueKey": "https://htschool.hindustantimes.com",
+	"url": "https://htschool.hindustantimes.com/"
+}

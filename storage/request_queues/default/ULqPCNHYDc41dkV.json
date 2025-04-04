@@ -1,0 +1,9 @@
+{
+	"id": "ULqPCNHYDc41dkV",
+	"json": "{\"id\":\"ULqPCNHYDc41dkV\",\"url\":\"https://www.groupchaton.com/search/label/Health\",\"uniqueKey\":\"https://www.groupchaton.com/search/label/Health\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749014670,
+	"retryCount": 0,
+	"uniqueKey": "https://www.groupchaton.com/search/label/Health",
+	"url": "https://www.groupchaton.com/search/label/Health"
+}

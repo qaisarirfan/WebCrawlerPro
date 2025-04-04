@@ -1,0 +1,9 @@
+{
+	"id": "YSiCUZOZ7rPPJ4O",
+	"json": "{\"id\":\"YSiCUZOZ7rPPJ4O\",\"url\":\"https://wa.waziper.com/other\",\"uniqueKey\":\"https://wa.waziper.com/other\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007741,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/other",
+	"url": "https://wa.waziper.com/other"
+}

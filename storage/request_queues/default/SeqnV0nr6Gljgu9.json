@@ -1,0 +1,9 @@
+{
+	"id": "SeqnV0nr6Gljgu9",
+	"json": "{\"id\":\"SeqnV0nr6Gljgu9\",\"url\":\"https://justin-travel.com/scams-in-chiang-mai/\",\"uniqueKey\":\"https://justin-travel.com/scams-in-chiang-mai\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749001765,
+	"retryCount": 0,
+	"uniqueKey": "https://justin-travel.com/scams-in-chiang-mai",
+	"url": "https://justin-travel.com/scams-in-chiang-mai/"
+}

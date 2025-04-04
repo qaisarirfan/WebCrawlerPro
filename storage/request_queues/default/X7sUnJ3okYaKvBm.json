@@ -1,0 +1,9 @@
+{
+	"id": "X7sUnJ3okYaKvBm",
+	"json": "{\"id\":\"X7sUnJ3okYaKvBm\",\"url\":\"https://geetworld.com/category/news/\",\"uniqueKey\":\"https://geetworld.com/category/news\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748995885,
+	"retryCount": 0,
+	"uniqueKey": "https://geetworld.com/category/news",
+	"url": "https://geetworld.com/category/news/"
+}

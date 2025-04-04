@@ -1,0 +1,9 @@
+{
+	"id": "Nms2YFu8shFhNzw",
+	"json": "{\"id\":\"Nms2YFu8shFhNzw\",\"url\":\"http://make.com/\",\"uniqueKey\":\"http://make.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749251551,
+	"retryCount": 0,
+	"uniqueKey": "http://make.com",
+	"url": "http://make.com/"
+}

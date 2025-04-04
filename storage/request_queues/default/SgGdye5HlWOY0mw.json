@@ -1,0 +1,9 @@
+{
+	"id": "SgGdye5HlWOY0mw",
+	"json": "{\"id\":\"SgGdye5HlWOY0mw\",\"url\":\"https://wa.waziper.com/urdu\",\"uniqueKey\":\"https://wa.waziper.com/urdu\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007822,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/urdu",
+	"url": "https://wa.waziper.com/urdu"
+}

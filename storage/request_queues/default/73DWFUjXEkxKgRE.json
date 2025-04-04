@@ -1,0 +1,9 @@
+{
+	"id": "73DWFUjXEkxKgRE",
+	"json": "{\"id\":\"73DWFUjXEkxKgRE\",\"url\":\"http://findgroups.net/post/6dibA/auto-sales\",\"uniqueKey\":\"http://findgroups.net/post/6dibA/auto-sales\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749125878,
+	"retryCount": 0,
+	"uniqueKey": "http://findgroups.net/post/6dibA/auto-sales",
+	"url": "http://findgroups.net/post/6dibA/auto-sales"
+}

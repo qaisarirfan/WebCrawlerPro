@@ -1,0 +1,9 @@
+{
+	"id": "t0aQRPVlNrOxyzp",
+	"json": "{\"id\":\"t0aQRPVlNrOxyzp\",\"url\":\"https://community.make.com/u/Stoyan_Vatov\",\"loadedUrl\":\"https://community.make.com/u/Stoyan_Vatov\",\"uniqueKey\":\"https://community.make.com/u/Stoyan_Vatov\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:47:35.682Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/u/Stoyan_Vatov",
+	"url": "https://community.make.com/u/Stoyan_Vatov"
+}

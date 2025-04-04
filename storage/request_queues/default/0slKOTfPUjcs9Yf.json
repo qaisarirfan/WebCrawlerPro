@@ -1,0 +1,9 @@
+{
+	"id": "0slKOTfPUjcs9Yf",
+	"json": "{\"id\":\"0slKOTfPUjcs9Yf\",\"url\":\"https://www.nairaland.com/politics\",\"uniqueKey\":\"https://www.nairaland.com/politics\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017940,
+	"retryCount": 0,
+	"uniqueKey": "https://www.nairaland.com/politics",
+	"url": "https://www.nairaland.com/politics"
+}

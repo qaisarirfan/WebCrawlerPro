@@ -1,0 +1,9 @@
+{
+	"id": "mUTNUa125H3is99",
+	"json": "{\"id\":\"mUTNUa125H3is99\",\"url\":\"https://web.whatsapp.com/desktop/mac_native/release/\",\"uniqueKey\":\"https://web.whatsapp.com/desktop/mac_native/release\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749400424,
+	"retryCount": 0,
+	"uniqueKey": "https://web.whatsapp.com/desktop/mac_native/release",
+	"url": "https://web.whatsapp.com/desktop/mac_native/release/"
+}

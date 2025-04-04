@@ -1,0 +1,9 @@
+{
+	"id": "QSOsoCVLnrgwyiS",
+	"json": "{\"id\":\"QSOsoCVLnrgwyiS\",\"url\":\"https://community.make.com/t/my-automation-keep-emailing-the-same-emails-the-same-thing/77233\",\"uniqueKey\":\"https://community.make.com/t/my-automation-keep-emailing-the-same-emails-the-same-thing/77233\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749233763,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/t/my-automation-keep-emailing-the-same-emails-the-same-thing/77233",
+	"url": "https://community.make.com/t/my-automation-keep-emailing-the-same-emails-the-same-thing/77233"
+}

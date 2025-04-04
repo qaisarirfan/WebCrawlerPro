@@ -1,0 +1,9 @@
+{
+	"id": "w4RA3bPeywUR4Y4",
+	"json": "{\"id\":\"w4RA3bPeywUR4Y4\",\"url\":\"https://t.me/Google_Pay_Go_tickets_india\",\"uniqueKey\":\"https://t.me/Google_Pay_Go_tickets_india\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016325,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/Google_Pay_Go_tickets_india",
+	"url": "https://t.me/Google_Pay_Go_tickets_india"
+}

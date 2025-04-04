@@ -1,0 +1,9 @@
+{
+	"id": "bhFizRfxV124u6b",
+	"json": "{\"id\":\"bhFizRfxV124u6b\",\"url\":\"https://www.groupchaton.com/\",\"loadedUrl\":\"https://www.groupchaton.com/\",\"uniqueKey\":\"https://www.groupchaton.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:43.360Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.groupchaton.com",
+	"url": "https://www.groupchaton.com/"
+}

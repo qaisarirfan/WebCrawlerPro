@@ -1,0 +1,9 @@
+{
+	"id": "4jdZM5XVWf1Cgg2",
+	"json": "{\"id\":\"4jdZM5XVWf1Cgg2\",\"url\":\"https://chat.whatsapp.com/FplitexPsuSAfAVf9rFzVO\",\"loadedUrl\":\"https://chat.whatsapp.com/FplitexPsuSAfAVf9rFzVO\",\"uniqueKey\":\"https://chat.whatsapp.com/FplitexPsuSAfAVf9rFzVO\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:50:11.786Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chat.whatsapp.com/FplitexPsuSAfAVf9rFzVO",
+	"url": "https://chat.whatsapp.com/FplitexPsuSAfAVf9rFzVO"
+}

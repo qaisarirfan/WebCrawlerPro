@@ -1,0 +1,9 @@
+{
+	"id": "C5rwcN1hD6b7dF9",
+	"json": "{\"id\":\"C5rwcN1hD6b7dF9\",\"url\":\"https://wa.waziper.com/tajik\",\"uniqueKey\":\"https://wa.waziper.com/tajik\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007801,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/tajik",
+	"url": "https://wa.waziper.com/tajik"
+}

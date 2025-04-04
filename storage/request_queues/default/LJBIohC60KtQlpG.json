@@ -1,0 +1,9 @@
+{
+	"id": "LJBIohC60KtQlpG",
+	"json": "{\"id\":\"LJBIohC60KtQlpG\",\"url\":\"https://t.me/minionquote\",\"uniqueKey\":\"https://t.me/minionquote\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016043,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/minionquote",
+	"url": "https://t.me/minionquote"
+}

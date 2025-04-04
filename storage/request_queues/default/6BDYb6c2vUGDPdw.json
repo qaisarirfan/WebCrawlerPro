@@ -1,0 +1,9 @@
+{
+	"id": "6BDYb6c2vUGDPdw",
+	"json": "{\"id\":\"6BDYb6c2vUGDPdw\",\"url\":\"https://community.wanikani.com/u/SpiderWeb\",\"uniqueKey\":\"https://community.wanikani.com/u/SpiderWeb\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749057951,
+	"retryCount": 0,
+	"uniqueKey": "https://community.wanikani.com/u/SpiderWeb",
+	"url": "https://community.wanikani.com/u/SpiderWeb"
+}

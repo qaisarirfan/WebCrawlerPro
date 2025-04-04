@@ -1,0 +1,9 @@
+{
+	"id": "TpD0w2zErzHxFGG",
+	"json": "{\"id\":\"TpD0w2zErzHxFGG\",\"url\":\"https://wa.waziper.com/greek\",\"uniqueKey\":\"https://wa.waziper.com/greek\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007843,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/greek",
+	"url": "https://wa.waziper.com/greek"
+}

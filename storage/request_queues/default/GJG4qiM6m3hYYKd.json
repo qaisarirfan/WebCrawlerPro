@@ -1,0 +1,9 @@
+{
+	"id": "GJG4qiM6m3hYYKd",
+	"json": "{\"id\":\"GJG4qiM6m3hYYKd\",\"url\":\"https://t.me/binance_announcements\",\"uniqueKey\":\"https://t.me/binance_announcements\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016100,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/binance_announcements",
+	"url": "https://t.me/binance_announcements"
+}

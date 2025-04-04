@@ -1,0 +1,9 @@
+{
+	"id": "3UmQDe56wm5eQA9",
+	"json": "{\"id\":\"3UmQDe56wm5eQA9\",\"url\":\"https://www.gruposwats.com\",\"loadedUrl\":\"https://www.gruposwats.com/\",\"uniqueKey\":\"https://www.gruposwats.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:34.351Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.gruposwats.com",
+	"url": "https://www.gruposwats.com"
+}

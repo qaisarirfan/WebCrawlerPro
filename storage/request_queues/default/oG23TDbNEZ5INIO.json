@@ -1,0 +1,9 @@
+{
+	"id": "oG23TDbNEZ5INIO",
+	"json": "{\"id\":\"oG23TDbNEZ5INIO\",\"url\":\"https://t.me/Hotstar_Amazon_Prime_Disney_plus\",\"uniqueKey\":\"https://t.me/Hotstar_Amazon_Prime_Disney_plus\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016409,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/Hotstar_Amazon_Prime_Disney_plus",
+	"url": "https://t.me/Hotstar_Amazon_Prime_Disney_plus"
+}

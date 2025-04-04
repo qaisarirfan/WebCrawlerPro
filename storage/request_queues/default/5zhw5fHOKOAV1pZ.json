@@ -1,0 +1,9 @@
+{
+	"id": "5zhw5fHOKOAV1pZ",
+	"json": "{\"id\":\"5zhw5fHOKOAV1pZ\",\"url\":\"https://groupwala.com/doc/terms\",\"uniqueKey\":\"https://groupwala.com/doc/terms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749001501,
+	"retryCount": 0,
+	"uniqueKey": "https://groupwala.com/doc/terms",
+	"url": "https://groupwala.com/doc/terms"
+}

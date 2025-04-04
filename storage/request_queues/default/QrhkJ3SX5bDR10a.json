@@ -1,0 +1,9 @@
+{
+	"id": "QrhkJ3SX5bDR10a",
+	"json": "{\"id\":\"QrhkJ3SX5bDR10a\",\"url\":\"https://www.liveinternet.ru/rating/ru/tourism/\",\"uniqueKey\":\"https://www.liveinternet.ru/rating/ru/tourism\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749043163,
+	"retryCount": 0,
+	"uniqueKey": "https://www.liveinternet.ru/rating/ru/tourism",
+	"url": "https://www.liveinternet.ru/rating/ru/tourism/"
+}

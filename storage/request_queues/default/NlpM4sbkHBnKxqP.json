@@ -1,0 +1,9 @@
+{
+	"id": "NlpM4sbkHBnKxqP",
+	"json": "{\"id\":\"NlpM4sbkHBnKxqP\",\"url\":\"https://t.me/hotstar\",\"uniqueKey\":\"https://t.me/hotstar\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016408,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/hotstar",
+	"url": "https://t.me/hotstar"
+}

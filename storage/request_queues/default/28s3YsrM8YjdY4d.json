@@ -1,0 +1,9 @@
+{
+	"id": "28s3YsrM8YjdY4d",
+	"json": "{\"id\":\"28s3YsrM8YjdY4d\",\"url\":\"https://www.hindustantimes.com/author/ananya-das-101616133886672\",\"uniqueKey\":\"https://www.hindustantimes.com/author/ananya-das-101616133886672\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017246,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/author/ananya-das-101616133886672",
+	"url": "https://www.hindustantimes.com/author/ananya-das-101616133886672"
+}

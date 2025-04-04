@@ -1,0 +1,9 @@
+{
+	"id": "GXbZf10PZGzO6rm",
+	"json": "{\"id\":\"GXbZf10PZGzO6rm\",\"url\":\"https://en.groupio.app/groups/tag/sos\",\"uniqueKey\":\"https://en.groupio.app/groups/tag/sos\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748995318,
+	"retryCount": 0,
+	"uniqueKey": "https://en.groupio.app/groups/tag/sos",
+	"url": "https://en.groupio.app/groups/tag/sos"
+}

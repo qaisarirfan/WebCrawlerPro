@@ -1,0 +1,9 @@
+{
+	"id": "e8s1ahIZGbDWIt2",
+	"json": "{\"id\":\"e8s1ahIZGbDWIt2\",\"url\":\"https://groupda.group/disclaimer/\",\"uniqueKey\":\"https://groupda.group/disclaimer\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748996105,
+	"retryCount": 0,
+	"uniqueKey": "https://groupda.group/disclaimer",
+	"url": "https://groupda.group/disclaimer/"
+}

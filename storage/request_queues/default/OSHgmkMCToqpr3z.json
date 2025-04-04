@@ -1,0 +1,9 @@
+{
+	"id": "OSHgmkMCToqpr3z",
+	"json": "{\"id\":\"OSHgmkMCToqpr3z\",\"url\":\"https://groupsgenie.com/page/about-us\",\"uniqueKey\":\"https://groupsgenie.com/page/about-us\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748998559,
+	"retryCount": 0,
+	"uniqueKey": "https://groupsgenie.com/page/about-us",
+	"url": "https://groupsgenie.com/page/about-us"
+}

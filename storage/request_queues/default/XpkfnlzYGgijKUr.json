@@ -1,0 +1,9 @@
+{
+	"id": "XpkfnlzYGgijKUr",
+	"json": "{\"id\":\"XpkfnlzYGgijKUr\",\"url\":\"https://community.wanikani.com/c/wanikani/api-and-third-party-apps/6\",\"uniqueKey\":\"https://community.wanikani.com/c/wanikani/api-and-third-party-apps/6\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749051323,
+	"retryCount": 0,
+	"uniqueKey": "https://community.wanikani.com/c/wanikani/api-and-third-party-apps/6",
+	"url": "https://community.wanikani.com/c/wanikani/api-and-third-party-apps/6"
+}

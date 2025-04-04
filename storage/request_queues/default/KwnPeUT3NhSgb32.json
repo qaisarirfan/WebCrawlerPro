@@ -1,0 +1,9 @@
+{
+	"id": "KwnPeUT3NhSgb32",
+	"json": "{\"id\":\"KwnPeUT3NhSgb32\",\"url\":\"http://findgroups.net/post/c6xHA/world-cup\",\"uniqueKey\":\"http://findgroups.net/post/c6xHA/world-cup\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749129927,
+	"retryCount": 0,
+	"uniqueKey": "http://findgroups.net/post/c6xHA/world-cup",
+	"url": "http://findgroups.net/post/c6xHA/world-cup"
+}

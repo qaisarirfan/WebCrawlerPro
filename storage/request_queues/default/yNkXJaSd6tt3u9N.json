@@ -1,0 +1,9 @@
+{
+	"id": "yNkXJaSd6tt3u9N",
+	"json": "{\"id\":\"yNkXJaSd6tt3u9N\",\"url\":\"https://www.hindustantimes.com/cities/patna-news\",\"uniqueKey\":\"https://www.hindustantimes.com/cities/patna-news\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017337,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/cities/patna-news",
+	"url": "https://www.hindustantimes.com/cities/patna-news"
+}

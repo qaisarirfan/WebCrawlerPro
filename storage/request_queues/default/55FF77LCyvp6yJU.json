@@ -1,0 +1,9 @@
+{
+	"id": "55FF77LCyvp6yJU",
+	"json": "{\"id\":\"55FF77LCyvp6yJU\",\"url\":\"https://community.make.com/t/impossible-to-redirect-from-webhook/76633\",\"loadedUrl\":\"https://community.make.com/t/impossible-to-redirect-from-webhook/76633\",\"uniqueKey\":\"https://community.make.com/t/impossible-to-redirect-from-webhook/76633\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:47:37.249Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/t/impossible-to-redirect-from-webhook/76633",
+	"url": "https://community.make.com/t/impossible-to-redirect-from-webhook/76633"
+}

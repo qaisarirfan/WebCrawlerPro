@@ -1,0 +1,9 @@
+{
+	"id": "5Cq8CnTL7aDJEsJ",
+	"json": "{\"id\":\"5Cq8CnTL7aDJEsJ\",\"url\":\"https://www.make.com/en/help/tools/json.html#aggregate-to-json\",\"uniqueKey\":\"https://www.make.com/en/help/tools/json.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749243655,
+	"retryCount": 0,
+	"uniqueKey": "https://www.make.com/en/help/tools/json.html",
+	"url": "https://www.make.com/en/help/tools/json.html#aggregate-to-json"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "SqaFPO31ImxVknU",
+	"json": "{\"id\":\"SqaFPO31ImxVknU\",\"url\":\"https://www.hindustantimes.com/ht-insight/future-tech\",\"uniqueKey\":\"https://www.hindustantimes.com/ht-insight/future-tech\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017451,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/ht-insight/future-tech",
+	"url": "https://www.hindustantimes.com/ht-insight/future-tech"
+}

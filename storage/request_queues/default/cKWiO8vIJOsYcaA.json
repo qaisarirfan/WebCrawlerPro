@@ -1,0 +1,9 @@
+{
+	"id": "cKWiO8vIJOsYcaA",
+	"json": "{\"id\":\"cKWiO8vIJOsYcaA\",\"url\":\"https://forum.lingq.com/c/content-forum/10?page=1\",\"uniqueKey\":\"https://forum.lingq.com/c/content-forum/10?page=1\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749256429,
+	"retryCount": 0,
+	"uniqueKey": "https://forum.lingq.com/c/content-forum/10?page=1",
+	"url": "https://forum.lingq.com/c/content-forum/10?page=1"
+}

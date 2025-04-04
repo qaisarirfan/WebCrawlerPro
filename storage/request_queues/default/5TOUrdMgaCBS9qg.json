@@ -1,0 +1,9 @@
+{
+	"id": "5TOUrdMgaCBS9qg",
+	"json": "{\"id\":\"5TOUrdMgaCBS9qg\",\"url\":\"https://globylink.com\",\"loadedUrl\":\"https://globylink.com/\",\"uniqueKey\":\"https://globylink.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:16.902Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://globylink.com",
+	"url": "https://globylink.com"
+}

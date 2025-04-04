@@ -1,0 +1,9 @@
+{
+	"id": "V2j12BVCxO8D8kV",
+	"json": "{\"id\":\"V2j12BVCxO8D8kV\",\"url\":\"https://community.make.com/t/redirect-does-not-work-but-no-error-returned/54933\",\"uniqueKey\":\"https://community.make.com/t/redirect-does-not-work-but-no-error-returned/54933\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749257239,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/t/redirect-does-not-work-but-no-error-returned/54933",
+	"url": "https://community.make.com/t/redirect-does-not-work-but-no-error-returned/54933"
+}

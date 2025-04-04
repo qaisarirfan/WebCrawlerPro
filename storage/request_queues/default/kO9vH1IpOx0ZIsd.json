@@ -1,0 +1,9 @@
+{
+	"id": "kO9vH1IpOx0ZIsd",
+	"json": "{\"id\":\"kO9vH1IpOx0ZIsd\",\"url\":\"https://groupio.app/\",\"uniqueKey\":\"https://groupio.app\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748995405,
+	"retryCount": 0,
+	"uniqueKey": "https://groupio.app",
+	"url": "https://groupio.app/"
+}

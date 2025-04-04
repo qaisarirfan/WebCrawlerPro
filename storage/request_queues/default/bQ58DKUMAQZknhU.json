@@ -1,0 +1,9 @@
+{
+	"id": "bQ58DKUMAQZknhU",
+	"json": "{\"id\":\"bQ58DKUMAQZknhU\",\"url\":\"https://wa.waziper.com/icelandic\",\"uniqueKey\":\"https://wa.waziper.com/icelandic\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007823,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/icelandic",
+	"url": "https://wa.waziper.com/icelandic"
+}

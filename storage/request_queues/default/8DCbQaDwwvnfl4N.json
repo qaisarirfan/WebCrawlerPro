@@ -1,0 +1,9 @@
+{
+	"id": "8DCbQaDwwvnfl4N",
+	"json": "{\"id\":\"8DCbQaDwwvnfl4N\",\"url\":\"https://wpgroup.in/deals/\",\"uniqueKey\":\"https://wpgroup.in/deals\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749013334,
+	"retryCount": 0,
+	"uniqueKey": "https://wpgroup.in/deals",
+	"url": "https://wpgroup.in/deals/"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "FrMsaKbqMvvQHmp",
+	"json": "{\"id\":\"FrMsaKbqMvvQHmp\",\"url\":\"https://wa.waziper.com/thai\",\"uniqueKey\":\"https://wa.waziper.com/thai\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007757,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/thai",
+	"url": "https://wa.waziper.com/thai"
+}

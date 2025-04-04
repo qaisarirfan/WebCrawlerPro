@@ -1,0 +1,9 @@
+{
+	"id": "BK7zu8z1k7LhK9z",
+	"json": "{\"id\":\"BK7zu8z1k7LhK9z\",\"url\":\"https://community.make.com/tag/make-automation\",\"uniqueKey\":\"https://community.make.com/tag/make-automation\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749057952,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/tag/make-automation",
+	"url": "https://community.make.com/tag/make-automation"
+}

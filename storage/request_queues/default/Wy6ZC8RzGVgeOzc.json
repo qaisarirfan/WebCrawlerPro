@@ -1,0 +1,9 @@
+{
+	"id": "Wy6ZC8RzGVgeOzc",
+	"json": "{\"id\":\"Wy6ZC8RzGVgeOzc\",\"url\":\"https://t.me/education_news_rajasthan\",\"uniqueKey\":\"https://t.me/education_news_rajasthan\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016486,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/education_news_rajasthan",
+	"url": "https://t.me/education_news_rajasthan"
+}

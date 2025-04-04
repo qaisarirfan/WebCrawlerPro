@@ -1,0 +1,9 @@
+{
+	"id": "GMFPBGMgptb968m",
+	"json": "{\"id\":\"GMFPBGMgptb968m\",\"url\":\"https://www.make.com/en/help/modules/aggregator.html\",\"uniqueKey\":\"https://www.make.com/en/help/modules/aggregator.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749243652,
+	"retryCount": 0,
+	"uniqueKey": "https://www.make.com/en/help/modules/aggregator.html",
+	"url": "https://www.make.com/en/help/modules/aggregator.html"
+}

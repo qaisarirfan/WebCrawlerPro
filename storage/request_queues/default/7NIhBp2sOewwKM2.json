@@ -1,0 +1,9 @@
+{
+	"id": "7NIhBp2sOewwKM2",
+	"json": "{\"id\":\"7NIhBp2sOewwKM2\",\"url\":\"https://www.liveinternet.ru/corp/about.html\",\"uniqueKey\":\"https://www.liveinternet.ru/corp/about.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749043196,
+	"retryCount": 0,
+	"uniqueKey": "https://www.liveinternet.ru/corp/about.html",
+	"url": "https://www.liveinternet.ru/corp/about.html"
+}

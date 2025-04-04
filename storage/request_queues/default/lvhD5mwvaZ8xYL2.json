@@ -1,0 +1,9 @@
+{
+	"id": "lvhD5mwvaZ8xYL2",
+	"json": "{\"id\":\"lvhD5mwvaZ8xYL2\",\"url\":\"https://www.nairaland.com/nysc\",\"uniqueKey\":\"https://www.nairaland.com/nysc\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017945,
+	"retryCount": 0,
+	"uniqueKey": "https://www.nairaland.com/nysc",
+	"url": "https://www.nairaland.com/nysc"
+}

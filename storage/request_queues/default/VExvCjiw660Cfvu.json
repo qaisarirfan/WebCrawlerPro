@@ -1,0 +1,9 @@
+{
+	"id": "VExvCjiw660Cfvu",
+	"json": "{\"id\":\"VExvCjiw660Cfvu\",\"url\":\"https://en.groupio.app/groups/Marktplatz?style=box\",\"uniqueKey\":\"https://en.groupio.app/groups/Marktplatz?style=box\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749200569,
+	"retryCount": 0,
+	"uniqueKey": "https://en.groupio.app/groups/Marktplatz?style=box",
+	"url": "https://en.groupio.app/groups/Marktplatz?style=box"
+}

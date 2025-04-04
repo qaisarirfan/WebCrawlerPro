@@ -1,0 +1,9 @@
+{
+	"id": "WuVbaLy3k2gFwa3",
+	"json": "{\"id\":\"WuVbaLy3k2gFwa3\",\"url\":\"https://techiestechguide.com/category/food/\",\"uniqueKey\":\"https://techiestechguide.com/category/food\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749004975,
+	"retryCount": 0,
+	"uniqueKey": "https://techiestechguide.com/category/food",
+	"url": "https://techiestechguide.com/category/food/"
+}

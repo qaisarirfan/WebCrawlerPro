@@ -1,0 +1,9 @@
+{
+	"id": "1ERuBLW8Dc1Yt62",
+	"json": "{\"id\":\"1ERuBLW8Dc1Yt62\",\"url\":\"https://groupda.com/add/doc/terms\",\"uniqueKey\":\"https://groupda.com/add/doc/terms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748999048,
+	"retryCount": 0,
+	"uniqueKey": "https://groupda.com/add/doc/terms",
+	"url": "https://groupda.com/add/doc/terms"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "0XZkmKvmDIY1UAE",
+	"json": "{\"id\":\"0XZkmKvmDIY1UAE\",\"url\":\"https://www.neargroups.com/tag/telegramc/news\",\"uniqueKey\":\"https://www.neargroups.com/tag/telegramc/news\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749018804,
+	"retryCount": 0,
+	"uniqueKey": "https://www.neargroups.com/tag/telegramc/news",
+	"url": "https://www.neargroups.com/tag/telegramc/news"
+}

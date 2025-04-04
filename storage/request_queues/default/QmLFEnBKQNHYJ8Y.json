@@ -1,0 +1,9 @@
+{
+	"id": "QmLFEnBKQNHYJ8Y",
+	"json": "{\"id\":\"QmLFEnBKQNHYJ8Y\",\"url\":\"https://t.me/worldmeetup\",\"uniqueKey\":\"https://t.me/worldmeetup\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016386,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/worldmeetup",
+	"url": "https://t.me/worldmeetup"
+}

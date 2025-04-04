@@ -1,0 +1,9 @@
+{
+	"id": "Q4Wjy83abWOhOhp",
+	"json": "{\"id\":\"Q4Wjy83abWOhOhp\",\"url\":\"https://www.whatsapp.com/about\",\"uniqueKey\":\"https://www.whatsapp.com/about\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749286706,
+	"retryCount": 0,
+	"uniqueKey": "https://www.whatsapp.com/about",
+	"url": "https://www.whatsapp.com/about"
+}

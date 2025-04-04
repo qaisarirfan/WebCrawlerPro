@@ -1,0 +1,9 @@
+{
+	"id": "7Umy3jp24kf3bUi",
+	"json": "{\"id\":\"7Umy3jp24kf3bUi\",\"url\":\"https://www.hindustantimes.com/htcity\",\"uniqueKey\":\"https://www.hindustantimes.com/htcity\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017113,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/htcity",
+	"url": "https://www.hindustantimes.com/htcity"
+}

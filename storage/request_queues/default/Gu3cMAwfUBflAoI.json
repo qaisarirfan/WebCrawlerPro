@@ -1,0 +1,9 @@
+{
+	"id": "Gu3cMAwfUBflAoI",
+	"json": "{\"id\":\"Gu3cMAwfUBflAoI\",\"url\":\"https://www.riarai.in/sitemap.xml\",\"uniqueKey\":\"https://www.riarai.in/sitemap.xml\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749018432,
+	"retryCount": 0,
+	"uniqueKey": "https://www.riarai.in/sitemap.xml",
+	"url": "https://www.riarai.in/sitemap.xml"
+}

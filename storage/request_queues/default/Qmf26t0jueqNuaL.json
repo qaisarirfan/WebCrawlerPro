@@ -1,0 +1,9 @@
+{
+	"id": "Qmf26t0jueqNuaL",
+	"json": "{\"id\":\"Qmf26t0jueqNuaL\",\"url\":\"https://whatsapp.com/download\",\"uniqueKey\":\"https://whatsapp.com/download\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749286704,
+	"retryCount": 0,
+	"uniqueKey": "https://whatsapp.com/download",
+	"url": "https://whatsapp.com/download"
+}

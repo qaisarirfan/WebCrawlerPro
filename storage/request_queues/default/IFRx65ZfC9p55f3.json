@@ -1,0 +1,9 @@
+{
+	"id": "IFRx65ZfC9p55f3",
+	"json": "{\"id\":\"IFRx65ZfC9p55f3\",\"url\":\"https://groupio.app/groups/selbsthilfe\",\"uniqueKey\":\"https://groupio.app/groups/selbsthilfe\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749237346,
+	"retryCount": 0,
+	"uniqueKey": "https://groupio.app/groups/selbsthilfe",
+	"url": "https://groupio.app/groups/selbsthilfe"
+}

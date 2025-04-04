@@ -1,0 +1,9 @@
+{
+	"id": "CCdNZbvqpvJHjl2",
+	"json": "{\"id\":\"CCdNZbvqpvJHjl2\",\"url\":\"https://wa.waziper.com/japanese\",\"uniqueKey\":\"https://wa.waziper.com/japanese\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007763,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/japanese",
+	"url": "https://wa.waziper.com/japanese"
+}

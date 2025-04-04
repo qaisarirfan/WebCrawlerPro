@@ -1,0 +1,9 @@
+{
+	"id": "NltF3wCVy0vfKG8",
+	"json": "{\"id\":\"NltF3wCVy0vfKG8\",\"url\":\"https://academy.make.com/courses/introduction-to-ai\",\"uniqueKey\":\"https://academy.make.com/courses/introduction-to-ai\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749307236,
+	"retryCount": 0,
+	"uniqueKey": "https://academy.make.com/courses/introduction-to-ai",
+	"url": "https://academy.make.com/courses/introduction-to-ai"
+}

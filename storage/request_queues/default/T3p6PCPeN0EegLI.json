@@ -1,0 +1,9 @@
+{
+	"id": "T3p6PCPeN0EegLI",
+	"json": "{\"id\":\"T3p6PCPeN0EegLI\",\"url\":\"https://www.hindustantimes.com/author/sanya-panwar-101608310420625\",\"uniqueKey\":\"https://www.hindustantimes.com/author/sanya-panwar-101608310420625\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017282,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/author/sanya-panwar-101608310420625",
+	"url": "https://www.hindustantimes.com/author/sanya-panwar-101608310420625"
+}

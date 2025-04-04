@@ -1,0 +1,9 @@
+{
+	"id": "ReqzdTbzD9UGKa0",
+	"json": "{\"id\":\"ReqzdTbzD9UGKa0\",\"url\":\"https://thegroups.org/dp/B0CZB5RHWX?ref=MarsFS_KINDLE_pc\",\"uniqueKey\":\"https://thegroups.org/dp/B0CZB5RHWX?ref=MarsFS_KINDLE_pc\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749019065,
+	"retryCount": 0,
+	"uniqueKey": "https://thegroups.org/dp/B0CZB5RHWX?ref=MarsFS_KINDLE_pc",
+	"url": "https://thegroups.org/dp/B0CZB5RHWX?ref=MarsFS_KINDLE_pc"
+}

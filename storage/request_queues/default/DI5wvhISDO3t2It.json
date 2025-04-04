@@ -1,0 +1,9 @@
+{
+	"id": "DI5wvhISDO3t2It",
+	"json": "{\"id\":\"DI5wvhISDO3t2It\",\"url\":\"https://joinwhatsgroup.com/groups/search\",\"uniqueKey\":\"https://joinwhatsgroup.com/groups/search\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749000131,
+	"retryCount": 0,
+	"uniqueKey": "https://joinwhatsgroup.com/groups/search",
+	"url": "https://joinwhatsgroup.com/groups/search"
+}

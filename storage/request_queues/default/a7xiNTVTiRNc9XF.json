@@ -1,0 +1,9 @@
+{
+	"id": "a7xiNTVTiRNc9XF",
+	"json": "{\"id\":\"a7xiNTVTiRNc9XF\",\"url\":\"https://www.groupchaton.com/search/label/Books%20%26%20Publications\",\"uniqueKey\":\"https://www.groupchaton.com/search/label/Books%20%26%20Publications\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749014659,
+	"retryCount": 0,
+	"uniqueKey": "https://www.groupchaton.com/search/label/Books%20%26%20Publications",
+	"url": "https://www.groupchaton.com/search/label/Books%20%26%20Publications"
+}

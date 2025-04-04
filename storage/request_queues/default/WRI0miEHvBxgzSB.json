@@ -1,0 +1,9 @@
+{
+	"id": "WRI0miEHvBxgzSB",
+	"json": "{\"id\":\"WRI0miEHvBxgzSB\",\"url\":\"https://www.hindustantimes.com/brandstories/friday-finance/\",\"uniqueKey\":\"https://www.hindustantimes.com/brandstories/friday-finance\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017454,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/brandstories/friday-finance",
+	"url": "https://www.hindustantimes.com/brandstories/friday-finance/"
+}

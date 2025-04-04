@@ -1,0 +1,9 @@
+{
+	"id": "dW1WVfdIHePq2zz",
+	"json": "{\"id\":\"dW1WVfdIHePq2zz\",\"url\":\"https://forum.lingq.com/u/Summer_Solstice\",\"uniqueKey\":\"https://forum.lingq.com/u/Summer_Solstice\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749304129,
+	"retryCount": 0,
+	"uniqueKey": "https://forum.lingq.com/u/Summer_Solstice",
+	"url": "https://forum.lingq.com/u/Summer_Solstice"
+}

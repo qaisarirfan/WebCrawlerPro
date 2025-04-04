@@ -1,0 +1,9 @@
+{
+	"id": "ilN4lNbEDxplew2",
+	"json": "{\"id\":\"ilN4lNbEDxplew2\",\"url\":\"https://coremafia.com/web-stories/\",\"loadedUrl\":\"https://coremafia.com/web-stories/\",\"uniqueKey\":\"https://coremafia.com/web-stories\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:44:01.717Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://coremafia.com/web-stories",
+	"url": "https://coremafia.com/web-stories/"
+}

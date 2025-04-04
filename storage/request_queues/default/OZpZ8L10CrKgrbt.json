@@ -1,0 +1,9 @@
+{
+	"id": "OZpZ8L10CrKgrbt",
+	"json": "{\"id\":\"OZpZ8L10CrKgrbt\",\"url\":\"https://findgroups.net/category-dtl/shopping-groups\",\"loadedUrl\":\"https://findgroups.net/category-dtl/shopping-groups\",\"uniqueKey\":\"https://findgroups.net/category-dtl/shopping-groups\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:49:46.465Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://findgroups.net/category-dtl/shopping-groups",
+	"url": "https://findgroups.net/category-dtl/shopping-groups"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "EOm84EgQu9C9NHh",
+	"json": "{\"id\":\"EOm84EgQu9C9NHh\",\"url\":\"https://peakd.com\",\"loadedUrl\":\"https://peakd.com/\",\"uniqueKey\":\"https://peakd.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:22.506Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://peakd.com",
+	"url": "https://peakd.com"
+}

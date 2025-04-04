@@ -1,0 +1,9 @@
+{
+	"id": "o0NNkrHsqlWEOCs",
+	"json": "{\"id\":\"o0NNkrHsqlWEOCs\",\"url\":\"https://en.groupio.app/feeds/category/15/rss\",\"uniqueKey\":\"https://en.groupio.app/feeds/category/15/rss\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749247866,
+	"retryCount": 0,
+	"uniqueKey": "https://en.groupio.app/feeds/category/15/rss",
+	"url": "https://en.groupio.app/feeds/category/15/rss"
+}

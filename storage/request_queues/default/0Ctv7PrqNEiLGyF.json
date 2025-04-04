@@ -1,0 +1,9 @@
+{
+	"id": "0Ctv7PrqNEiLGyF",
+	"json": "{\"id\":\"0Ctv7PrqNEiLGyF\",\"url\":\"https://forum.lingq.com/c/the-swedishlingq-podcast-forum/32\",\"loadedUrl\":\"https://forum.lingq.com/c/the-swedishlingq-podcast-forum/32\",\"uniqueKey\":\"https://forum.lingq.com/c/the-swedishlingq-podcast-forum/32\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:50:25.133Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://forum.lingq.com/c/the-swedishlingq-podcast-forum/32",
+	"url": "https://forum.lingq.com/c/the-swedishlingq-podcast-forum/32"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ZdSmv87rGxBA1Dj",
+	"json": "{\"id\":\"ZdSmv87rGxBA1Dj\",\"url\":\"https://t.me/Netflix_Movies_Series_HD_Web\",\"uniqueKey\":\"https://t.me/Netflix_Movies_Series_HD_Web\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016303,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/Netflix_Movies_Series_HD_Web",
+	"url": "https://t.me/Netflix_Movies_Series_HD_Web"
+}

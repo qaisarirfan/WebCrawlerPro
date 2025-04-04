@@ -1,0 +1,9 @@
+{
+	"id": "UKY8RxUSiypJdBr",
+	"json": "{\"id\":\"UKY8RxUSiypJdBr\",\"url\":\"https://community.wanikani.com\",\"loadedUrl\":\"https://community.wanikani.com/\",\"uniqueKey\":\"https://community.wanikani.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:14.299Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://community.wanikani.com",
+	"url": "https://community.wanikani.com"
+}

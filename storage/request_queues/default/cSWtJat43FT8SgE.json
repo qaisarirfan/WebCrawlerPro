@@ -1,0 +1,9 @@
+{
+	"id": "cSWtJat43FT8SgE",
+	"json": "{\"id\":\"cSWtJat43FT8SgE\",\"url\":\"https://www.groupchaton.com/search/label/Gift%20%26%20Greetings\",\"uniqueKey\":\"https://www.groupchaton.com/search/label/Gift%20%26%20Greetings\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749014669,
+	"retryCount": 0,
+	"uniqueKey": "https://www.groupchaton.com/search/label/Gift%20%26%20Greetings",
+	"url": "https://www.groupchaton.com/search/label/Gift%20%26%20Greetings"
+}

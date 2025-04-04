@@ -1,0 +1,9 @@
+{
+	"id": "AfnaMosaWiL6xIx",
+	"json": "{\"id\":\"AfnaMosaWiL6xIx\",\"url\":\"https://chat.whatsapp.com/DUdX8YmGkMvDvYNhk8gleb\",\"uniqueKey\":\"https://chat.whatsapp.com/DUdX8YmGkMvDvYNhk8gleb\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749008242,
+	"retryCount": 0,
+	"uniqueKey": "https://chat.whatsapp.com/DUdX8YmGkMvDvYNhk8gleb",
+	"url": "https://chat.whatsapp.com/DUdX8YmGkMvDvYNhk8gleb"
+}

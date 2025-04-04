@@ -1,0 +1,9 @@
+{
+	"id": "05a2JaFx5WLsTGi",
+	"json": "{\"id\":\"05a2JaFx5WLsTGi\",\"url\":\"https://waplus.io/blog\",\"uniqueKey\":\"https://waplus.io/blog\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749006192,
+	"retryCount": 0,
+	"uniqueKey": "https://waplus.io/blog",
+	"url": "https://waplus.io/blog"
+}

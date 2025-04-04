@@ -1,0 +1,9 @@
+{
+	"id": "t9mVrEBkJyOug6R",
+	"json": "{\"id\":\"t9mVrEBkJyOug6R\",\"url\":\"https://t.me/FaibersAnimeChannel\",\"uniqueKey\":\"https://t.me/FaibersAnimeChannel\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749015944,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/FaibersAnimeChannel",
+	"url": "https://t.me/FaibersAnimeChannel"
+}

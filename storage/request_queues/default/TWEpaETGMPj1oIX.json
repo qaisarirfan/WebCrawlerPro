@@ -1,0 +1,9 @@
+{
+	"id": "TWEpaETGMPj1oIX",
+	"json": "{\"id\":\"TWEpaETGMPj1oIX\",\"url\":\"https://www.neargroups.com/add-group\",\"uniqueKey\":\"https://www.neargroups.com/add-group\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749018642,
+	"retryCount": 0,
+	"uniqueKey": "https://www.neargroups.com/add-group",
+	"url": "https://www.neargroups.com/add-group"
+}

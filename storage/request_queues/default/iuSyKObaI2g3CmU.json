@@ -1,0 +1,9 @@
+{
+	"id": "iuSyKObaI2g3CmU",
+	"json": "{\"id\":\"iuSyKObaI2g3CmU\",\"url\":\"https://www.hindustantimes.com/opinion\",\"uniqueKey\":\"https://www.hindustantimes.com/opinion\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017359,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/opinion",
+	"url": "https://www.hindustantimes.com/opinion"
+}

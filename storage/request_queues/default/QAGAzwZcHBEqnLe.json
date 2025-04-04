@@ -1,0 +1,9 @@
+{
+	"id": "QAGAzwZcHBEqnLe",
+	"json": "{\"id\":\"QAGAzwZcHBEqnLe\",\"url\":\"https://community.make.com/tag/aggregators\",\"uniqueKey\":\"https://community.make.com/tag/aggregators\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748995440,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/tag/aggregators",
+	"url": "https://community.make.com/tag/aggregators"
+}

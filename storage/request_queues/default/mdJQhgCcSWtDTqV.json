@@ -1,0 +1,9 @@
+{
+	"id": "mdJQhgCcSWtDTqV",
+	"json": "{\"id\":\"mdJQhgCcSWtDTqV\",\"url\":\"https://community.make.com/t/http-module-get-file-send-to-slack/77255\",\"uniqueKey\":\"https://community.make.com/t/http-module-get-file-send-to-slack/77255\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749128753,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/t/http-module-get-file-send-to-slack/77255",
+	"url": "https://community.make.com/t/http-module-get-file-send-to-slack/77255"
+}

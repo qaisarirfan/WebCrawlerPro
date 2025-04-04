@@ -1,0 +1,9 @@
+{
+	"id": "4z3cN7qUlMFqI8z",
+	"json": "{\"id\":\"4z3cN7qUlMFqI8z\",\"url\":\"https://en.groupio.app/groups/freundschaften?style=box\",\"uniqueKey\":\"https://en.groupio.app/groups/freundschaften?style=box\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749247841,
+	"retryCount": 0,
+	"uniqueKey": "https://en.groupio.app/groups/freundschaften?style=box",
+	"url": "https://en.groupio.app/groups/freundschaften?style=box"
+}

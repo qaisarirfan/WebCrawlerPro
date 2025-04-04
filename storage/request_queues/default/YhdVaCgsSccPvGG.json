@@ -1,0 +1,9 @@
+{
+	"id": "YhdVaCgsSccPvGG",
+	"json": "{\"id\":\"YhdVaCgsSccPvGG\",\"url\":\"https://groupda.group\",\"loadedUrl\":\"https://groupda.group/\",\"uniqueKey\":\"https://groupda.group\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:16.160Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://groupda.group",
+	"url": "https://groupda.group"
+}

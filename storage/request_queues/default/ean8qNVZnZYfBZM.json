@@ -1,0 +1,9 @@
+{
+	"id": "ean8qNVZnZYfBZM",
+	"json": "{\"id\":\"ean8qNVZnZYfBZM\",\"url\":\"https://twitter.com/dmankur\",\"uniqueKey\":\"https://twitter.com/dmankur\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749019411,
+	"retryCount": 0,
+	"uniqueKey": "https://twitter.com/dmankur",
+	"url": "https://twitter.com/dmankur"
+}

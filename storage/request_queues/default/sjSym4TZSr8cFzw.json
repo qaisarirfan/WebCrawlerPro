@@ -1,0 +1,9 @@
+{
+	"id": "sjSym4TZSr8cFzw",
+	"json": "{\"id\":\"sjSym4TZSr8cFzw\",\"url\":\"https://findgroups.net/category-dtl/travellers\",\"loadedUrl\":\"https://findgroups.net/category-dtl/travellers\",\"uniqueKey\":\"https://findgroups.net/category-dtl/travellers\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:49:13.253Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://findgroups.net/category-dtl/travellers",
+	"url": "https://findgroups.net/category-dtl/travellers"
+}

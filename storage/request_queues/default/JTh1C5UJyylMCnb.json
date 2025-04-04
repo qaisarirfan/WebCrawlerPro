@@ -1,0 +1,9 @@
+{
+	"id": "JTh1C5UJyylMCnb",
+	"json": "{\"id\":\"JTh1C5UJyylMCnb\",\"url\":\"https://tr.groupio.app/groups/Marktplatz\",\"uniqueKey\":\"https://tr.groupio.app/groups/Marktplatz\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749200612,
+	"retryCount": 0,
+	"uniqueKey": "https://tr.groupio.app/groups/Marktplatz",
+	"url": "https://tr.groupio.app/groups/Marktplatz"
+}

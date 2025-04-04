@@ -1,0 +1,9 @@
+{
+	"id": "Z6lpQa8P0K8xVGJ",
+	"json": "{\"id\":\"Z6lpQa8P0K8xVGJ\",\"url\":\"https://www.italki.com/en/languageassessment\",\"uniqueKey\":\"https://www.italki.com/en/languageassessment\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749018095,
+	"retryCount": 0,
+	"uniqueKey": "https://www.italki.com/en/languageassessment",
+	"url": "https://www.italki.com/en/languageassessment"
+}

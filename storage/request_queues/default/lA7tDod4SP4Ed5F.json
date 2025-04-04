@@ -1,0 +1,9 @@
+{
+	"id": "lA7tDod4SP4Ed5F",
+	"json": "{\"id\":\"lA7tDod4SP4Ed5F\",\"url\":\"https://www.gbapps.mobi\",\"loadedUrl\":\"https://www.gbapps.mobi/\",\"uniqueKey\":\"https://www.gbapps.mobi\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:33.858Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.gbapps.mobi",
+	"url": "https://www.gbapps.mobi"
+}

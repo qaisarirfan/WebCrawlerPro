@@ -1,0 +1,9 @@
+{
+	"id": "D9rBaPGEALig1Zn",
+	"json": "{\"id\":\"D9rBaPGEALig1Zn\",\"url\":\"https://wappgroups.com/disclaimer/\",\"uniqueKey\":\"https://wappgroups.com/disclaimer\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749006258,
+	"retryCount": 0,
+	"uniqueKey": "https://wappgroups.com/disclaimer",
+	"url": "https://wappgroups.com/disclaimer/"
+}

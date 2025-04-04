@@ -1,0 +1,9 @@
+{
+	"id": "0YkG4VmW3FuBixv",
+	"json": "{\"id\":\"0YkG4VmW3FuBixv\",\"url\":\"https://groupio.app/groups/fan-gruppen\",\"uniqueKey\":\"https://groupio.app/groups/fan-gruppen\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749231497,
+	"retryCount": 0,
+	"uniqueKey": "https://groupio.app/groups/fan-gruppen",
+	"url": "https://groupio.app/groups/fan-gruppen"
+}

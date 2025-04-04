@@ -1,0 +1,9 @@
+{
+	"id": "W8o3QHL2dqGEIpj",
+	"json": "{\"id\":\"W8o3QHL2dqGEIpj\",\"url\":\"https://www.hindustantimes.com/entertainment/hollywood\",\"uniqueKey\":\"https://www.hindustantimes.com/entertainment/hollywood\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017339,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/entertainment/hollywood",
+	"url": "https://www.hindustantimes.com/entertainment/hollywood"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "VVkUGdY81FDV4gX",
+	"json": "{\"id\":\"VVkUGdY81FDV4gX\",\"url\":\"https://groupda.group/category/food/\",\"uniqueKey\":\"https://groupda.group/category/food\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748996146,
+	"retryCount": 0,
+	"uniqueKey": "https://groupda.group/category/food",
+	"url": "https://groupda.group/category/food/"
+}

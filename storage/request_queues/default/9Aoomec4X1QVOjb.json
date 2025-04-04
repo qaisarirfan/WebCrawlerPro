@@ -1,0 +1,9 @@
+{
+	"id": "9Aoomec4X1QVOjb",
+	"json": "{\"id\":\"9Aoomec4X1QVOjb\",\"url\":\"https://justgroup.link/about-us/\",\"uniqueKey\":\"https://justgroup.link/about-us\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749001931,
+	"retryCount": 0,
+	"uniqueKey": "https://justgroup.link/about-us",
+	"url": "https://justgroup.link/about-us/"
+}

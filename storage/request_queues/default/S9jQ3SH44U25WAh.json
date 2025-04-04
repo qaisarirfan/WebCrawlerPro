@@ -1,0 +1,9 @@
+{
+	"id": "S9jQ3SH44U25WAh",
+	"json": "{\"id\":\"S9jQ3SH44U25WAh\",\"url\":\"https://groupsbot.com/categories/pets\",\"uniqueKey\":\"https://groupsbot.com/categories/pets\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748998516,
+	"retryCount": 0,
+	"uniqueKey": "https://groupsbot.com/categories/pets",
+	"url": "https://groupsbot.com/categories/pets"
+}

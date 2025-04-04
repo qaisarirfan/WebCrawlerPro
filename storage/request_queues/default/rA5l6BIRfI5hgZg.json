@@ -1,0 +1,9 @@
+{
+	"id": "rA5l6BIRfI5hgZg",
+	"json": "{\"id\":\"rA5l6BIRfI5hgZg\",\"url\":\"https://groupsgenie.com/category/food-drinks-recipe\",\"uniqueKey\":\"https://groupsgenie.com/category/food-drinks-recipe\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748998248,
+	"retryCount": 0,
+	"uniqueKey": "https://groupsgenie.com/category/food-drinks-recipe",
+	"url": "https://groupsgenie.com/category/food-drinks-recipe"
+}

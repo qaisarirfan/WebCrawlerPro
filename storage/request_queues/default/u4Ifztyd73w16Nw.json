@@ -1,0 +1,9 @@
+{
+	"id": "u4Ifztyd73w16Nw",
+	"json": "{\"id\":\"u4Ifztyd73w16Nw\",\"url\":\"https://groupsbot.com/groups/search\",\"uniqueKey\":\"https://groupsbot.com/groups/search\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748998512,
+	"retryCount": 0,
+	"uniqueKey": "https://groupsbot.com/groups/search",
+	"url": "https://groupsbot.com/groups/search"
+}

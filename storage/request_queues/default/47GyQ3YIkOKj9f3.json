@@ -1,0 +1,9 @@
+{
+	"id": "47GyQ3YIkOKj9f3",
+	"json": "{\"id\":\"47GyQ3YIkOKj9f3\",\"url\":\"https://community.make.com/t/advanced-error-logs-for-http-module/76223\",\"uniqueKey\":\"https://community.make.com/t/advanced-error-logs-for-http-module/76223\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749259201,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/t/advanced-error-logs-for-http-module/76223",
+	"url": "https://community.make.com/t/advanced-error-logs-for-http-module/76223"
+}

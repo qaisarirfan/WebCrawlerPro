@@ -1,0 +1,9 @@
+{
+	"id": "8AtwsVlZc7iCghe",
+	"json": "{\"id\":\"8AtwsVlZc7iCghe\",\"url\":\"https://community.make.com/t/invalid-email-address-in-parameter-email-address/72505\",\"uniqueKey\":\"https://community.make.com/t/invalid-email-address-in-parameter-email-address/72505\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748995510,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/t/invalid-email-address-in-parameter-email-address/72505",
+	"url": "https://community.make.com/t/invalid-email-address-in-parameter-email-address/72505"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "wA2IZDCw53nEuee",
+	"json": "{\"id\":\"wA2IZDCw53nEuee\",\"url\":\"https://www.hindustantimes.com/cricket/live-score\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket/live-score\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017303,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/cricket/live-score",
+	"url": "https://www.hindustantimes.com/cricket/live-score"
+}

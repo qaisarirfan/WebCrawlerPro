@@ -1,0 +1,9 @@
+{
+	"id": "zhQ88rH9Q6fjSem",
+	"json": "{\"id\":\"zhQ88rH9Q6fjSem\",\"url\":\"https://community.make.com/t/problem-parsing-json-bad-control-character-in-string-literal-error/66516\",\"uniqueKey\":\"https://community.make.com/t/problem-parsing-json-bad-control-character-in-string-literal-error/66516\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749415042,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/t/problem-parsing-json-bad-control-character-in-string-literal-error/66516",
+	"url": "https://community.make.com/t/problem-parsing-json-bad-control-character-in-string-literal-error/66516"
+}

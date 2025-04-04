@@ -1,0 +1,9 @@
+{
+	"id": "TqcPE7UZBXEZ8jd",
+	"json": "{\"id\":\"TqcPE7UZBXEZ8jd\",\"url\":\"https://t.me/Crypto_Currency_Trading_Intraday\",\"uniqueKey\":\"https://t.me/Crypto_Currency_Trading_Intraday\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016321,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/Crypto_Currency_Trading_Intraday",
+	"url": "https://t.me/Crypto_Currency_Trading_Intraday"
+}

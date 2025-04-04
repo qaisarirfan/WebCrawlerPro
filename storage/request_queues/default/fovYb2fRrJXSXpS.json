@@ -1,0 +1,9 @@
+{
+	"id": "fovYb2fRrJXSXpS",
+	"json": "{\"id\":\"fovYb2fRrJXSXpS\",\"url\":\"https://www.hindustantimes.com/quick-read\",\"uniqueKey\":\"https://www.hindustantimes.com/quick-read\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017218,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/quick-read",
+	"url": "https://www.hindustantimes.com/quick-read"
+}

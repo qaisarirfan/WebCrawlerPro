@@ -1,0 +1,9 @@
+{
+	"id": "5yH97n6uwEgLle2",
+	"json": "{\"id\":\"5yH97n6uwEgLle2\",\"url\":\"https://en.groupio.app/groups/allgemein?style=list\",\"uniqueKey\":\"https://en.groupio.app/groups/allgemein?style=list\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749129161,
+	"retryCount": 0,
+	"uniqueKey": "https://en.groupio.app/groups/allgemein?style=list",
+	"url": "https://en.groupio.app/groups/allgemein?style=list"
+}

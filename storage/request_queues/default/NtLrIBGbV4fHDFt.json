@@ -1,0 +1,9 @@
+{
+	"id": "NtLrIBGbV4fHDFt",
+	"json": "{\"id\":\"NtLrIBGbV4fHDFt\",\"url\":\"https://forum.lingq.com/u/ThorIsBoss\",\"uniqueKey\":\"https://forum.lingq.com/u/ThorIsBoss\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749326445,
+	"retryCount": 0,
+	"uniqueKey": "https://forum.lingq.com/u/ThorIsBoss",
+	"url": "https://forum.lingq.com/u/ThorIsBoss"
+}

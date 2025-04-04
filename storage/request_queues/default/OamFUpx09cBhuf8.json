@@ -1,0 +1,9 @@
+{
+	"id": "OamFUpx09cBhuf8",
+	"json": "{\"id\":\"OamFUpx09cBhuf8\",\"url\":\"https://groupwala.com\",\"loadedUrl\":\"https://groupwala.com/\",\"uniqueKey\":\"https://groupwala.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:21.507Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://groupwala.com",
+	"url": "https://groupwala.com"
+}

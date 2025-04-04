@@ -1,0 +1,9 @@
+{
+	"id": "5lmcmemwO291l2S",
+	"json": "{\"id\":\"5lmcmemwO291l2S\",\"url\":\"https://forum.lingq.com/u/meowmeow\",\"uniqueKey\":\"https://forum.lingq.com/u/meowmeow\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749309674,
+	"retryCount": 0,
+	"uniqueKey": "https://forum.lingq.com/u/meowmeow",
+	"url": "https://forum.lingq.com/u/meowmeow"
+}

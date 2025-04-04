@@ -1,0 +1,9 @@
+{
+	"id": "87J9gdQYXMkoht8",
+	"json": "{\"id\":\"87J9gdQYXMkoht8\",\"url\":\"https://telegram.me/bankingandfinance\",\"uniqueKey\":\"https://telegram.me/bankingandfinance\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016252,
+	"retryCount": 0,
+	"uniqueKey": "https://telegram.me/bankingandfinance",
+	"url": "https://telegram.me/bankingandfinance"
+}

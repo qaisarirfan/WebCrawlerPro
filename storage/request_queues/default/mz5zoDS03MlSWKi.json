@@ -1,0 +1,9 @@
+{
+	"id": "mz5zoDS03MlSWKi",
+	"json": "{\"id\":\"mz5zoDS03MlSWKi\",\"url\":\"https://wa.waziper.com/tos\",\"uniqueKey\":\"https://wa.waziper.com/tos\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007926,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/tos",
+	"url": "https://wa.waziper.com/tos"
+}

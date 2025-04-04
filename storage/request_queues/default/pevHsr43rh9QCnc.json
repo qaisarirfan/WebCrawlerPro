@@ -1,0 +1,9 @@
+{
+	"id": "pevHsr43rh9QCnc",
+	"json": "{\"id\":\"pevHsr43rh9QCnc\",\"url\":\"https://justin-travel.com/travel-item-picks/\",\"uniqueKey\":\"https://justin-travel.com/travel-item-picks\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749001759,
+	"retryCount": 0,
+	"uniqueKey": "https://justin-travel.com/travel-item-picks",
+	"url": "https://justin-travel.com/travel-item-picks/"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Qd17EqExP7gIMaC",
+	"json": "{\"id\":\"Qd17EqExP7gIMaC\",\"url\":\"https://community.make.com/categories\",\"uniqueKey\":\"https://community.make.com/categories\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748995664,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/categories",
+	"url": "https://community.make.com/categories"
+}

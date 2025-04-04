@@ -1,0 +1,9 @@
+{
+	"id": "6E9XuEN7Mcu9pTv",
+	"json": "{\"id\":\"6E9XuEN7Mcu9pTv\",\"url\":\"https://en.groupio.app/groups/allgemein\",\"loadedUrl\":\"https://en.groupio.app/groups/allgemein\",\"uniqueKey\":\"https://en.groupio.app/groups/allgemein\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:45:29.298Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://en.groupio.app/groups/allgemein",
+	"url": "https://en.groupio.app/groups/allgemein"
+}

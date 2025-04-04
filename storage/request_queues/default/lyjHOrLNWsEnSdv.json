@@ -1,0 +1,9 @@
+{
+	"id": "lyjHOrLNWsEnSdv",
+	"json": "{\"id\":\"lyjHOrLNWsEnSdv\",\"url\":\"https://www.hottg.com/uk\",\"uniqueKey\":\"https://www.hottg.com/uk\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017229,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hottg.com/uk",
+	"url": "https://www.hottg.com/uk"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "VM70ZYgCC9tTomw",
+	"json": "{\"id\":\"VM70ZYgCC9tTomw\",\"url\":\"https://findgroups.net\",\"loadedUrl\":\"https://findgroups.net/\",\"uniqueKey\":\"https://findgroups.net\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:15.543Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://findgroups.net",
+	"url": "https://findgroups.net"
+}

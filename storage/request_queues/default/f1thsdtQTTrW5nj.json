@@ -1,0 +1,9 @@
+{
+	"id": "f1thsdtQTTrW5nj",
+	"json": "{\"id\":\"f1thsdtQTTrW5nj\",\"url\":\"https://coremafia.com\",\"loadedUrl\":\"https://coremafia.com/\",\"uniqueKey\":\"https://coremafia.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:14.292Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://coremafia.com",
+	"url": "https://coremafia.com"
+}

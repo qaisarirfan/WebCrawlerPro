@@ -1,0 +1,9 @@
+{
+	"id": "xjUX7rRhhlB7McB",
+	"json": "{\"id\":\"xjUX7rRhhlB7McB\",\"url\":\"https://telegram.me/factschool\",\"uniqueKey\":\"https://telegram.me/factschool\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016020,
+	"retryCount": 0,
+	"uniqueKey": "https://telegram.me/factschool",
+	"url": "https://telegram.me/factschool"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "4rRMZggps8ObYLp",
+	"json": "{\"id\":\"4rRMZggps8ObYLp\",\"url\":\"https://community.make.com/t/updated-multiple-records-from-an-array/76577\",\"uniqueKey\":\"https://community.make.com/t/updated-multiple-records-from-an-array/76577\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749247211,
+	"retryCount": 0,
+	"uniqueKey": "https://community.make.com/t/updated-multiple-records-from-an-array/76577",
+	"url": "https://community.make.com/t/updated-multiple-records-from-an-array/76577"
+}

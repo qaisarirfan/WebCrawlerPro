@@ -1,0 +1,9 @@
+{
+	"id": "geufTWHngvMdfu9",
+	"json": "{\"id\":\"geufTWHngvMdfu9\",\"url\":\"http://findgroups.net/post/2YStC/lets-share-songs-all-genres\",\"uniqueKey\":\"http://findgroups.net/post/2YStC/lets-share-songs-all-genres\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749124733,
+	"retryCount": 0,
+	"uniqueKey": "http://findgroups.net/post/2YStC/lets-share-songs-all-genres",
+	"url": "http://findgroups.net/post/2YStC/lets-share-songs-all-genres"
+}

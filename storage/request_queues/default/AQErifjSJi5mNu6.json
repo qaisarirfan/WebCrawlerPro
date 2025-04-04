@@ -1,0 +1,9 @@
+{
+	"id": "AQErifjSJi5mNu6",
+	"json": "{\"id\":\"AQErifjSJi5mNu6\",\"url\":\"https://www.italki.com/en/privacy\",\"uniqueKey\":\"https://www.italki.com/en/privacy\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749018118,
+	"retryCount": 0,
+	"uniqueKey": "https://www.italki.com/en/privacy",
+	"url": "https://www.italki.com/en/privacy"
+}

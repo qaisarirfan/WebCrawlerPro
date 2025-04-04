@@ -1,0 +1,9 @@
+{
+	"id": "lHbUuZUHPEc31Wg",
+	"json": "{\"id\":\"lHbUuZUHPEc31Wg\",\"url\":\"https://en.groupio.app/groups/serien-filme\",\"loadedUrl\":\"https://en.groupio.app/groups/serien-filme\",\"uniqueKey\":\"https://en.groupio.app/groups/serien-filme\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:47:21.846Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://en.groupio.app/groups/serien-filme",
+	"url": "https://en.groupio.app/groups/serien-filme"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "EDRzfBJAA8u8PsX",
+	"json": "{\"id\":\"EDRzfBJAA8u8PsX\",\"url\":\"https://community.wanikani.com/c/wanikani/10\",\"loadedUrl\":\"https://community.wanikani.com/c/wanikani/10\",\"uniqueKey\":\"https://community.wanikani.com/c/wanikani/10\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:44:11.640Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://community.wanikani.com/c/wanikani/10",
+	"url": "https://community.wanikani.com/c/wanikani/10"
+}

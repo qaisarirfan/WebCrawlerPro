@@ -1,0 +1,9 @@
+{
+	"id": "vsBBbIhvkm7l1jT",
+	"json": "{\"id\":\"vsBBbIhvkm7l1jT\",\"url\":\"https://groupda.com/telegram/\",\"uniqueKey\":\"https://groupda.com/telegram\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748999051,
+	"retryCount": 0,
+	"uniqueKey": "https://groupda.com/telegram",
+	"url": "https://groupda.com/telegram/"
+}

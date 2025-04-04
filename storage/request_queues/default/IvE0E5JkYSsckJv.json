@@ -1,0 +1,9 @@
+{
+	"id": "IvE0E5JkYSsckJv",
+	"json": "{\"id\":\"IvE0E5JkYSsckJv\",\"url\":\"https://forum.lingq.com/u/waka_suke\",\"uniqueKey\":\"https://forum.lingq.com/u/waka_suke\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749366100,
+	"retryCount": 0,
+	"uniqueKey": "https://forum.lingq.com/u/waka_suke",
+	"url": "https://forum.lingq.com/u/waka_suke"
+}

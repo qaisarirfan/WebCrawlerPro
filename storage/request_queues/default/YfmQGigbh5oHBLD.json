@@ -1,0 +1,9 @@
+{
+	"id": "YfmQGigbh5oHBLD",
+	"json": "{\"id\":\"YfmQGigbh5oHBLD\",\"url\":\"https://www.groupchaton.com/search/label/Buy%20and%20Sell\",\"uniqueKey\":\"https://www.groupchaton.com/search/label/Buy%20and%20Sell\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749014661,
+	"retryCount": 0,
+	"uniqueKey": "https://www.groupchaton.com/search/label/Buy%20and%20Sell",
+	"url": "https://www.groupchaton.com/search/label/Buy%20and%20Sell"
+}

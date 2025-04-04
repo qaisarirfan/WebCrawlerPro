@@ -1,0 +1,9 @@
+{
+	"id": "T1SUYIv0dscqhiV",
+	"json": "{\"id\":\"T1SUYIv0dscqhiV\",\"url\":\"https://www.hindustantimes.com/education/admissions/colleges/medical-colleges-in-india\",\"uniqueKey\":\"https://www.hindustantimes.com/education/admissions/colleges/medical-colleges-in-india\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017417,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hindustantimes.com/education/admissions/colleges/medical-colleges-in-india",
+	"url": "https://www.hindustantimes.com/education/admissions/colleges/medical-colleges-in-india"
+}

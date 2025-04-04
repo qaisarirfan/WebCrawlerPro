@@ -1,0 +1,9 @@
+{
+	"id": "rAWvm5Kx019acZg",
+	"json": "{\"id\":\"rAWvm5Kx019acZg\",\"url\":\"https://t.me/IPL_LINE_CRICKET_SCORE_FERRARI\",\"uniqueKey\":\"https://t.me/IPL_LINE_CRICKET_SCORE_FERRARI\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016407,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/IPL_LINE_CRICKET_SCORE_FERRARI",
+	"url": "https://t.me/IPL_LINE_CRICKET_SCORE_FERRARI"
+}

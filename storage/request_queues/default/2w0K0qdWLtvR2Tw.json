@@ -1,0 +1,9 @@
+{
+	"id": "2w0K0qdWLtvR2Tw",
+	"json": "{\"id\":\"2w0K0qdWLtvR2Tw\",\"url\":\"https://coremafia.com/category/android/\",\"loadedUrl\":\"https://coremafia.com/category/android/\",\"uniqueKey\":\"https://coremafia.com/category/android\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:44:21.837Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://coremafia.com/category/android",
+	"url": "https://coremafia.com/category/android/"
+}

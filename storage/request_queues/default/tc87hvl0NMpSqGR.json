@@ -1,0 +1,9 @@
+{
+	"id": "tc87hvl0NMpSqGR",
+	"json": "{\"id\":\"tc87hvl0NMpSqGR\",\"url\":\"https://www.grouplinksforyou.com/p/terms-of-service.html\",\"uniqueKey\":\"https://www.grouplinksforyou.com/p/terms-of-service.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749013787,
+	"retryCount": 0,
+	"uniqueKey": "https://www.grouplinksforyou.com/p/terms-of-service.html",
+	"url": "https://www.grouplinksforyou.com/p/terms-of-service.html"
+}

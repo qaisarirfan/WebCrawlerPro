@@ -1,0 +1,9 @@
+{
+	"id": "MmdQNCPflo2v1tY",
+	"json": "{\"id\":\"MmdQNCPflo2v1tY\",\"url\":\"https://company.italki.com/contact\",\"uniqueKey\":\"https://company.italki.com/contact\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749018119,
+	"retryCount": 0,
+	"uniqueKey": "https://company.italki.com/contact",
+	"url": "https://company.italki.com/contact"
+}

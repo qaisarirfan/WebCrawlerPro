@@ -1,0 +1,9 @@
+{
+	"id": "7H4oQGBtsyTTPFL",
+	"json": "{\"id\":\"7H4oQGBtsyTTPFL\",\"url\":\"https://www.make.com/en/help/tools/flow-control.html#array-aggregator\",\"uniqueKey\":\"https://www.make.com/en/help/tools/flow-control.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749243654,
+	"retryCount": 0,
+	"uniqueKey": "https://www.make.com/en/help/tools/flow-control.html",
+	"url": "https://www.make.com/en/help/tools/flow-control.html#array-aggregator"
+}

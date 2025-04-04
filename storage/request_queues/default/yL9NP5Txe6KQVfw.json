@@ -1,0 +1,9 @@
+{
+	"id": "yL9NP5Txe6KQVfw",
+	"json": "{\"id\":\"yL9NP5Txe6KQVfw\",\"url\":\"https://groupslinker.com/real-estate/\",\"uniqueKey\":\"https://groupslinker.com/real-estate\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748998643,
+	"retryCount": 0,
+	"uniqueKey": "https://groupslinker.com/real-estate",
+	"url": "https://groupslinker.com/real-estate/"
+}

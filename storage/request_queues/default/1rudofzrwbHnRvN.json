@@ -1,0 +1,9 @@
+{
+	"id": "1rudofzrwbHnRvN",
+	"json": "{\"id\":\"1rudofzrwbHnRvN\",\"url\":\"https://groupslinker.com/health/\",\"uniqueKey\":\"https://groupslinker.com/health\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748998639,
+	"retryCount": 0,
+	"uniqueKey": "https://groupslinker.com/health",
+	"url": "https://groupslinker.com/health/"
+}

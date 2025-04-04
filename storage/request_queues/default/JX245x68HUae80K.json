@@ -1,0 +1,9 @@
+{
+	"id": "JX245x68HUae80K",
+	"json": "{\"id\":\"JX245x68HUae80K\",\"url\":\"https://www.groupchaton.com/search/label/Travel%20%26%20Tourism\",\"uniqueKey\":\"https://www.groupchaton.com/search/label/Travel%20%26%20Tourism\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749014681,
+	"retryCount": 0,
+	"uniqueKey": "https://www.groupchaton.com/search/label/Travel%20%26%20Tourism",
+	"url": "https://www.groupchaton.com/search/label/Travel%20%26%20Tourism"
+}

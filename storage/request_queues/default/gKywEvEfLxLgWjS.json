@@ -1,0 +1,9 @@
+{
+	"id": "gKywEvEfLxLgWjS",
+	"json": "{\"id\":\"gKywEvEfLxLgWjS\",\"url\":\"https://groupsorlinks.com/terms\",\"uniqueKey\":\"https://groupsorlinks.com/terms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748998872,
+	"retryCount": 0,
+	"uniqueKey": "https://groupsorlinks.com/terms",
+	"url": "https://groupsorlinks.com/terms"
+}

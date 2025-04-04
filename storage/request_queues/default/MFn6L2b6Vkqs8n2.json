@@ -1,0 +1,9 @@
+{
+	"id": "MFn6L2b6Vkqs8n2",
+	"json": "{\"id\":\"MFn6L2b6Vkqs8n2\",\"url\":\"http://joinwpgroups.com/wp-login.php\",\"uniqueKey\":\"http://joinwpgroups.com/wp-login.php\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749000468,
+	"retryCount": 0,
+	"uniqueKey": "http://joinwpgroups.com/wp-login.php",
+	"url": "http://joinwpgroups.com/wp-login.php"
+}

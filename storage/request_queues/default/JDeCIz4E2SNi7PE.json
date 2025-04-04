@@ -1,0 +1,9 @@
+{
+	"id": "JDeCIz4E2SNi7PE",
+	"json": "{\"id\":\"JDeCIz4E2SNi7PE\",\"url\":\"http://findgroups.net/profile/2\",\"loadedUrl\":\"http://findgroups.net/profile/2\",\"uniqueKey\":\"http://findgroups.net/profile/2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:46:35.175Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "http://findgroups.net/profile/2",
+	"url": "http://findgroups.net/profile/2"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "vWI4kavlstpUgkH",
+	"json": "{\"id\":\"vWI4kavlstpUgkH\",\"url\":\"https://wa.waziper.com/krio\",\"uniqueKey\":\"https://wa.waziper.com/krio\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007824,
+	"retryCount": 0,
+	"uniqueKey": "https://wa.waziper.com/krio",
+	"url": "https://wa.waziper.com/krio"
+}

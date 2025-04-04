@@ -1,0 +1,9 @@
+{
+	"id": "cuBkkBJ3YPiDYXc",
+	"json": "{\"id\":\"cuBkkBJ3YPiDYXc\",\"url\":\"https://www.centraldegruposwhats.com.br/mais-votados/\",\"uniqueKey\":\"https://www.centraldegruposwhats.com.br/mais-votados\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743748996952,
+	"retryCount": 0,
+	"uniqueKey": "https://www.centraldegruposwhats.com.br/mais-votados",
+	"url": "https://www.centraldegruposwhats.com.br/mais-votados/"
+}

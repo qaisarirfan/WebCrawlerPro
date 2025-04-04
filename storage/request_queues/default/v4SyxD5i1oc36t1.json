@@ -1,0 +1,9 @@
+{
+	"id": "v4SyxD5i1oc36t1",
+	"json": "{\"id\":\"v4SyxD5i1oc36t1\",\"url\":\"https://chat.whatsapp.com/Gq5tim5GVcGAUYK7YruDaE\",\"uniqueKey\":\"https://chat.whatsapp.com/Gq5tim5GVcGAUYK7YruDaE\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749007943,
+	"retryCount": 0,
+	"uniqueKey": "https://chat.whatsapp.com/Gq5tim5GVcGAUYK7YruDaE",
+	"url": "https://chat.whatsapp.com/Gq5tim5GVcGAUYK7YruDaE"
+}

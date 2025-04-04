@@ -1,0 +1,9 @@
+{
+	"id": "I8hdxe6HCLX7Ozz",
+	"json": "{\"id\":\"I8hdxe6HCLX7Ozz\",\"url\":\"https://wappgroups.com/education/\",\"uniqueKey\":\"https://wappgroups.com/education\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749006082,
+	"retryCount": 0,
+	"uniqueKey": "https://wappgroups.com/education",
+	"url": "https://wappgroups.com/education/"
+}

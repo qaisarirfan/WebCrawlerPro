@@ -1,0 +1,9 @@
+{
+	"id": "z2x1nFrEce80nmT",
+	"json": "{\"id\":\"z2x1nFrEce80nmT\",\"url\":\"https://waplus.io/crm/pipeline\",\"uniqueKey\":\"https://waplus.io/crm/pipeline\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749006091,
+	"retryCount": 0,
+	"uniqueKey": "https://waplus.io/crm/pipeline",
+	"url": "https://waplus.io/crm/pipeline"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "qbtWADvH1DdJ4Dm",
+	"json": "{\"id\":\"qbtWADvH1DdJ4Dm\",\"url\":\"https://www.smarttechbuzz.org\",\"loadedUrl\":\"https://www.smarttechbuzz.org/\",\"uniqueKey\":\"https://www.smarttechbuzz.org\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:39.904Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.smarttechbuzz.org",
+	"url": "https://www.smarttechbuzz.org"
+}

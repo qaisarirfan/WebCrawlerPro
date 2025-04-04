@@ -1,0 +1,9 @@
+{
+	"id": "VtEK61JwopWs29k",
+	"json": "{\"id\":\"VtEK61JwopWs29k\",\"url\":\"https://t.me/Paytm_Mall_Deals_Offers\",\"uniqueKey\":\"https://t.me/Paytm_Mall_Deals_Offers\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749016156,
+	"retryCount": 0,
+	"uniqueKey": "https://t.me/Paytm_Mall_Deals_Offers",
+	"url": "https://t.me/Paytm_Mall_Deals_Offers"
+}

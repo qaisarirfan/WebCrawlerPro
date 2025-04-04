@@ -1,0 +1,9 @@
+{
+	"id": "s8ocdt5E4iDg3ND",
+	"json": "{\"id\":\"s8ocdt5E4iDg3ND\",\"url\":\"https://www.nairaland.com/cartalk\",\"uniqueKey\":\"https://www.nairaland.com/cartalk\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749017947,
+	"retryCount": 0,
+	"uniqueKey": "https://www.nairaland.com/cartalk",
+	"url": "https://www.nairaland.com/cartalk"
+}

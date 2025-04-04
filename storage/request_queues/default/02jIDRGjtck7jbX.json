@@ -1,0 +1,9 @@
+{
+	"id": "02jIDRGjtck7jbX",
+	"json": "{\"id\":\"02jIDRGjtck7jbX\",\"url\":\"https://community.wanikani.com/c/wanikani/10?page=1\",\"uniqueKey\":\"https://community.wanikani.com/c/wanikani/10?page=1\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749051638,
+	"retryCount": 0,
+	"uniqueKey": "https://community.wanikani.com/c/wanikani/10?page=1",
+	"url": "https://community.wanikani.com/c/wanikani/10?page=1"
+}

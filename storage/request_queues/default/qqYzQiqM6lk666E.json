@@ -1,0 +1,9 @@
+{
+	"id": "qqYzQiqM6lk666E",
+	"json": "{\"id\":\"qqYzQiqM6lk666E\",\"url\":\"https://www.liveinternet.ru/rating/ru/regions/\",\"uniqueKey\":\"https://www.liveinternet.ru/rating/ru/regions\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749043151,
+	"retryCount": 0,
+	"uniqueKey": "https://www.liveinternet.ru/rating/ru/regions",
+	"url": "https://www.liveinternet.ru/rating/ru/regions/"
+}

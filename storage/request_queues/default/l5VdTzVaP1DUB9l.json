@@ -1,0 +1,9 @@
+{
+	"id": "l5VdTzVaP1DUB9l",
+	"json": "{\"id\":\"l5VdTzVaP1DUB9l\",\"url\":\"https://coremafia.com/connect-my-samsung-phone/\",\"uniqueKey\":\"https://coremafia.com/connect-my-samsung-phone\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749196436,
+	"retryCount": 0,
+	"uniqueKey": "https://coremafia.com/connect-my-samsung-phone",
+	"url": "https://coremafia.com/connect-my-samsung-phone/"
+}

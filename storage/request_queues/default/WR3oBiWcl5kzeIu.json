@@ -1,0 +1,9 @@
+{
+	"id": "WR3oBiWcl5kzeIu",
+	"json": "{\"id\":\"WR3oBiWcl5kzeIu\",\"url\":\"https://justin-travel.com/privacy-policy/\",\"uniqueKey\":\"https://justin-travel.com/privacy-policy\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
+	"method": "GET",
+	"orderNo": 1743749001805,
+	"retryCount": 0,
+	"uniqueKey": "https://justin-travel.com/privacy-policy",
+	"url": "https://justin-travel.com/privacy-policy/"
+}
