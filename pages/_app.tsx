@@ -1,39 +1,46 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import '../styles/globals.css';
-import { ThemeProvider as NextThemeProvider } from 'next-themes';
-import { createTheme, ThemeProvider as MuiThemeProvider } from '@mui/material/styles';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { useMemo, useState, useEffect } from 'react';
-import { teal, pink, grey, blue } from '@mui/material/colors';
+import { useMemo, useState, useEffect, createContext } from 'react';
+import { indigo, pink, grey, blue } from '@mui/material/colors';
+
+// Create a context to allow theme toggling from any component
+export const ColorModeContext = createContext({
+  toggleColorMode: () => {},
+  mode: 'light' as 'light' | 'dark'
+});
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [mounted, setMounted] = useState(false);
   const [mode, setMode] = useState<'light' | 'dark'>('light');
 
+  // Toggle function for theme switching
+  const colorMode = useMemo(
+    () => ({
+      toggleColorMode: () => {
+        setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
+        // Save preference to localStorage
+        localStorage.setItem('theme', mode === 'light' ? 'dark' : 'light');
+      },
+      mode
+    }),
+    [mode],
+  );
+
   // Update the theme only on the client side
   useEffect(() => {
     setMounted(true);
-    // Check user's preferred color scheme
-    const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    setMode(isDark ? 'dark' : 'light');
-    
-    // Listen for theme changes from next-themes
-    const observer = new MutationObserver(() => {
-      const htmlEl = document.documentElement;
-      if (htmlEl.classList.contains('dark')) {
-        setMode('dark');
-      } else {
-        setMode('light');
-      }
-    });
-    
-    observer.observe(document.documentElement, { 
-      attributes: true, 
-      attributeFilter: ['class'] 
-    });
-    
-    return () => observer.disconnect();
+    // First check localStorage
+    const savedTheme = localStorage.getItem('theme') as 'light' | 'dark' | null;
+    if (savedTheme) {
+      setMode(savedTheme);
+    } else {
+      // If no saved preference, check system preference
+      const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      setMode(isDark ? 'dark' : 'light');
+    }
   }, []);
 
   // Create a theme instance
@@ -43,7 +50,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         palette: {
           mode,
           primary: {
-            main: teal[500],
+            main: indigo[500],
           },
           secondary: {
             main: pink[400],
@@ -79,6 +86,29 @@ function MyApp({ Component, pageProps }: AppProps) {
               },
             },
           },
+          MuiPaper: {
+            styleOverrides: {
+              root: {
+                borderRadius: 8,
+              },
+            },
+          },
+          MuiChip: {
+            styleOverrides: {
+              root: {
+                fontWeight: 500,
+              },
+            },
+          },
+          MuiTextField: {
+            styleOverrides: {
+              root: {
+                '& .MuiOutlinedInput-root': {
+                  borderRadius: 8,
+                },
+              },
+            },
+          },
         },
       }),
     [mode],
@@ -90,8 +120,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   }
 
   return (
-    <NextThemeProvider attribute="class">
-      <MuiThemeProvider theme={theme}>
+    <ColorModeContext.Provider value={colorMode}>
+      <ThemeProvider theme={theme}>
         <CssBaseline />
         <Head>
           <title>Web Crawler Interface</title>
@@ -100,8 +130,8 @@ function MyApp({ Component, pageProps }: AppProps) {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Component {...pageProps} />
-      </MuiThemeProvider>
-    </NextThemeProvider>
+      </ThemeProvider>
+    </ColorModeContext.Provider>
   );
 }
 

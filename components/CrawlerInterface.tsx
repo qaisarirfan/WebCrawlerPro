@@ -1,5 +1,15 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import { 
+  Container, 
+  Box, 
+  Paper, 
+  Typography, 
+  IconButton, 
+  Tooltip,
+  useTheme
+} from '@mui/material';
+import { Settings as SettingsIcon, Add as AddIcon, Link as LinkIcon } from '@mui/icons-material';
 import { CrawlerStatus } from '../types/crawler';
 import CrawlerControls from './CrawlerControls';
 import CrawlerSettings from './CrawlerSettings';
@@ -11,8 +21,6 @@ import SettingsModal from './SettingsModal';
 import AddUrlModal from './AddUrlModal';
 import CrawledDataList from './CrawledDataList';
 import QuickStartTutorial from './QuickStartTutorial';
-import { Cog6ToothIcon, PlusIcon } from '@heroicons/react/24/outline';
-import styles from '../styles/CrawlerInterface.module.css';
 
 const CrawlerInterface: React.FC = () => {
   const [status, setStatus] = useState<CrawlerStatus>({
@@ -68,80 +76,97 @@ const CrawlerInterface: React.FC = () => {
     };
   }, []);
 
+  const theme = useTheme();
+
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        <div className="flex items-center justify-between mb-6">
-          <div className="flex items-center">
-            <svg 
-              xmlns="http://www.w3.org/2000/svg" 
-              width="32" 
-              height="32" 
-              viewBox="0 0 24 24" 
-              fill="none" 
-              stroke="currentColor" 
-              strokeWidth="2" 
-              strokeLinecap="round" 
-              strokeLinejoin="round"
-              className="text-indigo-600 dark:text-indigo-400 mr-3"
-            >
-              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-              <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-            </svg>
-            <div>
-              <h1 className="text-2xl font-semibold">Web Crawler Interface</h1>
-              <p className="text-sm text-gray-600 dark:text-gray-400">
+    <Box 
+      sx={{ 
+        minHeight: '100vh',
+        bgcolor: 'background.default',
+        color: 'text.primary',
+        transition: 'all 0.3s ease'
+      }}
+    >
+      <Container maxWidth="xl" sx={{ py: 4 }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 4 }}>
+          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+            <LinkIcon 
+              sx={{ 
+                fontSize: 36, 
+                color: 'primary.main', 
+                mr: 2 
+              }} 
+            />
+            <Box>
+              <Typography variant="h4" component="h1" fontWeight="600">
+                Web Crawler Interface
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
                 Control and monitor web crawling operations to extract WhatsApp group links
-              </p>
-            </div>
-          </div>
+              </Typography>
+            </Box>
+          </Box>
           
-          <div className="flex items-center space-x-2">
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
             <QuickStartTutorial />
             <ThemeToggle />
             
-            <button
-              onClick={() => setIsAddUrlModalOpen(true)}
-              className="rounded-full p-2 bg-indigo-100 dark:bg-indigo-900 hover:bg-indigo-200 dark:hover:bg-indigo-800 text-indigo-600 dark:text-indigo-400 transition-colors"
-              title="Add URL"
-            >
-              <PlusIcon className="h-5 w-5" />
-            </button>
+            <Tooltip title="Add URL">
+              <IconButton
+                onClick={() => setIsAddUrlModalOpen(true)}
+                sx={{ 
+                  bgcolor: theme.palette.mode === 'dark' ? 'rgba(63, 81, 181, 0.15)' : 'rgba(63, 81, 181, 0.08)',
+                  color: 'primary.main',
+                  '&:hover': {
+                    bgcolor: theme.palette.mode === 'dark' ? 'rgba(63, 81, 181, 0.25)' : 'rgba(63, 81, 181, 0.12)'
+                  }
+                }}
+              >
+                <AddIcon />
+              </IconButton>
+            </Tooltip>
             
-            <button
-              onClick={() => setIsSettingsModalOpen(true)}
-              className="rounded-full p-2 bg-indigo-100 dark:bg-indigo-900 hover:bg-indigo-200 dark:hover:bg-indigo-800 text-indigo-600 dark:text-indigo-400 transition-colors"
-              title="Settings"
-            >
-              <Cog6ToothIcon className="h-5 w-5" />
-            </button>
-          </div>
-        </div>
+            <Tooltip title="Settings">
+              <IconButton
+                onClick={() => setIsSettingsModalOpen(true)}
+                sx={{ 
+                  bgcolor: theme.palette.mode === 'dark' ? 'rgba(63, 81, 181, 0.15)' : 'rgba(63, 81, 181, 0.08)',
+                  color: 'primary.main',
+                  '&:hover': {
+                    bgcolor: theme.palette.mode === 'dark' ? 'rgba(63, 81, 181, 0.25)' : 'rgba(63, 81, 181, 0.12)'
+                  }
+                }}
+              >
+                <SettingsIcon />
+              </IconButton>
+            </Tooltip>
+          </Box>
+        </Box>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="space-y-6">
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+        <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' }, gap: 3 }}>
+          <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
+            <Paper elevation={1} sx={{ p: 3 }}>
               <CrawlerControls 
                 isRunning={status.isRunning} 
                 refreshStatus={fetchStatus} 
               />
-            </div>
+            </Paper>
             
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+            <Paper elevation={1} sx={{ p: 3 }}>
               <StatusDisplay status={status} onRefresh={fetchStatus} />
-            </div>
+            </Paper>
             
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+            <Paper elevation={1} sx={{ p: 3 }}>
               <UrlInput onUrlAdded={handleUrlAdded} />
               <UrlList refreshTrigger={refreshUrlsTrigger} />
-            </div>
-          </div>
+            </Paper>
+          </Box>
           
-          <div>
+          <Box>
             <CrawledDataList />
-          </div>
-        </div>
-      </div>
+          </Box>
+        </Box>
+      </Container>
       
       {/* Modals */}
       <SettingsModal 
@@ -155,7 +180,7 @@ const CrawlerInterface: React.FC = () => {
         onClose={() => setIsAddUrlModalOpen(false)} 
         onUrlAdded={handleUrlAdded} 
       />
-    </div>
+    </Box>
   );
 };
 

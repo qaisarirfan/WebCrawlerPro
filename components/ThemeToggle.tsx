@@ -1,31 +1,30 @@
-import React, { useEffect, useState } from 'react';
-import { useTheme } from 'next-themes';
-import { SunIcon, MoonIcon } from '@heroicons/react/24/outline';
+import React, { useContext } from 'react';
+import { IconButton, Tooltip, useTheme } from '@mui/material';
+import { Brightness4, Brightness7 } from '@mui/icons-material';
+import { ColorModeContext } from '../pages/_app';
 
 const ThemeToggle: React.FC = () => {
-  const { resolvedTheme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  // After mounting, we can safely access the theme and window
-  useEffect(() => setMounted(true), []);
-
-  if (!mounted) {
-    return null;
-  }
+  const theme = useTheme();
+  const colorMode = useContext(ColorModeContext);
 
   return (
-    <button
-      type="button"
-      aria-label="Toggle Dark Mode"
-      className="rounded-full p-2 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-      onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
-    >
-      {resolvedTheme === 'dark' ? (
-        <SunIcon className="h-5 w-5 text-yellow-300" />
-      ) : (
-        <MoonIcon className="h-5 w-5 text-gray-700" />
-      )}
-    </button>
+    <Tooltip title={theme.palette.mode === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}>
+      <IconButton 
+        onClick={colorMode.toggleColorMode} 
+        color="inherit"
+        aria-label="Toggle Dark Mode"
+        size="large"
+        sx={{ 
+          ml: 1,
+          bgcolor: theme.palette.mode === 'dark' ? 'rgba(255, 255, 255, 0.08)' : 'rgba(0, 0, 0, 0.04)',
+          '&:hover': {
+            bgcolor: theme.palette.mode === 'dark' ? 'rgba(255, 255, 255, 0.12)' : 'rgba(0, 0, 0, 0.08)',
+          }
+        }}
+      >
+        {theme.palette.mode === 'dark' ? <Brightness7 /> : <Brightness4 />}
+      </IconButton>
+    </Tooltip>
   );
 };
 

@@ -5,8 +5,11 @@ import { defaultUrls } from './defaultUrls';
 import fs from 'fs';
 import path from 'path';
 
-// Regular expression to find WhatsApp invite links
+// Regular expressions to find WhatsApp invite links
+// This pattern matches standard WhatsApp group invite links
 const whatsappLinkRegex = /https:\/\/chat\.whatsapp\.com(?:\/invite)?\/([A-Za-z0-9]{22})/gm;
+// Additional patterns for other possible WhatsApp invite URL formats
+const whatsappLinkAltRegex = /(?:https?:\/\/)?(?:www\.)?(?:wa\.me|api\.whatsapp\.com)\/(?:join|send)\/?([A-Za-z0-9_-]+)/gm;
 
 // Global variables to track crawler state
 let isCrawlerRunning = false;
@@ -82,12 +85,33 @@ export const extractInviteLink = (url: string | null | undefined): WhatsAppLink 
   if (!url) return null;
   
   try {
-    // Updated regex to match WhatsApp invite links with more flexibility
-    const match = url.match(/https:\/\/chat\.whatsapp\.com(?:\/invite)?\/([A-Za-z0-9]{22})/);
-    if (match && match[1]) {
+    // First check for standard WhatsApp group invite links
+    const standardMatch = url.match(/https:\/\/chat\.whatsapp\.com(?:\/invite)?\/([A-Za-z0-9]{22})/);
+    if (standardMatch && standardMatch[1]) {
       return {
-        code: match[1],
-        url: match[0]
+        code: standardMatch[1],
+        url: standardMatch[0]
+      };
+    }
+    
+    // Check for alternative WhatsApp link formats (wa.me, api.whatsapp.com)
+    const altMatch = url.match(/(?:https?:\/\/)?(?:www\.)?(?:wa\.me|api\.whatsapp\.com)\/(?:join|send)\/?([A-Za-z0-9_-]+)/);
+    if (altMatch && altMatch[1] && altMatch[1].length >= 8) {
+      // Only extract alternative links with a reasonable code length (minimum 8 chars)
+      return {
+        code: altMatch[1],
+        url: altMatch[0].startsWith('http') ? altMatch[0] : `https://${altMatch[0]}`
+      };
+    }
+    
+    // Look for invite links that might be in text with formatting or special characters
+    const textMatch = url.match(/(?:whatsapp\.com|wa\.me)[\/\\:]?(?:invite)?[\/\\:]?([A-Za-z0-9]{8,})/i);
+    if (textMatch && textMatch[1] && textMatch[1].length >= 8) {
+      // Form a proper URL from a potentially malformed one
+      const cleanCode = textMatch[1].replace(/[^A-Za-z0-9]/g, '');
+      return {
+        code: cleanCode,
+        url: `https://chat.whatsapp.com/${cleanCode}`
       };
     }
   } catch (error) {
@@ -195,29 +219,107 @@ export const startCrawler = async (urls: string[], singleMode = false): Promise<
             // Get page content
             const content = await page.content();
             
-            // Find WhatsApp links in content using regex
+            // Find WhatsApp links in content using regex patterns
             const waLinks: WhatsAppLink[] = [];
             let match;
+            
+            // Search for primary WhatsApp invite links
             whatsappLinkRegex.lastIndex = 0;
             const bodyText = content;
             
             while ((match = whatsappLinkRegex.exec(bodyText)) !== null) {
               const link = extractInviteLink(match[0]);
               if (link) {
+                // Check if this link is already in the array
+                if (!waLinks.some(existingLink => existingLink.code === link.code)) {
+                  waLinks.push(link);
+                }
+              }
+            }
+            
+            // Search for alternative WhatsApp link formats
+            whatsappLinkAltRegex.lastIndex = 0;
+            while ((match = whatsappLinkAltRegex.exec(bodyText)) !== null) {
+              const link = extractInviteLink(match[0]);
+              if (link) {
+                // Check if this link is already in the array
+                if (!waLinks.some(existingLink => existingLink.code === link.code)) {
+                  waLinks.push(link);
+                }
+              }
+            }
+            
+            // Get all attributes that might contain URLs
+            const allAttributes: string[] = await page.evaluate<string[]>(() => {
+              // Create a properly typed array to store the extracted strings
+              const results: string[] = [];
+              
+              try {
+                // Find all href attributes
+                document.querySelectorAll('a').forEach(a => {
+                  if (a.href) results.push(a.href);
+                });
+                
+                // Find all data attributes that might contain URLs
+                document.querySelectorAll('[data-url], [data-link], [data-href], [src]').forEach(el => {
+                  ['data-url', 'data-link', 'data-href', 'src'].forEach(attr => {
+                    const value = el.getAttribute(attr);
+                    if (value) results.push(value);
+                  });
+                });
+                
+                // Find all onclick attributes that might contain URLs
+                document.querySelectorAll('[onclick]').forEach(el => {
+                  const value = el.getAttribute('onclick');
+                  if (value) results.push(value);
+                });
+              } catch (error) {
+                console.error('Error extracting attributes:', error);
+              }
+              
+              return results;
+            });
+            
+            // Extract WhatsApp links from all collected attributes
+            for (const attr of allAttributes) {
+              const link = extractInviteLink(attr);
+              if (link && !waLinks.some(existingLink => existingLink.code === link.code)) {
                 waLinks.push(link);
               }
             }
             
-            // Get all href attributes
-            const hrefs = await page.evaluate(() => {
-              return Array.from(document.querySelectorAll('a')).map(a => a.href);
+            // Also search in the page's JavaScript content
+            const scripts: string[] = await page.evaluate<string[]>(() => {
+              try {
+                return Array.from(document.querySelectorAll('script'))
+                  .map(s => s.innerText || '')
+                  .filter(text => typeof text === 'string' && text.length > 0);
+              } catch (error) {
+                console.error('Error extracting script contents:', error);
+                return [];
+              }
             });
             
-            // Extract WhatsApp links from href attributes
-            for (const href of hrefs) {
-              const link = extractInviteLink(href);
-              if (link) {
-                waLinks.push(link);
+            for (const script of scripts) {
+              if (!script) continue;
+              
+              // Check primary regex
+              whatsappLinkRegex.lastIndex = 0;
+              let match;
+              while ((match = whatsappLinkRegex.exec(script)) !== null) {
+                const link = extractInviteLink(match[0]);
+                if (link && !waLinks.some(existingLink => existingLink.code === link.code)) {
+                  waLinks.push(link);
+                }
+              }
+              
+              // Check alternative regex
+              whatsappLinkAltRegex.lastIndex = 0;
+              while ((match = whatsappLinkAltRegex.exec(script)) !== null) {
+                const link = extractInviteLink(match[0]);
+                if (link && !waLinks.some(existingLink => existingLink.code === link.code)) {
+                  waLinks.push(link);
+                }
               }
             }
             
@@ -318,8 +420,9 @@ export const startCrawler = async (urls: string[], singleMode = false): Promise<
             
             // Extract links from <a> tags
             $('a').each((_, element) => {
-              const link = extractInviteLink($(element).attr('href'));
-              if (link) {
+              const href = $(element).attr('href');
+              const link = extractInviteLink(href);
+              if (link && !waLinks.some(existingLink => existingLink.code === link.code)) {
                 waLinks.push(link);
               }
             });
@@ -327,14 +430,70 @@ export const startCrawler = async (urls: string[], singleMode = false): Promise<
             // Extract links from body text
             const bodyText = $('body').text();
             let match;
-            // Reset regex lastIndex before using it again
+            
+            // Search for primary WhatsApp invite links
             whatsappLinkRegex.lastIndex = 0;
             while ((match = whatsappLinkRegex.exec(bodyText)) !== null) {
               const link = extractInviteLink(match[0]);
               if (link) {
-                waLinks.push(link);
+                // Check if this link is already in the array
+                if (!waLinks.some(existingLink => existingLink.code === link.code)) {
+                  waLinks.push(link);
+                }
               }
             }
+            
+            // Search for alternative WhatsApp link formats
+            whatsappLinkAltRegex.lastIndex = 0;
+            while ((match = whatsappLinkAltRegex.exec(bodyText)) !== null) {
+              const link = extractInviteLink(match[0]);
+              if (link) {
+                // Check if this link is already in the array
+                if (!waLinks.some(existingLink => existingLink.code === link.code)) {
+                  waLinks.push(link);
+                }
+              }
+            }
+            
+            // Also search for WhatsApp links in all elements' attributes
+            $('[href], [src], [data-url], [data-link], [data-href], [onclick]').each((_, element) => {
+              const attrs = $(element).attr();
+              if (!attrs) return;
+              
+              Object.values(attrs).forEach(attrVal => {
+                if (typeof attrVal === 'string') {
+                  const link = extractInviteLink(attrVal);
+                  if (link && !waLinks.some(existingLink => existingLink.code === link.code)) {
+                    waLinks.push(link);
+                  }
+                }
+              });
+            });
+            
+            // Also search in script content
+            $('script').each((_, element) => {
+              const scriptContent = $(element).html();
+              if (!scriptContent) return;
+              
+              // Check primary regex
+              whatsappLinkRegex.lastIndex = 0;
+              let match;
+              while ((match = whatsappLinkRegex.exec(scriptContent)) !== null) {
+                const link = extractInviteLink(match[0]);
+                if (link && !waLinks.some(existingLink => existingLink.code === link.code)) {
+                  waLinks.push(link);
+                }
+              }
+              
+              // Check alternative regex
+              whatsappLinkAltRegex.lastIndex = 0;
+              while ((match = whatsappLinkAltRegex.exec(scriptContent)) !== null) {
+                const link = extractInviteLink(match[0]);
+                if (link && !waLinks.some(existingLink => existingLink.code === link.code)) {
+                  waLinks.push(link);
+                }
+              }
+            });
             
             // Save the extracted links with a consistent filename based on domain
             if (waLinks.length > 0) {

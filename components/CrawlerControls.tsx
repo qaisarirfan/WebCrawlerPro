@@ -1,6 +1,18 @@
 import { useState } from 'react';
 import axios from 'axios';
-import { PlayIcon, StopIcon, ExclamationCircleIcon } from '@heroicons/react/24/outline';
+import { 
+  Typography, 
+  Box, 
+  Button, 
+  Alert, 
+  Stack, 
+  CircularProgress 
+} from '@mui/material';
+import { 
+  PlayArrow as PlayIcon, 
+  Stop as StopIcon, 
+  Error as ErrorIcon 
+} from '@mui/icons-material';
 
 interface CrawlerControlsProps {
   isRunning: boolean;
@@ -17,7 +29,7 @@ const CrawlerControls: React.FC<CrawlerControlsProps> = ({ isRunning, refreshSta
     setError(null);
     
     try {
-      const response = await axios.post('/api/crawler/start');
+      await axios.post('/api/crawler/start');
       refreshStatus();
     } catch (err: any) {
       setError(err.response?.data?.message || 'Failed to start crawler');
@@ -31,7 +43,7 @@ const CrawlerControls: React.FC<CrawlerControlsProps> = ({ isRunning, refreshSta
     setError(null);
     
     try {
-      const response = await axios.post('/api/crawler/stop');
+      await axios.post('/api/crawler/stop');
       refreshStatus();
     } catch (err: any) {
       setError(err.response?.data?.message || 'Failed to stop crawler');
@@ -41,62 +53,49 @@ const CrawlerControls: React.FC<CrawlerControlsProps> = ({ isRunning, refreshSta
   };
 
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
-      <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Crawler Controls</h2>
+    <Box>
+      <Typography variant="h6" gutterBottom fontWeight="medium">
+        Crawler Controls
+      </Typography>
       
-      <div className="flex flex-col sm:flex-row gap-3 mb-4">
-        <button 
-          className={`flex items-center justify-center gap-2 px-4 py-2 rounded-md font-medium ${
-            isRunning || isStarting
-              ? 'bg-indigo-100 text-indigo-400 dark:bg-indigo-900/30 dark:text-indigo-600 cursor-not-allowed'
-              : 'bg-indigo-600 text-white hover:bg-indigo-700 dark:bg-indigo-600 dark:hover:bg-indigo-700'
-          } transition-colors w-full sm:w-auto`}
+      <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} sx={{ mb: 3 }}>
+        <Button
+          variant="contained"
+          startIcon={isStarting ? <CircularProgress size={20} color="inherit" /> : <PlayIcon />}
           onClick={handleStart}
           disabled={isRunning || isStarting}
+          fullWidth
+          sx={{
+            py: 1,
+            backgroundColor: isRunning || isStarting ? 'action.disabledBackground' : 'primary.main'
+          }}
         >
-          {isStarting ? (
-            <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-            </svg>
-          ) : (
-            <>
-              <PlayIcon className="h-5 w-5" />
-              <span>Start Crawler</span>
-            </>
-          )}
-        </button>
+          Start Crawler
+        </Button>
         
-        <button 
-          className={`flex items-center justify-center gap-2 px-4 py-2 rounded-md font-medium ${
-            !isRunning || isStopping
-              ? 'bg-red-100 text-red-400 dark:bg-red-900/30 dark:text-red-600 cursor-not-allowed'
-              : 'bg-red-600 text-white hover:bg-red-700 dark:bg-red-600 dark:hover:bg-red-700'
-          } transition-colors w-full sm:w-auto`}
+        <Button
+          variant="contained"
+          color="error"
+          startIcon={isStopping ? <CircularProgress size={20} color="inherit" /> : <StopIcon />}
           onClick={handleStop}
           disabled={!isRunning || isStopping}
+          fullWidth
+          sx={{ py: 1 }}
         >
-          {isStopping ? (
-            <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-            </svg>
-          ) : (
-            <>
-              <StopIcon className="h-5 w-5" />
-              <span>Stop Crawler</span>
-            </>
-          )}
-        </button>
-      </div>
+          Stop Crawler
+        </Button>
+      </Stack>
       
       {error && (
-        <div className="flex items-center gap-2 text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/20 p-2 rounded-md">
-          <ExclamationCircleIcon className="h-5 w-5 flex-shrink-0" />
-          <span>{error}</span>
-        </div>
+        <Alert 
+          severity="error" 
+          icon={<ErrorIcon />}
+          sx={{ mt: 2 }}
+        >
+          {error}
+        </Alert>
       )}
-    </div>
+    </Box>
   );
 };
 

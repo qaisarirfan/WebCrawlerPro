@@ -1,7 +1,28 @@
 import { useEffect, useState } from 'react';
+import { 
+  Box, 
+  Typography, 
+  Button, 
+  LinearProgress, 
+  Chip, 
+  List, 
+  ListItem, 
+  ListItemIcon, 
+  ListItemText,
+  Stack,
+  Paper,
+  Divider,
+  IconButton,
+  Tooltip,
+  useTheme
+} from '@mui/material';
+import { 
+  Refresh as RefreshIcon, 
+  AccessTime as ClockIcon,
+  Error as ErrorIcon,
+  Circle as CircleIcon
+} from '@mui/icons-material';
 import { CrawlerStatus } from '../types/crawler';
-import { ArrowPathIcon } from '@heroicons/react/24/outline';
-import styles from '../styles/CrawlerInterface.module.css';
 
 interface StatusDisplayProps {
   status: CrawlerStatus;
@@ -11,6 +32,7 @@ interface StatusDisplayProps {
 const StatusDisplay: React.FC<StatusDisplayProps> = ({ status, onRefresh }) => {
   const [elapsedTime, setElapsedTime] = useState<string>('00:00:00');
   const [refreshing, setRefreshing] = useState(false);
+  const theme = useTheme();
   
   // Calculate elapsed time when running
   useEffect(() => {
@@ -46,102 +68,146 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ status, onRefresh }) => {
   };
   
   return (
-    <div className={styles.statusContainer}>
-      <div className="flex justify-between items-center mb-3">
-        <h2 className={styles.sectionTitle}>Crawler Status</h2>
+    <Box>
+      <Box sx={{ 
+        display: 'flex', 
+        justifyContent: 'space-between', 
+        alignItems: 'center', 
+        mb: 2 
+      }}>
+        <Typography variant="h6" fontWeight="medium">
+          Crawler Status
+        </Typography>
+        
         {onRefresh && (
-          <button 
-            onClick={handleRefresh}
-            disabled={refreshing}
-            className="flex items-center text-sm text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors"
-            title="Manually refresh status"
-          >
-            <ArrowPathIcon className={`h-4 w-4 mr-1 ${refreshing ? 'animate-spin' : ''}`} />
-            Refresh
-          </button>
+          <Tooltip title="Manually refresh status">
+            <IconButton
+              onClick={handleRefresh}
+              disabled={refreshing}
+              size="small"
+              color="primary"
+              sx={{ ml: 1 }}
+            >
+              <RefreshIcon 
+                fontSize="small" 
+                sx={{ 
+                  animation: refreshing ? 'spin 1s linear infinite' : 'none',
+                  '@keyframes spin': {
+                    '0%': {
+                      transform: 'rotate(0deg)',
+                    },
+                    '100%': {
+                      transform: 'rotate(360deg)',
+                    },
+                  },
+                }}
+              />
+            </IconButton>
+          </Tooltip>
         )}
-      </div>
+      </Box>
       
-      <div className={styles.statusCard}>
-        <div className={styles.statusRow}>
-          <div className={styles.statusLabel}>Status:</div>
-          <div className={styles.statusValue}>
-            <span className={`${styles.statusBadge} ${status.isRunning ? styles.running : styles.stopped}`}>
-              {status.isRunning ? 'Running' : 'Stopped'}
-            </span>
-          </div>
-        </div>
+      <Stack spacing={2}>
+        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <Typography variant="body2" color="text.secondary">Status:</Typography>
+          <Chip 
+            label={status.isRunning ? 'Running' : 'Stopped'} 
+            color={status.isRunning ? 'success' : 'default'}
+            size="small"
+            variant="outlined"
+          />
+        </Box>
         
         {status.currentUrl && (
-          <div className={styles.statusRow}>
-            <div className={styles.statusLabel}>Current URL:</div>
-            <div className={styles.statusValue} title={status.currentUrl}>
+          <Box sx={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between' }}>
+            <Typography variant="body2" color="text.secondary">Current URL:</Typography>
+            <Typography 
+              variant="body2" 
+              sx={{ maxWidth: '70%', wordBreak: 'break-all', textAlign: 'right' }}
+              title={status.currentUrl}
+            >
               {status.currentUrl.length > 40 ? `${status.currentUrl.substring(0, 40)}...` : status.currentUrl}
-            </div>
-          </div>
+            </Typography>
+          </Box>
         )}
         
-        <div className={styles.statusRow}>
-          <div className={styles.statusLabel}>Progress:</div>
-          <div className={styles.statusValue}>
-            {status.processedUrls} / {status.totalUrls} URLs processed ({Math.round(status.progress)}%)
-            <div className={styles.progressBarContainer}>
-              <div 
-                className={styles.progressBar}
-                style={{ width: `${status.progress}%` }}
-              ></div>
-            </div>
-          </div>
-        </div>
+        <Box>
+          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 1 }}>
+            <Typography variant="body2" color="text.secondary">Progress:</Typography>
+            <Typography variant="body2">
+              {status.processedUrls} / {status.totalUrls} URLs ({Math.round(status.progress)}%)
+            </Typography>
+          </Box>
+          <LinearProgress 
+            variant="determinate" 
+            value={status.progress} 
+            sx={{ height: 8, borderRadius: 1 }}
+          />
+        </Box>
         
         {status.isRunning && status.startTime && (
-          <div className={styles.statusRow}>
-            <div className={styles.statusLabel}>Running Time:</div>
-            <div className={styles.statusValue}>
-              <div className={styles.elapsedTime}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <polyline points="12 6 12 12 16 14"></polyline>
-                </svg>
-                {elapsedTime}
-              </div>
-            </div>
-          </div>
+          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <Typography variant="body2" color="text.secondary">Running Time:</Typography>
+            <Box sx={{ display: 'flex', alignItems: 'center' }}>
+              <ClockIcon fontSize="small" sx={{ mr: 0.5, color: 'text.secondary' }} />
+              <Typography variant="body2">{elapsedTime}</Typography>
+            </Box>
+          </Box>
         )}
         
         {status.lastUpdate && (
-          <div className={styles.statusRow}>
-            <div className={styles.statusLabel}>Last Updated:</div>
-            <div className={styles.statusValue}>
+          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <Typography variant="body2" color="text.secondary">Last Updated:</Typography>
+            <Typography variant="body2">
               {new Date(status.lastUpdate).toLocaleString()}
-            </div>
-          </div>
+            </Typography>
+          </Box>
         )}
-      </div>
+      </Stack>
       
       {status.errors.length > 0 && (
-        <div className={styles.errorsSection}>
-          <h3>Errors ({status.errors.length})</h3>
-          <div className={styles.errorsList}>
-            {status.errors.slice(-5).map((error, index) => (
-              <div key={index} className={styles.errorItem}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <line x1="12" y1="8" x2="12" y2="12"></line>
-                  <line x1="12" y1="16" x2="12.01" y2="16"></line>
-                </svg>
-                {error}
-              </div>
-            ))}
-            {status.errors.length > 5 && (
-              <div className={styles.moreErrors}>
-                + {status.errors.length - 5} more errors
-              </div>
-            )}
-          </div>
-        </div>
+        <Box sx={{ mt: 3 }}>
+          <Typography variant="subtitle2" color="error" sx={{ mb: 1, display: 'flex', alignItems: 'center' }}>
+            <ErrorIcon fontSize="small" sx={{ mr: 0.5 }} />
+            Errors ({status.errors.length})
+          </Typography>
+          
+          <Paper 
+            variant="outlined" 
+            sx={{ 
+              p: 1.5, 
+              maxHeight: '150px', 
+              overflowY: 'auto',
+              bgcolor: theme => theme.palette.mode === 'dark' ? 'rgba(244, 67, 54, 0.1)' : 'rgba(244, 67, 54, 0.05)',
+            }}
+          >
+            <List dense disablePadding>
+              {status.errors.slice(-5).map((error, index) => (
+                <ListItem key={index} sx={{ py: 0.5, px: 0 }}>
+                  <ListItemIcon sx={{ minWidth: 24 }}>
+                    <CircleIcon sx={{ fontSize: 8, color: 'error.main' }} />
+                  </ListItemIcon>
+                  <ListItemText 
+                    primary={
+                      <Typography variant="body2" color="error.main" sx={{ wordBreak: 'break-word' }}>
+                        {error}
+                      </Typography>
+                    } 
+                  />
+                </ListItem>
+              ))}
+              {status.errors.length > 5 && (
+                <ListItem sx={{ justifyContent: 'center', py: 1 }}>
+                  <Typography variant="caption" color="text.secondary">
+                    + {status.errors.length - 5} more errors
+                  </Typography>
+                </ListItem>
+              )}
+            </List>
+          </Paper>
+        </Box>
       )}
-    </div>
+    </Box>
   );
 };
 

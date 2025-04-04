@@ -1,14 +1,29 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Fragment } from 'react';
 import axios from 'axios';
 import { defaultUrls } from '../utils/defaultUrls';
-import { 
-  ArrowDownTrayIcon, 
-  LinkIcon, 
-  ExclamationCircleIcon, 
-  MinusCircleIcon,
-  ArrowPathIcon, 
-  CheckCircleIcon
-} from '@heroicons/react/24/outline';
+import {
+  Box,
+  Typography,
+  Button,
+  IconButton,
+  List,
+  ListItem,
+  ListItemIcon,
+  ListItemText,
+  CircularProgress,
+  Alert,
+  Divider,
+  Paper,
+  Tooltip
+} from '@mui/material';
+import {
+  Download as DownloadIcon,
+  Link as LinkIcon,
+  Error as ErrorIcon,
+  RemoveCircleOutline as MinusCircleIcon,
+  Refresh as RefreshIcon,
+  CheckCircle as CheckIcon
+} from '@mui/icons-material';
 import StatusBadge, { CrawlerJobStatus } from './StatusBadge';
 
 interface UrlListProps {
@@ -152,126 +167,183 @@ const UrlList: React.FC<UrlListProps> = ({ refreshTrigger }) => {
   };
 
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-lg shadow h-full">
-      <div className="p-4 border-b border-gray-200 dark:border-gray-700 flex flex-wrap justify-between items-center gap-2">
-        <h2 className="text-lg font-semibold text-gray-900 dark:text-white">URLs to Crawl</h2>
+    <Paper elevation={1} sx={{ height: '100%' }}>
+      <Box sx={{ 
+        p: 2, 
+        display: 'flex', 
+        justifyContent: 'space-between', 
+        alignItems: 'center',
+        borderBottom: 1,
+        borderColor: 'divider'
+      }}>
+        <Typography variant="h6" fontWeight="medium">
+          URLs to Crawl
+        </Typography>
         
-        <div className="flex items-center gap-2">
-          <button 
-            onClick={handleRefresh}
-            disabled={refreshing || loading}
-            className="p-1.5 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/30 rounded-md transition-colors"
-            title="Refresh URL list"
-          >
-            <ArrowPathIcon className={`h-5 w-5 ${refreshing ? 'animate-spin' : ''}`} />
-          </button>
+        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+          <Tooltip title="Refresh URL list">
+            <IconButton
+              onClick={handleRefresh}
+              disabled={refreshing || loading}
+              color="primary"
+              size="small"
+            >
+              <RefreshIcon 
+                fontSize="small"
+                sx={{ 
+                  animation: refreshing ? 'spin 1s linear infinite' : 'none',
+                  '@keyframes spin': {
+                    '0%': { transform: 'rotate(0deg)' },
+                    '100%': { transform: 'rotate(360deg)' },
+                  }
+                }} 
+              />
+            </IconButton>
+          </Tooltip>
           
-          <button 
-            className="inline-flex items-center px-3 py-1.5 border border-indigo-500 text-sm font-medium rounded-md text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/30 transition-colors"
+          <Button
+            startIcon={importingDefaults ? 
+              <CircularProgress size={16} /> : 
+              <DownloadIcon fontSize="small" />
+            }
             onClick={importDefaultUrls}
             disabled={importingDefaults}
+            variant="outlined"
+            size="small"
+            sx={{ whiteSpace: 'nowrap' }}
           >
-            {importingDefaults ? (
-              <svg className="animate-spin h-4 w-4 text-indigo-600 dark:text-indigo-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-              </svg>
-            ) : (
-              <>
-                <ArrowDownTrayIcon className="h-4 w-4 mr-1.5" />
-                <span className="whitespace-nowrap">Import Default URLs</span>
-              </>
-            )}
-          </button>
-        </div>
-      </div>
+            Import Default URLs
+          </Button>
+        </Box>
+      </Box>
       
-      <div className="p-4">
+      <Box sx={{ p: 2 }}>
         {loading ? (
-          <div className="flex items-center justify-center h-40">
-            <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-indigo-500"></div>
-          </div>
+          <Box sx={{ 
+            display: 'flex', 
+            justifyContent: 'center', 
+            alignItems: 'center',
+            height: '200px' 
+          }}>
+            <CircularProgress />
+          </Box>
         ) : error ? (
-          <div className="flex items-center gap-2 text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/20 p-3 rounded-md">
-            <ExclamationCircleIcon className="h-5 w-5 flex-shrink-0" />
-            <span>{error}</span>
-          </div>
+          <Alert 
+            severity="error" 
+            icon={<ErrorIcon />}
+            sx={{ mt: 1 }}
+          >
+            {error}
+          </Alert>
         ) : urls.length === 0 ? (
-          <div className="flex flex-col items-center justify-center py-8 px-4 text-center text-gray-500 dark:text-gray-400">
-            <MinusCircleIcon className="h-12 w-12 mb-3" />
-            <p>No URLs added yet. Add some URLs above or import the default list.</p>
-          </div>
+          <Box sx={{ 
+            display: 'flex', 
+            flexDirection: 'column', 
+            alignItems: 'center',
+            justifyContent: 'center',
+            py: 4,
+            textAlign: 'center'
+          }}>
+            <MinusCircleIcon sx={{ fontSize: 48, color: 'text.secondary', mb: 2 }} />
+            <Typography color="text.secondary">
+              No URLs added yet. Add some URLs above or import the default list.
+            </Typography>
+          </Box>
         ) : (
-          <div>
-            <div className="mb-2 text-sm font-medium text-gray-500 dark:text-gray-400">
+          <Box>
+            <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
               {urls.length} {urls.length === 1 ? 'URL' : 'URLs'}
-            </div>
+            </Typography>
             
-            <div className="overflow-hidden">
-              <div className="max-h-[300px] overflow-y-auto">
-                <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-                  {urls.map((item, index) => (
-                    <li 
-                      key={index} 
-                      className={`py-3 px-2 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors ${
-                        item.status === 'crawling' ? 'bg-blue-50 dark:bg-blue-900/10' : ''
-                      }`}
+            <Box sx={{ 
+              maxHeight: '300px', 
+              overflow: 'auto',
+              border: 1,
+              borderColor: 'divider',
+              borderRadius: 1 
+            }}>
+              <List disablePadding>
+                {urls.map((item, index) => (
+                  <>
+                    {index > 0 && <Divider />}
+                    <ListItem
+                      key={index}
+                      sx={{ 
+                        py: 1.5,
+                        bgcolor: item.status === 'crawling' ? 
+                          theme => theme.palette.mode === 'dark' ? 
+                            'rgba(30, 136, 229, 0.08)' : 'rgba(30, 136, 229, 0.04)' 
+                          : 'transparent',
+                        '&:hover': {
+                          bgcolor: theme => theme.palette.mode === 'dark' ? 
+                            'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.02)'
+                        }
+                      }}
                     >
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center space-x-3 min-w-0 flex-1">
-                          <div className="flex-shrink-0">
-                            <LinkIcon className="h-5 w-5 text-indigo-500 dark:text-indigo-400" />
-                          </div>
-                          <div className="flex-1 min-w-0">
-                            <p className="text-sm font-medium text-gray-900 dark:text-white truncate" title={item.url}>
-                              {item.url}
-                            </p>
-                            
-                            {item.message && (
-                              <p className={`text-xs mt-0.5 truncate ${
-                                item.status === 'success' ? 'text-green-600 dark:text-green-400' : 
-                                item.status === 'error' ? 'text-red-600 dark:text-red-400' :
-                                'text-gray-500 dark:text-gray-400'
-                              }`}>
-                                {item.message}
-                              </p>
-                            )}
-                          </div>
-                        </div>
-                        
-                        <div className="flex items-center ml-2 space-x-2">
-                          <StatusBadge status={item.status} />
-                          
-                          <button 
-                            className={`p-1.5 rounded-md ${
-                              item.status === 'crawling' || urls.some(u => u.status === 'crawling')
-                                ? 'text-gray-400 dark:text-gray-600 cursor-not-allowed'
-                                : 'text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/30'
-                            } transition-colors`}
-                            onClick={() => crawlSingleUrl(item.url, index)}
-                            disabled={item.status === 'crawling' || urls.some(u => u.status === 'crawling')}
-                            title="Crawl this URL individually"
+                      <ListItemIcon sx={{ minWidth: 36 }}>
+                        <LinkIcon color="primary" fontSize="small" />
+                      </ListItemIcon>
+                      
+                      <ListItemText 
+                        primary={
+                          <Typography variant="body2" fontWeight="medium" title={item.url}>
+                            {item.url}
+                          </Typography>
+                        }
+                        secondary={item.message && (
+                          <Typography 
+                            variant="caption" 
+                            component="span"
+                            color={
+                              item.status === 'success' ? 'success.main' : 
+                              item.status === 'error' ? 'error.main' : 
+                              'text.secondary'
+                            }
                           >
-                            {item.status === 'crawling' ? (
-                              <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                              </svg>
-                            ) : (
-                              <ArrowPathIcon className="h-5 w-5" />
-                            )}
-                          </button>
-                        </div>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
+                            {item.message}
+                          </Typography>
+                        )}
+                        primaryTypographyProps={{ 
+                          noWrap: true,
+                          sx: { mr: 2 } 
+                        }}
+                        secondaryTypographyProps={{ 
+                          noWrap: true 
+                        }}
+                      />
+                      
+                      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, ml: 1 }}>
+                        <StatusBadge status={item.status} />
+                        
+                        <Tooltip title="Crawl this URL individually">
+                          <span>
+                            <IconButton
+                              size="small"
+                              onClick={() => crawlSingleUrl(item.url, index)}
+                              disabled={item.status === 'crawling' || urls.some(u => u.status === 'crawling')}
+                              color="primary"
+                              sx={{
+                                opacity: item.status === 'crawling' || urls.some(u => u.status === 'crawling') ? 0.5 : 1
+                              }}
+                            >
+                              {item.status === 'crawling' ? (
+                                <CircularProgress size={20} thickness={5} />
+                              ) : (
+                                <RefreshIcon fontSize="small" />
+                              )}
+                            </IconButton>
+                          </span>
+                        </Tooltip>
+                      </Box>
+                    </ListItem>
+                  </>
+                ))}
+              </List>
+            </Box>
+          </Box>
         )}
-      </div>
-    </div>
+      </Box>
+    </Paper>
   );
 };
 
