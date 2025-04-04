@@ -1,9 +1,0 @@
-{
-	"id": "AAalNeFAjzoGUvA",
-	"json": "{\"id\":\"AAalNeFAjzoGUvA\",\"url\":\"http://findgroups.net/post/voQOD/pokemon-go\",\"uniqueKey\":\"http://findgroups.net/post/voQOD/pokemon-go\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749125948,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/post/voQOD/pokemon-go",
-	"url": "http://findgroups.net/post/voQOD/pokemon-go"
-}

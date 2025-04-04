@@ -1,9 +1,0 @@
-{
-	"id": "VZSt2kLKmU7sQVz",
-	"json": "{\"id\":\"VZSt2kLKmU7sQVz\",\"url\":\"https://telegram.me/chelsea\",\"uniqueKey\":\"https://telegram.me/chelsea\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016003,
-	"retryCount": 0,
-	"uniqueKey": "https://telegram.me/chelsea",
-	"url": "https://telegram.me/chelsea"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "KvLHhulWhCP8nB8",
-	"json": "{\"id\":\"KvLHhulWhCP8nB8\",\"url\":\"https://groupsbot.com/groups\",\"uniqueKey\":\"https://groupsbot.com/groups\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748998513,
-	"retryCount": 0,
-	"uniqueKey": "https://groupsbot.com/groups",
-	"url": "https://groupsbot.com/groups"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "6xGyjhkjeqGxL2Z",
-	"json": "{\"id\":\"6xGyjhkjeqGxL2Z\",\"url\":\"https://en.groupio.app/user/saschalicious\",\"uniqueKey\":\"https://en.groupio.app/user/saschalicious\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749239544,
-	"retryCount": 0,
-	"uniqueKey": "https://en.groupio.app/user/saschalicious",
-	"url": "https://en.groupio.app/user/saschalicious"
-}

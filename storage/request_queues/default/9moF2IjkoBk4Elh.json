@@ -1,9 +1,0 @@
-{
-	"id": "9moF2IjkoBk4Elh",
-	"json": "{\"id\":\"9moF2IjkoBk4Elh\",\"url\":\"https://community.make.com/t/extracting-multiple-arrays-from-an-object/74839\",\"loadedUrl\":\"https://community.make.com/t/extracting-multiple-arrays-from-an-object/74839\",\"uniqueKey\":\"https://community.make.com/t/extracting-multiple-arrays-from-an-object/74839\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:50:49.119Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/extracting-multiple-arrays-from-an-object/74839",
-	"url": "https://community.make.com/t/extracting-multiple-arrays-from-an-object/74839"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "oGMuZYR9eG1NhT5",
-	"json": "{\"id\":\"oGMuZYR9eG1NhT5\",\"url\":\"https://wagrouplinks.net/sitemap_index.xml\",\"uniqueKey\":\"https://wagrouplinks.net/sitemap_index.xml\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749006279,
-	"retryCount": 0,
-	"uniqueKey": "https://wagrouplinks.net/sitemap_index.xml",
-	"url": "https://wagrouplinks.net/sitemap_index.xml"
-}

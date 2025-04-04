@@ -1,9 +1,0 @@
-{
-	"id": "lMhIsebTD6C0Ess",
-	"json": "{\"id\":\"lMhIsebTD6C0Ess\",\"url\":\"https://en.groupio.app/group/join/whatsapp-group-31713\",\"loadedUrl\":\"https://en.groupio.app/group/join/whatsapp-group-31713\",\"uniqueKey\":\"https://en.groupio.app/group/join/whatsapp-group-31713\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:49:03.125Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://en.groupio.app/group/join/whatsapp-group-31713",
-	"url": "https://en.groupio.app/group/join/whatsapp-group-31713"
-}

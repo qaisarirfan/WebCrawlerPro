@@ -1,9 +1,0 @@
-{
-	"id": "7ud4ASVxEfFSYxF",
-	"json": "{\"id\":\"7ud4ASVxEfFSYxF\",\"url\":\"https://wa.waziper.com/scottishgaelic\",\"uniqueKey\":\"https://wa.waziper.com/scottishgaelic\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007859,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/scottishgaelic",
-	"url": "https://wa.waziper.com/scottishgaelic"
-}

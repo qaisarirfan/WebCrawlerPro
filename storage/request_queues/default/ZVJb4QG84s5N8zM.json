@@ -1,9 +1,0 @@
-{
-	"id": "ZVJb4QG84s5N8zM",
-	"json": "{\"id\":\"ZVJb4QG84s5N8zM\",\"url\":\"https://t.me/free_deals_amazon_myntra\",\"uniqueKey\":\"https://t.me/free_deals_amazon_myntra\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749015912,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/free_deals_amazon_myntra",
-	"url": "https://t.me/free_deals_amazon_myntra"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "SQH1Ab2Uigub4E4",
-	"json": "{\"id\":\"SQH1Ab2Uigub4E4\",\"url\":\"https://groupslinker.com/medical/\",\"uniqueKey\":\"https://groupslinker.com/medical\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748998641,
-	"retryCount": 0,
-	"uniqueKey": "https://groupslinker.com/medical",
-	"url": "https://groupslinker.com/medical/"
-}

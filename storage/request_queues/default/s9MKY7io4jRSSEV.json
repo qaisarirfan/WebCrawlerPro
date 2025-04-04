@@ -1,9 +1,0 @@
-{
-	"id": "s9MKY7io4jRSSEV",
-	"json": "{\"id\":\"s9MKY7io4jRSSEV\",\"url\":\"https://whatslinkhub.com\",\"loadedUrl\":\"https://whatslinkhub.com/\",\"uniqueKey\":\"https://whatslinkhub.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:30.265Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://whatslinkhub.com",
-	"url": "https://whatslinkhub.com"
-}

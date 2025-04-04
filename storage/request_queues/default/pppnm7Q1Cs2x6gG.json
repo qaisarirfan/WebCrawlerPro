@@ -1,9 +1,0 @@
-{
-	"id": "pppnm7Q1Cs2x6gG",
-	"json": "{\"id\":\"pppnm7Q1Cs2x6gG\",\"url\":\"https://timelines.ai/salesforce-and-whatsapp-integration-playbook/\",\"uniqueKey\":\"https://timelines.ai/salesforce-and-whatsapp-integration-playbook\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749005306,
-	"retryCount": 0,
-	"uniqueKey": "https://timelines.ai/salesforce-and-whatsapp-integration-playbook",
-	"url": "https://timelines.ai/salesforce-and-whatsapp-integration-playbook/"
-}

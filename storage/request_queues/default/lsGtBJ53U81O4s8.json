@@ -1,9 +1,0 @@
-{
-	"id": "lsGtBJ53U81O4s8",
-	"json": "{\"id\":\"lsGtBJ53U81O4s8\",\"url\":\"https://coremafia.com/category/tablets/\",\"loadedUrl\":\"https://coremafia.com/category/tablets/\",\"uniqueKey\":\"https://coremafia.com/category/tablets\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:46:36.452Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://coremafia.com/category/tablets",
-	"url": "https://coremafia.com/category/tablets/"
-}

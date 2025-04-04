@@ -1,9 +1,0 @@
-{
-	"id": "f2APELw3HQv5caj",
-	"json": "{\"id\":\"f2APELw3HQv5caj\",\"url\":\"https://forum.lingq.com/c/knowledge-base/en/getting-started/329\",\"uniqueKey\":\"https://forum.lingq.com/c/knowledge-base/en/getting-started/329\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749243995,
-	"retryCount": 0,
-	"uniqueKey": "https://forum.lingq.com/c/knowledge-base/en/getting-started/329",
-	"url": "https://forum.lingq.com/c/knowledge-base/en/getting-started/329"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "YnaDFvcmBjqXOrm",
-	"json": "{\"id\":\"YnaDFvcmBjqXOrm\",\"url\":\"https://ankuragarwal.in/my-finance-tools/\",\"uniqueKey\":\"https://ankuragarwal.in/my-finance-tools\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749019383,
-	"retryCount": 0,
-	"uniqueKey": "https://ankuragarwal.in/my-finance-tools",
-	"url": "https://ankuragarwal.in/my-finance-tools/"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "a4YMoArY7oUwcmr",
-	"json": "{\"id\":\"a4YMoArY7oUwcmr\",\"url\":\"https://forum.lingq.com/u/talarmedmig\",\"uniqueKey\":\"https://forum.lingq.com/u/talarmedmig\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749306732,
-	"retryCount": 0,
-	"uniqueKey": "https://forum.lingq.com/u/talarmedmig",
-	"url": "https://forum.lingq.com/u/talarmedmig"
-}

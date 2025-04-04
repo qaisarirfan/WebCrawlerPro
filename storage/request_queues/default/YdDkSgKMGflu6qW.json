@@ -1,9 +1,0 @@
-{
-	"id": "YdDkSgKMGflu6qW",
-	"json": "{\"id\":\"YdDkSgKMGflu6qW\",\"url\":\"https://groupslinker.com/travel/\",\"uniqueKey\":\"https://groupslinker.com/travel\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748998610,
-	"retryCount": 0,
-	"uniqueKey": "https://groupslinker.com/travel",
-	"url": "https://groupslinker.com/travel/"
-}

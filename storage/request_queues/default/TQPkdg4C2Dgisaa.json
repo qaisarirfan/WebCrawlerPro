@@ -1,9 +1,0 @@
-{
-	"id": "TQPkdg4C2Dgisaa",
-	"json": "{\"id\":\"TQPkdg4C2Dgisaa\",\"url\":\"https://www.pak24tv.net/postalcode/\",\"uniqueKey\":\"https://www.pak24tv.net/postalcode\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749019333,
-	"retryCount": 0,
-	"uniqueKey": "https://www.pak24tv.net/postalcode",
-	"url": "https://www.pak24tv.net/postalcode/"
-}

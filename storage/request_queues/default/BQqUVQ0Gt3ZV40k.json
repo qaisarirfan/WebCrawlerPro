@@ -1,9 +1,0 @@
-{
-	"id": "BQqUVQ0Gt3ZV40k",
-	"json": "{\"id\":\"BQqUVQ0Gt3ZV40k\",\"url\":\"http://findgroups.net/post/vN8e7/jobs-alerts\",\"uniqueKey\":\"http://findgroups.net/post/vN8e7/jobs-alerts\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749124649,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/post/vN8e7/jobs-alerts",
-	"url": "http://findgroups.net/post/vN8e7/jobs-alerts"
-}

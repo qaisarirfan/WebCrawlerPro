@@ -1,9 +1,0 @@
-{
-	"id": "CrKZe4XZegbiKIN",
-	"json": "{\"id\":\"CrKZe4XZegbiKIN\",\"url\":\"https://joinwpgroups.com\",\"loadedUrl\":\"https://joinwpgroups.com/\",\"uniqueKey\":\"https://joinwpgroups.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:20.520Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://joinwpgroups.com",
-	"url": "https://joinwpgroups.com"
-}

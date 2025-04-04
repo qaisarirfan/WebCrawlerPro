@@ -1,9 +1,0 @@
-{
-	"id": "UkO6eZ22ZTDWldg",
-	"json": "{\"id\":\"UkO6eZ22ZTDWldg\",\"url\":\"https://www.liveinternet.ru/rating/ru/job/\",\"uniqueKey\":\"https://www.liveinternet.ru/rating/ru/job\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749043164,
-	"retryCount": 0,
-	"uniqueKey": "https://www.liveinternet.ru/rating/ru/job",
-	"url": "https://www.liveinternet.ru/rating/ru/job/"
-}

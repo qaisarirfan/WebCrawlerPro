@@ -1,9 +1,0 @@
-{
-	"id": "J1ZrodmeK3yEt4G",
-	"json": "{\"id\":\"J1ZrodmeK3yEt4G\",\"url\":\"https://groupslinker.com/food/\",\"uniqueKey\":\"https://groupslinker.com/food\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748998637,
-	"retryCount": 0,
-	"uniqueKey": "https://groupslinker.com/food",
-	"url": "https://groupslinker.com/food/"
-}

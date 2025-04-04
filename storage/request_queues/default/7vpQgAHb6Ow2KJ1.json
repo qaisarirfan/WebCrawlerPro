@@ -1,9 +1,0 @@
-{
-	"id": "7vpQgAHb6Ow2KJ1",
-	"json": "{\"id\":\"7vpQgAHb6Ow2KJ1\",\"url\":\"https://www.groupchaton.com/search/label/Education\",\"uniqueKey\":\"https://www.groupchaton.com/search/label/Education\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749014664,
-	"retryCount": 0,
-	"uniqueKey": "https://www.groupchaton.com/search/label/Education",
-	"url": "https://www.groupchaton.com/search/label/Education"
-}

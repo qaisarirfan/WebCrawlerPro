@@ -1,9 +1,0 @@
-{
-	"id": "WDZLZpuWZhUlMO4",
-	"json": "{\"id\":\"WDZLZpuWZhUlMO4\",\"url\":\"https://t.me/bestmemes\",\"uniqueKey\":\"https://t.me/bestmemes\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749015969,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/bestmemes",
-	"url": "https://t.me/bestmemes"
-}

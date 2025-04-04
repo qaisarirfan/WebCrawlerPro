@@ -1,9 +1,0 @@
-{
-	"id": "cIsb4XYZ2pNsPm4",
-	"json": "{\"id\":\"cIsb4XYZ2pNsPm4\",\"url\":\"https://community.wanikani.com/t/userscript-nhk-easy-practice-with-wanikani-or-any-website-that-uses-ruby/49590\",\"uniqueKey\":\"https://community.wanikani.com/t/userscript-nhk-easy-practice-with-wanikani-or-any-website-that-uses-ruby/49590\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749051322,
-	"retryCount": 0,
-	"uniqueKey": "https://community.wanikani.com/t/userscript-nhk-easy-practice-with-wanikani-or-any-website-that-uses-ruby/49590",
-	"url": "https://community.wanikani.com/t/userscript-nhk-easy-practice-with-wanikani-or-any-website-that-uses-ruby/49590"
-}

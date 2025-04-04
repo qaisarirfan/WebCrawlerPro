@@ -1,9 +1,0 @@
-{
-	"id": "DB1RCGZkxm1DlZA",
-	"json": "{\"id\":\"DB1RCGZkxm1DlZA\",\"url\":\"https://t.me/Coinfarm\",\"uniqueKey\":\"https://t.me/Coinfarm\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016089,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/Coinfarm",
-	"url": "https://t.me/Coinfarm"
-}

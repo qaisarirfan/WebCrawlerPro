@@ -1,9 +1,0 @@
-{
-	"id": "PjRFqZWoYLFlyRQ",
-	"json": "{\"id\":\"PjRFqZWoYLFlyRQ\",\"url\":\"https://www.invite-link.com/terms-and-conditions/\",\"uniqueKey\":\"https://www.invite-link.com/terms-and-conditions\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017726,
-	"retryCount": 0,
-	"uniqueKey": "https://www.invite-link.com/terms-and-conditions",
-	"url": "https://www.invite-link.com/terms-and-conditions/"
-}

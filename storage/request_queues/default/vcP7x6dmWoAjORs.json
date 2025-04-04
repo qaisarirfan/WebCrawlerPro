@@ -1,9 +1,0 @@
-{
-	"id": "vcP7x6dmWoAjORs",
-	"json": "{\"id\":\"vcP7x6dmWoAjORs\",\"url\":\"https://findgroups.net/privacy-policy\",\"uniqueKey\":\"https://findgroups.net/privacy-policy\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748995534,
-	"retryCount": 0,
-	"uniqueKey": "https://findgroups.net/privacy-policy",
-	"url": "https://findgroups.net/privacy-policy"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "bznwBcHPl0Upa5u",
-	"json": "{\"id\":\"bznwBcHPl0Upa5u\",\"url\":\"https://coremafia.com/category/whatsapp/\",\"loadedUrl\":\"https://coremafia.com/category/whatsapp/\",\"uniqueKey\":\"https://coremafia.com/category/whatsapp\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:46:43.790Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://coremafia.com/category/whatsapp",
-	"url": "https://coremafia.com/category/whatsapp/"
-}

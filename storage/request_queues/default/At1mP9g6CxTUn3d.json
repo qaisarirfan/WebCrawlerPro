@@ -1,9 +1,0 @@
-{
-	"id": "At1mP9g6CxTUn3d",
-	"json": "{\"id\":\"At1mP9g6CxTUn3d\",\"url\":\"https://www.hindustantimes.com/science\",\"uniqueKey\":\"https://www.hindustantimes.com/science\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017358,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/science",
-	"url": "https://www.hindustantimes.com/science"
-}

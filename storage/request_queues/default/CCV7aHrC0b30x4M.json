@@ -1,9 +1,0 @@
-{
-	"id": "CCV7aHrC0b30x4M",
-	"json": "{\"id\":\"CCV7aHrC0b30x4M\",\"url\":\"https://nl.groupio.app/?style=list\",\"uniqueKey\":\"https://nl.groupio.app?style=list\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749245103,
-	"retryCount": 0,
-	"uniqueKey": "https://nl.groupio.app?style=list",
-	"url": "https://nl.groupio.app/?style=list"
-}

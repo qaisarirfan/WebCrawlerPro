@@ -1,9 +1,0 @@
-{
-	"id": "tb50vuRKWZLekn2",
-	"json": "{\"id\":\"tb50vuRKWZLekn2\",\"url\":\"https://grplinks.com\",\"loadedUrl\":\"https://grplinks.com/\",\"uniqueKey\":\"https://grplinks.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:18.247Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://grplinks.com",
-	"url": "https://grplinks.com"
-}

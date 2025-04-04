@@ -1,9 +1,0 @@
-{
-	"id": "LoAV2LQtL7dh4JM",
-	"json": "{\"id\":\"LoAV2LQtL7dh4JM\",\"url\":\"http://findgroups.net/post/enOOH/naukri-job-search\",\"uniqueKey\":\"http://findgroups.net/post/enOOH/naukri-job-search\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749124831,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/post/enOOH/naukri-job-search",
-	"url": "http://findgroups.net/post/enOOH/naukri-job-search"
-}

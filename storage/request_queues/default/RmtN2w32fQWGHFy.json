@@ -1,9 +1,0 @@
-{
-	"id": "RmtN2w32fQWGHFy",
-	"json": "{\"id\":\"RmtN2w32fQWGHFy\",\"url\":\"https://community.wanikani.com/categories\",\"loadedUrl\":\"https://community.wanikani.com/categories\",\"uniqueKey\":\"https://community.wanikani.com/categories\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:45:28.318Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://community.wanikani.com/categories",
-	"url": "https://community.wanikani.com/categories"
-}

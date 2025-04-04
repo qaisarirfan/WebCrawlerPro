@@ -1,9 +1,0 @@
-{
-	"id": "MviUJjt5kkMwvSE",
-	"json": "{\"id\":\"MviUJjt5kkMwvSE\",\"url\":\"https://groupsbot.com/terms-and-conditions.php\",\"uniqueKey\":\"https://groupsbot.com/terms-and-conditions.php\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748998561,
-	"retryCount": 0,
-	"uniqueKey": "https://groupsbot.com/terms-and-conditions.php",
-	"url": "https://groupsbot.com/terms-and-conditions.php"
-}

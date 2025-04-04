@@ -1,9 +1,0 @@
-{
-	"id": "TtGfKjw5SIuPqfU",
-	"json": "{\"id\":\"TtGfKjw5SIuPqfU\",\"url\":\"https://www.hottg.com\",\"loadedUrl\":\"https://www.hottg.com/\",\"uniqueKey\":\"https://www.hottg.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:37.248Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hottg.com",
-	"url": "https://www.hottg.com"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "rT8T4KJnfEfkMOh",
-	"json": "{\"id\":\"rT8T4KJnfEfkMOh\",\"url\":\"https://groupda.group/category/technology/\",\"uniqueKey\":\"https://groupda.group/category/technology\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748996121,
-	"retryCount": 0,
-	"uniqueKey": "https://groupda.group/category/technology",
-	"url": "https://groupda.group/category/technology/"
-}

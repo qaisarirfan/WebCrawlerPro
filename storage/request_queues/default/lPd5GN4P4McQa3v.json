@@ -1,9 +1,0 @@
-{
-	"id": "lPd5GN4P4McQa3v",
-	"json": "{\"id\":\"lPd5GN4P4McQa3v\",\"url\":\"https://societieslink.com/business/\",\"uniqueKey\":\"https://societieslink.com/business\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749005520,
-	"retryCount": 0,
-	"uniqueKey": "https://societieslink.com/business",
-	"url": "https://societieslink.com/business/"
-}

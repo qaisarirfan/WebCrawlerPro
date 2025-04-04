@@ -1,9 +1,0 @@
-{
-	"id": "f1QUmxAaS3iioXr",
-	"json": "{\"id\":\"f1QUmxAaS3iioXr\",\"url\":\"https://justin-travel.com/places-to-visit-in-goa/\",\"uniqueKey\":\"https://justin-travel.com/places-to-visit-in-goa\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749001766,
-	"retryCount": 0,
-	"uniqueKey": "https://justin-travel.com/places-to-visit-in-goa",
-	"url": "https://justin-travel.com/places-to-visit-in-goa/"
-}

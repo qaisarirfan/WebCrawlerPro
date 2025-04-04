@@ -1,9 +1,0 @@
-{
-	"id": "oFnMhFWjcEpQfhR",
-	"json": "{\"id\":\"oFnMhFWjcEpQfhR\",\"url\":\"https://groupda.group/category/religion/\",\"uniqueKey\":\"https://groupda.group/category/religion\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748996154,
-	"retryCount": 0,
-	"uniqueKey": "https://groupda.group/category/religion",
-	"url": "https://groupda.group/category/religion/"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "oYOIg5HAZb9eXi7",
-	"json": "{\"id\":\"oYOIg5HAZb9eXi7\",\"url\":\"https://forum.lingq.com/u/DaveDaveDave\",\"uniqueKey\":\"https://forum.lingq.com/u/DaveDaveDave\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749238724,
-	"retryCount": 0,
-	"uniqueKey": "https://forum.lingq.com/u/DaveDaveDave",
-	"url": "https://forum.lingq.com/u/DaveDaveDave"
-}

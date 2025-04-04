@@ -1,9 +1,0 @@
-{
-	"id": "i9p2qBUmnlg6Xzy",
-	"json": "{\"id\":\"i9p2qBUmnlg6Xzy\",\"url\":\"https://findgroups.net/category-dtl/students-and-universities\",\"loadedUrl\":\"https://findgroups.net/category-dtl/students-and-universities\",\"uniqueKey\":\"https://findgroups.net/category-dtl/students-and-universities\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:50:46.334Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://findgroups.net/category-dtl/students-and-universities",
-	"url": "https://findgroups.net/category-dtl/students-and-universities"
-}

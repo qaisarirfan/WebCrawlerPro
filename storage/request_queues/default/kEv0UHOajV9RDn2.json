@@ -1,9 +1,0 @@
-{
-	"id": "kEv0UHOajV9RDn2",
-	"json": "{\"id\":\"kEv0UHOajV9RDn2\",\"url\":\"https://www.hindustantimes.com/cricket/players/tim-david-67402\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket/players/tim-david-67402\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017325,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cricket/players/tim-david-67402",
-	"url": "https://www.hindustantimes.com/cricket/players/tim-david-67402"
-}

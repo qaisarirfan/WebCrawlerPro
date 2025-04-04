@@ -1,9 +1,0 @@
-{
-	"id": "735WShmsu3JHmOG",
-	"json": "{\"id\":\"735WShmsu3JHmOG\",\"url\":\"https://www.hindustantimes.com/quiz\",\"uniqueKey\":\"https://www.hindustantimes.com/quiz\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017453,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/quiz",
-	"url": "https://www.hindustantimes.com/quiz"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "kOxPAr0aPwJxiiN",
-	"json": "{\"id\":\"kOxPAr0aPwJxiiN\",\"url\":\"https://coremafia.com/az-whatsapp/\",\"uniqueKey\":\"https://coremafia.com/az-whatsapp\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749203786,
-	"retryCount": 0,
-	"uniqueKey": "https://coremafia.com/az-whatsapp",
-	"url": "https://coremafia.com/az-whatsapp/"
-}

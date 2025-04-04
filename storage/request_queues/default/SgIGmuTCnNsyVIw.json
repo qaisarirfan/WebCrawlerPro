@@ -1,9 +1,0 @@
-{
-	"id": "SgIGmuTCnNsyVIw",
-	"json": "{\"id\":\"SgIGmuTCnNsyVIw\",\"url\":\"https://community.make.com/t/loop-repeat-until-the-result-is-empty/75296\",\"uniqueKey\":\"https://community.make.com/t/loop-repeat-until-the-result-is-empty/75296\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748995417,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/loop-repeat-until-the-result-is-empty/75296",
-	"url": "https://community.make.com/t/loop-repeat-until-the-result-is-empty/75296"
-}

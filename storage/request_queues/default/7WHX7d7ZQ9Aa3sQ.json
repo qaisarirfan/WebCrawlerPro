@@ -1,9 +1,0 @@
-{
-	"id": "7WHX7d7ZQ9Aa3sQ",
-	"json": "{\"id\":\"7WHX7d7ZQ9Aa3sQ\",\"url\":\"https://community.wanikani.com/u/BurnedGoose\",\"uniqueKey\":\"https://community.wanikani.com/u/BurnedGoose\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749058125,
-	"retryCount": 0,
-	"uniqueKey": "https://community.wanikani.com/u/BurnedGoose",
-	"url": "https://community.wanikani.com/u/BurnedGoose"
-}

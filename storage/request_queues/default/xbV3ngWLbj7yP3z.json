@@ -1,9 +1,0 @@
-{
-	"id": "xbV3ngWLbj7yP3z",
-	"json": "{\"id\":\"xbV3ngWLbj7yP3z\",\"url\":\"https://wappgroups.com/cities/\",\"uniqueKey\":\"https://wappgroups.com/cities\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749006042,
-	"retryCount": 0,
-	"uniqueKey": "https://wappgroups.com/cities",
-	"url": "https://wappgroups.com/cities/"
-}

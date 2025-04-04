@@ -1,9 +1,0 @@
-{
-	"id": "wR2zv5wclhEr5VB",
-	"json": "{\"id\":\"wR2zv5wclhEr5VB\",\"url\":\"https://wa.waziper.com\",\"loadedUrl\":\"https://wa.waziper.com/\",\"uniqueKey\":\"https://wa.waziper.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:27.929Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com",
-	"url": "https://wa.waziper.com"
-}

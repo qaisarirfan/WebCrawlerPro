@@ -1,9 +1,0 @@
-{
-	"id": "CcibR2lh5v2NibY",
-	"json": "{\"id\":\"CcibR2lh5v2NibY\",\"url\":\"https://community.make.com/tag/api\",\"loadedUrl\":\"https://community.make.com/tag/api\",\"uniqueKey\":\"https://community.make.com/tag/api\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:47:10.366Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/tag/api",
-	"url": "https://community.make.com/tag/api"
-}

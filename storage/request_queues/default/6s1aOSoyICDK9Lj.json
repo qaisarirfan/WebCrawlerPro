@@ -1,9 +1,0 @@
-{
-	"id": "6s1aOSoyICDK9Lj",
-	"json": "{\"id\":\"6s1aOSoyICDK9Lj\",\"url\":\"https://wa.waziper.com/family-relationships\",\"uniqueKey\":\"https://wa.waziper.com/family-relationships\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007571,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/family-relationships",
-	"url": "https://wa.waziper.com/family-relationships"
-}

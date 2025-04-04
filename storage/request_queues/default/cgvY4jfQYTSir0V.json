@@ -1,9 +1,0 @@
-{
-	"id": "cgvY4jfQYTSir0V",
-	"json": "{\"id\":\"cgvY4jfQYTSir0V\",\"url\":\"https://faq.whatsapp.com/search/\",\"uniqueKey\":\"https://faq.whatsapp.com/search\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748995379,
-	"retryCount": 0,
-	"uniqueKey": "https://faq.whatsapp.com/search",
-	"url": "https://faq.whatsapp.com/search/"
-}

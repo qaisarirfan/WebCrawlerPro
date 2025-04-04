@@ -1,9 +1,0 @@
-{
-	"id": "OmXg1lhvXRNbrnD",
-	"json": "{\"id\":\"OmXg1lhvXRNbrnD\",\"url\":\"https://groupda.group/category/blog/\",\"uniqueKey\":\"https://groupda.group/category/blog\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748996139,
-	"retryCount": 0,
-	"uniqueKey": "https://groupda.group/category/blog",
-	"url": "https://groupda.group/category/blog/"
-}

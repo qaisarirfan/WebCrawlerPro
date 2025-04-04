@@ -1,9 +1,0 @@
-{
-	"id": "G9GvNQDlDNq07Mo",
-	"json": "{\"id\":\"G9GvNQDlDNq07Mo\",\"url\":\"https://wappgroups.com/sports/\",\"uniqueKey\":\"https://wappgroups.com/sports\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749006083,
-	"retryCount": 0,
-	"uniqueKey": "https://wappgroups.com/sports",
-	"url": "https://wappgroups.com/sports/"
-}

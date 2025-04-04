@@ -1,9 +1,0 @@
-{
-	"id": "JrHj3v2EGH3HWF1",
-	"json": "{\"id\":\"JrHj3v2EGH3HWF1\",\"url\":\"https://www.nairaland.com/8388513/top-10-supermarket-chains-store\",\"uniqueKey\":\"https://www.nairaland.com/8388513/top-10-supermarket-chains-store\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749018001,
-	"retryCount": 0,
-	"uniqueKey": "https://www.nairaland.com/8388513/top-10-supermarket-chains-store",
-	"url": "https://www.nairaland.com/8388513/top-10-supermarket-chains-store"
-}

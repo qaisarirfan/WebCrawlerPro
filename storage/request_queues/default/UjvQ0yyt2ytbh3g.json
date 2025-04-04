@@ -1,9 +1,0 @@
-{
-	"id": "UjvQ0yyt2ytbh3g",
-	"json": "{\"id\":\"UjvQ0yyt2ytbh3g\",\"url\":\"https://groupslinker.com/automotive/\",\"uniqueKey\":\"https://groupslinker.com/automotive\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748998633,
-	"retryCount": 0,
-	"uniqueKey": "https://groupslinker.com/automotive",
-	"url": "https://groupslinker.com/automotive/"
-}

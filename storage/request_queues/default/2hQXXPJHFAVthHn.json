@@ -1,9 +1,0 @@
-{
-	"id": "2hQXXPJHFAVthHn",
-	"json": "{\"id\":\"2hQXXPJHFAVthHn\",\"url\":\"https://community.make.com/u/Matheus_Souza\",\"uniqueKey\":\"https://community.make.com/u/Matheus_Souza\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749128823,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/u/Matheus_Souza",
-	"url": "https://community.make.com/u/Matheus_Souza"
-}

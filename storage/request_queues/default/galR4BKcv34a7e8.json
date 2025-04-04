@@ -1,9 +1,0 @@
-{
-	"id": "galR4BKcv34a7e8",
-	"json": "{\"id\":\"galR4BKcv34a7e8\",\"url\":\"https://www.italki.com\",\"loadedUrl\":\"https://www.italki.com/\",\"uniqueKey\":\"https://www.italki.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:38.120Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.italki.com",
-	"url": "https://www.italki.com"
-}

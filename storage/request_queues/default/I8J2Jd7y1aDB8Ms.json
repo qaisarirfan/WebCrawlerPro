@@ -1,9 +1,0 @@
-{
-	"id": "I8J2Jd7y1aDB8Ms",
-	"json": "{\"id\":\"I8J2Jd7y1aDB8Ms\",\"url\":\"https://www.italki.com/en/teachers/portuguese\",\"uniqueKey\":\"https://www.italki.com/en/teachers/portuguese\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749018083,
-	"retryCount": 0,
-	"uniqueKey": "https://www.italki.com/en/teachers/portuguese",
-	"url": "https://www.italki.com/en/teachers/portuguese"
-}

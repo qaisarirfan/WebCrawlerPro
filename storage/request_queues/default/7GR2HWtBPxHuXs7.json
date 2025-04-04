@@ -1,9 +1,0 @@
-{
-	"id": "7GR2HWtBPxHuXs7",
-	"json": "{\"id\":\"7GR2HWtBPxHuXs7\",\"url\":\"https://community.make.com/t/cs-cart-connection-error/66207\",\"uniqueKey\":\"https://community.make.com/t/cs-cart-connection-error/66207\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749128806,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/cs-cart-connection-error/66207",
-	"url": "https://community.make.com/t/cs-cart-connection-error/66207"
-}

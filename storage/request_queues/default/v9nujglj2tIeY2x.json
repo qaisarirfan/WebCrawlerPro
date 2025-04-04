@@ -1,9 +1,0 @@
-{
-	"id": "v9nujglj2tIeY2x",
-	"json": "{\"id\":\"v9nujglj2tIeY2x\",\"url\":\"https://linksfunda.com\",\"loadedUrl\":\"http://ww12.linksfunda.com/?usid=20&utid=15584948904\",\"uniqueKey\":\"https://linksfunda.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:21.735Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://linksfunda.com",
-	"url": "https://linksfunda.com"
-}

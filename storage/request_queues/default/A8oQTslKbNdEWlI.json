@@ -1,9 +1,0 @@
-{
-	"id": "A8oQTslKbNdEWlI",
-	"json": "{\"id\":\"A8oQTslKbNdEWlI\",\"url\":\"https://groupwala.com/group/addgroup\",\"uniqueKey\":\"https://groupwala.com/group/addgroup\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749001500,
-	"retryCount": 0,
-	"uniqueKey": "https://groupwala.com/group/addgroup",
-	"url": "https://groupwala.com/group/addgroup"
-}

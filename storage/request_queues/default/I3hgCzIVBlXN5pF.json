@@ -1,9 +1,0 @@
-{
-	"id": "I3hgCzIVBlXN5pF",
-	"json": "{\"id\":\"I3hgCzIVBlXN5pF\",\"url\":\"https://activelinko.com\",\"loadedUrl\":\"https://activelinko.com/cgi-sys/suspendedpage.cgi\",\"uniqueKey\":\"https://activelinko.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:13.568Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://activelinko.com",
-	"url": "https://activelinko.com"
-}

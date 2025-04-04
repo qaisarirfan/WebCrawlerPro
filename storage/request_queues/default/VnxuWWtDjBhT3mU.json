@@ -1,9 +1,0 @@
-{
-	"id": "VnxuWWtDjBhT3mU",
-	"json": "{\"id\":\"VnxuWWtDjBhT3mU\",\"url\":\"https://appgrouplink.com/contact/\",\"loadedUrl\":\"https://appgrouplink.com/contact/\",\"uniqueKey\":\"https://appgrouplink.com/contact\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:44:22.887Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://appgrouplink.com/contact",
-	"url": "https://appgrouplink.com/contact/"
-}

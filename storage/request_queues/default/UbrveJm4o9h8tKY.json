@@ -1,9 +1,0 @@
-{
-	"id": "UbrveJm4o9h8tKY",
-	"json": "{\"id\":\"UbrveJm4o9h8tKY\",\"url\":\"https://community.wanikani.com/t/userscript-wanikani-item-inspector/44564\",\"uniqueKey\":\"https://community.wanikani.com/t/userscript-wanikani-item-inspector/44564\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749051492,
-	"retryCount": 0,
-	"uniqueKey": "https://community.wanikani.com/t/userscript-wanikani-item-inspector/44564",
-	"url": "https://community.wanikani.com/t/userscript-wanikani-item-inspector/44564"
-}

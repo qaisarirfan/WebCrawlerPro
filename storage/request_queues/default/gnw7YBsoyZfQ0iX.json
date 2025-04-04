@@ -1,9 +1,0 @@
-{
-	"id": "gnw7YBsoyZfQ0iX",
-	"json": "{\"id\":\"gnw7YBsoyZfQ0iX\",\"url\":\"https://www.liveinternet.ru/top/\",\"uniqueKey\":\"https://www.liveinternet.ru/top\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749043168,
-	"retryCount": 0,
-	"uniqueKey": "https://www.liveinternet.ru/top",
-	"url": "https://www.liveinternet.ru/top/"
-}

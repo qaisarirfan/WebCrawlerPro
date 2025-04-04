@@ -1,9 +1,0 @@
-{
-	"id": "yir4LUg4CkPQUoV",
-	"json": "{\"id\":\"yir4LUg4CkPQUoV\",\"url\":\"https://findgroups.net/category-dtl/pet-lovers\",\"loadedUrl\":\"https://findgroups.net/category-dtl/pet-lovers\",\"uniqueKey\":\"https://findgroups.net/category-dtl/pet-lovers\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:49:33.085Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://findgroups.net/category-dtl/pet-lovers",
-	"url": "https://findgroups.net/category-dtl/pet-lovers"
-}

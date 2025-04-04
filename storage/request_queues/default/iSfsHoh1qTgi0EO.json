@@ -1,9 +1,0 @@
-{
-	"id": "iSfsHoh1qTgi0EO",
-	"json": "{\"id\":\"iSfsHoh1qTgi0EO\",\"url\":\"https://www.nairaland.com\",\"loadedUrl\":\"https://www.nairaland.com/\",\"uniqueKey\":\"https://www.nairaland.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:38.103Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.nairaland.com",
-	"url": "https://www.nairaland.com"
-}

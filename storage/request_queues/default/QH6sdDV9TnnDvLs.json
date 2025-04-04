@@ -1,9 +1,0 @@
-{
-	"id": "QH6sdDV9TnnDvLs",
-	"json": "{\"id\":\"QH6sdDV9TnnDvLs\",\"url\":\"http://findgroups.net/category-dtl/jobs\",\"loadedUrl\":\"http://findgroups.net/category-dtl/jobs\",\"uniqueKey\":\"http://findgroups.net/category-dtl/jobs\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":3,\"errorMessages\":[\"Error: request timed out after 30 seconds.\\n    at Timeout._onTimeout (/home/runner/workspace/node_modules/@apify/timeout/cjs/index.cjs:64:68)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\",\"Error: request timed out after 30 seconds.\\n    at Timeout._onTimeout (/home/runner/workspace/node_modules/@apify/timeout/cjs/index.cjs:64:68)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\",\"Error: request timed out after 30 seconds.\\n    at Timeout._onTimeout (/home/runner/workspace/node_modules/@apify/timeout/cjs/index.cjs:64:68)\\n    at listOnTimeout (node:internal/timers:581:17)\\n    at process.processTimers (node:internal/timers:519:7)\"],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:47:54.230Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 3,
-	"uniqueKey": "http://findgroups.net/category-dtl/jobs",
-	"url": "http://findgroups.net/category-dtl/jobs"
-}

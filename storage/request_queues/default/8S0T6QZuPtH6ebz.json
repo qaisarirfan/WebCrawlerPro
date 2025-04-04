@@ -1,9 +1,0 @@
-{
-	"id": "8S0T6QZuPtH6ebz",
-	"json": "{\"id\":\"8S0T6QZuPtH6ebz\",\"url\":\"https://www.hindustantimes.com/topic/vikram-chandra-daily-wrap\",\"uniqueKey\":\"https://www.hindustantimes.com/topic/vikram-chandra-daily-wrap\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017443,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/topic/vikram-chandra-daily-wrap",
-	"url": "https://www.hindustantimes.com/topic/vikram-chandra-daily-wrap"
-}

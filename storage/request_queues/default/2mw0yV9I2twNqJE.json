@@ -1,9 +1,0 @@
-{
-	"id": "2mw0yV9I2twNqJE",
-	"json": "{\"id\":\"2mw0yV9I2twNqJE\",\"url\":\"https://www.hindustantimes.com/cricket/players/david-warner-5380\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket/players/david-warner-5380\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017327,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cricket/players/david-warner-5380",
-	"url": "https://www.hindustantimes.com/cricket/players/david-warner-5380"
-}

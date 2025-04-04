@@ -1,9 +1,0 @@
-{
-	"id": "IS5zo05KJomlWjC",
-	"json": "{\"id\":\"IS5zo05KJomlWjC\",\"url\":\"https://www.grouplinksforyou.com/search?updated-max=2025-03-17T11:49:00-07:00&max-results=7\",\"uniqueKey\":\"https://www.grouplinksforyou.com/search?max-results=7&updated-max=2025-03-17T11%3A49%3A00-07%3A00\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749013796,
-	"retryCount": 0,
-	"uniqueKey": "https://www.grouplinksforyou.com/search?max-results=7&updated-max=2025-03-17T11%3A49%3A00-07%3A00",
-	"url": "https://www.grouplinksforyou.com/search?updated-max=2025-03-17T11:49:00-07:00&max-results=7"
-}

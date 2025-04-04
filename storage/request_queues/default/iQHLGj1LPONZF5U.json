@@ -1,9 +1,0 @@
-{
-	"id": "iQHLGj1LPONZF5U",
-	"json": "{\"id\":\"iQHLGj1LPONZF5U\",\"url\":\"https://wa.waziper.com/new\",\"uniqueKey\":\"https://wa.waziper.com/new\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007891,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/new",
-	"url": "https://wa.waziper.com/new"
-}

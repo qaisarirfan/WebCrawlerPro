@@ -1,9 +1,0 @@
-{
-	"id": "B1LGke6hgMpgFUO",
-	"json": "{\"id\":\"B1LGke6hgMpgFUO\",\"url\":\"https://t.me/Bitcoin_News_Crypto\",\"uniqueKey\":\"https://t.me/Bitcoin_News_Crypto\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016085,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/Bitcoin_News_Crypto",
-	"url": "https://t.me/Bitcoin_News_Crypto"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "1nQcTCD0E88wIaW",
-	"json": "{\"id\":\"1nQcTCD0E88wIaW\",\"url\":\"https://www.hindustantimes.com/games/commuter-crossword\",\"uniqueKey\":\"https://www.hindustantimes.com/games/commuter-crossword\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017367,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/games/commuter-crossword",
-	"url": "https://www.hindustantimes.com/games/commuter-crossword"
-}

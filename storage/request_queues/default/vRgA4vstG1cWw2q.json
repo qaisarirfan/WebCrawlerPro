@@ -1,9 +1,0 @@
-{
-	"id": "vRgA4vstG1cWw2q",
-	"json": "{\"id\":\"vRgA4vstG1cWw2q\",\"url\":\"https://www.hindustantimes.com/ht-articles-for-you\",\"uniqueKey\":\"https://www.hindustantimes.com/ht-articles-for-you\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017405,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/ht-articles-for-you",
-	"url": "https://www.hindustantimes.com/ht-articles-for-you"
-}

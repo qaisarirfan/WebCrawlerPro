@@ -1,9 +1,0 @@
-{
-	"id": "7OujeRGRAJeNHFU",
-	"json": "{\"id\":\"7OujeRGRAJeNHFU\",\"url\":\"https://www.hindustantimes.com/photos/news\",\"uniqueKey\":\"https://www.hindustantimes.com/photos/news\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017446,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/photos/news",
-	"url": "https://www.hindustantimes.com/photos/news"
-}

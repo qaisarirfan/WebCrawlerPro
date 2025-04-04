@@ -1,9 +1,0 @@
-{
-	"id": "FCP1LAcc8qMWRGn",
-	"json": "{\"id\":\"FCP1LAcc8qMWRGn\",\"url\":\"https://findgroups.net/category-dtl/language-groups\",\"loadedUrl\":\"https://findgroups.net/category-dtl/language-groups\",\"uniqueKey\":\"https://findgroups.net/category-dtl/language-groups\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:48:36.951Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://findgroups.net/category-dtl/language-groups",
-	"url": "https://findgroups.net/category-dtl/language-groups"
-}

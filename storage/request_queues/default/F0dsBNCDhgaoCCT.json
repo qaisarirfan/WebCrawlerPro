@@ -1,9 +1,0 @@
-{
-	"id": "F0dsBNCDhgaoCCT",
-	"json": "{\"id\":\"F0dsBNCDhgaoCCT\",\"url\":\"https://forum.lingq.com/c/learning-french-forum-ask-a-tutor/12\",\"loadedUrl\":\"https://forum.lingq.com/c/learning-french-forum-ask-a-tutor/12\",\"uniqueKey\":\"https://forum.lingq.com/c/learning-french-forum-ask-a-tutor/12\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:48:05.354Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://forum.lingq.com/c/learning-french-forum-ask-a-tutor/12",
-	"url": "https://forum.lingq.com/c/learning-french-forum-ask-a-tutor/12"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "jSDpE1JCzXGxNp9",
-	"json": "{\"id\":\"jSDpE1JCzXGxNp9\",\"url\":\"https://www.hindustantimes.com/cricket/predictors/predictions?utm_source=htl1&utm_medium=website&utm_campaign=predictor\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket/predictors/predictions\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017108,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cricket/predictors/predictions",
-	"url": "https://www.hindustantimes.com/cricket/predictors/predictions?utm_source=htl1&utm_medium=website&utm_campaign=predictor"
-}

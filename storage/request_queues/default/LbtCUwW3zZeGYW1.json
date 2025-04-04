@@ -1,9 +1,0 @@
-{
-	"id": "LbtCUwW3zZeGYW1",
-	"json": "{\"id\":\"LbtCUwW3zZeGYW1\",\"url\":\"https://www.worldgirlportal.com/contact-us/\",\"uniqueKey\":\"https://www.worldgirlportal.com/contact-us\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749024108,
-	"retryCount": 0,
-	"uniqueKey": "https://www.worldgirlportal.com/contact-us",
-	"url": "https://www.worldgirlportal.com/contact-us/"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "VVFKt99fOgj9RJl",
-	"json": "{\"id\":\"VVFKt99fOgj9RJl\",\"url\":\"https://community.make.com/t/help-me-understand-why-these-http-get-json-parser-modules-are-acting-this-way/75091\",\"uniqueKey\":\"https://community.make.com/t/help-me-understand-why-these-http-get-json-parser-modules-are-acting-this-way/75091\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749424029,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/help-me-understand-why-these-http-get-json-parser-modules-are-acting-this-way/75091",
-	"url": "https://community.make.com/t/help-me-understand-why-these-http-get-json-parser-modules-are-acting-this-way/75091"
-}

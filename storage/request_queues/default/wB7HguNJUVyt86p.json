@@ -1,9 +1,0 @@
-{
-	"id": "wB7HguNJUVyt86p",
-	"json": "{\"id\":\"wB7HguNJUVyt86p\",\"url\":\"https://www.thewhatsgroup.com\",\"loadedUrl\":\"https://thewhatsgroup.com/\",\"uniqueKey\":\"https://www.thewhatsgroup.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:44.987Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.thewhatsgroup.com",
-	"url": "https://www.thewhatsgroup.com"
-}

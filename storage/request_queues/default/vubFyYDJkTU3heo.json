@@ -1,9 +1,0 @@
-{
-	"id": "vubFyYDJkTU3heo",
-	"json": "{\"id\":\"vubFyYDJkTU3heo\",\"url\":\"https://www.hindustantimes.com/education/competitive-exams\",\"uniqueKey\":\"https://www.hindustantimes.com/education/competitive-exams\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017297,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/education/competitive-exams",
-	"url": "https://www.hindustantimes.com/education/competitive-exams"
-}

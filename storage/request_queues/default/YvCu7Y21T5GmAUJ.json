@@ -1,9 +1,0 @@
-{
-	"id": "YvCu7Y21T5GmAUJ",
-	"json": "{\"id\":\"YvCu7Y21T5GmAUJ\",\"url\":\"https://www.hindustantimes.com/cities/chandigarh-news\",\"uniqueKey\":\"https://www.hindustantimes.com/cities/chandigarh-news\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017330,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cities/chandigarh-news",
-	"url": "https://www.hindustantimes.com/cities/chandigarh-news"
-}

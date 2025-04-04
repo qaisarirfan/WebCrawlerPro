@@ -1,9 +1,0 @@
-{
-	"id": "2obDnQ9IyB6Utdb",
-	"json": "{\"id\":\"2obDnQ9IyB6Utdb\",\"url\":\"https://www.hindustantimes.com/books\",\"uniqueKey\":\"https://www.hindustantimes.com/books\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017343,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/books",
-	"url": "https://www.hindustantimes.com/books"
-}

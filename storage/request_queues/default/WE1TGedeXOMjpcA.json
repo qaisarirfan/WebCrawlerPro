@@ -1,9 +1,0 @@
-{
-	"id": "WE1TGedeXOMjpcA",
-	"json": "{\"id\":\"WE1TGedeXOMjpcA\",\"url\":\"http://findgroups.net/post/LNFok/friends-amazon\",\"uniqueKey\":\"http://findgroups.net/post/LNFok/friends-amazon\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749124625,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/post/LNFok/friends-amazon",
-	"url": "http://findgroups.net/post/LNFok/friends-amazon"
-}

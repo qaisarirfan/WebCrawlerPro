@@ -1,9 +1,0 @@
-{
-	"id": "6I6joDWAfLNM3b3",
-	"json": "{\"id\":\"6I6joDWAfLNM3b3\",\"url\":\"https://t.me/miresult\",\"uniqueKey\":\"https://t.me/miresult\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016387,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/miresult",
-	"url": "https://t.me/miresult"
-}

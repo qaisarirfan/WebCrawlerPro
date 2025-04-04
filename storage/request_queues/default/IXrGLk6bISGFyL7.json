@@ -1,9 +1,0 @@
-{
-	"id": "IXrGLk6bISGFyL7",
-	"json": "{\"id\":\"IXrGLk6bISGFyL7\",\"url\":\"https://coremafia.com/category/phones/\",\"loadedUrl\":\"https://coremafia.com/category/phones/\",\"uniqueKey\":\"https://coremafia.com/category/phones\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:45:28.322Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://coremafia.com/category/phones",
-	"url": "https://coremafia.com/category/phones/"
-}

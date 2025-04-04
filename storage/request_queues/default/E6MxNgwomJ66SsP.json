@@ -1,9 +1,0 @@
-{
-	"id": "E6MxNgwomJ66SsP",
-	"json": "{\"id\":\"E6MxNgwomJ66SsP\",\"url\":\"https://groupda.group/category/country/\",\"uniqueKey\":\"https://groupda.group/category/country\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748996141,
-	"retryCount": 0,
-	"uniqueKey": "https://groupda.group/category/country",
-	"url": "https://groupda.group/category/country/"
-}

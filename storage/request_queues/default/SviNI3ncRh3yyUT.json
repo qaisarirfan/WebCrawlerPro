@@ -1,9 +1,0 @@
-{
-	"id": "SviNI3ncRh3yyUT",
-	"json": "{\"id\":\"SviNI3ncRh3yyUT\",\"url\":\"http://findgroups.net/coupon-dtl/all-groups?page=8\",\"uniqueKey\":\"http://findgroups.net/coupon-dtl/all-groups?page=8\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749039844,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/coupon-dtl/all-groups?page=8",
-	"url": "http://findgroups.net/coupon-dtl/all-groups?page=8"
-}

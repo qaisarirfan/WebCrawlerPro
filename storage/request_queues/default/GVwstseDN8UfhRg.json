@@ -1,9 +1,0 @@
-{
-	"id": "GVwstseDN8UfhRg",
-	"json": "{\"id\":\"GVwstseDN8UfhRg\",\"url\":\"https://waplus.io/whatsapp-sender\",\"uniqueKey\":\"https://waplus.io/whatsapp-sender\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749006213,
-	"retryCount": 0,
-	"uniqueKey": "https://waplus.io/whatsapp-sender",
-	"url": "https://waplus.io/whatsapp-sender"
-}

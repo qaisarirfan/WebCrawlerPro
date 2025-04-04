@@ -1,9 +1,0 @@
-{
-	"id": "x4JlxVrRSvEyp6j",
-	"json": "{\"id\":\"x4JlxVrRSvEyp6j\",\"url\":\"https://t.me/Crypto\",\"uniqueKey\":\"https://t.me/Crypto\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016098,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/Crypto",
-	"url": "https://t.me/Crypto"
-}

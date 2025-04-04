@@ -1,9 +1,0 @@
-{
-	"id": "HeuHSMvLXFtgNbK",
-	"json": "{\"id\":\"HeuHSMvLXFtgNbK\",\"url\":\"https://en.groupio.app/group/join/TEAM-LIPAEARN-43663\",\"uniqueKey\":\"https://en.groupio.app/group/join/TEAM-LIPAEARN-43663\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749129262,
-	"retryCount": 0,
-	"uniqueKey": "https://en.groupio.app/group/join/TEAM-LIPAEARN-43663",
-	"url": "https://en.groupio.app/group/join/TEAM-LIPAEARN-43663"
-}

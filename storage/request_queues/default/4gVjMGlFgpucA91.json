@@ -1,9 +1,0 @@
-{
-	"id": "4gVjMGlFgpucA91",
-	"json": "{\"id\":\"4gVjMGlFgpucA91\",\"url\":\"https://www.hindustantimes.com/education/exam-results\",\"uniqueKey\":\"https://www.hindustantimes.com/education/exam-results\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017347,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/education/exam-results",
-	"url": "https://www.hindustantimes.com/education/exam-results"
-}

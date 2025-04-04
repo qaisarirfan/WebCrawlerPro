@@ -1,9 +1,0 @@
-{
-	"id": "J2Ta0Qp2WrpKhJa",
-	"json": "{\"id\":\"J2Ta0Qp2WrpKhJa\",\"url\":\"https://www.liveinternet.ru/weather_show.php?city_id=\",\"uniqueKey\":\"https://www.liveinternet.ru/weather_show.php?city_id=\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749043194,
-	"retryCount": 0,
-	"uniqueKey": "https://www.liveinternet.ru/weather_show.php?city_id=",
-	"url": "https://www.liveinternet.ru/weather_show.php?city_id="
-}

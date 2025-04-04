@@ -1,9 +1,0 @@
-{
-	"id": "w5GHSgZgGVzhCLM",
-	"json": "{\"id\":\"w5GHSgZgGVzhCLM\",\"url\":\"https://groupda.com\",\"loadedUrl\":\"https://groupda.com/add/\",\"uniqueKey\":\"https://groupda.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:19.052Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://groupda.com",
-	"url": "https://groupda.com"
-}

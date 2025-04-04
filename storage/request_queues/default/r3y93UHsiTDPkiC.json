@@ -1,9 +1,0 @@
-{
-	"id": "r3y93UHsiTDPkiC",
-	"json": "{\"id\":\"r3y93UHsiTDPkiC\",\"url\":\"https://telegram.me/Delicious_Food_and_Recipes\",\"uniqueKey\":\"https://telegram.me/Delicious_Food_and_Recipes\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016188,
-	"retryCount": 0,
-	"uniqueKey": "https://telegram.me/Delicious_Food_and_Recipes",
-	"url": "https://telegram.me/Delicious_Food_and_Recipes"
-}

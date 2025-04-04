@@ -1,9 +1,0 @@
-{
-	"id": "8yQWA5Fr6GNPU6r",
-	"json": "{\"id\":\"8yQWA5Fr6GNPU6r\",\"url\":\"https://www.trustpilot.com/review/groupchaton.com\",\"uniqueKey\":\"https://www.trustpilot.com/review/groupchaton.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749014682,
-	"retryCount": 0,
-	"uniqueKey": "https://www.trustpilot.com/review/groupchaton.com",
-	"url": "https://www.trustpilot.com/review/groupchaton.com"
-}

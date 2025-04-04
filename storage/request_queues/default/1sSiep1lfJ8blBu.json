@@ -1,9 +1,0 @@
-{
-	"id": "1sSiep1lfJ8blBu",
-	"json": "{\"id\":\"1sSiep1lfJ8blBu\",\"url\":\"https://findgroups.net/category-dtl/business-and-trade-communities\",\"loadedUrl\":\"https://findgroups.net/category-dtl/business-and-trade-communities\",\"uniqueKey\":\"https://findgroups.net/category-dtl/business-and-trade-communities\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:49:58.763Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://findgroups.net/category-dtl/business-and-trade-communities",
-	"url": "https://findgroups.net/category-dtl/business-and-trade-communities"
-}

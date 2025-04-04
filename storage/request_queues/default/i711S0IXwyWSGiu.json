@@ -1,9 +1,0 @@
-{
-	"id": "i711S0IXwyWSGiu",
-	"json": "{\"id\":\"i711S0IXwyWSGiu\",\"url\":\"https://groupda.group/category/art/\",\"uniqueKey\":\"https://groupda.group/category/art\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748996138,
-	"retryCount": 0,
-	"uniqueKey": "https://groupda.group/category/art",
-	"url": "https://groupda.group/category/art/"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "oDI8JE1OnNS6LE0",
-	"json": "{\"id\":\"oDI8JE1OnNS6LE0\",\"url\":\"https://community.make.com/u/Pathfinder_Automate\",\"uniqueKey\":\"https://community.make.com/u/Pathfinder_Automate\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748995652,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/u/Pathfinder_Automate",
-	"url": "https://community.make.com/u/Pathfinder_Automate"
-}

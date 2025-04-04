@@ -1,9 +1,0 @@
-{
-	"id": "MOCoH70KzGbYCqj",
-	"json": "{\"id\":\"MOCoH70KzGbYCqj\",\"url\":\"https://www.hindustantimes.com/author/nilesh-mathur-101607411942813\",\"uniqueKey\":\"https://www.hindustantimes.com/author/nilesh-mathur-101607411942813\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017301,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/author/nilesh-mathur-101607411942813",
-	"url": "https://www.hindustantimes.com/author/nilesh-mathur-101607411942813"
-}

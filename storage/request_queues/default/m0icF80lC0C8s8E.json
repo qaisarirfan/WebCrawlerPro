@@ -1,9 +1,0 @@
-{
-	"id": "m0icF80lC0C8s8E",
-	"json": "{\"id\":\"m0icF80lC0C8s8E\",\"url\":\"https://groupsbot.com/categories/kpop\",\"uniqueKey\":\"https://groupsbot.com/categories/kpop\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748998531,
-	"retryCount": 0,
-	"uniqueKey": "https://groupsbot.com/categories/kpop",
-	"url": "https://groupsbot.com/categories/kpop"
-}

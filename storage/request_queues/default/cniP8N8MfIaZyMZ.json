@@ -1,9 +1,0 @@
-{
-	"id": "cniP8N8MfIaZyMZ",
-	"json": "{\"id\":\"cniP8N8MfIaZyMZ\",\"url\":\"https://forum.lingq.com/t/book-recommendation/73387\",\"uniqueKey\":\"https://forum.lingq.com/t/book-recommendation/73387\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749285270,
-	"retryCount": 0,
-	"uniqueKey": "https://forum.lingq.com/t/book-recommendation/73387",
-	"url": "https://forum.lingq.com/t/book-recommendation/73387"
-}

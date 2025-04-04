@@ -1,9 +1,0 @@
-{
-	"id": "3J3cAYqasty7B6x",
-	"json": "{\"id\":\"3J3cAYqasty7B6x\",\"url\":\"https://coremafia.com/category/software/\",\"uniqueKey\":\"https://coremafia.com/category/software\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749061835,
-	"retryCount": 0,
-	"uniqueKey": "https://coremafia.com/category/software",
-	"url": "https://coremafia.com/category/software/"
-}

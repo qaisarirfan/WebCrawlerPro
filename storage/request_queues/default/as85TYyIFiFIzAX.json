@@ -1,9 +1,0 @@
-{
-	"id": "as85TYyIFiFIzAX",
-	"json": "{\"id\":\"as85TYyIFiFIzAX\",\"url\":\"https://www.instagram.com/dmankur/\",\"uniqueKey\":\"https://www.instagram.com/dmankur\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749019411,
-	"retryCount": 0,
-	"uniqueKey": "https://www.instagram.com/dmankur",
-	"url": "https://www.instagram.com/dmankur/"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "ObnjhSrsSLHiZ7p",
-	"json": "{\"id\":\"ObnjhSrsSLHiZ7p\",\"url\":\"https://t.me/worldchat\",\"uniqueKey\":\"https://t.me/worldchat\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749015965,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/worldchat",
-	"url": "https://t.me/worldchat"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "YLp3Lnl8W5ZYhQ5",
-	"json": "{\"id\":\"YLp3Lnl8W5ZYhQ5\",\"url\":\"https://groupsgenie.com/category/trending-group\",\"uniqueKey\":\"https://groupsgenie.com/category/trending-group\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748998552,
-	"retryCount": 0,
-	"uniqueKey": "https://groupsgenie.com/category/trending-group",
-	"url": "https://groupsgenie.com/category/trending-group"
-}

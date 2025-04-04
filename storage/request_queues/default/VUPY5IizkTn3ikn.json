@@ -1,9 +1,0 @@
-{
-	"id": "VUPY5IizkTn3ikn",
-	"json": "{\"id\":\"VUPY5IizkTn3ikn\",\"url\":\"https://en.groupio.app/group/join/Rolling-Loud-EU-29205\",\"uniqueKey\":\"https://en.groupio.app/group/join/Rolling-Loud-EU-29205\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748995340,
-	"retryCount": 0,
-	"uniqueKey": "https://en.groupio.app/group/join/Rolling-Loud-EU-29205",
-	"url": "https://en.groupio.app/group/join/Rolling-Loud-EU-29205"
-}

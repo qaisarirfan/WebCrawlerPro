@@ -1,9 +1,0 @@
-{
-	"id": "QO8XHx5BVJY1Q39",
-	"json": "{\"id\":\"QO8XHx5BVJY1Q39\",\"url\":\"http://findgroups.net/post/eXo7Q/news-worldwide\",\"loadedUrl\":\"http://findgroups.net/post/eXo7Q/news-worldwide\",\"uniqueKey\":\"http://findgroups.net/post/eXo7Q/news-worldwide\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:44:16.211Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/post/eXo7Q/news-worldwide",
-	"url": "http://findgroups.net/post/eXo7Q/news-worldwide"
-}

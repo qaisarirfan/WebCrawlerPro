@@ -1,9 +1,0 @@
-{
-	"id": "o6kNtq9M32aUmAu",
-	"json": "{\"id\":\"o6kNtq9M32aUmAu\",\"url\":\"https://justin-travel.com/travel-guides/france-digital-nomad-guide/\",\"uniqueKey\":\"https://justin-travel.com/travel-guides/france-digital-nomad-guide\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749001752,
-	"retryCount": 0,
-	"uniqueKey": "https://justin-travel.com/travel-guides/france-digital-nomad-guide",
-	"url": "https://justin-travel.com/travel-guides/france-digital-nomad-guide/"
-}

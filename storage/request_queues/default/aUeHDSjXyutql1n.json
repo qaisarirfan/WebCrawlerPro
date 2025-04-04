@@ -1,9 +1,0 @@
-{
-	"id": "aUeHDSjXyutql1n",
-	"json": "{\"id\":\"aUeHDSjXyutql1n\",\"url\":\"https://wa.waziper.com/quechua\",\"uniqueKey\":\"https://wa.waziper.com/quechua\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007837,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/quechua",
-	"url": "https://wa.waziper.com/quechua"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "E7AGgm6AVCuQGrP",
-	"json": "{\"id\":\"E7AGgm6AVCuQGrP\",\"url\":\"https://t.me/CryptoIndicators\",\"uniqueKey\":\"https://t.me/CryptoIndicators\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016103,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/CryptoIndicators",
-	"url": "https://t.me/CryptoIndicators"
-}

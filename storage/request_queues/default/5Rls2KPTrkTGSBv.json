@@ -1,9 +1,0 @@
-{
-	"id": "5Rls2KPTrkTGSBv",
-	"json": "{\"id\":\"5Rls2KPTrkTGSBv\",\"url\":\"https://coremafia.com/screen-overlay-detected/\",\"loadedUrl\":\"https://coremafia.com/screen-overlay-detected/\",\"uniqueKey\":\"https://coremafia.com/screen-overlay-detected\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:47:09.406Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://coremafia.com/screen-overlay-detected",
-	"url": "https://coremafia.com/screen-overlay-detected/"
-}

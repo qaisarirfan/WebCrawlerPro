@@ -1,9 +1,0 @@
-{
-	"id": "8AohsMklJzFA4MG",
-	"json": "{\"id\":\"8AohsMklJzFA4MG\",\"url\":\"https://t.me/newlonchapp\",\"uniqueKey\":\"https://t.me/newlonchapp\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016497,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/newlonchapp",
-	"url": "https://t.me/newlonchapp"
-}

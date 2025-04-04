@@ -1,9 +1,0 @@
-{
-	"id": "ZOIDMhHGj5lpjnj",
-	"json": "{\"id\":\"ZOIDMhHGj5lpjnj\",\"url\":\"https://www.hottg.com/us?order=popular\",\"uniqueKey\":\"https://www.hottg.com/us?order=popular\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017215,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hottg.com/us?order=popular",
-	"url": "https://www.hottg.com/us?order=popular"
-}

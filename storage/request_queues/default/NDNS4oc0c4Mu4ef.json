@@ -1,9 +1,0 @@
-{
-	"id": "NDNS4oc0c4Mu4ef",
-	"json": "{\"id\":\"NDNS4oc0c4Mu4ef\",\"url\":\"https://findgroups.net/category-dtl/cryptocurrency\",\"loadedUrl\":\"https://findgroups.net/category-dtl/cryptocurrency\",\"uniqueKey\":\"https://findgroups.net/category-dtl/cryptocurrency\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:48:31.435Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://findgroups.net/category-dtl/cryptocurrency",
-	"url": "https://findgroups.net/category-dtl/cryptocurrency"
-}

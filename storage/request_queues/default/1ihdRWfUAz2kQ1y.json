@@ -1,9 +1,0 @@
-{
-	"id": "1ihdRWfUAz2kQ1y",
-	"json": "{\"id\":\"1ihdRWfUAz2kQ1y\",\"url\":\"https://community.make.com/tag/set-variable\",\"uniqueKey\":\"https://community.make.com/tag/set-variable\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749241843,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/tag/set-variable",
-	"url": "https://community.make.com/tag/set-variable"
-}

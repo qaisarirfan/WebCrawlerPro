@@ -1,9 +1,0 @@
-{
-	"id": "W6JMaNdzLyWfLFA",
-	"json": "{\"id\":\"W6JMaNdzLyWfLFA\",\"url\":\"https://community.make.com/tag/make-academy\",\"loadedUrl\":\"https://community.make.com/tag/make-academy\",\"uniqueKey\":\"https://community.make.com/tag/make-academy\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:48:42.177Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/tag/make-academy",
-	"url": "https://community.make.com/tag/make-academy"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "RnkAnPTihMyzZ5r",
-	"json": "{\"id\":\"RnkAnPTihMyzZ5r\",\"url\":\"https://company.italki.com/careers\",\"uniqueKey\":\"https://company.italki.com/careers\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749018116,
-	"retryCount": 0,
-	"uniqueKey": "https://company.italki.com/careers",
-	"url": "https://company.italki.com/careers"
-}

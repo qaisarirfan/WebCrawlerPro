@@ -1,9 +1,0 @@
-{
-	"id": "QFnlH58RrjWpcJI",
-	"json": "{\"id\":\"QFnlH58RrjWpcJI\",\"url\":\"https://t.me/ClashOfClans\",\"uniqueKey\":\"https://t.me/ClashOfClans\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749015923,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/ClashOfClans",
-	"url": "https://t.me/ClashOfClans"
-}

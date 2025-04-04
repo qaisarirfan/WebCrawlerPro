@@ -1,9 +1,0 @@
-{
-	"id": "pqNPtJ4AOaO6eVa",
-	"json": "{\"id\":\"pqNPtJ4AOaO6eVa\",\"url\":\"https://www.hindustantimes.com/subscriber-agreement-and-terms-of-use\",\"uniqueKey\":\"https://www.hindustantimes.com/subscriber-agreement-and-terms-of-use\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017454,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/subscriber-agreement-and-terms-of-use",
-	"url": "https://www.hindustantimes.com/subscriber-agreement-and-terms-of-use"
-}

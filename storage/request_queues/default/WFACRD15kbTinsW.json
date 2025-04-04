@@ -1,9 +1,0 @@
-{
-	"id": "WFACRD15kbTinsW",
-	"json": "{\"id\":\"WFACRD15kbTinsW\",\"url\":\"https://telegram.me/bitcoin_united_states\",\"uniqueKey\":\"https://telegram.me/bitcoin_united_states\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016238,
-	"retryCount": 0,
-	"uniqueKey": "https://telegram.me/bitcoin_united_states",
-	"url": "https://telegram.me/bitcoin_united_states"
-}

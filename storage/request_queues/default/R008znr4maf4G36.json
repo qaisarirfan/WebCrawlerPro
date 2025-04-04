@@ -1,9 +1,0 @@
-{
-	"id": "R008znr4maf4G36",
-	"json": "{\"id\":\"R008znr4maf4G36\",\"url\":\"https://ru.groupio.app/groups/allgemein\",\"uniqueKey\":\"https://ru.groupio.app/groups/allgemein\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749129284,
-	"retryCount": 0,
-	"uniqueKey": "https://ru.groupio.app/groups/allgemein",
-	"url": "https://ru.groupio.app/groups/allgemein"
-}

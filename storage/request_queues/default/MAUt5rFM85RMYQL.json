@@ -1,9 +1,0 @@
-{
-	"id": "MAUt5rFM85RMYQL",
-	"json": "{\"id\":\"MAUt5rFM85RMYQL\",\"url\":\"https://waplus.io/wa-extension\",\"uniqueKey\":\"https://waplus.io/wa-extension\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749006197,
-	"retryCount": 0,
-	"uniqueKey": "https://waplus.io/wa-extension",
-	"url": "https://waplus.io/wa-extension"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "DBthAgvaHwsrmzL",
-	"json": "{\"id\":\"DBthAgvaHwsrmzL\",\"url\":\"https://groupda.link/category/movie/\",\"uniqueKey\":\"https://groupda.link/category/movie\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748997267,
-	"retryCount": 0,
-	"uniqueKey": "https://groupda.link/category/movie",
-	"url": "https://groupda.link/category/movie/"
-}

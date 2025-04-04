@@ -1,9 +1,0 @@
-{
-	"id": "1k3BxwcRbDDH2Ls",
-	"json": "{\"id\":\"1k3BxwcRbDDH2Ls\",\"url\":\"https://wa.waziper.com/youtube\",\"uniqueKey\":\"https://wa.waziper.com/youtube\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007737,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/youtube",
-	"url": "https://wa.waziper.com/youtube"
-}

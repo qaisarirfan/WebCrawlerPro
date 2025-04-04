@@ -1,9 +1,0 @@
-{
-	"id": "hjHk8jQOOQ6ol9a",
-	"json": "{\"id\":\"hjHk8jQOOQ6ol9a\",\"url\":\"https://www.hindustantimes.com/author/sonali-kokra-101731076273906\",\"uniqueKey\":\"https://www.hindustantimes.com/author/sonali-kokra-101731076273906\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017288,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/author/sonali-kokra-101731076273906",
-	"url": "https://www.hindustantimes.com/author/sonali-kokra-101731076273906"
-}

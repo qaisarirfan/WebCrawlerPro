@@ -1,9 +1,0 @@
-{
-	"id": "KzX9saFSuM0w8cc",
-	"json": "{\"id\":\"KzX9saFSuM0w8cc\",\"url\":\"https://wa.waziper.com/romanian\",\"uniqueKey\":\"https://wa.waziper.com/romanian\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007841,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/romanian",
-	"url": "https://wa.waziper.com/romanian"
-}

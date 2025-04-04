@@ -1,9 +1,0 @@
-{
-	"id": "H6kV0peR2Eu7tzX",
-	"json": "{\"id\":\"H6kV0peR2Eu7tzX\",\"url\":\"https://www.hindustantimes.com/lifestyle/art-culture\",\"uniqueKey\":\"https://www.hindustantimes.com/lifestyle/art-culture\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017352,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/lifestyle/art-culture",
-	"url": "https://www.hindustantimes.com/lifestyle/art-culture"
-}

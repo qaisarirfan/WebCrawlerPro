@@ -1,9 +1,0 @@
-{
-	"id": "kH0LOjec7iIsd9G",
-	"json": "{\"id\":\"kH0LOjec7iIsd9G\",\"url\":\"https://community.make.com/t/get-value-in-description-jira/77116\",\"uniqueKey\":\"https://community.make.com/t/get-value-in-description-jira/77116\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749254951,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/get-value-in-description-jira/77116",
-	"url": "https://community.make.com/t/get-value-in-description-jira/77116"
-}

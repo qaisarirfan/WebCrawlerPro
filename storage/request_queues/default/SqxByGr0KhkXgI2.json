@@ -1,9 +1,0 @@
-{
-	"id": "SqxByGr0KhkXgI2",
-	"json": "{\"id\":\"SqxByGr0KhkXgI2\",\"url\":\"https://community.wanikani.com/u/HotWeather\",\"uniqueKey\":\"https://community.wanikani.com/u/HotWeather\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749051321,
-	"retryCount": 0,
-	"uniqueKey": "https://community.wanikani.com/u/HotWeather",
-	"url": "https://community.wanikani.com/u/HotWeather"
-}

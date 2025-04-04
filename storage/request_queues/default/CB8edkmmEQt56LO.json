@@ -1,9 +1,0 @@
-{
-	"id": "CB8edkmmEQt56LO",
-	"json": "{\"id\":\"CB8edkmmEQt56LO\",\"url\":\"https://www.hindustantimes.com/silver-prices\",\"uniqueKey\":\"https://www.hindustantimes.com/silver-prices\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017412,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/silver-prices",
-	"url": "https://www.hindustantimes.com/silver-prices"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "HQFxMXvYzkqU5gZ",
-	"json": "{\"id\":\"HQFxMXvYzkqU5gZ\",\"url\":\"https://en.groupio.app/groups/Marktplatz\",\"loadedUrl\":\"https://en.groupio.app/groups/Marktplatz\",\"uniqueKey\":\"https://en.groupio.app/groups/Marktplatz\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:46:40.614Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://en.groupio.app/groups/Marktplatz",
-	"url": "https://en.groupio.app/groups/Marktplatz"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "jGVZPjWEZhI6LmJ",
-	"json": "{\"id\":\"jGVZPjWEZhI6LmJ\",\"url\":\"http://findgroups.net/post/ekx6t/news\",\"uniqueKey\":\"http://findgroups.net/post/ekx6t/news\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749124771,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/post/ekx6t/news",
-	"url": "http://findgroups.net/post/ekx6t/news"
-}

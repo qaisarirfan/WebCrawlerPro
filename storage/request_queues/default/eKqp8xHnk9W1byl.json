@@ -1,9 +1,0 @@
-{
-	"id": "eKqp8xHnk9W1byl",
-	"json": "{\"id\":\"eKqp8xHnk9W1byl\",\"url\":\"https://globylink.com/my/dashboard\",\"uniqueKey\":\"https://globylink.com/my/dashboard\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748996819,
-	"retryCount": 0,
-	"uniqueKey": "https://globylink.com/my/dashboard",
-	"url": "https://globylink.com/my/dashboard"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "KvPWMGKYEDRkUaL",
-	"json": "{\"id\":\"KvPWMGKYEDRkUaL\",\"url\":\"https://www.hindustantimes.com/astrology/festival-calendar\",\"uniqueKey\":\"https://www.hindustantimes.com/astrology/festival-calendar\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017425,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/astrology/festival-calendar",
-	"url": "https://www.hindustantimes.com/astrology/festival-calendar"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "zqQsUs5ZpGftlgx",
-	"json": "{\"id\":\"zqQsUs5ZpGftlgx\",\"url\":\"https://www.hindustantimes.com/cricket/players/virat-kohli-3993\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket/players/virat-kohli-3993\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017315,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cricket/players/virat-kohli-3993",
-	"url": "https://www.hindustantimes.com/cricket/players/virat-kohli-3993"
-}

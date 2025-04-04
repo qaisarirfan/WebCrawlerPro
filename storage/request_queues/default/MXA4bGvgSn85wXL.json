@@ -1,9 +1,0 @@
-{
-	"id": "MXA4bGvgSn85wXL",
-	"json": "{\"id\":\"MXA4bGvgSn85wXL\",\"url\":\"https://community.make.com/t/make-academy-news-pagination-retrieving-all-data-from-apis/55319\",\"uniqueKey\":\"https://community.make.com/t/make-academy-news-pagination-retrieving-all-data-from-apis/55319\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749309256,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/make-academy-news-pagination-retrieving-all-data-from-apis/55319",
-	"url": "https://community.make.com/t/make-academy-news-pagination-retrieving-all-data-from-apis/55319"
-}

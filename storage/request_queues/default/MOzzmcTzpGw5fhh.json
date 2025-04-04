@@ -1,9 +1,0 @@
-{
-	"id": "MOzzmcTzpGw5fhh",
-	"json": "{\"id\":\"MOzzmcTzpGw5fhh\",\"url\":\"https://en.groupio.app/group/join/XXX-HD-45524\",\"loadedUrl\":\"https://en.groupio.app/group/join/XXX-HD-45524\",\"uniqueKey\":\"https://en.groupio.app/group/join/XXX-HD-45524\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:48:24.329Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://en.groupio.app/group/join/XXX-HD-45524",
-	"url": "https://en.groupio.app/group/join/XXX-HD-45524"
-}

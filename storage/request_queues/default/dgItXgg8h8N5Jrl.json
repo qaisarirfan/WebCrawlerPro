@@ -1,9 +1,0 @@
-{
-	"id": "dgItXgg8h8N5Jrl",
-	"json": "{\"id\":\"dgItXgg8h8N5Jrl\",\"url\":\"https://www.groupchaton.com/search/label/News\",\"uniqueKey\":\"https://www.groupchaton.com/search/label/News\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749014675,
-	"retryCount": 0,
-	"uniqueKey": "https://www.groupchaton.com/search/label/News",
-	"url": "https://www.groupchaton.com/search/label/News"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "tlgX7Nj486J5z0b",
-	"json": "{\"id\":\"tlgX7Nj486J5z0b\",\"url\":\"https://community.make.com/tag/mapping\",\"loadedUrl\":\"https://community.make.com/tag/mapping\",\"uniqueKey\":\"https://community.make.com/tag/mapping\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:50:52.182Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/tag/mapping",
-	"url": "https://community.make.com/tag/mapping"
-}

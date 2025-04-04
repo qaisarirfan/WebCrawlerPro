@@ -1,9 +1,0 @@
-{
-	"id": "plZ3xr2ryyyi3AK",
-	"json": "{\"id\":\"plZ3xr2ryyyi3AK\",\"url\":\"https://coremafia.com/about-blog/\",\"loadedUrl\":\"https://coremafia.com/about-blog/\",\"uniqueKey\":\"https://coremafia.com/about-blog\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:44:12.436Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://coremafia.com/about-blog",
-	"url": "https://coremafia.com/about-blog/"
-}

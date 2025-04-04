@@ -1,9 +1,0 @@
-{
-	"id": "LFQ86R4h4rPcMe6",
-	"json": "{\"id\":\"LFQ86R4h4rPcMe6\",\"url\":\"https://community.make.com/t/the-operation-failed-with-an-error-422-insufficient-permissions-to-create-new-select-option/77115\",\"uniqueKey\":\"https://community.make.com/t/the-operation-failed-with-an-error-422-insufficient-permissions-to-create-new-select-option/77115\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749247198,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/the-operation-failed-with-an-error-422-insufficient-permissions-to-create-new-select-option/77115",
-	"url": "https://community.make.com/t/the-operation-failed-with-an-error-422-insufficient-permissions-to-create-new-select-option/77115"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "TZGtHO3joQ5v6FB",
-	"json": "{\"id\":\"TZGtHO3joQ5v6FB\",\"url\":\"https://www.hindustantimes.com/environment\",\"uniqueKey\":\"https://www.hindustantimes.com/environment\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017357,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/environment",
-	"url": "https://www.hindustantimes.com/environment"
-}

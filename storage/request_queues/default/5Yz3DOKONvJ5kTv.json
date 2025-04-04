@@ -1,9 +1,0 @@
-{
-	"id": "5Yz3DOKONvJ5kTv",
-	"json": "{\"id\":\"5Yz3DOKONvJ5kTv\",\"url\":\"https://community.make.com/t/json-transform-to-json-does-not-escape-special-characters-in-a-string-containing-html/75366\",\"loadedUrl\":\"https://community.make.com/t/json-transform-to-json-does-not-escape-special-characters-in-a-string-containing-html/75366\",\"uniqueKey\":\"https://community.make.com/t/json-transform-to-json-does-not-escape-special-characters-in-a-string-containing-html/75366\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:50:15.044Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/json-transform-to-json-does-not-escape-special-characters-in-a-string-containing-html/75366",
-	"url": "https://community.make.com/t/json-transform-to-json-does-not-escape-special-characters-in-a-string-containing-html/75366"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "h4sJLDZLhBlNbiR",
-	"json": "{\"id\":\"h4sJLDZLhBlNbiR\",\"url\":\"https://www.youtube.com/channel/UC-7zF4kZkadrzJIxxEkCsaQ\",\"uniqueKey\":\"https://www.youtube.com/channel/UC-7zF4kZkadrzJIxxEkCsaQ\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749019410,
-	"retryCount": 0,
-	"uniqueKey": "https://www.youtube.com/channel/UC-7zF4kZkadrzJIxxEkCsaQ",
-	"url": "https://www.youtube.com/channel/UC-7zF4kZkadrzJIxxEkCsaQ"
-}

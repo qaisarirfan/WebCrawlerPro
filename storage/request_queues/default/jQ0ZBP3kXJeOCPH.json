@@ -1,9 +1,0 @@
-{
-	"id": "jQ0ZBP3kXJeOCPH",
-	"json": "{\"id\":\"jQ0ZBP3kXJeOCPH\",\"url\":\"https://www.neargroups.com/discord\",\"uniqueKey\":\"https://www.neargroups.com/discord\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749018649,
-	"retryCount": 0,
-	"uniqueKey": "https://www.neargroups.com/discord",
-	"url": "https://www.neargroups.com/discord"
-}

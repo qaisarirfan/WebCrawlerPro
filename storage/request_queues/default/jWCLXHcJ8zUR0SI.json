@@ -1,9 +1,0 @@
-{
-	"id": "jWCLXHcJ8zUR0SI",
-	"json": "{\"id\":\"jWCLXHcJ8zUR0SI\",\"url\":\"https://community.make.com/t/get-a-file-folder-path-for-an-id-keeps-adding-a-dot-to-the-output/77491\",\"uniqueKey\":\"https://community.make.com/t/get-a-file-folder-path-for-an-id-keeps-adding-a-dot-to-the-output/77491\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749241856,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/get-a-file-folder-path-for-an-id-keeps-adding-a-dot-to-the-output/77491",
-	"url": "https://community.make.com/t/get-a-file-folder-path-for-an-id-keeps-adding-a-dot-to-the-output/77491"
-}

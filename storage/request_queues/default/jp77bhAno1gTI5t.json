@@ -1,9 +1,0 @@
-{
-	"id": "jp77bhAno1gTI5t",
-	"json": "{\"id\":\"jp77bhAno1gTI5t\",\"url\":\"https://wappgroups.com\",\"loadedUrl\":\"https://wappgroups.com/\",\"uniqueKey\":\"https://wappgroups.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:26.261Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://wappgroups.com",
-	"url": "https://wappgroups.com"
-}

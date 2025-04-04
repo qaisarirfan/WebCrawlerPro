@@ -1,9 +1,0 @@
-{
-	"id": "r1VAgtvzTYv8R35",
-	"json": "{\"id\":\"r1VAgtvzTYv8R35\",\"url\":\"https://telegram.me/memes\",\"uniqueKey\":\"https://telegram.me/memes\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016209,
-	"retryCount": 0,
-	"uniqueKey": "https://telegram.me/memes",
-	"url": "https://telegram.me/memes"
-}

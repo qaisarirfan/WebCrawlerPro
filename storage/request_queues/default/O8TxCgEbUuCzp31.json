@@ -1,9 +1,0 @@
-{
-	"id": "O8TxCgEbUuCzp31",
-	"json": "{\"id\":\"O8TxCgEbUuCzp31\",\"url\":\"https://www.smarttechbuzz.org/category/gadgets/\",\"uniqueKey\":\"https://www.smarttechbuzz.org/category/gadgets\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749019892,
-	"retryCount": 0,
-	"uniqueKey": "https://www.smarttechbuzz.org/category/gadgets",
-	"url": "https://www.smarttechbuzz.org/category/gadgets/"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "Djf3bbQtLThFJtD",
-	"json": "{\"id\":\"Djf3bbQtLThFJtD\",\"url\":\"https://groupio.app/groups/best\",\"uniqueKey\":\"https://groupio.app/groups/best\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749248813,
-	"retryCount": 0,
-	"uniqueKey": "https://groupio.app/groups/best",
-	"url": "https://groupio.app/groups/best"
-}

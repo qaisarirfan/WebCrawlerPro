@@ -1,9 +1,0 @@
-{
-	"id": "iNVEUro2NkXNwCa",
-	"json": "{\"id\":\"iNVEUro2NkXNwCa\",\"url\":\"https://www.italki.com/en/signin/sso?return_to=https%3A%2F%2Fsupport.italki.com%2Fhc%2Fen-us%2Farticles%2F215325898-italki-Teacher-Policies-Teacher-Code-of-Conduct\",\"uniqueKey\":\"https://www.italki.com/en/signin/sso?return_to=https%3A%2F%2Fsupport.italki.com%2Fhc%2Fen-us%2Farticles%2F215325898-italki-Teacher-Policies-Teacher-Code-of-Conduct\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749018095,
-	"retryCount": 0,
-	"uniqueKey": "https://www.italki.com/en/signin/sso?return_to=https%3A%2F%2Fsupport.italki.com%2Fhc%2Fen-us%2Farticles%2F215325898-italki-Teacher-Policies-Teacher-Code-of-Conduct",
-	"url": "https://www.italki.com/en/signin/sso?return_to=https%3A%2F%2Fsupport.italki.com%2Fhc%2Fen-us%2Farticles%2F215325898-italki-Teacher-Policies-Teacher-Code-of-Conduct"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "tVNGtn4tsw6FvrE",
-	"json": "{\"id\":\"tVNGtn4tsw6FvrE\",\"url\":\"https://www.hindustantimes.com/topic/love-horoscope\",\"uniqueKey\":\"https://www.hindustantimes.com/topic/love-horoscope\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017421,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/topic/love-horoscope",
-	"url": "https://www.hindustantimes.com/topic/love-horoscope"
-}

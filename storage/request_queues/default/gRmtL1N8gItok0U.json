@@ -1,9 +1,0 @@
-{
-	"id": "gRmtL1N8gItok0U",
-	"json": "{\"id\":\"gRmtL1N8gItok0U\",\"url\":\"https://community.wanikani.com/c/site-feedback\",\"uniqueKey\":\"https://community.wanikani.com/c/site-feedback\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749131160,
-	"retryCount": 0,
-	"uniqueKey": "https://community.wanikani.com/c/site-feedback",
-	"url": "https://community.wanikani.com/c/site-feedback"
-}

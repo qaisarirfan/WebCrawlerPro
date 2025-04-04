@@ -1,9 +1,0 @@
-{
-	"id": "VFVNUsGL1uUCqsK",
-	"json": "{\"id\":\"VFVNUsGL1uUCqsK\",\"url\":\"https://www.hindustantimes.com/elections/upcoming-elections-in-india\",\"uniqueKey\":\"https://www.hindustantimes.com/elections/upcoming-elections-in-india\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017345,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/elections/upcoming-elections-in-india",
-	"url": "https://www.hindustantimes.com/elections/upcoming-elections-in-india"
-}

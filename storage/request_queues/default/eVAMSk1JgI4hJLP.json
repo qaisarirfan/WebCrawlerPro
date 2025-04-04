@@ -1,9 +1,0 @@
-{
-	"id": "eVAMSk1JgI4hJLP",
-	"json": "{\"id\":\"eVAMSk1JgI4hJLP\",\"url\":\"https://community.make.com/t/sum-of-values-from-a-collection/75911\",\"uniqueKey\":\"https://community.make.com/t/sum-of-values-from-a-collection/75911\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749254972,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/sum-of-values-from-a-collection/75911",
-	"url": "https://community.make.com/t/sum-of-values-from-a-collection/75911"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "J2nzzN7ujY6xQIi",
-	"json": "{\"id\":\"J2nzzN7ujY6xQIi\",\"url\":\"https://en.groupio.app/group/join/my-private-room-2306\",\"uniqueKey\":\"https://en.groupio.app/group/join/my-private-room-2306\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749245069,
-	"retryCount": 0,
-	"uniqueKey": "https://en.groupio.app/group/join/my-private-room-2306",
-	"url": "https://en.groupio.app/group/join/my-private-room-2306"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "jE930rRMyEbbpkw",
-	"json": "{\"id\":\"jE930rRMyEbbpkw\",\"url\":\"https://t.me/photoshoot_poses\",\"uniqueKey\":\"https://t.me/photoshoot_poses\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016159,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/photoshoot_poses",
-	"url": "https://t.me/photoshoot_poses"
-}

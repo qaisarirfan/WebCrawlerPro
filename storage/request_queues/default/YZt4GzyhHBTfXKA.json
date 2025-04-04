@@ -1,9 +1,0 @@
-{
-	"id": "YZt4GzyhHBTfXKA",
-	"json": "{\"id\":\"YZt4GzyhHBTfXKA\",\"url\":\"https://waplus.io/whatsapp-quick-reply\",\"uniqueKey\":\"https://waplus.io/whatsapp-quick-reply\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749006088,
-	"retryCount": 0,
-	"uniqueKey": "https://waplus.io/whatsapp-quick-reply",
-	"url": "https://waplus.io/whatsapp-quick-reply"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "oWEKg4Twc30HKgx",
-	"json": "{\"id\":\"oWEKg4Twc30HKgx\",\"url\":\"https://globylink.com/whatsapp/countries\",\"uniqueKey\":\"https://globylink.com/whatsapp/countries\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748996815,
-	"retryCount": 0,
-	"uniqueKey": "https://globylink.com/whatsapp/countries",
-	"url": "https://globylink.com/whatsapp/countries"
-}

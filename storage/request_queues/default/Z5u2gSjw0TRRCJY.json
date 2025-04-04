@@ -1,9 +1,0 @@
-{
-	"id": "Z5u2gSjw0TRRCJY",
-	"json": "{\"id\":\"Z5u2gSjw0TRRCJY\",\"url\":\"https://www.italki.com/en/partnerships\",\"uniqueKey\":\"https://www.italki.com/en/partnerships\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749018105,
-	"retryCount": 0,
-	"uniqueKey": "https://www.italki.com/en/partnerships",
-	"url": "https://www.italki.com/en/partnerships"
-}

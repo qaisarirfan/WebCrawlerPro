@@ -1,9 +1,0 @@
-{
-	"id": "nvBS51CkZ4YJOfy",
-	"json": "{\"id\":\"nvBS51CkZ4YJOfy\",\"url\":\"https://accounts.hindustantimes.com/ht/manage-subscription\",\"uniqueKey\":\"https://accounts.hindustantimes.com/ht/manage-subscription\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017401,
-	"retryCount": 0,
-	"uniqueKey": "https://accounts.hindustantimes.com/ht/manage-subscription",
-	"url": "https://accounts.hindustantimes.com/ht/manage-subscription"
-}

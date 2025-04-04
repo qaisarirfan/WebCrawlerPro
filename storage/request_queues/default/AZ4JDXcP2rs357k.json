@@ -1,9 +1,0 @@
-{
-	"id": "AZ4JDXcP2rs357k",
-	"json": "{\"id\":\"AZ4JDXcP2rs357k\",\"url\":\"https://accounts.hindustantimes.com/ht/userplan?utm_source=Ecowidget&utm_medium=tech&utm_campaign=hteco3999&utm_id=EcoCampaign\",\"uniqueKey\":\"https://accounts.hindustantimes.com/ht/userplan\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017271,
-	"retryCount": 0,
-	"uniqueKey": "https://accounts.hindustantimes.com/ht/userplan",
-	"url": "https://accounts.hindustantimes.com/ht/userplan?utm_source=Ecowidget&utm_medium=tech&utm_campaign=hteco3999&utm_id=EcoCampaign"
-}

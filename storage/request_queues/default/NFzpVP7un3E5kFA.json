@@ -1,9 +1,0 @@
-{
-	"id": "NFzpVP7un3E5kFA",
-	"json": "{\"id\":\"NFzpVP7un3E5kFA\",\"url\":\"https://www.nairaland.com/science\",\"uniqueKey\":\"https://www.nairaland.com/science\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017979,
-	"retryCount": 0,
-	"uniqueKey": "https://www.nairaland.com/science",
-	"url": "https://www.nairaland.com/science"
-}

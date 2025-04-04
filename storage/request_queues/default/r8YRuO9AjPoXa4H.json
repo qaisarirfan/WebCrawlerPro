@@ -1,9 +1,0 @@
-{
-	"id": "r8YRuO9AjPoXa4H",
-	"json": "{\"id\":\"r8YRuO9AjPoXa4H\",\"url\":\"https://forum.lingq.com/tag/beginner\",\"uniqueKey\":\"https://forum.lingq.com/tag/beginner\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749303143,
-	"retryCount": 0,
-	"uniqueKey": "https://forum.lingq.com/tag/beginner",
-	"url": "https://forum.lingq.com/tag/beginner"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "nFv2U1pGn7ZjeYk",
-	"json": "{\"id\":\"nFv2U1pGn7ZjeYk\",\"url\":\"https://community.make.com/u/Msquare_Automation\",\"loadedUrl\":\"https://community.make.com/u/Msquare_Automation\",\"uniqueKey\":\"https://community.make.com/u/Msquare_Automation\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:47:19.432Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/u/Msquare_Automation",
-	"url": "https://community.make.com/u/Msquare_Automation"
-}

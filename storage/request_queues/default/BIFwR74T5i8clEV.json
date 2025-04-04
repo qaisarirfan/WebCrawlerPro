@@ -1,9 +1,0 @@
-{
-	"id": "BIFwR74T5i8clEV",
-	"json": "{\"id\":\"BIFwR74T5i8clEV\",\"url\":\"https://telegram.me/joinchat/AAAAAFCrT9A7VCIDim7cxQ\",\"uniqueKey\":\"https://telegram.me/joinchat/AAAAAFCrT9A7VCIDim7cxQ\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749015935,
-	"retryCount": 0,
-	"uniqueKey": "https://telegram.me/joinchat/AAAAAFCrT9A7VCIDim7cxQ",
-	"url": "https://telegram.me/joinchat/AAAAAFCrT9A7VCIDim7cxQ"
-}

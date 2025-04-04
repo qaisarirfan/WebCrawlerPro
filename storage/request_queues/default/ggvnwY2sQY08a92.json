@@ -1,9 +1,0 @@
-{
-	"id": "ggvnwY2sQY08a92",
-	"json": "{\"id\":\"ggvnwY2sQY08a92\",\"url\":\"https://waplus.io/crm/home\",\"uniqueKey\":\"https://waplus.io/crm/home\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749006242,
-	"retryCount": 0,
-	"uniqueKey": "https://waplus.io/crm/home",
-	"url": "https://waplus.io/crm/home"
-}

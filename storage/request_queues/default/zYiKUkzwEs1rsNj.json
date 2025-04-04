@@ -1,9 +1,0 @@
-{
-	"id": "zYiKUkzwEs1rsNj",
-	"json": "{\"id\":\"zYiKUkzwEs1rsNj\",\"url\":\"https://techiestechguide.com\",\"loadedUrl\":\"https://techiestechguide.com/\",\"uniqueKey\":\"https://techiestechguide.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:24.991Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://techiestechguide.com",
-	"url": "https://techiestechguide.com"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "0JwlVQAthXJc7N1",
-	"json": "{\"id\":\"0JwlVQAthXJc7N1\",\"url\":\"https://www.hindustantimes.com/cities/gurugram-news\",\"uniqueKey\":\"https://www.hindustantimes.com/cities/gurugram-news\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017331,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cities/gurugram-news",
-	"url": "https://www.hindustantimes.com/cities/gurugram-news"
-}

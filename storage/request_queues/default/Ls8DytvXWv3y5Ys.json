@@ -1,9 +1,0 @@
-{
-	"id": "Ls8DytvXWv3y5Ys",
-	"json": "{\"id\":\"Ls8DytvXWv3y5Ys\",\"url\":\"https://www.hindustantimes.com/author/adrija-dey-101723776534630\",\"uniqueKey\":\"https://www.hindustantimes.com/author/adrija-dey-101723776534630\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017284,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/author/adrija-dey-101723776534630",
-	"url": "https://www.hindustantimes.com/author/adrija-dey-101723776534630"
-}

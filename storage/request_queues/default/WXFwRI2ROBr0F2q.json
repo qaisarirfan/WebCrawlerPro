@@ -1,9 +1,0 @@
-{
-	"id": "WXFwRI2ROBr0F2q",
-	"json": "{\"id\":\"WXFwRI2ROBr0F2q\",\"url\":\"https://en.groupio.app/group/join/Helene-Fischer-17905\",\"loadedUrl\":\"https://en.groupio.app/group/join/Helene-Fischer-17905\",\"uniqueKey\":\"https://en.groupio.app/group/join/Helene-Fischer-17905\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:50:48.201Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://en.groupio.app/group/join/Helene-Fischer-17905",
-	"url": "https://en.groupio.app/group/join/Helene-Fischer-17905"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "QD3DhVG0NCnMT38",
-	"json": "{\"id\":\"QD3DhVG0NCnMT38\",\"url\":\"https://community.make.com/tag/json\",\"loadedUrl\":\"https://community.make.com/tag/json\",\"uniqueKey\":\"https://community.make.com/tag/json\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:50:24.074Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/tag/json",
-	"url": "https://community.make.com/tag/json"
-}

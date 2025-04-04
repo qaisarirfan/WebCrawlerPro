@@ -1,9 +1,0 @@
-{
-	"id": "Qyi8TPXG1WjJDjC",
-	"json": "{\"id\":\"Qyi8TPXG1WjJDjC\",\"url\":\"https://www.hindustantimes.com/cricket/teams/delhi-capitals-1109\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket/teams/delhi-capitals-1109\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017312,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cricket/teams/delhi-capitals-1109",
-	"url": "https://www.hindustantimes.com/cricket/teams/delhi-capitals-1109"
-}

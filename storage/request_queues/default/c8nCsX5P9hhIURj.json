@@ -1,9 +1,0 @@
-{
-	"id": "c8nCsX5P9hhIURj",
-	"json": "{\"id\":\"c8nCsX5P9hhIURj\",\"url\":\"https://ankuragarwal.in/terms-of-service/\",\"uniqueKey\":\"https://ankuragarwal.in/terms-of-service\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749019412,
-	"retryCount": 0,
-	"uniqueKey": "https://ankuragarwal.in/terms-of-service",
-	"url": "https://ankuragarwal.in/terms-of-service/"
-}

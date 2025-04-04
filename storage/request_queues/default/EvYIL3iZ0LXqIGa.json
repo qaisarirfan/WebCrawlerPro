@@ -1,9 +1,0 @@
-{
-	"id": "EvYIL3iZ0LXqIGa",
-	"json": "{\"id\":\"EvYIL3iZ0LXqIGa\",\"url\":\"https://community.make.com/u/Leonid_Zadorozhnykh\",\"loadedUrl\":\"https://community.make.com/u/Leonid_Zadorozhnykh\",\"uniqueKey\":\"https://community.make.com/u/Leonid_Zadorozhnykh\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:46:45.659Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/u/Leonid_Zadorozhnykh",
-	"url": "https://community.make.com/u/Leonid_Zadorozhnykh"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "92lUeqqNn4dP1S3",
-	"json": "{\"id\":\"92lUeqqNn4dP1S3\",\"url\":\"https://play.google.com/store/apps/details?id=com.whatsapp&hl=en_IN&gl=US\",\"uniqueKey\":\"https://play.google.com/store/apps/details?gl=US&hl=en_IN&id=com.whatsapp\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749025185,
-	"retryCount": 0,
-	"uniqueKey": "https://play.google.com/store/apps/details?gl=US&hl=en_IN&id=com.whatsapp",
-	"url": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en_IN&gl=US"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "lkLdv8eeyx1HvIJ",
-	"json": "{\"id\":\"lkLdv8eeyx1HvIJ\",\"url\":\"https://telegram.me/foodornutrition\",\"uniqueKey\":\"https://telegram.me/foodornutrition\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016183,
-	"retryCount": 0,
-	"uniqueKey": "https://telegram.me/foodornutrition",
-	"url": "https://telegram.me/foodornutrition"
-}

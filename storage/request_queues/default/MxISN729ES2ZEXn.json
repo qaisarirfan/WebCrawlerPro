@@ -1,9 +1,0 @@
-{
-	"id": "MxISN729ES2ZEXn",
-	"json": "{\"id\":\"MxISN729ES2ZEXn\",\"url\":\"https://es.groupio.app/group/join/Amazon-Best-deals-33958\",\"uniqueKey\":\"https://es.groupio.app/group/join/Amazon-Best-deals-33958\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749455410,
-	"retryCount": 0,
-	"uniqueKey": "https://es.groupio.app/group/join/Amazon-Best-deals-33958",
-	"url": "https://es.groupio.app/group/join/Amazon-Best-deals-33958"
-}

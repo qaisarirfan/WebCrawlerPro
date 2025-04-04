@@ -1,9 +1,0 @@
-{
-	"id": "KmPOELy1FbtMpXZ",
-	"json": "{\"id\":\"KmPOELy1FbtMpXZ\",\"url\":\"https://www.neargroups.com/add-channel\",\"uniqueKey\":\"https://www.neargroups.com/add-channel\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749018648,
-	"retryCount": 0,
-	"uniqueKey": "https://www.neargroups.com/add-channel",
-	"url": "https://www.neargroups.com/add-channel"
-}

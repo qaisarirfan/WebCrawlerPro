@@ -1,9 +1,0 @@
-{
-	"id": "skKTwI34WzAScZI",
-	"json": "{\"id\":\"skKTwI34WzAScZI\",\"url\":\"https://www.hindustantimes.com/sports/badminton\",\"uniqueKey\":\"https://www.hindustantimes.com/sports/badminton\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017361,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/sports/badminton",
-	"url": "https://www.hindustantimes.com/sports/badminton"
-}

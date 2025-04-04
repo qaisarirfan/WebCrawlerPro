@@ -1,9 +1,0 @@
-{
-	"id": "P1nbVk09i6QVET4",
-	"json": "{\"id\":\"P1nbVk09i6QVET4\",\"url\":\"https://community.make.com/t/how-to-count-occurrences-of-a-specific-value-in-a-json-array-without-using-iterators/71539\",\"uniqueKey\":\"https://community.make.com/t/how-to-count-occurrences-of-a-specific-value-in-a-json-array-without-using-iterators/71539\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749424060,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/how-to-count-occurrences-of-a-specific-value-in-a-json-array-without-using-iterators/71539",
-	"url": "https://community.make.com/t/how-to-count-occurrences-of-a-specific-value-in-a-json-array-without-using-iterators/71539"
-}

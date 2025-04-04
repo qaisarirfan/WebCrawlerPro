@@ -1,9 +1,0 @@
-{
-	"id": "3K8ZMqssJnARk3N",
-	"json": "{\"id\":\"3K8ZMqssJnARk3N\",\"url\":\"https://www.neargroups.com\",\"loadedUrl\":\"https://www.neargroups.com/\",\"uniqueKey\":\"https://www.neargroups.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:38.823Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.neargroups.com",
-	"url": "https://www.neargroups.com"
-}

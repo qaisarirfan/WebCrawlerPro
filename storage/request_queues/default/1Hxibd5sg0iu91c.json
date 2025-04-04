@@ -1,9 +1,0 @@
-{
-	"id": "1Hxibd5sg0iu91c",
-	"json": "{\"id\":\"1Hxibd5sg0iu91c\",\"url\":\"https://www.smarttechbuzz.org/category/memes/\",\"uniqueKey\":\"https://www.smarttechbuzz.org/category/memes\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749019894,
-	"retryCount": 0,
-	"uniqueKey": "https://www.smarttechbuzz.org/category/memes",
-	"url": "https://www.smarttechbuzz.org/category/memes/"
-}

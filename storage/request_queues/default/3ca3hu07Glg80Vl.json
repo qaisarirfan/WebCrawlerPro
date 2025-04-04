@@ -1,9 +1,0 @@
-{
-	"id": "3ca3hu07Glg80Vl",
-	"json": "{\"id\":\"3ca3hu07Glg80Vl\",\"url\":\"https://forum.lingq.com/tag/lingq-subscriptions\",\"uniqueKey\":\"https://forum.lingq.com/tag/lingq-subscriptions\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749435321,
-	"retryCount": 0,
-	"uniqueKey": "https://forum.lingq.com/tag/lingq-subscriptions",
-	"url": "https://forum.lingq.com/tag/lingq-subscriptions"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "yPXYPPChFktRMxo",
-	"json": "{\"id\":\"yPXYPPChFktRMxo\",\"url\":\"https://groupouts.com/whatsapp-direct-message\",\"uniqueKey\":\"https://groupouts.com/whatsapp-direct-message\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748996818,
-	"retryCount": 0,
-	"uniqueKey": "https://groupouts.com/whatsapp-direct-message",
-	"url": "https://groupouts.com/whatsapp-direct-message"
-}

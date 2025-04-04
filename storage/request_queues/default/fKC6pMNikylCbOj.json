@@ -1,9 +1,0 @@
-{
-	"id": "fKC6pMNikylCbOj",
-	"json": "{\"id\":\"fKC6pMNikylCbOj\",\"url\":\"https://thewhatsgroup.com/page/2/\",\"uniqueKey\":\"https://thewhatsgroup.com/page/2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749024973,
-	"retryCount": 0,
-	"uniqueKey": "https://thewhatsgroup.com/page/2",
-	"url": "https://thewhatsgroup.com/page/2/"
-}

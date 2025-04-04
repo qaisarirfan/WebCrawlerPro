@@ -1,9 +1,0 @@
-{
-	"id": "gmir5nymiDDykQu",
-	"json": "{\"id\":\"gmir5nymiDDykQu\",\"url\":\"https://wa.waziper.com/basque\",\"uniqueKey\":\"https://wa.waziper.com/basque\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007853,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/basque",
-	"url": "https://wa.waziper.com/basque"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "MUBUhUXxcgFhJqj",
-	"json": "{\"id\":\"MUBUhUXxcgFhJqj\",\"url\":\"https://community.make.com/t/unpacking-response-in-vapi-ai-web-sdk-from-make-webhook/76791\",\"uniqueKey\":\"https://community.make.com/t/unpacking-response-in-vapi-ai-web-sdk-from-make-webhook/76791\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749259180,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/unpacking-response-in-vapi-ai-web-sdk-from-make-webhook/76791",
-	"url": "https://community.make.com/t/unpacking-response-in-vapi-ai-web-sdk-from-make-webhook/76791"
-}

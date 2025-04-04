@@ -1,9 +1,0 @@
-{
-	"id": "qj1bmNoH9ISTkiJ",
-	"json": "{\"id\":\"qj1bmNoH9ISTkiJ\",\"url\":\"https://www.liveinternet.ru/rating/ru/house/\",\"uniqueKey\":\"https://www.liveinternet.ru/rating/ru/house\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749043152,
-	"retryCount": 0,
-	"uniqueKey": "https://www.liveinternet.ru/rating/ru/house",
-	"url": "https://www.liveinternet.ru/rating/ru/house/"
-}

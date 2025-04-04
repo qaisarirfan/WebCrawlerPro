@@ -1,9 +1,0 @@
-{
-	"id": "HHZc4BdZLWedB5v",
-	"json": "{\"id\":\"HHZc4BdZLWedB5v\",\"url\":\"https://appgrouplink.com/about/\",\"loadedUrl\":\"https://appgrouplink.com/about/\",\"uniqueKey\":\"https://appgrouplink.com/about\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:43:53.865Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://appgrouplink.com/about",
-	"url": "https://appgrouplink.com/about/"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "a6OSdY1n3p28Ecr",
-	"json": "{\"id\":\"a6OSdY1n3p28Ecr\",\"url\":\"https://www.groupchaton.com/p/donations.html\",\"uniqueKey\":\"https://www.groupchaton.com/p/donations.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749014683,
-	"retryCount": 0,
-	"uniqueKey": "https://www.groupchaton.com/p/donations.html",
-	"url": "https://www.groupchaton.com/p/donations.html"
-}

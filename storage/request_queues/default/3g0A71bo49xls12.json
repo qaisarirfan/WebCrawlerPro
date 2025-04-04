@@ -1,9 +1,0 @@
-{
-	"id": "3g0A71bo49xls12",
-	"json": "{\"id\":\"3g0A71bo49xls12\",\"url\":\"https://www.gbapps.mobi/contact/\",\"uniqueKey\":\"https://www.gbapps.mobi/contact\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749013844,
-	"retryCount": 0,
-	"uniqueKey": "https://www.gbapps.mobi/contact",
-	"url": "https://www.gbapps.mobi/contact/"
-}

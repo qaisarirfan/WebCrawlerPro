@@ -1,9 +1,0 @@
-{
-	"id": "xoK27yVvYRKn9ts",
-	"json": "{\"id\":\"xoK27yVvYRKn9ts\",\"url\":\"https://www.groupchaton.com/search/label/Apps%20%26%20Software\",\"uniqueKey\":\"https://www.groupchaton.com/search/label/Apps%20%26%20Software\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749014657,
-	"retryCount": 0,
-	"uniqueKey": "https://www.groupchaton.com/search/label/Apps%20%26%20Software",
-	"url": "https://www.groupchaton.com/search/label/Apps%20%26%20Software"
-}

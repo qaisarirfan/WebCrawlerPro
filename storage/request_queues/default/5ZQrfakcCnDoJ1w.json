@@ -1,9 +1,0 @@
-{
-	"id": "5ZQrfakcCnDoJ1w",
-	"json": "{\"id\":\"5ZQrfakcCnDoJ1w\",\"url\":\"https://telegram.me/thestockopedia\",\"uniqueKey\":\"https://telegram.me/thestockopedia\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016253,
-	"retryCount": 0,
-	"uniqueKey": "https://telegram.me/thestockopedia",
-	"url": "https://telegram.me/thestockopedia"
-}

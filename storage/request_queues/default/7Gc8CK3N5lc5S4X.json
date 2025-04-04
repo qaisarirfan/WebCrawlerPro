@@ -1,9 +1,0 @@
-{
-	"id": "7Gc8CK3N5lc5S4X",
-	"json": "{\"id\":\"7Gc8CK3N5lc5S4X\",\"url\":\"https://www.nairaland.com/education\",\"uniqueKey\":\"https://www.nairaland.com/education\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017946,
-	"retryCount": 0,
-	"uniqueKey": "https://www.nairaland.com/education",
-	"url": "https://www.nairaland.com/education"
-}

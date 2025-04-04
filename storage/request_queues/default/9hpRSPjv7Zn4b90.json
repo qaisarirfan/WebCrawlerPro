@@ -1,9 +1,0 @@
-{
-	"id": "9hpRSPjv7Zn4b90",
-	"json": "{\"id\":\"9hpRSPjv7Zn4b90\",\"url\":\"https://www.neargroups.com/about-us\",\"uniqueKey\":\"https://www.neargroups.com/about-us\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749018807,
-	"retryCount": 0,
-	"uniqueKey": "https://www.neargroups.com/about-us",
-	"url": "https://www.neargroups.com/about-us"
-}

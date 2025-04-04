@@ -1,9 +1,0 @@
-{
-	"id": "KL5NAhRanO2phH6",
-	"json": "{\"id\":\"KL5NAhRanO2phH6\",\"url\":\"https://www.hindustantimes.com/cricket\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017105,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cricket",
-	"url": "https://www.hindustantimes.com/cricket"
-}

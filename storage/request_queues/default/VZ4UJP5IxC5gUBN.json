@@ -1,9 +1,0 @@
-{
-	"id": "VZ4UJP5IxC5gUBN",
-	"json": "{\"id\":\"VZ4UJP5IxC5gUBN\",\"url\":\"https://www.nairaland.com/news/2\",\"uniqueKey\":\"https://www.nairaland.com/news/2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749018090,
-	"retryCount": 0,
-	"uniqueKey": "https://www.nairaland.com/news/2",
-	"url": "https://www.nairaland.com/news/2"
-}

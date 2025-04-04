@@ -1,9 +1,0 @@
-{
-	"id": "TuMcVJ1IKnOh3Qf",
-	"json": "{\"id\":\"TuMcVJ1IKnOh3Qf\",\"url\":\"https://findgroups.net/category-dtl/friendship?page=2\",\"uniqueKey\":\"https://findgroups.net/category-dtl/friendship?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749447791,
-	"retryCount": 0,
-	"uniqueKey": "https://findgroups.net/category-dtl/friendship?page=2",
-	"url": "https://findgroups.net/category-dtl/friendship?page=2"
-}

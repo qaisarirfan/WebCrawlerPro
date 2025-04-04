@@ -1,9 +1,0 @@
-{
-	"id": "hb5uJlkqECLLcBY",
-	"json": "{\"id\":\"hb5uJlkqECLLcBY\",\"url\":\"https://telegram.me/funny\",\"uniqueKey\":\"https://telegram.me/funny\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749015962,
-	"retryCount": 0,
-	"uniqueKey": "https://telegram.me/funny",
-	"url": "https://telegram.me/funny"
-}

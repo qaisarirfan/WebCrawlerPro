@@ -1,9 +1,0 @@
-{
-	"id": "6RfAjAjVrCvdYoi",
-	"json": "{\"id\":\"6RfAjAjVrCvdYoi\",\"url\":\"https://smeruncal.online\",\"loadedUrl\":\"http://ww25.smeruncal.online/?subid1=20250404-1743-2446-a15a-3607d15f4980\",\"uniqueKey\":\"https://smeruncal.online\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:25.000Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://smeruncal.online",
-	"url": "https://smeruncal.online"
-}

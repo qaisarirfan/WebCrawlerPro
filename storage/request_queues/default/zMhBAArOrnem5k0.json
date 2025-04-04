@@ -1,9 +1,0 @@
-{
-	"id": "zMhBAArOrnem5k0",
-	"json": "{\"id\":\"zMhBAArOrnem5k0\",\"url\":\"https://www.hindustantimes.com/cricket/ipl/player-stats\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket/ipl/player-stats\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017407,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cricket/ipl/player-stats",
-	"url": "https://www.hindustantimes.com/cricket/ipl/player-stats"
-}

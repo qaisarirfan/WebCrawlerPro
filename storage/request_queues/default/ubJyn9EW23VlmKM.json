@@ -1,9 +1,0 @@
-{
-	"id": "ubJyn9EW23VlmKM",
-	"json": "{\"id\":\"ubJyn9EW23VlmKM\",\"url\":\"https://waplus.io/broadcast-message\",\"uniqueKey\":\"https://waplus.io/broadcast-message\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749006150,
-	"retryCount": 0,
-	"uniqueKey": "https://waplus.io/broadcast-message",
-	"url": "https://waplus.io/broadcast-message"
-}

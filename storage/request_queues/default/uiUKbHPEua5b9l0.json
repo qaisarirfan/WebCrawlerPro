@@ -1,9 +1,0 @@
-{
-	"id": "uiUKbHPEua5b9l0",
-	"json": "{\"id\":\"uiUKbHPEua5b9l0\",\"url\":\"https://py.gruposwats.com/\",\"uniqueKey\":\"https://py.gruposwats.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749014336,
-	"retryCount": 0,
-	"uniqueKey": "https://py.gruposwats.com",
-	"url": "https://py.gruposwats.com/"
-}

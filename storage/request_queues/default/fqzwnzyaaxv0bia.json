@@ -1,9 +1,0 @@
-{
-	"id": "fqzwnzyaaxv0bia",
-	"json": "{\"id\":\"fqzwnzyaaxv0bia\",\"url\":\"http://findgroups.net/category-dtl/gamers-community\",\"loadedUrl\":\"http://findgroups.net/category-dtl/gamers-community\",\"uniqueKey\":\"http://findgroups.net/category-dtl/gamers-community\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:44:35.180Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/category-dtl/gamers-community",
-	"url": "http://findgroups.net/category-dtl/gamers-community"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "OflQ4fVZkgJ7UW1",
-	"json": "{\"id\":\"OflQ4fVZkgJ7UW1\",\"url\":\"https://www.liveinternet.ru/click\",\"loadedUrl\":\"https://www.liveinternet.ru/\",\"uniqueKey\":\"https://www.liveinternet.ru/click\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:44:03.202Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.liveinternet.ru/click",
-	"url": "https://www.liveinternet.ru/click"
-}

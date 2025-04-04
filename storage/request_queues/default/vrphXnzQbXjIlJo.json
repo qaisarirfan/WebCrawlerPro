@@ -1,9 +1,0 @@
-{
-	"id": "vrphXnzQbXjIlJo",
-	"json": "{\"id\":\"vrphXnzQbXjIlJo\",\"url\":\"https://www.hindustantimes.com/cricket/ipl/points-table\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket/ipl/points-table\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017305,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cricket/ipl/points-table",
-	"url": "https://www.hindustantimes.com/cricket/ipl/points-table"
-}

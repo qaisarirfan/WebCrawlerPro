@@ -1,9 +1,0 @@
-{
-	"id": "w6TFKtSs5W8q6p7",
-	"json": "{\"id\":\"w6TFKtSs5W8q6p7\",\"url\":\"https://t.me/pay_google\",\"uniqueKey\":\"https://t.me/pay_google\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016326,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/pay_google",
-	"url": "https://t.me/pay_google"
-}

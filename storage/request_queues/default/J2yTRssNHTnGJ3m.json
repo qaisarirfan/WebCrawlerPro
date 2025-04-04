@@ -1,9 +1,0 @@
-{
-	"id": "J2yTRssNHTnGJ3m",
-	"json": "{\"id\":\"J2yTRssNHTnGJ3m\",\"url\":\"https://www.gbapps.mobi/whatsapp-mix/\",\"uniqueKey\":\"https://www.gbapps.mobi/whatsapp-mix\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749013854,
-	"retryCount": 0,
-	"uniqueKey": "https://www.gbapps.mobi/whatsapp-mix",
-	"url": "https://www.gbapps.mobi/whatsapp-mix/"
-}

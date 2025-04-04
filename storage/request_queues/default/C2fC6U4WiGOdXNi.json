@@ -1,9 +1,0 @@
-{
-	"id": "C2fC6U4WiGOdXNi",
-	"json": "{\"id\":\"C2fC6U4WiGOdXNi\",\"url\":\"https://www.hindustantimes.com/games\",\"uniqueKey\":\"https://www.hindustantimes.com/games\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017103,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/games",
-	"url": "https://www.hindustantimes.com/games"
-}

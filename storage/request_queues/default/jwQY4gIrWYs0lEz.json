@@ -1,9 +1,0 @@
-{
-	"id": "jwQY4gIrWYs0lEz",
-	"json": "{\"id\":\"jwQY4gIrWYs0lEz\",\"url\":\"https://groupda.group/category/programming/\",\"uniqueKey\":\"https://groupda.group/category/programming\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748996152,
-	"retryCount": 0,
-	"uniqueKey": "https://groupda.group/category/programming",
-	"url": "https://groupda.group/category/programming/"
-}

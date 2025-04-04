@@ -1,9 +1,0 @@
-{
-	"id": "7tygSlINKyjSbxo",
-	"json": "{\"id\":\"7tygSlINKyjSbxo\",\"url\":\"https://forum.lingq.com/t/automatic-verb-tagging/5810\",\"uniqueKey\":\"https://forum.lingq.com/t/automatic-verb-tagging/5810\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749242229,
-	"retryCount": 0,
-	"uniqueKey": "https://forum.lingq.com/t/automatic-verb-tagging/5810",
-	"url": "https://forum.lingq.com/t/automatic-verb-tagging/5810"
-}

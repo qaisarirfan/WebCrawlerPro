@@ -1,9 +1,0 @@
-{
-	"id": "4RTIkmHlQcZpHoZ",
-	"json": "{\"id\":\"4RTIkmHlQcZpHoZ\",\"url\":\"https://www.invite-link.com/get-image-from-server/\",\"uniqueKey\":\"https://www.invite-link.com/get-image-from-server\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017725,
-	"retryCount": 0,
-	"uniqueKey": "https://www.invite-link.com/get-image-from-server",
-	"url": "https://www.invite-link.com/get-image-from-server/"
-}

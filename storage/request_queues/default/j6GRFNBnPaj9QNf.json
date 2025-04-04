@@ -1,9 +1,0 @@
-{
-	"id": "j6GRFNBnPaj9QNf",
-	"json": "{\"id\":\"j6GRFNBnPaj9QNf\",\"url\":\"https://t.me/BrawlStars\",\"uniqueKey\":\"https://t.me/BrawlStars\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749015924,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/BrawlStars",
-	"url": "https://t.me/BrawlStars"
-}

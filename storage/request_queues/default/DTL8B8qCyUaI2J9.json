@@ -1,9 +1,0 @@
-{
-	"id": "DTL8B8qCyUaI2J9",
-	"json": "{\"id\":\"DTL8B8qCyUaI2J9\",\"url\":\"https://thewhatsgroup.com/category/finance/\",\"uniqueKey\":\"https://thewhatsgroup.com/category/finance\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749024881,
-	"retryCount": 0,
-	"uniqueKey": "https://thewhatsgroup.com/category/finance",
-	"url": "https://thewhatsgroup.com/category/finance/"
-}

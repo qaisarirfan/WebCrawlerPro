@@ -1,9 +1,0 @@
-{
-	"id": "bLrQmxkiC9qW1i7",
-	"json": "{\"id\":\"bLrQmxkiC9qW1i7\",\"url\":\"https://www.hindustantimes.com/education/news\",\"uniqueKey\":\"https://www.hindustantimes.com/education/news\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017348,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/education/news",
-	"url": "https://www.hindustantimes.com/education/news"
-}

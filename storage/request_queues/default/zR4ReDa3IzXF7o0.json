@@ -1,9 +1,0 @@
-{
-	"id": "zR4ReDa3IzXF7o0",
-	"json": "{\"id\":\"zR4ReDa3IzXF7o0\",\"url\":\"https://t.me/USNewsAnalysis\",\"uniqueKey\":\"https://t.me/USNewsAnalysis\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016120,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/USNewsAnalysis",
-	"url": "https://t.me/USNewsAnalysis"
-}

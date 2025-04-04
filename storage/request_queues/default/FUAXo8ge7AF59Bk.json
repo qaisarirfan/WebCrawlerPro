@@ -1,9 +1,0 @@
-{
-	"id": "FUAXo8ge7AF59Bk",
-	"json": "{\"id\":\"FUAXo8ge7AF59Bk\",\"url\":\"https://www.hindustantimes.com/cities/mumbai-news\",\"uniqueKey\":\"https://www.hindustantimes.com/cities/mumbai-news\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017215,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cities/mumbai-news",
-	"url": "https://www.hindustantimes.com/cities/mumbai-news"
-}

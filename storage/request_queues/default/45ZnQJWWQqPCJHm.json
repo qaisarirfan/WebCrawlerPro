@@ -1,9 +1,0 @@
-{
-	"id": "45ZnQJWWQqPCJHm",
-	"json": "{\"id\":\"45ZnQJWWQqPCJHm\",\"url\":\"https://techiestechguide.com/category/apple/\",\"uniqueKey\":\"https://techiestechguide.com/category/apple\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749004971,
-	"retryCount": 0,
-	"uniqueKey": "https://techiestechguide.com/category/apple",
-	"url": "https://techiestechguide.com/category/apple/"
-}

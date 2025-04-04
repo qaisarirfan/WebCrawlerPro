@@ -1,9 +1,0 @@
-{
-	"id": "g29AFtRGa8XYBMe",
-	"json": "{\"id\":\"g29AFtRGa8XYBMe\",\"url\":\"https://community.wanikani.com/privacy\",\"loadedUrl\":\"https://community.wanikani.com/privacy\",\"uniqueKey\":\"https://community.wanikani.com/privacy\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:46:38.011Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://community.wanikani.com/privacy",
-	"url": "https://community.wanikani.com/privacy"
-}

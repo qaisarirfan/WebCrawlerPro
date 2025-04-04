@@ -1,9 +1,0 @@
-{
-	"id": "2CKseogvwvRQKdJ",
-	"json": "{\"id\":\"2CKseogvwvRQKdJ\",\"url\":\"https://community.make.com/t/make-academy-news-advanced-webhooks/63756\",\"uniqueKey\":\"https://community.make.com/t/make-academy-news-advanced-webhooks/63756\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749309271,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/make-academy-news-advanced-webhooks/63756",
-	"url": "https://community.make.com/t/make-academy-news-advanced-webhooks/63756"
-}

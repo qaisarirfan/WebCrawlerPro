@@ -1,9 +1,0 @@
-{
-	"id": "fH7zwpkQ73JmoGY",
-	"json": "{\"id\":\"fH7zwpkQ73JmoGY\",\"url\":\"https://en.groupio.app/feeds/category/1/rss\",\"uniqueKey\":\"https://en.groupio.app/feeds/category/1/rss\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749129162,
-	"retryCount": 0,
-	"uniqueKey": "https://en.groupio.app/feeds/category/1/rss",
-	"url": "https://en.groupio.app/feeds/category/1/rss"
-}

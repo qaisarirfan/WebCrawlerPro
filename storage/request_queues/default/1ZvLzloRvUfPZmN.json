@@ -1,9 +1,0 @@
-{
-	"id": "1ZvLzloRvUfPZmN",
-	"json": "{\"id\":\"1ZvLzloRvUfPZmN\",\"url\":\"https://joinwhatsgroup.com\",\"loadedUrl\":\"https://joinwhatsgroup.com/\",\"uniqueKey\":\"https://joinwhatsgroup.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:20.183Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://joinwhatsgroup.com",
-	"url": "https://joinwhatsgroup.com"
-}

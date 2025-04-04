@@ -1,9 +1,0 @@
-{
-	"id": "DpDAiUyriNHSRDt",
-	"json": "{\"id\":\"DpDAiUyriNHSRDt\",\"url\":\"https://www.make.com/en/help/apps/built-in-apps/archive.html#create-an-archive-973677\",\"uniqueKey\":\"https://www.make.com/en/help/apps/built-in-apps/archive.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749243656,
-	"retryCount": 0,
-	"uniqueKey": "https://www.make.com/en/help/apps/built-in-apps/archive.html",
-	"url": "https://www.make.com/en/help/apps/built-in-apps/archive.html#create-an-archive-973677"
-}

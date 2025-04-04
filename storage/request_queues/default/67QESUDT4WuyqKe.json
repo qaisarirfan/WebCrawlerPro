@@ -1,9 +1,0 @@
-{
-	"id": "67QESUDT4WuyqKe",
-	"json": "{\"id\":\"67QESUDT4WuyqKe\",\"url\":\"https://www.whatsapp.com/sitemap\",\"uniqueKey\":\"https://www.whatsapp.com/sitemap\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749286709,
-	"retryCount": 0,
-	"uniqueKey": "https://www.whatsapp.com/sitemap",
-	"url": "https://www.whatsapp.com/sitemap"
-}

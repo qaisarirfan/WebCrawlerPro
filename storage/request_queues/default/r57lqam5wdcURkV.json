@@ -1,9 +1,0 @@
-{
-	"id": "r57lqam5wdcURkV",
-	"json": "{\"id\":\"r57lqam5wdcURkV\",\"url\":\"https://en.groupio.app/group/join/INTERNATIONAL-GROUP-7502\",\"uniqueKey\":\"https://en.groupio.app/group/join/INTERNATIONAL-GROUP-7502\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749247926,
-	"retryCount": 0,
-	"uniqueKey": "https://en.groupio.app/group/join/INTERNATIONAL-GROUP-7502",
-	"url": "https://en.groupio.app/group/join/INTERNATIONAL-GROUP-7502"
-}

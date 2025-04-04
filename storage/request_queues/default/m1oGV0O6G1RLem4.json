@@ -1,9 +1,0 @@
-{
-	"id": "m1oGV0O6G1RLem4",
-	"json": "{\"id\":\"m1oGV0O6G1RLem4\",\"url\":\"https://community.make.com/t/extracting-items-in-an-array-of-collections/77035\",\"uniqueKey\":\"https://community.make.com/t/extracting-items-in-an-array-of-collections/77035\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749241871,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/extracting-items-in-an-array-of-collections/77035",
-	"url": "https://community.make.com/t/extracting-items-in-an-array-of-collections/77035"
-}

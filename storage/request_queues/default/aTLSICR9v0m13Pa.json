@@ -1,9 +1,0 @@
-{
-	"id": "aTLSICR9v0m13Pa",
-	"json": "{\"id\":\"aTLSICR9v0m13Pa\",\"url\":\"https://wa.waziper.com/swedish\",\"uniqueKey\":\"https://wa.waziper.com/swedish\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007791,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/swedish",
-	"url": "https://wa.waziper.com/swedish"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "OaKpWTHLIw7gE6m",
-	"json": "{\"id\":\"OaKpWTHLIw7gE6m\",\"url\":\"https://wa.waziper.com/pets-animals-nature\",\"uniqueKey\":\"https://wa.waziper.com/pets-animals-nature\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007726,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/pets-animals-nature",
-	"url": "https://wa.waziper.com/pets-animals-nature"
-}

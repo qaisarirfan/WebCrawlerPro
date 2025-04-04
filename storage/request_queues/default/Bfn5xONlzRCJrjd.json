@@ -1,9 +1,0 @@
-{
-	"id": "Bfn5xONlzRCJrjd",
-	"json": "{\"id\":\"Bfn5xONlzRCJrjd\",\"url\":\"https://whatslinksonly.com/terms-and-conditions/\",\"uniqueKey\":\"https://whatslinksonly.com/terms-and-conditions\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749011154,
-	"retryCount": 0,
-	"uniqueKey": "https://whatslinksonly.com/terms-and-conditions",
-	"url": "https://whatslinksonly.com/terms-and-conditions/"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "REIq0FOuWRfwnze",
-	"json": "{\"id\":\"REIq0FOuWRfwnze\",\"url\":\"http://findgroups.net/post/V2IVd/pizza-homemade-recipe\",\"uniqueKey\":\"http://findgroups.net/post/V2IVd/pizza-homemade-recipe\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749125874,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/post/V2IVd/pizza-homemade-recipe",
-	"url": "http://findgroups.net/post/V2IVd/pizza-homemade-recipe"
-}

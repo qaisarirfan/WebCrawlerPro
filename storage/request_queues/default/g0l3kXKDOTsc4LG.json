@@ -1,9 +1,0 @@
-{
-	"id": "g0l3kXKDOTsc4LG",
-	"json": "{\"id\":\"g0l3kXKDOTsc4LG\",\"url\":\"https://www.hindustantimes.com/topic/assembly-election\",\"uniqueKey\":\"https://www.hindustantimes.com/topic/assembly-election\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017365,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/topic/assembly-election",
-	"url": "https://www.hindustantimes.com/topic/assembly-election"
-}

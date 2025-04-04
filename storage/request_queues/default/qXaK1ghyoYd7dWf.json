@@ -1,9 +1,0 @@
-{
-	"id": "qXaK1ghyoYd7dWf",
-	"json": "{\"id\":\"qXaK1ghyoYd7dWf\",\"url\":\"https://www.grouplinksforyou.com\",\"loadedUrl\":\"https://www.grouplinksforyou.com/\",\"uniqueKey\":\"https://www.grouplinksforyou.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:33.804Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.grouplinksforyou.com",
-	"url": "https://www.grouplinksforyou.com"
-}

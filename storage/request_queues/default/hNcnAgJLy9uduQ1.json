@@ -1,9 +1,0 @@
-{
-	"id": "hNcnAgJLy9uduQ1",
-	"json": "{\"id\":\"hNcnAgJLy9uduQ1\",\"url\":\"https://www.italki.com/en/app\",\"uniqueKey\":\"https://www.italki.com/en/app\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749018112,
-	"retryCount": 0,
-	"uniqueKey": "https://www.italki.com/en/app",
-	"url": "https://www.italki.com/en/app"
-}

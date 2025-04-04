@@ -1,9 +1,0 @@
-{
-	"id": "cXyiclrpchCFGOa",
-	"json": "{\"id\":\"cXyiclrpchCFGOa\",\"url\":\"https://www.hindustantimes.com/cricket/teams/punjab-kings-1107\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket/teams/punjab-kings-1107\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017310,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cricket/teams/punjab-kings-1107",
-	"url": "https://www.hindustantimes.com/cricket/teams/punjab-kings-1107"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "LFed9lNB3C1L1Lr",
-	"json": "{\"id\":\"LFed9lNB3C1L1Lr\",\"url\":\"https://www.pak24tv.net/postalcode/kuwait\",\"uniqueKey\":\"https://www.pak24tv.net/postalcode/kuwait\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749019346,
-	"retryCount": 0,
-	"uniqueKey": "https://www.pak24tv.net/postalcode/kuwait",
-	"url": "https://www.pak24tv.net/postalcode/kuwait"
-}

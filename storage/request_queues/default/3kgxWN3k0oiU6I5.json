@@ -1,9 +1,0 @@
-{
-	"id": "3kgxWN3k0oiU6I5",
-	"json": "{\"id\":\"3kgxWN3k0oiU6I5\",\"url\":\"https://wa.waziper.com/kinyarwanda\",\"uniqueKey\":\"https://wa.waziper.com/kinyarwanda\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007844,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/kinyarwanda",
-	"url": "https://wa.waziper.com/kinyarwanda"
-}

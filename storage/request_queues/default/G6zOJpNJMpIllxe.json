@@ -1,9 +1,0 @@
-{
-	"id": "G6zOJpNJMpIllxe",
-	"json": "{\"id\":\"G6zOJpNJMpIllxe\",\"url\":\"https://t.me/BitcoinSmarts\",\"uniqueKey\":\"https://t.me/BitcoinSmarts\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749016088,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/BitcoinSmarts",
-	"url": "https://t.me/BitcoinSmarts"
-}

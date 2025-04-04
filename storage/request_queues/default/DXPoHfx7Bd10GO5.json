@@ -1,9 +1,0 @@
-{
-	"id": "DXPoHfx7Bd10GO5",
-	"json": "{\"id\":\"DXPoHfx7Bd10GO5\",\"url\":\"https://www.pak24tv.net/postalcode/pakistan\",\"uniqueKey\":\"https://www.pak24tv.net/postalcode/pakistan\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749019344,
-	"retryCount": 0,
-	"uniqueKey": "https://www.pak24tv.net/postalcode/pakistan",
-	"url": "https://www.pak24tv.net/postalcode/pakistan"
-}

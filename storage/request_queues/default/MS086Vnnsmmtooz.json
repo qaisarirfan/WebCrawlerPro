@@ -1,9 +1,0 @@
-{
-	"id": "MS086Vnnsmmtooz",
-	"json": "{\"id\":\"MS086Vnnsmmtooz\",\"url\":\"https://www.hindustantimes.com/author/ht-trending-desk-101673348084809\",\"uniqueKey\":\"https://www.hindustantimes.com/author/ht-trending-desk-101673348084809\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017269,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/author/ht-trending-desk-101673348084809",
-	"url": "https://www.hindustantimes.com/author/ht-trending-desk-101673348084809"
-}

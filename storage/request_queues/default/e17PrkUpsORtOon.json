@@ -1,9 +1,0 @@
-{
-	"id": "e17PrkUpsORtOon",
-	"json": "{\"id\":\"e17PrkUpsORtOon\",\"url\":\"https://chat.whatsapp.com/FQ1jSUnFQOFEBkCnEhNiFL\",\"uniqueKey\":\"https://chat.whatsapp.com/FQ1jSUnFQOFEBkCnEhNiFL\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749025084,
-	"retryCount": 0,
-	"uniqueKey": "https://chat.whatsapp.com/FQ1jSUnFQOFEBkCnEhNiFL",
-	"url": "https://chat.whatsapp.com/FQ1jSUnFQOFEBkCnEhNiFL"
-}

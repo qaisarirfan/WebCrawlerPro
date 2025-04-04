@@ -1,9 +1,0 @@
-{
-	"id": "tSy573JiDscublC",
-	"json": "{\"id\":\"tSy573JiDscublC\",\"url\":\"https://groupslinker.com/news/\",\"uniqueKey\":\"https://groupslinker.com/news\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748998604,
-	"retryCount": 0,
-	"uniqueKey": "https://groupslinker.com/news",
-	"url": "https://groupslinker.com/news/"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "NYkcuXwfNa5OfoI",
-	"json": "{\"id\":\"NYkcuXwfNa5OfoI\",\"url\":\"https://t.me/worldcinemas\",\"uniqueKey\":\"https://t.me/worldcinemas\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749015913,
-	"retryCount": 0,
-	"uniqueKey": "https://t.me/worldcinemas",
-	"url": "https://t.me/worldcinemas"
-}

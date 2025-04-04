@@ -1,9 +1,0 @@
-{
-	"id": "r1FlefGsOoxMdY5",
-	"json": "{\"id\":\"r1FlefGsOoxMdY5\",\"url\":\"https://www.groupchaton.com/search/label/Quotes%20%26%20Sayings\",\"uniqueKey\":\"https://www.groupchaton.com/search/label/Quotes%20%26%20Sayings\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749014678,
-	"retryCount": 0,
-	"uniqueKey": "https://www.groupchaton.com/search/label/Quotes%20%26%20Sayings",
-	"url": "https://www.groupchaton.com/search/label/Quotes%20%26%20Sayings"
-}

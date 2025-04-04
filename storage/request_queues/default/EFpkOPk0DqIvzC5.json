@@ -1,9 +1,0 @@
-{
-	"id": "EFpkOPk0DqIvzC5",
-	"json": "{\"id\":\"EFpkOPk0DqIvzC5\",\"url\":\"https://www.robity.com/\",\"uniqueKey\":\"https://www.robity.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749008196,
-	"retryCount": 0,
-	"uniqueKey": "https://www.robity.com",
-	"url": "https://www.robity.com/"
-}

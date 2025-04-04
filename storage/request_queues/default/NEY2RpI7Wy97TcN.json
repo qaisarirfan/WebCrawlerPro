@@ -1,9 +1,0 @@
-{
-	"id": "NEY2RpI7Wy97TcN",
-	"json": "{\"id\":\"NEY2RpI7Wy97TcN\",\"url\":\"https://wa.waziper.com/english\",\"uniqueKey\":\"https://wa.waziper.com/english\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007793,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/english",
-	"url": "https://wa.waziper.com/english"
-}

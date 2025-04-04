@@ -1,9 +1,0 @@
-{
-	"id": "ui7JsSSKnDQQeBh",
-	"json": "{\"id\":\"ui7JsSSKnDQQeBh\",\"url\":\"https://forum.lingq.com/c/open-forum-in-vietnamese/458\",\"loadedUrl\":\"https://forum.lingq.com/c/open-forum-in-vietnamese/458\",\"uniqueKey\":\"https://forum.lingq.com/c/open-forum-in-vietnamese/458\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\",\"state\":4}},\"handledAt\":\"2025-04-04T06:50:58.433Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://forum.lingq.com/c/open-forum-in-vietnamese/458",
-	"url": "https://forum.lingq.com/c/open-forum-in-vietnamese/458"
-}

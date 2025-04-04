@@ -1,9 +1,0 @@
-{
-	"id": "mGvBIr7ltA1LGpS",
-	"json": "{\"id\":\"mGvBIr7ltA1LGpS\",\"url\":\"https://wa.waziper.com/tatar\",\"uniqueKey\":\"https://wa.waziper.com/tatar\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007824,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/tatar",
-	"url": "https://wa.waziper.com/tatar"
-}

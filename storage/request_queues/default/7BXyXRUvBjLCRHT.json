@@ -1,9 +1,0 @@
-{
-	"id": "7BXyXRUvBjLCRHT",
-	"json": "{\"id\":\"7BXyXRUvBjLCRHT\",\"url\":\"https://www.hindustantimes.com/cricket/players/cameron-green-66870\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket/players/cameron-green-66870\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017328,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cricket/players/cameron-green-66870",
-	"url": "https://www.hindustantimes.com/cricket/players/cameron-green-66870"
-}

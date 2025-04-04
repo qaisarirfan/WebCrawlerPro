@@ -1,9 +1,0 @@
-{
-	"id": "O7i77PnU2h2uy2W",
-	"json": "{\"id\":\"O7i77PnU2h2uy2W\",\"url\":\"https://groupda.group/category/business/\",\"uniqueKey\":\"https://groupda.group/category/business\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748996110,
-	"retryCount": 0,
-	"uniqueKey": "https://groupda.group/category/business",
-	"url": "https://groupda.group/category/business/"
-}

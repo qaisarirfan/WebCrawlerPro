@@ -1,9 +1,0 @@
-{
-	"id": "ogaf43lDJx6hawC",
-	"json": "{\"id\":\"ogaf43lDJx6hawC\",\"url\":\"https://whatsapgroup.com\",\"loadedUrl\":\"https://whatsapgroup.com/\",\"uniqueKey\":\"https://whatsapgroup.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-04-04T06:43:27.778Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://whatsapgroup.com",
-	"url": "https://whatsapgroup.com"
-}

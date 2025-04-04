@@ -1,9 +1,0 @@
-{
-	"id": "rXKQva3zV5NPvrl",
-	"json": "{\"id\":\"rXKQva3zV5NPvrl\",\"url\":\"https://www.nairaland.com/literature\",\"uniqueKey\":\"https://www.nairaland.com/literature\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017977,
-	"retryCount": 0,
-	"uniqueKey": "https://www.nairaland.com/literature",
-	"url": "https://www.nairaland.com/literature"
-}

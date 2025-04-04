@@ -1,9 +1,0 @@
-{
-	"id": "BPPfKvfptpjkBRr",
-	"json": "{\"id\":\"BPPfKvfptpjkBRr\",\"url\":\"https://www.hindustantimes.com/lifestyle/pet\",\"uniqueKey\":\"https://www.hindustantimes.com/lifestyle/pet\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017356,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/lifestyle/pet",
-	"url": "https://www.hindustantimes.com/lifestyle/pet"
-}

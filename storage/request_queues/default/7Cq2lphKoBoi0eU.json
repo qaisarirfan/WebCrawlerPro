@@ -1,9 +1,0 @@
-{
-	"id": "7Cq2lphKoBoi0eU",
-	"json": "{\"id\":\"7Cq2lphKoBoi0eU\",\"url\":\"https://wa.waziper.com/azerbaijani\",\"uniqueKey\":\"https://wa.waziper.com/azerbaijani\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007860,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/azerbaijani",
-	"url": "https://wa.waziper.com/azerbaijani"
-}

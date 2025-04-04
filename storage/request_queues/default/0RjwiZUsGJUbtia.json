@@ -1,9 +1,0 @@
-{
-	"id": "0RjwiZUsGJUbtia",
-	"json": "{\"id\":\"0RjwiZUsGJUbtia\",\"url\":\"http://findgroups.net/category-dtl/jobs?page=2\",\"uniqueKey\":\"http://findgroups.net/category-dtl/jobs?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749274228,
-	"retryCount": 0,
-	"uniqueKey": "http://findgroups.net/category-dtl/jobs?page=2",
-	"url": "http://findgroups.net/category-dtl/jobs?page=2"
-}

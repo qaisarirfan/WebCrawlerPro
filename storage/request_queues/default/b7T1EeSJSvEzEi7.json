@@ -1,9 +1,0 @@
-{
-	"id": "b7T1EeSJSvEzEi7",
-	"json": "{\"id\":\"b7T1EeSJSvEzEi7\",\"url\":\"https://waplus.io/chat-button-generator\",\"uniqueKey\":\"https://waplus.io/chat-button-generator\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749006220,
-	"retryCount": 0,
-	"uniqueKey": "https://waplus.io/chat-button-generator",
-	"url": "https://waplus.io/chat-button-generator"
-}

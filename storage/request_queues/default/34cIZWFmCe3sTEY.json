@@ -1,9 +1,0 @@
-{
-	"id": "34cIZWFmCe3sTEY",
-	"json": "{\"id\":\"34cIZWFmCe3sTEY\",\"url\":\"https://www.hindustantimes.com/cricket/players/axar-patel-62576\",\"uniqueKey\":\"https://www.hindustantimes.com/cricket/players/axar-patel-62576\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749017317,
-	"retryCount": 0,
-	"uniqueKey": "https://www.hindustantimes.com/cricket/players/axar-patel-62576",
-	"url": "https://www.hindustantimes.com/cricket/players/axar-patel-62576"
-}

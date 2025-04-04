@@ -1,9 +1,0 @@
-{
-	"id": "o7Whiw3S1CMZnme",
-	"json": "{\"id\":\"o7Whiw3S1CMZnme\",\"url\":\"https://hn.gruposwats.com/\",\"uniqueKey\":\"https://hn.gruposwats.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749014334,
-	"retryCount": 0,
-	"uniqueKey": "https://hn.gruposwats.com",
-	"url": "https://hn.gruposwats.com/"
-}

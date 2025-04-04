@@ -1,9 +1,0 @@
-{
-	"id": "1IvCm1SbDBzO1AP",
-	"json": "{\"id\":\"1IvCm1SbDBzO1AP\",\"url\":\"https://community.make.com/t/webhook-redirection-to-url/19541\",\"uniqueKey\":\"https://community.make.com/t/webhook-redirection-to-url/19541\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749257235,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/webhook-redirection-to-url/19541",
-	"url": "https://community.make.com/t/webhook-redirection-to-url/19541"
-}

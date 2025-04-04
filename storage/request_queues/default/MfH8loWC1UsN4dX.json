@@ -1,9 +1,0 @@
-{
-	"id": "MfH8loWC1UsN4dX",
-	"json": "{\"id\":\"MfH8loWC1UsN4dX\",\"url\":\"https://www.liveinternet.ru/rating/ru/software/\",\"uniqueKey\":\"https://www.liveinternet.ru/rating/ru/software\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749043165,
-	"retryCount": 0,
-	"uniqueKey": "https://www.liveinternet.ru/rating/ru/software",
-	"url": "https://www.liveinternet.ru/rating/ru/software/"
-}

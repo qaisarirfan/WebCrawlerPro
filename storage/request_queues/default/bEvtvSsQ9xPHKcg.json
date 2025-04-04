@@ -1,9 +1,0 @@
-{
-	"id": "bEvtvSsQ9xPHKcg",
-	"json": "{\"id\":\"bEvtvSsQ9xPHKcg\",\"url\":\"https://www.groupchaton.com/search/label/Food%20%26%20Drink\",\"uniqueKey\":\"https://www.groupchaton.com/search/label/Food%20%26%20Drink\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749014667,
-	"retryCount": 0,
-	"uniqueKey": "https://www.groupchaton.com/search/label/Food%20%26%20Drink",
-	"url": "https://www.groupchaton.com/search/label/Food%20%26%20Drink"
-}

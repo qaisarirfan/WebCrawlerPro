@@ -1,9 +1,0 @@
-{
-	"id": "ERV43cBB1ZIyHbl",
-	"json": "{\"id\":\"ERV43cBB1ZIyHbl\",\"url\":\"https://community.make.com/t/is-it-possible-to-redirect-a-webhook-url-to-a-new-url/12974\",\"uniqueKey\":\"https://community.make.com/t/is-it-possible-to-redirect-a-webhook-url-to-a-new-url/12974\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749257225,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/is-it-possible-to-redirect-a-webhook-url-to-a-new-url/12974",
-	"url": "https://community.make.com/t/is-it-possible-to-redirect-a-webhook-url-to-a-new-url/12974"
-}

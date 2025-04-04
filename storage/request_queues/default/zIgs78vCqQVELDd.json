@@ -1,9 +1,0 @@
-{
-	"id": "zIgs78vCqQVELDd",
-	"json": "{\"id\":\"zIgs78vCqQVELDd\",\"url\":\"https://community.make.com/t/seeking-automation-for-encoding-html-code-in-json-requests-via-make-com/27643\",\"uniqueKey\":\"https://community.make.com/t/seeking-automation-for-encoding-html-code-in-json-requests-via-make-com/27643\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749415030,
-	"retryCount": 0,
-	"uniqueKey": "https://community.make.com/t/seeking-automation-for-encoding-html-code-in-json-requests-via-make-com/27643",
-	"url": "https://community.make.com/t/seeking-automation-for-encoding-html-code-in-json-requests-via-make-com/27643"
-}

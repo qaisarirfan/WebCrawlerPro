@@ -1,9 +1,0 @@
-{
-	"id": "Yco3qf6703vHrYm",
-	"json": "{\"id\":\"Yco3qf6703vHrYm\",\"url\":\"https://societieslink.com/sports/\",\"uniqueKey\":\"https://societieslink.com/sports\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749005524,
-	"retryCount": 0,
-	"uniqueKey": "https://societieslink.com/sports",
-	"url": "https://societieslink.com/sports/"
-}

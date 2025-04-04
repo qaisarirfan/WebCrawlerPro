@@ -1,9 +1,0 @@
-{
-	"id": "cAlwYdOFuX13ShF",
-	"json": "{\"id\":\"cAlwYdOFuX13ShF\",\"url\":\"https://groupda.com/add/\",\"uniqueKey\":\"https://groupda.com/add\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748999044,
-	"retryCount": 0,
-	"uniqueKey": "https://groupda.com/add",
-	"url": "https://groupda.com/add/"
-}

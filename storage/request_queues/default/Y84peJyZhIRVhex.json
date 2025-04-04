@@ -1,9 +1,0 @@
-{
-	"id": "Y84peJyZhIRVhex",
-	"json": "{\"id\":\"Y84peJyZhIRVhex\",\"url\":\"https://whatslinkhub.com/politics/\",\"uniqueKey\":\"https://whatslinkhub.com/politics\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749010232,
-	"retryCount": 0,
-	"uniqueKey": "https://whatslinkhub.com/politics",
-	"url": "https://whatslinkhub.com/politics/"
-}

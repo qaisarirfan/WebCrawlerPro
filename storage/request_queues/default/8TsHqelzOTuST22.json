@@ -1,9 +1,0 @@
-{
-	"id": "8TsHqelzOTuST22",
-	"json": "{\"id\":\"8TsHqelzOTuST22\",\"url\":\"https://wa.waziper.com/list-whatsapp-group\",\"uniqueKey\":\"https://wa.waziper.com/list-whatsapp-group\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749007883,
-	"retryCount": 0,
-	"uniqueKey": "https://wa.waziper.com/list-whatsapp-group",
-	"url": "https://wa.waziper.com/list-whatsapp-group"
-}

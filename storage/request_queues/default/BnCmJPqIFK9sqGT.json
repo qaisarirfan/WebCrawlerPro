@@ -1,9 +1,0 @@
-{
-	"id": "BnCmJPqIFK9sqGT",
-	"json": "{\"id\":\"BnCmJPqIFK9sqGT\",\"url\":\"https://www.worldgirlportal.com/terms-conditions/\",\"uniqueKey\":\"https://www.worldgirlportal.com/terms-conditions\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749024076,
-	"retryCount": 0,
-	"uniqueKey": "https://www.worldgirlportal.com/terms-conditions",
-	"url": "https://www.worldgirlportal.com/terms-conditions/"
-}

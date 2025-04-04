@@ -1,9 +1,0 @@
-{
-	"id": "f6CSZl0e2YtPYWG",
-	"json": "{\"id\":\"f6CSZl0e2YtPYWG\",\"url\":\"https://groupda.link/category/news-2/\",\"uniqueKey\":\"https://groupda.link/category/news-2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743748997266,
-	"retryCount": 0,
-	"uniqueKey": "https://groupda.link/category/news-2",
-	"url": "https://groupda.link/category/news-2/"
-}

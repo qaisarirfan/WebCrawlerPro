@@ -1,9 +1,0 @@
-{
-	"id": "OwP7Ql5LhikpARE",
-	"json": "{\"id\":\"OwP7Ql5LhikpARE\",\"url\":\"https://waplus.io/user/login\",\"uniqueKey\":\"https://waplus.io/user/login\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"enqueueStrategy\":\"same-domain\"}}}",
-	"method": "GET",
-	"orderNo": 1743749006236,
-	"retryCount": 0,
-	"uniqueKey": "https://waplus.io/user/login",
-	"url": "https://waplus.io/user/login"
-}
