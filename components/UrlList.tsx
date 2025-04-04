@@ -95,31 +95,34 @@ const UrlList: React.FC<UrlListProps> = ({ refreshTrigger }) => {
     fetchUrls();
   }, [refreshTrigger]);
 
-  // Check crawler status to update UI for running crawls
-  useEffect(() => {
-    const checkCrawlerStatus = async () => {
-      try {
-        const response = await axios.get('/api/crawler/status');
-        const status = response.data;
-        
-        // If crawler is not running, reset all URLs that were in crawling state
-        if (!status.isRunning) {
-          setUrls(prev => prev.map(item => 
-            item.status === 'crawling' 
-              ? { ...item, status: 'idle' } 
-              : item
-          ));
-        }
-      } catch (error: any) {
-        console.error('Error checking crawler status:', error);
+  // Manual status check function
+  const checkCrawlerStatus = async () => {
+    try {
+      const response = await axios.get('/api/crawler/status');
+      const status = response.data;
+      
+      // If crawler is not running, reset all URLs that were in crawling state
+      if (!status.isRunning) {
+        setUrls(prev => prev.map(item => 
+          item.status === 'crawling' 
+            ? { ...item, status: 'idle' } 
+            : item
+        ));
       }
-    };
-
-    // Only check status if we have URLs in crawling state
-    if (urls.some(url => url.status === 'crawling')) {
-      const interval = setInterval(checkCrawlerStatus, 2000);
-      return () => clearInterval(interval);
+    } catch (error: any) {
+      console.error('Error checking crawler status:', error);
     }
+  };
+
+  // Check crawler status on mount and when URLs change
+  useEffect(() => {
+    // Initial check
+    if (urls.some(url => url.status === 'crawling')) {
+      checkCrawlerStatus();
+    }
+    
+    // No automatic polling - will rely on manual refresh
+    // or the parent component's less frequent polling
   }, [urls]);
 
   return (

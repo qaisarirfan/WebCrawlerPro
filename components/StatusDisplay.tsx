@@ -1,13 +1,16 @@
 import { useEffect, useState } from 'react';
 import { CrawlerStatus } from '../types/crawler';
+import { ArrowPathIcon } from '@heroicons/react/24/outline';
 import styles from '../styles/CrawlerInterface.module.css';
 
 interface StatusDisplayProps {
   status: CrawlerStatus;
+  onRefresh?: () => Promise<void>;
 }
 
-const StatusDisplay: React.FC<StatusDisplayProps> = ({ status }) => {
+const StatusDisplay: React.FC<StatusDisplayProps> = ({ status, onRefresh }) => {
   const [elapsedTime, setElapsedTime] = useState<string>('00:00:00');
+  const [refreshing, setRefreshing] = useState(false);
   
   // Calculate elapsed time when running
   useEffect(() => {
@@ -31,9 +34,33 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ status }) => {
     return () => clearInterval(timer);
   }, [status.isRunning, status.startTime]);
   
+  const handleRefresh = async () => {
+    if (onRefresh && !refreshing) {
+      setRefreshing(true);
+      try {
+        await onRefresh();
+      } finally {
+        setTimeout(() => setRefreshing(false), 500);
+      }
+    }
+  };
+  
   return (
     <div className={styles.statusContainer}>
-      <h2 className={styles.sectionTitle}>Crawler Status</h2>
+      <div className="flex justify-between items-center mb-3">
+        <h2 className={styles.sectionTitle}>Crawler Status</h2>
+        {onRefresh && (
+          <button 
+            onClick={handleRefresh}
+            disabled={refreshing}
+            className="flex items-center text-sm text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors"
+            title="Manually refresh status"
+          >
+            <ArrowPathIcon className={`h-4 w-4 mr-1 ${refreshing ? 'animate-spin' : ''}`} />
+            Refresh
+          </button>
+        )}
+      </div>
       
       <div className={styles.statusCard}>
         <div className={styles.statusRow}>

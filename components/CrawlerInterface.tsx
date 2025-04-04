@@ -33,7 +33,8 @@ const CrawlerInterface: React.FC = () => {
       
       // Set up polling if crawler is running, stop polling if it's not
       if (response.data.isRunning && !statusPollingInterval) {
-        const interval = setInterval(fetchStatus, 2000);
+        // Poll every 5 minutes (300000ms) instead of every 2 seconds
+        const interval = setInterval(fetchStatus, 300000);
         setStatusPollingInterval(interval);
       } else if (!response.data.isRunning && statusPollingInterval) {
         clearInterval(statusPollingInterval);
@@ -44,7 +45,7 @@ const CrawlerInterface: React.FC = () => {
       // Don't update status on error to prevent UI flickering
       // If we have a failed request, ensure we still maintain polling
       if (!statusPollingInterval) {
-        const interval = setInterval(fetchStatus, 5000); // Longer retry interval on error
+        const interval = setInterval(fetchStatus, 300000); // 5 minute retry interval on error
         setStatusPollingInterval(interval);
       }
     }
@@ -125,7 +126,7 @@ const CrawlerInterface: React.FC = () => {
             </div>
             
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">
-              <StatusDisplay status={status} />
+              <StatusDisplay status={status} onRefresh={fetchStatus} />
             </div>
             
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4">

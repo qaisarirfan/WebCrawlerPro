@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { LinkIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
+import { LinkIcon, ArrowTopRightOnSquareIcon, ArrowPathIcon } from '@heroicons/react/24/outline';
 import axios from 'axios';
 import path from 'path';
 import fs from 'fs';
@@ -21,27 +21,43 @@ const CrawledDataList: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [activeTab, setActiveTab] = useState<string | null>(null);
+  const [refreshing, setRefreshing] = useState(false);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        setLoading(true);
-        const response = await axios.get('/api/crawler/data-files');
-        const files = response.data;
-        
-        if (files.length > 0) {
-          setDataFiles(files);
+  const fetchData = async () => {
+    try {
+      setLoading(true);
+      const response = await axios.get('/api/crawler/data-files');
+      const files = response.data;
+      
+      if (files.length > 0) {
+        setDataFiles(files);
+        if (!activeTab) {
           setActiveTab(files[0].domain);
         }
-        
-        setLoading(false);
-      } catch (error) {
-        console.error('Failed to fetch crawled data:', error);
-        setError('Failed to load crawled data. Please try again.');
-        setLoading(false);
       }
-    };
+      
+      setLoading(false);
+    } catch (error) {
+      console.error('Failed to fetch crawled data:', error);
+      setError('Failed to load crawled data. Please try again.');
+      setLoading(false);
+    }
+  };
 
+  // Manual refresh handler
+  const handleRefresh = async () => {
+    if (!refreshing) {
+      setRefreshing(true);
+      setError('');
+      try {
+        await fetchData();
+      } finally {
+        setTimeout(() => setRefreshing(false), 500);
+      }
+    }
+  };
+
+  useEffect(() => {
     fetchData();
   }, []);
 
@@ -79,7 +95,20 @@ const CrawledDataList: React.FC = () => {
 
   return (
     <div className="mt-6 bg-white dark:bg-gray-800 rounded-lg shadow">
-      <div className="border-b border-gray-200 dark:border-gray-700">
+      <div className="flex justify-between items-center px-4 pt-4">
+        <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Crawled WhatsApp Links</h3>
+        <button 
+          onClick={handleRefresh}
+          disabled={refreshing}
+          className="flex items-center text-sm text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors"
+          title="Refresh crawled data"
+        >
+          <ArrowPathIcon className={`h-4 w-4 mr-1 ${refreshing ? 'animate-spin' : ''}`} />
+          Refresh Data
+        </button>
+      </div>
+      
+      <div className="border-b border-gray-200 dark:border-gray-700 mt-2">
         <nav className="flex overflow-x-auto" aria-label="Tabs">
           {dataFiles.map((file) => (
             <button
