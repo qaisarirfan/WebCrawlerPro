@@ -1,24 +1,20 @@
 {
   "isRunning": false,
   "progress": 2,
-  "totalUrls": 5922,
-  "processedUrls": 99,
+  "totalUrls": 5990,
+  "processedUrls": 100,
   "errors": [
     "Failed to crawl https://groupifyhub.com: getaddrinfo ENOTFOUND groupifyhub.com",
+    "Failed to crawl https://grouplinklist.com: getaddrinfo EAI_AGAIN grouplinklist.com",
     "Failed to crawl https://groupsall.com: getaddrinfo ENOTFOUND groupsall.com",
-    "Failed to crawl https://grouplinklist.com: getaddrinfo ENOTFOUND grouplinklist.com",
-    "Failed to crawl https://groupsbot.com: Parse Error: Expected HTTP/",
     "Failed to crawl https://groupslinks.info: 525 - Internal Server Error: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if I",
+    "Failed to crawl https://whatgrouplink.com: request timed out after 30 seconds.",
     "Failed to crawl https://whatsappgplinks.com: getaddrinfo ENOTFOUND whatsappgplinks.com",
-    "Failed to crawl https://whatsappgroupchatlinks.com: getaddrinfo ENOTFOUND whatsappgroupchatlinks.com",
-    "Failed to crawl https://whatsappsgrouplink.com: getaddrinfo ENOTFOUND whatsappsgrouplink.com",
+    "Failed to crawl https://whatsappgroupchatlinks.com: getaddrinfo EAI_AGAIN whatsappgroupchatlinks.com",
     "Failed to crawl https://whatsappinvite.com: Request blocked - received 403 status code.",
-    "Failed to crawl https://www.whatsappgroupurl.com: getaddrinfo ENOTFOUND www.whatsappgroupurl.com",
-    "Failed to crawl https://grolinks.com: Detected a session error, rotating session... \nconnect ECONNREFUSED 152.44.37.134:443\n",
-    "Failed to crawl https://groupsor.me: Detected a session error, rotating session... \nread ECONNRESET\n",
-    "Failed to crawl https://grplinks.com: Detected a session error, rotating session... \nread ECONNRESET\n"
+    "Failed to crawl https://whatsappsgrouplink.com: getaddrinfo ENOTFOUND whatsappsgrouplink.com"
   ],
-  "startTime": "2025-04-04T14:00:30.512Z",
-  "lastUpdate": "2025-04-04T14:01:39.208Z",
-  "currentUrl": "https://whtsgrouplinks.org/#content"
+  "startTime": "2025-04-04T14:12:28.144Z",
+  "lastUpdate": "2025-04-04T14:17:44.379Z",
+  "currentUrl": "https://activewhatslink.com/cdn-cgi/l/email-protection#f18694939c9082859483b190928598879486999085829d989f9adf929e9c"
 }
