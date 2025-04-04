@@ -1,7 +1,14 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { defaultUrls } from '../utils/defaultUrls';
-import styles from '../styles/CrawlerInterface.module.css';
+import { 
+  ArrowDownTrayIcon, 
+  LinkIcon, 
+  ExclamationCircleIcon, 
+  MinusCircleIcon,
+  ArrowPathIcon, 
+  CheckCircleIcon
+} from '@heroicons/react/24/outline';
 
 interface UrlListProps {
   refreshTrigger: number;
@@ -20,6 +27,7 @@ const UrlList: React.FC<UrlListProps> = ({ refreshTrigger }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [importingDefaults, setImportingDefaults] = useState(false);
+  const [refreshing, setRefreshing] = useState(false);
 
   const fetchUrls = async () => {
     setLoading(true);
@@ -28,11 +36,19 @@ const UrlList: React.FC<UrlListProps> = ({ refreshTrigger }) => {
       // Convert simple URL strings to objects with state
       setUrls(response.data.map((url: string) => ({ url, status: 'idle' })));
       setError(null);
-    } catch (err) {
+    } catch (err: any) {
       setError('Failed to load URLs');
       console.error('Error fetching URLs:', err);
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleRefresh = async () => {
+    if (!refreshing) {
+      setRefreshing(true);
+      await fetchUrls();
+      setTimeout(() => setRefreshing(false), 500);
     }
   };
 
@@ -44,14 +60,14 @@ const UrlList: React.FC<UrlListProps> = ({ refreshTrigger }) => {
         if (!urls.some(item => item.url === url)) {
           try {
             await axios.post('/api/crawler/add-url', { url });
-          } catch (err) {
+          } catch (err: any) {
             console.error(`Failed to add URL ${url}:`, err);
           }
         }
       }
       // Refresh the list
       await fetchUrls();
-    } catch (err) {
+    } catch (err: any) {
       setError('Failed to import default URLs');
       console.error('Error importing default URLs:', err);
     } finally {
@@ -120,103 +136,147 @@ const UrlList: React.FC<UrlListProps> = ({ refreshTrigger }) => {
     if (urls.some(url => url.status === 'crawling')) {
       checkCrawlerStatus();
     }
-    
-    // No automatic polling - will rely on manual refresh
-    // or the parent component's less frequent polling
   }, [urls]);
 
+  // Get status color classes
+  const getStatusIndicator = (status: UrlStatus) => {
+    switch (status) {
+      case 'idle':
+        return 'bg-gray-100 dark:bg-gray-700 text-gray-500 dark:text-gray-400';
+      case 'crawling':
+        return 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400';
+      case 'success':
+        return 'bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400';
+      case 'error':
+        return 'bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400';
+    }
+  };
+
   return (
-    <div className={styles.urlListContainer}>
-      <div className={styles.urlListHeader}>
-        <h2 className={styles.sectionTitle}>URLs to Crawl</h2>
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow h-full">
+      <div className="p-4 border-b border-gray-200 dark:border-gray-700 flex flex-wrap justify-between items-center gap-2">
+        <h2 className="text-lg font-semibold text-gray-900 dark:text-white">URLs to Crawl</h2>
         
-        <button 
-          className={styles.importButton}
-          onClick={importDefaultUrls}
-          disabled={importingDefaults}
-        >
-          {importingDefaults ? (
-            <span className={styles.loadingSpinner}></span>
-          ) : (
-            <>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                <polyline points="7 10 12 15 17 10"></polyline>
-                <line x1="12" y1="15" x2="12" y2="3"></line>
+        <div className="flex items-center gap-2">
+          <button 
+            onClick={handleRefresh}
+            disabled={refreshing || loading}
+            className="p-1.5 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/30 rounded-md transition-colors"
+            title="Refresh URL list"
+          >
+            <ArrowPathIcon className={`h-5 w-5 ${refreshing ? 'animate-spin' : ''}`} />
+          </button>
+          
+          <button 
+            className="inline-flex items-center px-3 py-1.5 border border-indigo-500 text-sm font-medium rounded-md text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/30 transition-colors"
+            onClick={importDefaultUrls}
+            disabled={importingDefaults}
+          >
+            {importingDefaults ? (
+              <svg className="animate-spin h-4 w-4 text-indigo-600 dark:text-indigo-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
               </svg>
-              Import Default URLs
-            </>
-          )}
-        </button>
+            ) : (
+              <>
+                <ArrowDownTrayIcon className="h-4 w-4 mr-1.5" />
+                <span className="whitespace-nowrap">Import Default URLs</span>
+              </>
+            )}
+          </button>
+        </div>
       </div>
       
-      {loading ? (
-        <div className={styles.loadingContainer}>
-          <span className={styles.loadingSpinner}></span>
-          <span>Loading URLs...</span>
-        </div>
-      ) : error ? (
-        <div className={styles.errorMessage}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <circle cx="12" cy="12" r="10"></circle>
-            <line x1="12" y1="8" x2="12" y2="12"></line>
-            <line x1="12" y1="16" x2="12.01" y2="16"></line>
-          </svg>
-          {error}
-        </div>
-      ) : urls.length === 0 ? (
-        <div className={styles.emptyState}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <circle cx="12" cy="12" r="10"></circle>
-            <line x1="8" y1="12" x2="16" y2="12"></line>
-          </svg>
-          <p>No URLs added yet. Add some URLs above or import the default list.</p>
-        </div>
-      ) : (
-        <div className={styles.urlListScroll}>
-          <div className={styles.urlCount}>
-            {urls.length} {urls.length === 1 ? 'URL' : 'URLs'}
+      <div className="p-4">
+        {loading ? (
+          <div className="flex items-center justify-center h-40">
+            <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-indigo-500"></div>
           </div>
-          <ul className={styles.urlList}>
-            {urls.map((item, index) => (
-              <li key={index} className={`${styles.urlItem} ${styles[item.status]}`}>
-                <div className={styles.urlItemContent}>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-                  </svg>
-                  <span title={item.url}>
-                    {item.url.length > 40 ? `${item.url.substring(0, 40)}...` : item.url}
-                  </span>
-                  
-                  {item.message && (
-                    <span className={styles.urlMessage}>
-                      {item.message}
-                    </span>
-                  )}
-                </div>
-                
-                <button 
-                  className={styles.crawlButton}
-                  onClick={() => crawlSingleUrl(item.url, index)}
-                  disabled={item.status === 'crawling' || urls.some(u => u.status === 'crawling')}
-                  title="Crawl this URL individually"
-                >
-                  {item.status === 'crawling' ? (
-                    <span className={styles.loadingSpinner}></span>
-                  ) : (
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                      <polyline points="15 3 21 3 21 9"></polyline>
-                      <line x1="10" y1="14" x2="21" y2="3"></line>
-                    </svg>
-                  )}
-                </button>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+        ) : error ? (
+          <div className="flex items-center gap-2 text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/20 p-3 rounded-md">
+            <ExclamationCircleIcon className="h-5 w-5 flex-shrink-0" />
+            <span>{error}</span>
+          </div>
+        ) : urls.length === 0 ? (
+          <div className="flex flex-col items-center justify-center py-8 px-4 text-center text-gray-500 dark:text-gray-400">
+            <MinusCircleIcon className="h-12 w-12 mb-3" />
+            <p>No URLs added yet. Add some URLs above or import the default list.</p>
+          </div>
+        ) : (
+          <div>
+            <div className="mb-2 text-sm font-medium text-gray-500 dark:text-gray-400">
+              {urls.length} {urls.length === 1 ? 'URL' : 'URLs'}
+            </div>
+            
+            <div className="overflow-hidden">
+              <div className="max-h-[300px] overflow-y-auto">
+                <ul className="divide-y divide-gray-200 dark:divide-gray-700">
+                  {urls.map((item, index) => (
+                    <li 
+                      key={index} 
+                      className={`py-3 px-2 hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors ${
+                        item.status === 'crawling' ? 'bg-blue-50 dark:bg-blue-900/10' : ''
+                      }`}
+                    >
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center space-x-3 min-w-0 flex-1">
+                          <div className="flex-shrink-0">
+                            <LinkIcon className="h-5 w-5 text-indigo-500 dark:text-indigo-400" />
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <p className="text-sm font-medium text-gray-900 dark:text-white truncate" title={item.url}>
+                              {item.url}
+                            </p>
+                            
+                            {item.message && (
+                              <p className={`text-xs mt-0.5 truncate ${
+                                item.status === 'success' ? 'text-green-600 dark:text-green-400' : 
+                                item.status === 'error' ? 'text-red-600 dark:text-red-400' :
+                                'text-gray-500 dark:text-gray-400'
+                              }`}>
+                                {item.message}
+                              </p>
+                            )}
+                          </div>
+                        </div>
+                        
+                        <div className="flex items-center ml-2 space-x-2">
+                          <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${getStatusIndicator(item.status)}`}>
+                            {item.status === 'idle' && 'Not crawled'}
+                            {item.status === 'crawling' && 'Crawling...'}
+                            {item.status === 'success' && 'Completed'}
+                            {item.status === 'error' && 'Failed'}
+                          </span>
+                          
+                          <button 
+                            className={`p-1.5 rounded-md ${
+                              item.status === 'crawling' || urls.some(u => u.status === 'crawling')
+                                ? 'text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                                : 'text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/30'
+                            } transition-colors`}
+                            onClick={() => crawlSingleUrl(item.url, index)}
+                            disabled={item.status === 'crawling' || urls.some(u => u.status === 'crawling')}
+                            title="Crawl this URL individually"
+                          >
+                            {item.status === 'crawling' ? (
+                              <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                              </svg>
+                            ) : (
+                              <ArrowPathIcon className="h-5 w-5" />
+                            )}
+                          </button>
+                        </div>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 };
