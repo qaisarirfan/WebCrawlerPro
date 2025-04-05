@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 import {
   Container,
   Box,
@@ -22,14 +22,14 @@ import SettingsModal from "./SettingsModal";
 import AddUrlModal from "./AddUrlModal";
 import CrawledDataList from "./CrawledDataList";
 import QuickStartTutorial from "./QuickStartTutorial";
-import { useGetCrawlerStatusQuery } from '../store/apiSlice';
+import { useGetCrawlerStatusQuery } from "../store/apiSlice";
 
 const CrawlerInterface: React.FC = () => {
   // Get crawler status from Redux store with auto polling
   const { data: status, refetch } = useGetCrawlerStatusQuery(undefined, {
     pollingInterval: 3000, // Poll every 3 seconds
   });
-  
+
   // Local UI state
   const [refreshUrlsTrigger, setRefreshUrlsTrigger] = useState(0);
   const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false);

@@ -1,39 +1,36 @@
-import React, { useContext } from 'react';
-import { IconButton, Tooltip, useTheme } from '@mui/material';
-import { Brightness4, Brightness7 } from '@mui/icons-material';
-import { ColorModeContext } from '../pages/_app';
+import React from "react";
+import { alpha, useColorScheme, useTheme } from "@mui/material/styles";
+import IconButton from "@mui/material/IconButton";
+import Tooltip from "@mui/material/Tooltip";
+import { Brightness4, Brightness7 } from "@mui/icons-material";
 
 const ThemeToggle: React.FC = () => {
   const theme = useTheme();
-  const colorMode = useContext(ColorModeContext);
+  const { mode, setMode } = useColorScheme();
 
   return (
     <Tooltip
-      title={
-        theme.palette.mode === "dark"
-          ? "Switch to light mode"
-          : "Switch to dark mode"
-      }
+      title={mode === "dark" ? "Switch to light mode" : "Switch to dark mode"}
     >
       <IconButton
-        onClick={colorMode.toggleColorMode}
+        onClick={() => setMode(mode === "dark" ? "light" : "dark")}
         color="inherit"
         aria-label="Toggle Dark Mode"
         sx={{
           ml: 1,
           bgcolor:
-            theme.palette.mode === "dark"
-              ? "rgba(255, 255, 255, 0.08)"
-              : "rgba(0, 0, 0, 0.04)",
+            mode === "dark"
+              ? alpha(theme.palette.common.white, 0.08)
+              : alpha(theme.palette.common.black, 0.04),
           "&:hover": {
             bgcolor:
-              theme.palette.mode === "dark"
-                ? "rgba(255, 255, 255, 0.12)"
-                : "rgba(0, 0, 0, 0.08)",
+              mode === "dark"
+                ? alpha(theme.palette.common.white, 0.12)
+                : alpha(theme.palette.common.black, 0.08),
           },
         }}
       >
-        {theme.palette.mode === "dark" ? <Brightness7 /> : <Brightness4 />}
+        {mode === "dark" ? <Brightness7 /> : <Brightness4 />}
       </IconButton>
     </Tooltip>
   );

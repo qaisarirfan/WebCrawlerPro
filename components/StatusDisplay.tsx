@@ -1,31 +1,30 @@
-import { useEffect, useState } from 'react';
-import { 
-  Box, 
-  Typography, 
-  Button, 
-  LinearProgress, 
-  Chip, 
-  List, 
-  ListItem, 
-  ListItemIcon, 
+import { useEffect, useState } from "react";
+import {
+  Box,
+  Typography,
+  LinearProgress,
+  Chip,
+  List,
+  ListItem,
+  ListItemIcon,
   ListItemText,
   Stack,
   Paper,
-  Divider,
   IconButton,
   Tooltip,
   useTheme,
-  CircularProgress
-} from '@mui/material';
-import { 
-  Refresh as RefreshIcon, 
+  CircularProgress,
+  Button,
+} from "@mui/material";
+import {
+  Refresh as RefreshIcon,
   AccessTime as ClockIcon,
   Error as ErrorIcon,
-  Circle as CircleIcon
-} from '@mui/icons-material';
-import { CrawlerStatus } from '../types/crawler';
-import EnqueuedUrlsList from './EnqueuedUrlsList';
-import { useGetCrawlerStatusQuery } from '../store/apiSlice';
+  Circle as CircleIcon,
+} from "@mui/icons-material";
+import { CrawlerStatus } from "../types/crawler";
+import EnqueuedUrlsList from "./EnqueuedUrlsList";
+import { useGetCrawlerStatusQuery } from "../store/apiSlice";
 
 // No need to pass status as a prop anymore since we're using Redux
 interface StatusDisplayProps {
@@ -36,7 +35,12 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ onRefresh }) => {
   const [elapsedTime, setElapsedTime] = useState<string>("00:00:00");
   const [refreshing, setRefreshing] = useState(false);
   const theme = useTheme();
-  const { data: status, isLoading, error, refetch } = useGetCrawlerStatusQuery();
+  const {
+    data: status,
+    isLoading,
+    error,
+    refetch,
+  } = useGetCrawlerStatusQuery();
 
   // Calculate elapsed time when running
   useEffect(() => {
@@ -86,7 +90,14 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ onRefresh }) => {
   // Show loading state
   if (isLoading) {
     return (
-      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', py: 4 }}>
+      <Box
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          py: 4,
+        }}
+      >
         <CircularProgress size={40} />
         <Typography variant="body2" sx={{ mt: 2 }}>
           Loading crawler status...
@@ -98,14 +109,14 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ onRefresh }) => {
   // Show error state
   if (error) {
     return (
-      <Box sx={{ p: 3, textAlign: 'center' }}>
+      <Box sx={{ p: 3, textAlign: "center" }}>
         <Typography variant="body1" color="error">
           Error loading crawler status
         </Typography>
-        <Button 
-          variant="outlined" 
-          color="primary" 
-          onClick={() => refetch()} 
+        <Button
+          variant="outlined"
+          color="primary"
+          onClick={() => refetch()}
           sx={{ mt: 2 }}
           startIcon={<RefreshIcon />}
         >
@@ -118,14 +129,14 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ onRefresh }) => {
   // If we don't have status data yet, show a placeholder
   if (!status) {
     return (
-      <Box sx={{ textAlign: 'center', p: 3 }}>
+      <Box sx={{ textAlign: "center", p: 3 }}>
         <Typography variant="body2" color="text.secondary">
           Crawler status not available
         </Typography>
-        <Button 
-          variant="text" 
-          onClick={() => refetch()} 
-          size="small" 
+        <Button
+          variant="text"
+          onClick={() => refetch()}
+          size="small"
           sx={{ mt: 1 }}
         >
           Refresh
@@ -284,10 +295,10 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ onRefresh }) => {
       </Stack>
 
       {/* Display enqueued URLs list if the crawler is running and has URLs */}
-      {status.isRunning && status.enqueuedUrls && status.enqueuedUrls.length > 0 && (
-        <EnqueuedUrlsList />
-      )}
-      
+      {status.isRunning &&
+        status.enqueuedUrls &&
+        status.enqueuedUrls.length > 0 && <EnqueuedUrlsList />}
+
       {status.errors.length > 0 && (
         <Box sx={{ mt: 3 }}>
           <Typography

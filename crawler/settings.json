@@ -5,5 +5,5 @@
   "requestHandlerTimeoutSecs": 60,
   "navigationTimeoutSecs": 30,
   "sameDomainDelaySecs": 1,
-  "useHeadless": false
+  "useHeadless": true
 }

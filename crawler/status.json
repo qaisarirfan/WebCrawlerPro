@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "isRunning": true,
   "progress": 2,
   "totalUrls": 46277,
@@ -22,189 +23,424 @@
   ],
   "startTime": "2025-04-04T17:45:05.003Z",
   "lastUpdate": "2025-04-04T18:00:32.876Z",
+=======
+  "isRunning": false,
+  "progress": 100,
+  "totalUrls": 96504,
+  "processedUrls": 958,
+  "errors": [
+    "Error processing https://forum.lingq.com: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing https://community.make.com: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Failed to crawl https://groupifyhub.com: page.goto: net::ERR_EMPTY_RESPONSE at https://groupifyhub.com/\nCall log:\n\u001b[2m  - navigating to \"https://groupifyhub.com/\", waiting until \"load\"\u001b[22m\n",
+    "Failed to crawl https://grouplinklist.com: page.goto: net::ERR_EMPTY_RESPONSE at https://grouplinklist.com/\nCall log:\n\u001b[2m  - navigating to \"https://grouplinklist.com/\", waiting until \"load\"\u001b[22m\n",
+    "Failed to crawl https://grolinks.com: page.goto: net::ERR_EMPTY_RESPONSE at https://grolinks.com/\nCall log:\n\u001b[2m  - navigating to \"https://grolinks.com/\", waiting until \"load\"\u001b[22m\n",
+    "Failed to crawl https://groupsall.com: page.goto: net::ERR_EMPTY_RESPONSE at https://groupsall.com/\nCall log:\n\u001b[2m  - navigating to \"https://groupsall.com/\", waiting until \"load\"\u001b[22m\n",
+    "Failed to crawl https://groupsor.me: page.goto: net::ERR_CONNECTION_CLOSED at https://groupsor.me/\nCall log:\n\u001b[2m  - navigating to \"https://groupsor.me/\", waiting until \"load\"\u001b[22m\n",
+    "Failed to crawl https://grplinks.com: page.goto: net::ERR_CONNECTION_CLOSED at https://grplinks.com/\nCall log:\n\u001b[2m  - navigating to \"https://grplinks.com/\", waiting until \"load\"\u001b[22m\n",
+    "Error processing https://www.group4whatsup.com: Received one or more errors",
+    "Failed to crawl https://whatsappgplinks.com: page.goto: net::ERR_EMPTY_RESPONSE at https://whatsappgplinks.com/\nCall log:\n\u001b[2m  - navigating to \"https://whatsappgplinks.com/\", waiting until \"load\"\u001b[22m\n",
+    "Failed to crawl https://whatsappgroupchatlinks.com: page.goto: net::ERR_EMPTY_RESPONSE at https://whatsappgroupchatlinks.com/\nCall log:\n\u001b[2m  - navigating to \"https://whatsappgroupchatlinks.com/\", waiting until \"load\"\u001b[22m\n",
+    "Failed to crawl https://whatsappsgrouplink.com: page.goto: net::ERR_EMPTY_RESPONSE at https://whatsappsgrouplink.com/\nCall log:\n\u001b[2m  - navigating to \"https://whatsappsgrouplink.com/\", waiting until \"load\"\u001b[22m\n",
+    "Failed to crawl https://whatsgroupsl.com: page.goto: net::ERR_CONNECTION_CLOSED at https://whatsgroupsl.com/\nCall log:\n\u001b[2m  - navigating to \"https://whatsgroupsl.com/\", waiting until \"load\"\u001b[22m\n",
+    "Failed to crawl https://whatsappinvite.com: page.goto: net::ERR_CERT_DATE_INVALID at https://whatsappinvite.com/\nCall log:\n\u001b[2m  - navigating to \"https://whatsappinvite.com/\", waiting until \"load\"\u001b[22m\n",
+    "Error processing https://www.thegroups.org: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing https://whatsagrouplinks.com: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing https://www.whatsappgroupsjoinlink.com: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Failed to crawl https://www.whatsappgroupurl.com: page.goto: net::ERR_EMPTY_RESPONSE at https://www.whatsappgroupurl.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.whatsappgroupurl.com/\", waiting until \"load\"\u001b[22m\n",
+    "Failed to crawl https://www.whatsappgroupinvitelink.net: page.goto: net::ERR_EMPTY_RESPONSE at https://www.whatsappgroupinvitelink.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.whatsappgroupinvitelink.net/\", waiting until \"load\"\u001b[22m\n",
+    "Error processing http://groupsfan.blogspot.com/?view=sidebar: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Failed to crawl https://whatslinko.com: Navigation timed out after 30 seconds.",
+    "Failed to crawl https://www.allwhatsappgrouplink.com: Navigation timed out after 30 seconds.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/latest-active-whatsapp-group-links-join.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/funny-active-whatsapp-group-links-join.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/friendship-active-whatsapp-group-links.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/girls-active-whatsapp-group-links-join.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/france-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://findgroups.net/category-dtl/business-and-trade-communities: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://findgroups.net/category-dtl/social-media: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/kenya-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/nigeria-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/new-usa-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/united-kingdom-whatsapp-group-links.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/ghana-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/new-canada-whatsapp-group-links-list.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/turkey-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/angola-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/zimbabwe-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/australia-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/new-korean-whatsapp-group-links-list.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/brazil-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/tanzania-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/dubai-uae-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/germany-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/japan-whatsapp-group-links-list-2021.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/south-africa-whatsapp-group-links-list.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2020/12/join-1000-adult-whatsapp-group-links.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2018/03/chatango-groups.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2018/03/skype-groups.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2018/03/telegram-groups.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://groupsfan.blogspot.com/2018/03/whatsapp-groups.html: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing https://whtsgrouplinks.org/stock-market-whatsapp-group-links/: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing http://ww25.chatgrouplinks.com/listing?utm_source=sales_banner&utm_campaign=URL: page.waitForLoadState: Timeout 30000ms exceeded.\n=========================== logs ===========================\n  \"commit\" event fired\n  \"domcontentloaded\" event fired\n  \"load\" event fired\n============================================================",
+    "Error processing https://findgrouplinks.com/privacy-policy/: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Failed to crawl https://telegram.me/activewhatsappgroup: Navigation timed out after 30 seconds.",
+    "Error processing https://findgrouplinks.com/stock-market-whatsapp-group-link/: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Failed to crawl https://findgroups.net/category-dtl/travellers: Navigation timed out after 30 seconds.",
+    "Failed to crawl https://findgroups.net/category-dtl/sports-lovers: Navigation timed out after 30 seconds.",
+    "Failed to crawl https://findgroups.net/category-dtl/shopping-groups: Navigation timed out after 30 seconds.",
+    "Failed to crawl https://findgroups.net/category-dtl/internet: Navigation timed out after 30 seconds.",
+    "Failed to crawl https://findgroups.net/category-dtl/technology: Navigation timed out after 30 seconds.",
+    "Error processing https://findgroups.net/post/GbmjR/mechanical-engineers: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Failed to crawl https://findgroups.net/forum-dtl/whatsapp-groups: Navigation timed out after 30 seconds.",
+    "Error processing https://findgroups.net/post/3BSyq/munich-business-school: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing https://groupouts.com/new-telegram-group-links: page.waitForLoadState: Timeout 30000ms exceeded.",
+    "Error processing https://groupsgenie.com/language/Tamil: page.waitForLoadState: Timeout 30000ms exceeded."
+  ],
+  "startTime": "2025-04-05T12:40:19.673Z",
+  "lastUpdate": "2025-04-05T12:57:09.683Z",
+>>>>>>> Stashed changes
   "enqueuedUrls": [
     {
       "url": {
         "wasAlreadyPresent": true,
         "wasAlreadyHandled": false,
+<<<<<<< Updated upstream
         "requestId": "oNyqP0wrgKFFg6r",
         "uniqueKey": "https://groupda.link/add"
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "requestId": "RBYmA2ITizMbR6C",
+        "uniqueKey": "https://groupslinker.com/telegram-movies-group"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
         "wasAlreadyPresent": true,
         "wasAlreadyHandled": false,
+<<<<<<< Updated upstream
         "requestId": "Q6Lh374s6xyeP8j",
         "uniqueKey": "https://groupda.link/telegram"
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "requestId": "au634gsJMd4cQOL",
+        "uniqueKey": "https://groupslinker.com/contact-us"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "PrBmeR2iUbYUC8G",
         "uniqueKey": "https://groupda.link/add/group/invite/HrIs62P9z8DCldAJT2VcdX",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Pbwq0j4SJaUge66",
+        "uniqueKey": "https://groupslinker.com/the-science-behind-vinyl-wraps-how-they-work-and-why-theyre-effective"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "Dlj2G4oAq3mzmBK",
         "uniqueKey": "https://groupda.link/add/group/invite/E7SqdNQyI8D7SXJ8liCM1E",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "DombM3Wz1qVmeFV",
+        "uniqueKey": "https://groupslinker.com"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "VIehrXNrutLchie",
         "uniqueKey": "https://groupda.link/add/group/invite/Fwg4AIpDbzNL66opTwRedR",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "tSy573JiDscublC",
+        "uniqueKey": "https://groupslinker.com/news"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "vNMhPUoFTB1mCrh",
         "uniqueKey": "https://groupda.link/add/group/invite/IwDhbJIsEO26uxtKPvYoAV",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "XW6QdJCO2jqmUpd",
+        "uniqueKey": "https://groupslinker.com/technology"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "LT2Cpj8TW6klE7N",
         "uniqueKey": "https://groupda.link/add/group/invite/EMnlz0bFyno2Wg8rugrJEO",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "01p9KgmREwAj0Zt",
+        "uniqueKey": "https://groupslinker.com/lifestyle"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "9JIOoWbMKegd9EE",
         "uniqueKey": "https://groupda.link/add/group/invite/DauQnatvNFbAqslDUdIIAX",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "V17bASP4O5w5eKE",
+        "uniqueKey": "https://groupslinker.com/business"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "EuAtceTrqxBfeNo",
         "uniqueKey": "https://groupda.link/add/group/invite/CVC2yV1UXc9ECpIdCvJiYQ",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "SdrarTZPaEt9jph",
+        "uniqueKey": "https://groupslinker.com/fashion"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "PB9SpejekG0BKyb",
         "uniqueKey": "https://groupda.link/add/group/invite/EsKpavqfecU5Q6GwZugkTP",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "YdDkSgKMGflu6qW",
+        "uniqueKey": "https://groupslinker.com/travel"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "T1euboW370KFEdF",
         "uniqueKey": "https://groupda.link/add/group/invite/5F5QStWLNqEBnCY1doiGfS",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "daFe04kNclerWjo",
+        "uniqueKey": "https://groupslinker.com/whatsapp-groups"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "WhycIh9b00jO8f8",
         "uniqueKey": "https://groupda.link/add/group/invite/E1lYfwqmf2t8ffSdPe3jyF",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "aVnbemI5CK1vVA7",
+        "uniqueKey": "https://groupslinker.com/girls-number-whatsapp"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "aRZOdTF2Gwdiegq",
         "uniqueKey": "https://groupda.link/add/group/invite/KpdmQ4ZbVVr9IaPQxvQgLV",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "J9LP6Rd2Rnb5RME",
+        "uniqueKey": "https://groupslinker.com/telegram-groups"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "hGrMZ2zIxX7h7gD",
         "uniqueKey": "https://groupda.link/add/group/invite/JZ8j1HtGL5WJwJcHXsPxOW",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "RBYmA2ITizMbR6C",
+        "uniqueKey": "https://groupslinker.com/telegram-movies-group"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "n8DOVNJiAeK3b22",
         "uniqueKey": "https://groupda.link/add/group/invite/Ks6iRDf1NMxGER92ENE4jR",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "au634gsJMd4cQOL",
+        "uniqueKey": "https://groupslinker.com/contact-us"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "VBMlb6374yrWRCz",
         "uniqueKey": "https://groupda.link/add/group/invite/HfdPEfH6QxjGd0DZG2pWYR",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "DombM3Wz1qVmeFV",
+        "uniqueKey": "https://groupslinker.com"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "jSyDRCvJlQS4XTq",
         "uniqueKey": "https://groupda.link/add/group/invite/IhE73aFKPKQLrg8bOqZF8k",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Pbwq0j4SJaUge66",
+        "uniqueKey": "https://groupslinker.com/the-science-behind-vinyl-wraps-how-they-work-and-why-theyre-effective"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "GP729zIlwGlKr3s",
         "uniqueKey": "https://groupda.link/add/group/invite/FcGVumQZkWT7yjLUEoxPFv",
         "wasAlreadyHandled": false,
         "wasAlreadyPresent": false
       },
       "enqueuedAt": "2025-04-04T18:00:27.019Z",
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "DombM3Wz1qVmeFV",
+        "uniqueKey": "https://groupslinker.com"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+>>>>>>> Stashed changes
       "status": "pending"
     },
     {
       "url": {
+<<<<<<< Updated upstream
         "requestId": "lCCFhio1vkvK4fU",
         "uniqueKey": "https://groupda.link/add/group/invite/BjoXMNAdKTc3O5RAM10wjx",
         "wasAlreadyHandled": false,
@@ -1016,4 +1252,822 @@
   ],
   "pendingUrls": 45528,
   "currentUrl": "https://groupda.link/category/technology/"
+=======
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Pbwq0j4SJaUge66",
+        "uniqueKey": "https://groupslinker.com/the-science-behind-vinyl-wraps-how-they-work-and-why-theyre-effective"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "bSIXa4oaKR3TPsG",
+        "uniqueKey": "https://groupslinker.com/author/vinay"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "UjvQ0yyt2ytbh3g",
+        "uniqueKey": "https://groupslinker.com/automotive"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "bSIXa4oaKR3TPsG",
+        "uniqueKey": "https://groupslinker.com/author/vinay"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "g5SCfAAbxteZkvK",
+        "uniqueKey": "https://groupslinker.com/winter-and-summer-benefits-of-window-tinting-year-round-comfort-and-protection"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "g5SCfAAbxteZkvK",
+        "uniqueKey": "https://groupslinker.com/winter-and-summer-benefits-of-window-tinting-year-round-comfort-and-protection"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "g5SCfAAbxteZkvK",
+        "uniqueKey": "https://groupslinker.com/winter-and-summer-benefits-of-window-tinting-year-round-comfort-and-protection"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "TSpnOaEm3jaq1IG",
+        "uniqueKey": "https://groupslinker.com/unlocking-the-secrets-of-window-tinting"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "TSpnOaEm3jaq1IG",
+        "uniqueKey": "https://groupslinker.com/unlocking-the-secrets-of-window-tinting"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "ln9dbAe2sj9d2SD",
+        "uniqueKey": "https://groupslinker.com/apps"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "UjvQ0yyt2ytbh3g",
+        "uniqueKey": "https://groupslinker.com/automotive"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "qUI2M1LMs3A2F1i",
+        "uniqueKey": "https://groupslinker.com/beauty"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "V17bASP4O5w5eKE",
+        "uniqueKey": "https://groupslinker.com/business"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "qY84nkGonBxVBhB",
+        "uniqueKey": "https://groupslinker.com/career"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "zM0RsFwQpTqj9el",
+        "uniqueKey": "https://groupslinker.com/education"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "XmBRdYpzGCdlyYQ",
+        "uniqueKey": "https://groupslinker.com/europe"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "WJnDUcQVNynUlTN",
+        "uniqueKey": "https://groupslinker.com/events"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "SdrarTZPaEt9jph",
+        "uniqueKey": "https://groupslinker.com/fashion"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Om0AGbHtVJGca9V",
+        "uniqueKey": "https://groupslinker.com/fitness"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "J1ZrodmeK3yEt4G",
+        "uniqueKey": "https://groupslinker.com/food"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "JXPTymXmd1BzKG9",
+        "uniqueKey": "https://groupslinker.com/gadgets"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "FFZX3AlMNANrbGH",
+        "uniqueKey": "https://groupslinker.com/game"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "aVnbemI5CK1vVA7",
+        "uniqueKey": "https://groupslinker.com/girls-number-whatsapp"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "1rudofzrwbHnRvN",
+        "uniqueKey": "https://groupslinker.com/health"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "0k1blBadEkAPwlP",
+        "uniqueKey": "https://groupslinker.com/insurance"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "a6GwMYguRcoelAG",
+        "uniqueKey": "https://groupslinker.com/law"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "01p9KgmREwAj0Zt",
+        "uniqueKey": "https://groupslinker.com/lifestyle"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "SQH1Ab2Uigub4E4",
+        "uniqueKey": "https://groupslinker.com/medical"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "IHd1QWMxedoSbVJ",
+        "uniqueKey": "https://groupslinker.com/misc"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "F6G8oWf8tA1L3Td",
+        "uniqueKey": "https://groupslinker.com/music"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "tSy573JiDscublC",
+        "uniqueKey": "https://groupslinker.com/news"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Y0JnpsDGSJnudm6",
+        "uniqueKey": "https://groupslinker.com/photograph"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "yL9NP5Txe6KQVfw",
+        "uniqueKey": "https://groupslinker.com/real-estate"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "JsUMtnUaAUF2N85",
+        "uniqueKey": "https://groupslinker.com/services"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "7KlBJCsCWaA7U77",
+        "uniqueKey": "https://groupslinker.com/shop"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "387sa9drKZZ9GwZ",
+        "uniqueKey": "https://groupslinker.com/social-media"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "XW6QdJCO2jqmUpd",
+        "uniqueKey": "https://groupslinker.com/technology"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "J9LP6Rd2Rnb5RME",
+        "uniqueKey": "https://groupslinker.com/telegram-groups"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "RBYmA2ITizMbR6C",
+        "uniqueKey": "https://groupslinker.com/telegram-movies-group"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "tKdbgDYOGqfGbjn",
+        "uniqueKey": "https://groupslinker.com/tipes"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "YdDkSgKMGflu6qW",
+        "uniqueKey": "https://groupslinker.com/travel"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "vohRbYSpfdyqySd",
+        "uniqueKey": "https://groupslinker.com/trending"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "SeEeD1GJTv6PKXQ",
+        "uniqueKey": "https://groupslinker.com/uncategorized"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "daFe04kNclerWjo",
+        "uniqueKey": "https://groupslinker.com/whatsapp-groups"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "MkTUCRMGvVFXGR7",
+        "uniqueKey": "https://groupslinker.com/iraq-whatsapp-group-link"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "fOt3Fitw3b27mGs",
+        "uniqueKey": "https://groupslinker.com/texas-whatsapp-group-link"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "h1ClYmTjaPeeeU3",
+        "uniqueKey": "https://groupslinker.com/clash-of-clans-whatsapp-group"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "FilJId14v1VJqOY",
+        "uniqueKey": "https://groupslinker.com/chandigarh-whatsapp-group-link"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "UjvQ0yyt2ytbh3g",
+        "uniqueKey": "https://groupslinker.com/automotive"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Pbwq0j4SJaUge66",
+        "uniqueKey": "https://groupslinker.com/the-science-behind-vinyl-wraps-how-they-work-and-why-theyre-effective"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "bSIXa4oaKR3TPsG",
+        "uniqueKey": "https://groupslinker.com/author/vinay"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Pbwq0j4SJaUge66",
+        "uniqueKey": "https://groupslinker.com/the-science-behind-vinyl-wraps-how-they-work-and-why-theyre-effective"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "IHd1QWMxedoSbVJ",
+        "uniqueKey": "https://groupslinker.com/misc"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "fmwoneAxTD8w0gn",
+        "uniqueKey": "https://groupslinker.com/what-is-a-bull-market-top-trading-strategies-in-a-crypto-bull-market"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Fwxr4BIct5v1yBK",
+        "uniqueKey": "https://groupslinker.com/author/varsha"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "fmwoneAxTD8w0gn",
+        "uniqueKey": "https://groupslinker.com/what-is-a-bull-market-top-trading-strategies-in-a-crypto-bull-market"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "XW6QdJCO2jqmUpd",
+        "uniqueKey": "https://groupslinker.com/technology"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "tS4AEtnKOVfnSMx",
+        "uniqueKey": "https://groupslinker.com/%d8%a7%d9%84%d8%b7%d8%a7%d8%a8%d8%b9%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d9%85%d8%a7%d8%b3%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b6%d9%88%d8%a6%d9%8a%d8%a9-%d8%aa%d9%83%d9%86%d9%88%d9%84%d9%88%d8%ac%d9%8a"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Fwxr4BIct5v1yBK",
+        "uniqueKey": "https://groupslinker.com/author/varsha"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "tS4AEtnKOVfnSMx",
+        "uniqueKey": "https://groupslinker.com/%d8%a7%d9%84%d8%b7%d8%a7%d8%a8%d8%b9%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d9%85%d8%a7%d8%b3%d8%ad%d8%a7%d8%aa-%d8%a7%d9%84%d8%b6%d9%88%d8%a6%d9%8a%d8%a9-%d8%aa%d9%83%d9%86%d9%88%d9%84%d9%88%d8%ac%d9%8a"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "tKdbgDYOGqfGbjn",
+        "uniqueKey": "https://groupslinker.com/tipes"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "YWDZ2OE6zhHh403",
+        "uniqueKey": "https://groupslinker.com/why-waiting-at-a-repair-shop-is-outdated-embracing-mobile-phone-repairs"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Fwxr4BIct5v1yBK",
+        "uniqueKey": "https://groupslinker.com/author/varsha"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "YWDZ2OE6zhHh403",
+        "uniqueKey": "https://groupslinker.com/why-waiting-at-a-repair-shop-is-outdated-embracing-mobile-phone-repairs"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "IHd1QWMxedoSbVJ",
+        "uniqueKey": "https://groupslinker.com/misc"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "FZ8ZMLHZEpIIAJN",
+        "uniqueKey": "https://groupslinker.com/unparalleled-sensations-with-a-dildo-how-to-choose-your-ideal-device"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "bSIXa4oaKR3TPsG",
+        "uniqueKey": "https://groupslinker.com/author/vinay"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "FZ8ZMLHZEpIIAJN",
+        "uniqueKey": "https://groupslinker.com/unparalleled-sensations-with-a-dildo-how-to-choose-your-ideal-device"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "IHd1QWMxedoSbVJ",
+        "uniqueKey": "https://groupslinker.com/misc"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "MTpnDydO0GzjMrw",
+        "uniqueKey": "https://groupslinker.com/common-misconceptions-about-xirr"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Fwxr4BIct5v1yBK",
+        "uniqueKey": "https://groupslinker.com/author/varsha"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "MTpnDydO0GzjMrw",
+        "uniqueKey": "https://groupslinker.com/common-misconceptions-about-xirr"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "DombM3Wz1qVmeFV",
+        "uniqueKey": "https://groupslinker.com"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Pbwq0j4SJaUge66",
+        "uniqueKey": "https://groupslinker.com/the-science-behind-vinyl-wraps-how-they-work-and-why-theyre-effective"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Pbwq0j4SJaUge66",
+        "uniqueKey": "https://groupslinker.com/the-science-behind-vinyl-wraps-how-they-work-and-why-theyre-effective"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Pbwq0j4SJaUge66",
+        "uniqueKey": "https://groupslinker.com/the-science-behind-vinyl-wraps-how-they-work-and-why-theyre-effective"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Pbwq0j4SJaUge66",
+        "uniqueKey": "https://groupslinker.com/the-science-behind-vinyl-wraps-how-they-work-and-why-theyre-effective"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Pbwq0j4SJaUge66",
+        "uniqueKey": "https://groupslinker.com/the-science-behind-vinyl-wraps-how-they-work-and-why-theyre-effective"
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "gypr0hGjb0cw5xd",
+        "uniqueKey": "https://groupslinker.com/author/samanvya",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "N7aFXPEqNwCFZr0",
+        "uniqueKey": "https://groupslinker.com/author/sambit",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "9aUM5HIogZfPsN0",
+        "uniqueKey": "https://groupslinker.com/the-science-behind-vinyl-wraps-how-they-work-and-why-theyre-effective?amp=1",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "pending"
+    },
+    {
+      "url": "https://groupslinker.com/the-science-behind-vinyl-wraps-how-they-work-and-why-theyre-effective/",
+      "enqueuedAt": "2025-04-05T12:57:09.510Z",
+      "status": "done"
+    }
+  ],
+  "pendingUrls": 0,
+  "currentUrl": "https://groupslinker.com/the-science-behind-vinyl-wraps-how-they-work-and-why-theyre-effective/"
+>>>>>>> Stashed changes
 }

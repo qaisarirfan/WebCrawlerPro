@@ -163,17 +163,17 @@ export const startCrawler = async (
   currentStatus = {
     isRunning: true,
     progress: 0,
-    totalUrls: urls.length, // This will be updated as we discover more URLs
+    totalUrls: 0,
     processedUrls: 0,
     errors: [],
     startTime: new Date(),
     lastUpdate: new Date(),
-    enqueuedUrls: urls.map(url => ({
+    enqueuedUrls: urls.map((url) => ({
       url,
       enqueuedAt: new Date(),
-      status: 'pending'
+      status: "pending",
     })),
-    pendingUrls: urls.length
+    pendingUrls: urls.length,
   };
   saveStatus(currentStatus);
 
@@ -393,14 +393,7 @@ export const startCrawler = async (
             if (!stopRequested && !singleMode) {
               const enqueuedUrls = await enqueueLinks({
                 strategy: "same-domain",
-                // Exclude some problematic URLs
-                exclude: [
-                  "https://www.hindustantimes.com",
-                  "*/wp-admin/*",
-                  "*/wp-login.php*",
-                  "*/logout*",
-                  "*/sign-out*",
-                ],
+                globs: urls.map((val) => `${val}/*/*`),
               });
 
               // Update the total requests added with newly enqueued URLs
@@ -605,14 +598,7 @@ export const startCrawler = async (
             if (!stopRequested && !singleMode) {
               const enqueuedUrls = await enqueueLinks({
                 strategy: "same-domain",
-                // Exclude some problematic URLs
-                exclude: [
-                  "https://www.hindustantimes.com",
-                  "*/wp-admin/*",
-                  "*/wp-login.php*",
-                  "*/logout*",
-                  "*/sign-out*",
-                ],
+                globs: urls.map((val) => `${val}/*/*`),
               });
 
               // Update the total requests added with newly enqueued URLs
@@ -696,7 +682,7 @@ export const startCrawler = async (
     }
 
     // Start the crawler with the request queue
-    await crawler.run();
+    await crawler.run(urls);
   } catch (error: any) {
     console.error("Crawler error:", error);
     currentStatus.errors.push(
@@ -724,7 +710,7 @@ export const stopCrawler = (): void => {
     stopRequested = true;
     // Abort the crawler's pool of requests
     crawler.autoscaledPool?.abort();
-    console.log('Crawler stopping...');
+    console.log("Crawler stopping...");
     currentStatus.lastUpdate = new Date();
     saveStatus(currentStatus);
   }
@@ -741,5 +727,6 @@ export const getCrawlerStatus = (): CrawlerStatus => {
 
 // Check if crawler is running
 export const isRunning = (): boolean => {
-  return isCrawlerRunning;
+  const status = getStatus();
+  return isCrawlerRunning || status.isRunning;
 };

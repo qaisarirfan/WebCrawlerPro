@@ -1,23 +1,35 @@
-import { CheerioCrawler, RequestQueue, PlaywrightCrawler, BasicCrawler } from 'crawlee';
-import { WhatsAppLink, CrawlerStatus, CrawlerConfig, EnqueuedUrl } from '../types/crawler';
-import { 
-  saveWhatsAppLinks, 
-  saveStatus, 
-  getStatus, 
-  saveEnqueuedUrls, 
-  getEnqueuedUrls, 
-  saveErrors, 
-  getErrors 
-} from './fileSystem';
-import { defaultUrls } from './defaultUrls';
-import fs from 'fs';
-import path from 'path';
+import {
+  CheerioCrawler,
+  RequestQueue,
+  PlaywrightCrawler,
+  BasicCrawler,
+} from "crawlee";
+import {
+  WhatsAppLink,
+  CrawlerStatus,
+  CrawlerConfig,
+  EnqueuedUrl,
+} from "../types/crawler";
+import {
+  saveWhatsAppLinks,
+  saveStatus,
+  getStatus,
+  saveEnqueuedUrls,
+  getEnqueuedUrls,
+  saveErrors,
+  getErrors,
+} from "./fileSystem";
+import { defaultUrls } from "./defaultUrls";
+import fs from "fs";
+import path from "path";
 
 // Regular expressions to find WhatsApp invite links
 // This pattern matches standard WhatsApp group invite links
-const whatsappLinkRegex = /https:\/\/chat\.whatsapp\.com(?:\/invite)?\/([A-Za-z0-9]{22})/gm;
+const whatsappLinkRegex =
+  /https:\/\/chat\.whatsapp\.com(?:\/invite)?\/([A-Za-z0-9]{22})/gm;
 // Additional patterns for other possible WhatsApp invite URL formats
-const whatsappLinkAltRegex = /(?:https?:\/\/)?(?:www\.)?(?:wa\.me|api\.whatsapp\.com)\/(?:join|send)\/?([A-Za-z0-9_-]+)/gm;
+const whatsappLinkAltRegex =
+  /(?:https?:\/\/)?(?:www\.)?(?:wa\.me|api\.whatsapp\.com)\/(?:join|send)\/?([A-Za-z0-9_-]+)/gm;
 
 // Global variables to track crawler state
 const savedStatus = getStatus();
@@ -47,7 +59,7 @@ let currentStatus: CrawlerStatus = savedStatus || {
   processedUrls: 0,
   errors: savedErrors || [],
   enqueuedUrls: savedEnqueuedUrls || [],
-  pendingUrls: 0
+  pendingUrls: 0,
 };
 
 let crawler: BasicCrawler | CheerioCrawler | PlaywrightCrawler | null = null;
@@ -159,9 +171,14 @@ export const extractInviteLink = (
 };
 
 // Helper to track processing of a URL
-const updateUrlStatus = (url: string, status: 'processing' | 'done' | 'failed') => {
+const updateUrlStatus = (
+  url: string,
+  status: "processing" | "done" | "failed"
+) => {
   // Find the URL in our list and update its status
-  const urlIndex = currentStatus.enqueuedUrls.findIndex(item => item.url === url);
+  const urlIndex = currentStatus.enqueuedUrls.findIndex(
+    (item) => item.url === url
+  );
   if (urlIndex !== -1) {
     currentStatus.enqueuedUrls[urlIndex].status = status;
   } else {
@@ -169,22 +186,22 @@ const updateUrlStatus = (url: string, status: 'processing' | 'done' | 'failed') 
     currentStatus.enqueuedUrls.push({
       url,
       enqueuedAt: new Date(),
-      status
+      status,
     });
-    
+
     // Keep list at manageable size
     if (currentStatus.enqueuedUrls.length > 100) {
       currentStatus.enqueuedUrls = currentStatus.enqueuedUrls.slice(-100);
     }
   }
-  
+
   // Update pending count
   currentStatus.pendingUrls = totalRequestsAdded - processedRequests;
 };
 
 // Start crawler for a single URL
 export const crawlSingleUrl = async (url: string): Promise<void> => {
-  if (isCrawlerRunning) {
+  if (isRunning()) {
     return;
   }
 
@@ -218,12 +235,12 @@ export const startCrawler = async (
     errors: [],
     startTime: new Date(),
     lastUpdate: new Date(),
-    enqueuedUrls: urls.map(url => ({
+    enqueuedUrls: urls.map((url) => ({
       url,
       enqueuedAt: new Date(),
-      status: 'pending'
+      status: "pending",
     })),
-    pendingUrls: urls.length
+    pendingUrls: urls.length,
   };
   saveStatus(currentStatus);
 
@@ -263,10 +280,14 @@ export const startCrawler = async (
               error?.message || "Unknown error"
             }`
           );
-          addError(`Failed to crawl ${request.url}: ${error?.message || "Unknown error"}`);
+          addError(
+            `Failed to crawl ${request.url}: ${
+              error?.message || "Unknown error"
+            }`
+          );
 
           // Update URL status to failed
-          updateUrlStatus(request.url, 'failed');
+          updateUrlStatus(request.url, "failed");
 
           // Update progress for failed requests too
           processedRequests++;
@@ -286,9 +307,9 @@ export const startCrawler = async (
           console.log(`Crawling with headless browser: ${request.url}`);
           currentStatus.currentUrl = request.url;
           currentStatus.lastUpdate = new Date();
-          
+
           // Mark this URL as processing
-          updateUrlStatus(request.url, 'processing');
+          updateUrlStatus(request.url, "processing");
           saveStatus(currentStatus);
 
           if (stopRequested) {
@@ -465,33 +486,37 @@ export const startCrawler = async (
               if (enqueuedCount > 0) {
                 totalRequestsAdded += enqueuedCount;
                 currentStatus.totalUrls = totalRequestsAdded;
-                
+
                 // Add newly enqueued URLs to the status
                 const newEnqueuedUrls = Array.isArray(enqueuedUrls)
                   ? enqueuedUrls.map((req: any) => req.url || req)
-                  : (enqueuedUrls as any).processedRequests?.map((req: any) => req.url || req) || [];
-                
+                  : (enqueuedUrls as any).processedRequests?.map(
+                      (req: any) => req.url || req
+                    ) || [];
+
                 // Add them to our tracking array
                 currentStatus.enqueuedUrls.push(
                   ...newEnqueuedUrls.map((url: string) => ({
                     url,
                     enqueuedAt: new Date(),
-                    status: 'pending'
+                    status: "pending",
                   }))
                 );
-                
+
                 // Keep only the most recent 100 URLs to avoid memory issues
                 if (currentStatus.enqueuedUrls.length > 100) {
-                  currentStatus.enqueuedUrls = currentStatus.enqueuedUrls.slice(-100);
+                  currentStatus.enqueuedUrls =
+                    currentStatus.enqueuedUrls.slice(-100);
                 }
-                
+
                 // Update pending count
-                currentStatus.pendingUrls = totalRequestsAdded - processedRequests;
+                currentStatus.pendingUrls =
+                  totalRequestsAdded - processedRequests;
               }
             }
 
             // Mark URL as done
-            updateUrlStatus(request.url, 'done');
+            updateUrlStatus(request.url, "done");
 
             // Update progress
             processedRequests++;
@@ -532,10 +557,10 @@ export const startCrawler = async (
                 error.message || "Unknown error"
               }`
             );
-            
+
             // Mark URL as failed
-            updateUrlStatus(request.url, 'failed');
-            
+            updateUrlStatus(request.url, "failed");
+
             saveStatus(currentStatus);
           }
         },
@@ -564,9 +589,9 @@ export const startCrawler = async (
           console.log(`Crawling: ${request.url}`);
           currentStatus.currentUrl = request.url;
           currentStatus.lastUpdate = new Date();
-          
+
           // Mark URL as processing
-          updateUrlStatus(request.url, 'processing');
+          updateUrlStatus(request.url, "processing");
           saveStatus(currentStatus);
 
           if (stopRequested) {
@@ -711,33 +736,37 @@ export const startCrawler = async (
               if (enqueuedCount > 0) {
                 totalRequestsAdded += enqueuedCount;
                 currentStatus.totalUrls = totalRequestsAdded;
-                
+
                 // Add newly enqueued URLs to the status
                 const newEnqueuedUrls = Array.isArray(enqueuedUrls)
                   ? enqueuedUrls.map((req: any) => req.url || req)
-                  : (enqueuedUrls as any).processedRequests?.map((req: any) => req.url || req) || [];
-                
+                  : (enqueuedUrls as any).processedRequests?.map(
+                      (req: any) => req.url || req
+                    ) || [];
+
                 // Add them to our tracking array
                 currentStatus.enqueuedUrls.push(
                   ...newEnqueuedUrls.map((url: string) => ({
                     url,
                     enqueuedAt: new Date(),
-                    status: 'pending'
+                    status: "pending",
                   }))
                 );
-                
+
                 // Keep only the most recent 100 URLs to avoid memory issues
                 if (currentStatus.enqueuedUrls.length > 100) {
-                  currentStatus.enqueuedUrls = currentStatus.enqueuedUrls.slice(-100);
+                  currentStatus.enqueuedUrls =
+                    currentStatus.enqueuedUrls.slice(-100);
                 }
-                
+
                 // Update pending count
-                currentStatus.pendingUrls = totalRequestsAdded - processedRequests;
+                currentStatus.pendingUrls =
+                  totalRequestsAdded - processedRequests;
               }
             }
 
             // Mark URL as done
-            updateUrlStatus(request.url, 'done');
+            updateUrlStatus(request.url, "done");
 
             // Update progress
             processedRequests++;
@@ -778,10 +807,10 @@ export const startCrawler = async (
                 error.message || "Unknown error"
               }`
             );
-            
+
             // Mark URL as failed
-            updateUrlStatus(request.url, 'failed');
-            
+            updateUrlStatus(request.url, "failed");
+
             saveStatus(currentStatus);
           }
         },
@@ -789,31 +818,39 @@ export const startCrawler = async (
         // Handle failed requests
         failedRequestHandler(context: any) {
           const { request, error } = context;
-          console.error(`Request ${request.url} failed: ${error?.message || "Unknown error"}`);
-          addError(`Failed to crawl ${request.url}: ${error?.message || "Unknown error"}`);
-          
+          console.error(
+            `Request ${request.url} failed: ${
+              error?.message || "Unknown error"
+            }`
+          );
+          addError(
+            `Failed to crawl ${request.url}: ${
+              error?.message || "Unknown error"
+            }`
+          );
+
           // Mark URL as failed
-          updateUrlStatus(request.url, 'failed');
-          
+          updateUrlStatus(request.url, "failed");
+
           // Update progress for failed requests too
           processedRequests++;
           currentStatus.processedUrls = processedRequests;
           currentStatus.pendingUrls = totalRequestsAdded - processedRequests;
           currentStatus.progress = Math.min(
-            100, 
+            100,
             Math.round((processedRequests / totalRequestsAdded) * 100)
           );
-          
+
           saveStatus(currentStatus);
-        }
+        },
       });
     }
-    
+
     // Start the crawler with the request queue
     await crawler.run();
   } catch (error: any) {
-    console.error('Crawler error:', error);
-    addError(`Crawler error: ${error.message || 'Unknown error'}`);
+    console.error("Crawler error:", error);
+    addError(`Crawler error: ${error.message || "Unknown error"}`);
   } finally {
     // Mark crawler as stopped
     isCrawlerRunning = false;
@@ -823,7 +860,7 @@ export const startCrawler = async (
     currentStatus.pendingUrls = 0; // No more pending URLs
     saveStatus(currentStatus);
     crawler = null;
-    
+
     // Purge the request queue to clean up
     if (requestQueue) {
       await requestQueue.drop();
@@ -834,14 +871,12 @@ export const startCrawler = async (
 
 // Stop the crawler
 export const stopCrawler = (): void => {
-  if (crawler) {
-    stopRequested = true;
-    // Abort the crawler's pool of requests
-    crawler.autoscaledPool?.abort();
-    console.log('Crawler stopping...');
-    currentStatus.lastUpdate = new Date();
-    saveStatus(currentStatus);
-  }
+  stopRequested = true;
+  // Abort the crawler's pool of requests
+  crawler?.autoscaledPool?.abort();
+  console.log("Crawler stopping...");
+  currentStatus.lastUpdate = new Date();
+  saveStatus(currentStatus);
 };
 
 // Get current crawler status
@@ -855,5 +890,6 @@ export const getCrawlerStatus = (): CrawlerStatus => {
 
 // Check if crawler is running
 export const isRunning = (): boolean => {
-  return isCrawlerRunning;
+  const status = getStatus();
+  return isCrawlerRunning || Boolean(status?.isRunning);
 };
