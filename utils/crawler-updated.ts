@@ -1,6 +1,14 @@
 import { CheerioCrawler, RequestQueue, PlaywrightCrawler, BasicCrawler } from 'crawlee';
 import { WhatsAppLink, CrawlerStatus, CrawlerConfig, EnqueuedUrl } from '../types/crawler';
-import { saveWhatsAppLinks, saveStatus, getStatus } from './fileSystem';
+import { 
+  saveWhatsAppLinks, 
+  saveStatus, 
+  getStatus, 
+  saveEnqueuedUrls, 
+  getEnqueuedUrls, 
+  saveErrors, 
+  getErrors 
+} from './fileSystem';
 import { defaultUrls } from './defaultUrls';
 import fs from 'fs';
 import path from 'path';
@@ -12,15 +20,33 @@ const whatsappLinkRegex = /https:\/\/chat\.whatsapp\.com(?:\/invite)?\/([A-Za-z0
 const whatsappLinkAltRegex = /(?:https?:\/\/)?(?:www\.)?(?:wa\.me|api\.whatsapp\.com)\/(?:join|send)\/?([A-Za-z0-9_-]+)/gm;
 
 // Global variables to track crawler state
-let isCrawlerRunning = false;
+const savedStatus = getStatus();
+// Initialize crawler running state from saved status
+let isCrawlerRunning = savedStatus?.isRunning || false;
 let stopRequested = false;
-let currentStatus: CrawlerStatus = {
+
+// Initialize crawler status from persisted state if available
+const savedEnqueuedUrls = getEnqueuedUrls();
+const savedErrors = getErrors();
+
+// Helper function to add error and persist errors
+const addError = (errorMessage: string) => {
+  currentStatus.errors.push(errorMessage);
+  // Keep errors at a manageable size
+  if (currentStatus.errors.length > 100) {
+    currentStatus.errors = currentStatus.errors.slice(-100);
+  }
+  // Persist errors to file
+  saveErrors(currentStatus.errors);
+};
+
+let currentStatus: CrawlerStatus = savedStatus || {
   isRunning: false,
   progress: 0,
   totalUrls: 0,
   processedUrls: 0,
-  errors: [],
-  enqueuedUrls: [],
+  errors: savedErrors || [],
+  enqueuedUrls: savedEnqueuedUrls || [],
   pendingUrls: 0
 };
 
@@ -237,11 +263,7 @@ export const startCrawler = async (
               error?.message || "Unknown error"
             }`
           );
-          currentStatus.errors.push(
-            `Failed to crawl ${request.url}: ${
-              error?.message || "Unknown error"
-            }`
-          );
+          addError(`Failed to crawl ${request.url}: ${error?.message || "Unknown error"}`);
 
           // Update URL status to failed
           updateUrlStatus(request.url, 'failed');
@@ -768,7 +790,7 @@ export const startCrawler = async (
         failedRequestHandler(context: any) {
           const { request, error } = context;
           console.error(`Request ${request.url} failed: ${error?.message || "Unknown error"}`);
-          currentStatus.errors.push(`Failed to crawl ${request.url}: ${error?.message || "Unknown error"}`);
+          addError(`Failed to crawl ${request.url}: ${error?.message || "Unknown error"}`);
           
           // Mark URL as failed
           updateUrlStatus(request.url, 'failed');
@@ -791,7 +813,7 @@ export const startCrawler = async (
     await crawler.run();
   } catch (error: any) {
     console.error('Crawler error:', error);
-    currentStatus.errors.push(`Crawler error: ${error.message || 'Unknown error'}`);
+    addError(`Crawler error: ${error.message || 'Unknown error'}`);
   } finally {
     // Mark crawler as stopped
     isCrawlerRunning = false;

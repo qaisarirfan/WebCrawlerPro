@@ -1,0 +1,33 @@
+diff --git a/utils/crawler-updated.ts b/utils/crawler-updated.ts
+--- a/utils/crawler-updated.ts
++++ b/utils/crawler-updated.ts
+@@ -529,10 +529,7 @@
+           } catch (error: any) {
+             console.error(`Error processing ${request.url}:`, error);
+-            currentStatus.errors.push(
+-              `Error processing ${request.url}: ${
+-                error.message || "Unknown error"
+-              }`
+-            );
++            addError(`Error processing ${request.url}: ${
++              error.message || "Unknown error"
++            }`);
+             
+             // Mark URL as failed
+@@ -775,10 +772,7 @@
+           } catch (error: any) {
+             console.error(`Error processing ${request.url}:`, error);
+-            currentStatus.errors.push(
+-              `Error processing ${request.url}: ${
+-                error.message || "Unknown error"
+-              }`
+-            );
++            addError(`Error processing ${request.url}: ${
++              error.message || "Unknown error"
++            }`);
+             
+             // Mark URL as failed
+@@ -792,2 +786,0 @@
+           console.error(`Request ${request.url} failed: ${error?.message || "Unknown error"}`);
+-          currentStatus.errors.push(`Failed to crawl ${request.url}: ${error?.message || "Unknown error"}`);
++          addError(`Failed to crawl ${request.url}: ${error?.message || "Unknown error"}`);

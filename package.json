@@ -19,6 +19,7 @@
     "@heroicons/react": "^2.2.0",
     "@mui/icons-material": "^7.0.1",
     "@mui/material": "^7.0.1",
+    "@reduxjs/toolkit": "^2.6.1",
     "@types/node": "^22.14.0",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.1",
@@ -28,6 +29,7 @@
     "next": "^15.2.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
     "typescript": "^5.8.2"
   }
 }

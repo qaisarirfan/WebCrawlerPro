@@ -1,20 +1,1019 @@
 {
-  "isRunning": false,
+  "isRunning": true,
   "progress": 2,
-  "totalUrls": 5990,
-  "processedUrls": 100,
+  "totalUrls": 46277,
+  "processedUrls": 749,
   "errors": [
     "Failed to crawl https://groupifyhub.com: getaddrinfo ENOTFOUND groupifyhub.com",
     "Failed to crawl https://grouplinklist.com: getaddrinfo EAI_AGAIN grouplinklist.com",
     "Failed to crawl https://groupsall.com: getaddrinfo ENOTFOUND groupsall.com",
-    "Failed to crawl https://groupslinks.info: 525 - Internal Server Error: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if I",
-    "Failed to crawl https://whatgrouplink.com: request timed out after 30 seconds.",
+    "Failed to crawl https://groupslinks.info: 525 - Internal Server Error: ",
+    "Failed to crawl https://whatgrouplink.com: 522 - Internal Server Error: ",
     "Failed to crawl https://whatsappgplinks.com: getaddrinfo ENOTFOUND whatsappgplinks.com",
     "Failed to crawl https://whatsappgroupchatlinks.com: getaddrinfo EAI_AGAIN whatsappgroupchatlinks.com",
     "Failed to crawl https://whatsappinvite.com: Request blocked - received 403 status code.",
-    "Failed to crawl https://whatsappsgrouplink.com: getaddrinfo ENOTFOUND whatsappsgrouplink.com"
+    "Failed to crawl https://whatsappsgrouplink.com: getaddrinfo ENOTFOUND whatsappsgrouplink.com",
+    "Failed to crawl https://www.allwhatsappgrouplink.com: request timed out after 30 seconds.",
+    "Failed to crawl https://activelinko.com/cdn-cgi/l/email-protection#fe899b9c939f8d8a9b8cbe9f9d8a97889b9297909591d09d9193: Resource https://activelinko.com/cdn-cgi/l/email-protection#fe899b9c939f8d8a9b8cbe9f9d8a97889b9297909591d09d9193 served Content-Type application/octet-stream, but only text/html, text/xml, application/xhtml+xml, application/xml, application/json are allowed. Skipping resource.",
+    "Failed to crawl https://www.whatsappgroupurl.com: getaddrinfo ENOTFOUND www.whatsappgroupurl.com",
+    "Failed to crawl https://grolinks.com: Detected a session error, rotating session... \nconnect ECONNREFUSED 152.44.37.134:443\n",
+    "Failed to crawl https://www.whatsappgroupinvitelink.net: Detected a session error, rotating session... \nconnect ECONNREFUSED 38.47.239.89:443\n",
+    "Failed to crawl http://findgroups.net/post/Nr5Ks: 500 - Internal Server Error: <!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <meta http-equiv="
   ],
-  "startTime": "2025-04-04T14:12:28.144Z",
-  "lastUpdate": "2025-04-04T14:17:44.379Z",
-  "currentUrl": "https://activewhatslink.com/cdn-cgi/l/email-protection#f18694939c9082859483b190928598879486999085829d989f9adf929e9c"
+  "startTime": "2025-04-04T17:45:05.003Z",
+  "lastUpdate": "2025-04-04T18:00:32.876Z",
+  "enqueuedUrls": [
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "oNyqP0wrgKFFg6r",
+        "uniqueKey": "https://groupda.link/add"
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Q6Lh374s6xyeP8j",
+        "uniqueKey": "https://groupda.link/telegram"
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "PrBmeR2iUbYUC8G",
+        "uniqueKey": "https://groupda.link/add/group/invite/HrIs62P9z8DCldAJT2VcdX",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "Dlj2G4oAq3mzmBK",
+        "uniqueKey": "https://groupda.link/add/group/invite/E7SqdNQyI8D7SXJ8liCM1E",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "VIehrXNrutLchie",
+        "uniqueKey": "https://groupda.link/add/group/invite/Fwg4AIpDbzNL66opTwRedR",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "vNMhPUoFTB1mCrh",
+        "uniqueKey": "https://groupda.link/add/group/invite/IwDhbJIsEO26uxtKPvYoAV",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "LT2Cpj8TW6klE7N",
+        "uniqueKey": "https://groupda.link/add/group/invite/EMnlz0bFyno2Wg8rugrJEO",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "9JIOoWbMKegd9EE",
+        "uniqueKey": "https://groupda.link/add/group/invite/DauQnatvNFbAqslDUdIIAX",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "EuAtceTrqxBfeNo",
+        "uniqueKey": "https://groupda.link/add/group/invite/CVC2yV1UXc9ECpIdCvJiYQ",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "PB9SpejekG0BKyb",
+        "uniqueKey": "https://groupda.link/add/group/invite/EsKpavqfecU5Q6GwZugkTP",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "T1euboW370KFEdF",
+        "uniqueKey": "https://groupda.link/add/group/invite/5F5QStWLNqEBnCY1doiGfS",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "WhycIh9b00jO8f8",
+        "uniqueKey": "https://groupda.link/add/group/invite/E1lYfwqmf2t8ffSdPe3jyF",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "aRZOdTF2Gwdiegq",
+        "uniqueKey": "https://groupda.link/add/group/invite/KpdmQ4ZbVVr9IaPQxvQgLV",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "hGrMZ2zIxX7h7gD",
+        "uniqueKey": "https://groupda.link/add/group/invite/JZ8j1HtGL5WJwJcHXsPxOW",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "n8DOVNJiAeK3b22",
+        "uniqueKey": "https://groupda.link/add/group/invite/Ks6iRDf1NMxGER92ENE4jR",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "VBMlb6374yrWRCz",
+        "uniqueKey": "https://groupda.link/add/group/invite/HfdPEfH6QxjGd0DZG2pWYR",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "jSyDRCvJlQS4XTq",
+        "uniqueKey": "https://groupda.link/add/group/invite/IhE73aFKPKQLrg8bOqZF8k",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "GP729zIlwGlKr3s",
+        "uniqueKey": "https://groupda.link/add/group/invite/FcGVumQZkWT7yjLUEoxPFv",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "lCCFhio1vkvK4fU",
+        "uniqueKey": "https://groupda.link/add/group/invite/BjoXMNAdKTc3O5RAM10wjx",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:27.019Z",
+      "status": "pending"
+    },
+    {
+      "url": "https://groupda.link/technology/fiery-whatsapp-group-link-join-2023/",
+      "enqueuedAt": "2025-04-04T18:00:28.238Z",
+      "status": "done"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "LWwrOxjbIF9T76e",
+        "uniqueKey": "https://groupda.link/technology/fiery-whatsapp-group-link-join-2023"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "KIlq4vLdTZqfWuh",
+        "uniqueKey": "https://groupda.link"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "LWwrOxjbIF9T76e",
+        "uniqueKey": "https://groupda.link/technology/fiery-whatsapp-group-link-join-2023"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "KIlq4vLdTZqfWuh",
+        "uniqueKey": "https://groupda.link"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Z1X5lXifdFyXSDl",
+        "uniqueKey": "https://groupda.link/about-us"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "YSOnmLPV2b9wYh4",
+        "uniqueKey": "https://groupda.link/privacy-policy"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "6U65nTuH5w0D3e8",
+        "uniqueKey": "https://groupda.link/dmca"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "6Xb9G7VaDdbaLrm",
+        "uniqueKey": "https://groupda.link/contact-us"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "JONnvzns1L9vHWm",
+        "uniqueKey": "https://groupda.link/disclaimer"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "LWwrOxjbIF9T76e",
+        "uniqueKey": "https://groupda.link/technology/fiery-whatsapp-group-link-join-2023"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "KIlq4vLdTZqfWuh",
+        "uniqueKey": "https://groupda.link"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Z1X5lXifdFyXSDl",
+        "uniqueKey": "https://groupda.link/about-us"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "YSOnmLPV2b9wYh4",
+        "uniqueKey": "https://groupda.link/privacy-policy"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "6U65nTuH5w0D3e8",
+        "uniqueKey": "https://groupda.link/dmca"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "6Xb9G7VaDdbaLrm",
+        "uniqueKey": "https://groupda.link/contact-us"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "JONnvzns1L9vHWm",
+        "uniqueKey": "https://groupda.link/disclaimer"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "LWwrOxjbIF9T76e",
+        "uniqueKey": "https://groupda.link/technology/fiery-whatsapp-group-link-join-2023"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "KIlq4vLdTZqfWuh",
+        "uniqueKey": "https://groupda.link"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "m2hOPtR8YCejjRb",
+        "uniqueKey": "https://groupda.link/jobs/kuwait-jobs-whatsapp-group-link-join-2023"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "1A21BTrHA1Enbw9",
+        "uniqueKey": "https://groupda.link/news-2/24-news-malayalam-whatsapp-group-link-join-2023"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "LWwrOxjbIF9T76e",
+        "uniqueKey": "https://groupda.link/technology/fiery-whatsapp-group-link-join-2023"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "KIlq4vLdTZqfWuh",
+        "uniqueKey": "https://groupda.link"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "LWwrOxjbIF9T76e",
+        "uniqueKey": "https://groupda.link/technology/fiery-whatsapp-group-link-join-2023"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "oNyqP0wrgKFFg6r",
+        "uniqueKey": "https://groupda.link/add"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Q6Lh374s6xyeP8j",
+        "uniqueKey": "https://groupda.link/telegram"
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "bPPhUUgSfLlJpcg",
+        "uniqueKey": "https://groupda.link/add/group/invite/CxT8kFAXtrk9FxRHN02YiA",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "CXlNJKHG9H696hS",
+        "uniqueKey": "https://groupda.link/add/group/invite/D1XA6CQ6bzr6bvU3VKojZ2",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "M0RPsLnYnDFe1t4",
+        "uniqueKey": "https://groupda.link/add/group/invite/BLjRNiKZe5wLMZywxckM6H",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "hDEc3XpFb6kHkQP",
+        "uniqueKey": "https://groupda.link/add/group/invite/EU7fxPLWHSyCegOZNPLVxM",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "1NQ6CjmPJ5LwWd4",
+        "uniqueKey": "https://groupda.link/add/group/invite/Er9OSHOFRpBIHmwnN10gcO",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "vozm5pn3zrPfHzL",
+        "uniqueKey": "https://groupda.link/add/group/invite/KhOjoHb2Z4i9EME6p8Segq",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "sEAJMaSVMYF1EVr",
+        "uniqueKey": "https://groupda.link/add/group/invite/LLnAWQkgcYeEfSHiMp6l1q",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "n0ch5sJMcgDR0FG",
+        "uniqueKey": "https://groupda.link/add/group/invite/E2sgYEghs5r0DsOdq2J0eo",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:28.256Z",
+      "status": "pending"
+    },
+    {
+      "url": "https://groupda.link/category/technology/",
+      "enqueuedAt": "2025-04-04T18:00:32.876Z",
+      "status": "done"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "KIlq4vLdTZqfWuh",
+        "uniqueKey": "https://groupda.link"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "KIlq4vLdTZqfWuh",
+        "uniqueKey": "https://groupda.link"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Z1X5lXifdFyXSDl",
+        "uniqueKey": "https://groupda.link/about-us"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "YSOnmLPV2b9wYh4",
+        "uniqueKey": "https://groupda.link/privacy-policy"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "6U65nTuH5w0D3e8",
+        "uniqueKey": "https://groupda.link/dmca"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "6Xb9G7VaDdbaLrm",
+        "uniqueKey": "https://groupda.link/contact-us"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "JONnvzns1L9vHWm",
+        "uniqueKey": "https://groupda.link/disclaimer"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "KIlq4vLdTZqfWuh",
+        "uniqueKey": "https://groupda.link"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Z1X5lXifdFyXSDl",
+        "uniqueKey": "https://groupda.link/about-us"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "YSOnmLPV2b9wYh4",
+        "uniqueKey": "https://groupda.link/privacy-policy"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "6U65nTuH5w0D3e8",
+        "uniqueKey": "https://groupda.link/dmca"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "6Xb9G7VaDdbaLrm",
+        "uniqueKey": "https://groupda.link/contact-us"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "JONnvzns1L9vHWm",
+        "uniqueKey": "https://groupda.link/disclaimer"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "LWwrOxjbIF9T76e",
+        "uniqueKey": "https://groupda.link/technology/fiery-whatsapp-group-link-join-2023"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "LWwrOxjbIF9T76e",
+        "uniqueKey": "https://groupda.link/technology/fiery-whatsapp-group-link-join-2023"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "LWwrOxjbIF9T76e",
+        "uniqueKey": "https://groupda.link/technology/fiery-whatsapp-group-link-join-2023"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "KIlq4vLdTZqfWuh",
+        "uniqueKey": "https://groupda.link"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "AppTHZfmFe2HF4t",
+        "uniqueKey": "https://groupda.link/category/technology"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "oNyqP0wrgKFFg6r",
+        "uniqueKey": "https://groupda.link/add"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "wasAlreadyPresent": true,
+        "wasAlreadyHandled": false,
+        "requestId": "Q6Lh374s6xyeP8j",
+        "uniqueKey": "https://groupda.link/telegram"
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "QilaK8W0lDyrH4r",
+        "uniqueKey": "https://groupda.link/technology/united-states-science-whatsapp-group-link-2023",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "Y0X3JAiT7hH3BpX",
+        "uniqueKey": "https://groupda.link/technology/sri-lanka-science-english-whatsapp-group-link-join-2023",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "Fw4mhZcujoZN4ru",
+        "uniqueKey": "https://groupda.link/technology/sri-lanka-science-whatsapp-group-link-join-2023",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "r09RaIS0417mnYa",
+        "uniqueKey": "https://groupda.link/technology/pakistan-science-english-whatsapp-group-link-join-2023",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "Go7U4wwjaO41QFq",
+        "uniqueKey": "https://groupda.link/technology/pakistan-science-whatsapp-group-link-join-2023",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "Sue5NFS6MZUv078",
+        "uniqueKey": "https://groupda.link/technology/nigeria-science-whatsapp-group-link-join-2023",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "6rbxsvtsUIBMmKf",
+        "uniqueKey": "https://groupda.link/technology/kenya-science-whatsapp-group-link-join-2023",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "BBnwFbDrzNeddci",
+        "uniqueKey": "https://groupda.link/technology/telugu-science-whatsapp-group-link-join-2023",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "TBGAwWn0jrLSAkU",
+        "uniqueKey": "https://groupda.link/technology/indonesia-science-whatsapp-group-link-join-2023",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "JSd22P8oYmq3KZx",
+        "uniqueKey": "https://groupda.link/category/technology/page/2",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    },
+    {
+      "url": {
+        "requestId": "o5CpKIOBaFl3eMI",
+        "uniqueKey": "https://groupda.link/category/technology/page/6",
+        "wasAlreadyHandled": false,
+        "wasAlreadyPresent": false
+      },
+      "enqueuedAt": "2025-04-04T18:00:32.911Z",
+      "status": "pending"
+    }
+  ],
+  "pendingUrls": 45528,
+  "currentUrl": "https://groupda.link/category/technology/"
 }

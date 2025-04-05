@@ -1,12 +1,14 @@
 import fs from 'fs';
 import path from 'path';
-import { CrawlResult, WhatsAppLink } from '../types/crawler';
+import { CrawlResult, WhatsAppLink, EnqueuedUrl, CrawlerStatus } from '../types/crawler';
 
 // Create data directory if it doesn't exist
 const dataDir = path.join(process.cwd(), "data");
 const crawlerDir = path.join(process.cwd(), "crawler");
 const configPath = path.join(crawlerDir, "config.json");
 const statusPath = path.join(crawlerDir, "status.json");
+const enqueuedUrlsPath = path.join(crawlerDir, "enqueued-urls.json");
+const errorsPath = path.join(crawlerDir, "errors.json");
 
 export const initFileSystem = () => {
   if (!fs.existsSync(crawlerDir)) {
@@ -96,21 +98,59 @@ export const saveWhatsAppLinks = (
   fs.writeFileSync(filePath, JSON.stringify(uniqueLinks, null, 2));
 };
 
-export const saveStatus = (status: any): void => {
+export const saveStatus = (status: CrawlerStatus): void => {
   initFileSystem();
   fs.writeFileSync(statusPath, JSON.stringify(status, null, 2));
 };
 
-export const getStatus = (): any => {
+export const getStatus = (): CrawlerStatus | null => {
   initFileSystem();
   if (!fs.existsSync(statusPath)) {
     return null;
   }
   try {
     const data = fs.readFileSync(statusPath, 'utf8');
-    return JSON.parse(data);
+    return JSON.parse(data) as CrawlerStatus;
   } catch (error) {
     console.error('Error reading crawler status:', error);
     return null;
+  }
+};
+
+export const saveEnqueuedUrls = (urls: EnqueuedUrl[]): void => {
+  initFileSystem();
+  fs.writeFileSync(enqueuedUrlsPath, JSON.stringify(urls, null, 2));
+};
+
+export const getEnqueuedUrls = (): EnqueuedUrl[] => {
+  initFileSystem();
+  if (!fs.existsSync(enqueuedUrlsPath)) {
+    return [];
+  }
+  try {
+    const data = fs.readFileSync(enqueuedUrlsPath, 'utf8');
+    return JSON.parse(data) as EnqueuedUrl[];
+  } catch (error) {
+    console.error('Error reading enqueued URLs:', error);
+    return [];
+  }
+};
+
+export const saveErrors = (errors: string[]): void => {
+  initFileSystem();
+  fs.writeFileSync(errorsPath, JSON.stringify(errors, null, 2));
+};
+
+export const getErrors = (): string[] => {
+  initFileSystem();
+  if (!fs.existsSync(errorsPath)) {
+    return [];
+  }
+  try {
+    const data = fs.readFileSync(errorsPath, 'utf8');
+    return JSON.parse(data) as string[];
+  } catch (error) {
+    console.error('Error reading crawler errors:', error);
+    return [];
   }
 };
