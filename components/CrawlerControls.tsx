@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import axios from 'axios';
 import { 
   Typography, 
   Box, 
@@ -13,42 +12,39 @@ import {
   Stop as StopIcon, 
   Error as ErrorIcon 
 } from '@mui/icons-material';
+import { useStartCrawlerMutation, useStopCrawlerMutation } from '../store/apiSlice';
 
 interface CrawlerControlsProps {
   isRunning: boolean;
-  refreshStatus: () => void;
+  refreshStatus: () => Promise<any> | void;
 }
 
 const CrawlerControls: React.FC<CrawlerControlsProps> = ({ isRunning, refreshStatus }) => {
-  const [isStarting, setIsStarting] = useState(false);
-  const [isStopping, setIsStopping] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  
+  // Use RTK Query mutations
+  const [startCrawler, { isLoading: isStarting }] = useStartCrawlerMutation();
+  const [stopCrawler, { isLoading: isStopping }] = useStopCrawlerMutation();
 
   const handleStart = async () => {
-    setIsStarting(true);
     setError(null);
     
     try {
-      await axios.post('/api/crawler/start');
-      refreshStatus();
+      await startCrawler().unwrap();
+      // The status will automatically refresh due to RTK Query cache invalidation
     } catch (err: any) {
-      setError(err.response?.data?.message || 'Failed to start crawler');
-    } finally {
-      setIsStarting(false);
+      setError(err.data?.message || 'Failed to start crawler');
     }
   };
 
   const handleStop = async () => {
-    setIsStopping(true);
     setError(null);
     
     try {
-      await axios.post('/api/crawler/stop');
-      refreshStatus();
+      await stopCrawler().unwrap();
+      // The status will automatically refresh due to RTK Query cache invalidation
     } catch (err: any) {
-      setError(err.response?.data?.message || 'Failed to stop crawler');
-    } finally {
-      setIsStopping(false);
+      setError(err.data?.message || 'Failed to stop crawler');
     }
   };
 

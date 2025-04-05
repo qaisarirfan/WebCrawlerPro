@@ -10,7 +10,8 @@ import {
   Chip,
   Divider,
   useTheme,
-  Tooltip
+  Tooltip,
+  CircularProgress
 } from '@mui/material';
 import {
   PlayArrow as PendingIcon,
@@ -19,14 +20,14 @@ import {
   Error as ErrorIcon
 } from '@mui/icons-material';
 import { EnqueuedUrl } from '../types/crawler';
+import { useGetCrawlerStatusQuery } from '../store/apiSlice';
 
-interface EnqueuedUrlsListProps {
-  enqueuedUrls: EnqueuedUrl[];
-  pendingUrls: number;
-}
+// No props needed as we're using Redux
+interface EnqueuedUrlsListProps {}
 
-const EnqueuedUrlsList: React.FC<EnqueuedUrlsListProps> = ({ enqueuedUrls, pendingUrls }) => {
+const EnqueuedUrlsList: React.FC<EnqueuedUrlsListProps> = () => {
   const theme = useTheme();
+  const { data: status, isLoading, error } = useGetCrawlerStatusQuery();
 
   // Format the URL for display by truncating it if needed
   const formatUrl = (url: string) => {
@@ -84,6 +85,41 @@ const EnqueuedUrlsList: React.FC<EnqueuedUrlsListProps> = ({ enqueuedUrls, pendi
       return `${Math.floor(diffInSeconds / 86400)} days ago`;
     }
   };
+
+  // Handle loading state
+  if (isLoading) {
+    return (
+      <Box sx={{ mt: 3, display: 'flex', justifyContent: 'center', alignItems: 'center', p: 4 }}>
+        <CircularProgress size={30} />
+      </Box>
+    );
+  }
+
+  // Handle error state
+  if (error) {
+    return (
+      <Box sx={{ mt: 3 }}>
+        <Typography variant="body2" color="error" sx={{ textAlign: 'center' }}>
+          Error loading crawler queue data. Please refresh the page.
+        </Typography>
+      </Box>
+    );
+  }
+
+  // If we don't have status data yet, show a placeholder
+  if (!status) {
+    return (
+      <Box sx={{ mt: 3 }}>
+        <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'center' }}>
+          Crawler status not available. Please wait...
+        </Typography>
+      </Box>
+    );
+  }
+
+  // Get enqueued URLs and pending URLs count from the Redux store
+  const enqueuedUrls = status.enqueuedUrls || [];
+  const pendingUrls = status.pendingUrls || 0;
 
   return (
     <Box sx={{ mt: 3 }}>

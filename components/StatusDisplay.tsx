@@ -14,7 +14,8 @@ import {
   Divider,
   IconButton,
   Tooltip,
-  useTheme
+  useTheme,
+  CircularProgress
 } from '@mui/material';
 import { 
   Refresh as RefreshIcon, 
@@ -24,22 +25,22 @@ import {
 } from '@mui/icons-material';
 import { CrawlerStatus } from '../types/crawler';
 import EnqueuedUrlsList from './EnqueuedUrlsList';
+import { useGetCrawlerStatusQuery } from '../store/apiSlice';
 
+// No need to pass status as a prop anymore since we're using Redux
 interface StatusDisplayProps {
-  status: CrawlerStatus;
-  onRefresh?: () => Promise<void>;
+  onRefresh?: () => Promise<any> | void;
 }
 
-const StatusDisplay: React.FC<StatusDisplayProps> = ({ status, onRefresh }) => {
+const StatusDisplay: React.FC<StatusDisplayProps> = ({ onRefresh }) => {
   const [elapsedTime, setElapsedTime] = useState<string>("00:00:00");
   const [refreshing, setRefreshing] = useState(false);
   const theme = useTheme();
-
-  console.log(status);
+  const { data: status, isLoading, error, refetch } = useGetCrawlerStatusQuery();
 
   // Calculate elapsed time when running
   useEffect(() => {
-    if (!status.isRunning || !status.startTime) {
+    if (!status || !status.isRunning || !status.startTime) {
       return;
     }
 
@@ -63,18 +64,75 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ status, onRefresh }) => {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [status.isRunning, status.startTime]);
+  }, [status]);
 
   const handleRefresh = async () => {
-    if (onRefresh && !refreshing) {
+    if (!refreshing) {
       setRefreshing(true);
       try {
-        await onRefresh();
+        if (onRefresh) {
+          await onRefresh();
+        } else {
+          // Explicitly handle the result of refetch to fix type error
+          const result = await refetch();
+          // No need to do anything with the result
+        }
       } finally {
         setTimeout(() => setRefreshing(false), 500);
       }
     }
   };
+
+  // Show loading state
+  if (isLoading) {
+    return (
+      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', py: 4 }}>
+        <CircularProgress size={40} />
+        <Typography variant="body2" sx={{ mt: 2 }}>
+          Loading crawler status...
+        </Typography>
+      </Box>
+    );
+  }
+
+  // Show error state
+  if (error) {
+    return (
+      <Box sx={{ p: 3, textAlign: 'center' }}>
+        <Typography variant="body1" color="error">
+          Error loading crawler status
+        </Typography>
+        <Button 
+          variant="outlined" 
+          color="primary" 
+          onClick={() => refetch()} 
+          sx={{ mt: 2 }}
+          startIcon={<RefreshIcon />}
+        >
+          Retry
+        </Button>
+      </Box>
+    );
+  }
+
+  // If we don't have status data yet, show a placeholder
+  if (!status) {
+    return (
+      <Box sx={{ textAlign: 'center', p: 3 }}>
+        <Typography variant="body2" color="text.secondary">
+          Crawler status not available
+        </Typography>
+        <Button 
+          variant="text" 
+          onClick={() => refetch()} 
+          size="small" 
+          sx={{ mt: 1 }}
+        >
+          Refresh
+        </Button>
+      </Box>
+    );
+  }
 
   return (
     <Box>
@@ -90,32 +148,30 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ status, onRefresh }) => {
           Crawler Status
         </Typography>
 
-        {onRefresh && (
-          <Tooltip title="Manually refresh status">
-            <IconButton
-              onClick={handleRefresh}
-              disabled={refreshing}
-              size="small"
-              color="primary"
-              sx={{ ml: 1 }}
-            >
-              <RefreshIcon
-                fontSize="small"
-                sx={{
-                  animation: refreshing ? "spin 1s linear infinite" : "none",
-                  "@keyframes spin": {
-                    "0%": {
-                      transform: "rotate(0deg)",
-                    },
-                    "100%": {
-                      transform: "rotate(360deg)",
-                    },
+        <Tooltip title="Refresh status">
+          <IconButton
+            onClick={handleRefresh}
+            disabled={refreshing}
+            size="small"
+            color="primary"
+            sx={{ ml: 1 }}
+          >
+            <RefreshIcon
+              fontSize="small"
+              sx={{
+                animation: refreshing ? "spin 1s linear infinite" : "none",
+                "@keyframes spin": {
+                  "0%": {
+                    transform: "rotate(0deg)",
                   },
-                }}
-              />
-            </IconButton>
-          </Tooltip>
-        )}
+                  "100%": {
+                    transform: "rotate(360deg)",
+                  },
+                },
+              }}
+            />
+          </IconButton>
+        </Tooltip>
       </Box>
 
       <Stack spacing={2}>
@@ -227,12 +283,9 @@ const StatusDisplay: React.FC<StatusDisplayProps> = ({ status, onRefresh }) => {
         )}
       </Stack>
 
-      {/* Display enqueued URLs list if the crawler is running and we have URLs */}
+      {/* Display enqueued URLs list if the crawler is running and has URLs */}
       {status.isRunning && status.enqueuedUrls && status.enqueuedUrls.length > 0 && (
-        <EnqueuedUrlsList 
-          enqueuedUrls={status.enqueuedUrls} 
-          pendingUrls={status.pendingUrls || 0} 
-        />
+        <EnqueuedUrlsList />
       )}
       
       {status.errors.length > 0 && (

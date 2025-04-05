@@ -1,5 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
-import axios from 'axios';
+import { useState } from 'react';
 import {
   Container,
   Box,
@@ -15,7 +14,6 @@ import {
   Add as AddIcon,
   Link as LinkIcon,
 } from "@mui/icons-material";
-import { CrawlerStatus } from "../types/crawler";
 import CrawlerControls from "./CrawlerControls";
 import StatusDisplay from "./StatusDisplay";
 import UrlList from "./UrlList";
@@ -24,63 +22,29 @@ import SettingsModal from "./SettingsModal";
 import AddUrlModal from "./AddUrlModal";
 import CrawledDataList from "./CrawledDataList";
 import QuickStartTutorial from "./QuickStartTutorial";
+import { useGetCrawlerStatusQuery } from '../store/apiSlice';
 
 const CrawlerInterface: React.FC = () => {
-  const [status, setStatus] = useState<CrawlerStatus>({
-    isRunning: false,
-    progress: 0,
-    totalUrls: 0,
-    processedUrls: 0,
-    errors: [],
-    enqueuedUrls: [],
-    pendingUrls: 0
+  // Get crawler status from Redux store with auto polling
+  const { data: status, refetch } = useGetCrawlerStatusQuery(undefined, {
+    pollingInterval: 3000, // Poll every 3 seconds
   });
+  
+  // Local UI state
   const [refreshUrlsTrigger, setRefreshUrlsTrigger] = useState(0);
-  const [statusPollingInterval, setStatusPollingInterval] =
-    useState<NodeJS.Timeout | null>(null);
   const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false);
   const [isAddUrlModalOpen, setIsAddUrlModalOpen] = useState(false);
 
-  const fetchStatus = useCallback(async () => {
-    try {
-      const response = await axios.get("/api/crawler/status");
-      setStatus(response.data);
-
-      // Set up polling if crawler is running, stop polling if it's not
-      if (response.data.isRunning && !statusPollingInterval) {
-        // Poll more frequently when crawler is running (3 seconds)
-        const interval = setInterval(fetchStatus, 3000);
-        setStatusPollingInterval(interval);
-      } else if (!response.data.isRunning && statusPollingInterval) {
-        clearInterval(statusPollingInterval);
-        setStatusPollingInterval(null);
-      }
-    } catch (error) {
-      console.error("Failed to fetch crawler status:", error);
-      // Don't update status on error to prevent UI flickering
-      // If we have a failed request, ensure we still maintain polling
-      if (!statusPollingInterval) {
-        const interval = setInterval(fetchStatus, 10000); // 10 second retry interval on error
-        setStatusPollingInterval(interval);
-      }
-    }
-  }, [statusPollingInterval]);
+  // Define a properly typed refetchStatus function that returns Promise<void>
+  const refetchStatus = async (): Promise<void> => {
+    await refetch();
+  };
 
   const handleUrlAdded = () => {
     setRefreshUrlsTrigger((prev) => prev + 1);
+    // Call refetch without awaiting
+    refetchStatus();
   };
-
-  // Initial status fetch
-  useEffect(() => {
-    fetchStatus();
-
-    // Clean up interval on unmount
-    return () => {
-      if (statusPollingInterval) {
-        clearInterval(statusPollingInterval);
-      }
-    };
-  }, [fetchStatus]);
 
   const theme = useTheme();
 
@@ -172,13 +136,13 @@ const CrawlerInterface: React.FC = () => {
           <Grid size={5} gap={2} display="flex" flexDirection="column">
             <Paper sx={{ p: 3 }}>
               <CrawlerControls
-                isRunning={status.isRunning}
-                refreshStatus={fetchStatus}
+                isRunning={status?.isRunning || false}
+                refreshStatus={refetchStatus}
               />
             </Paper>
 
             <Paper sx={{ p: 3 }}>
-              <StatusDisplay status={status} onRefresh={fetchStatus} />
+              <StatusDisplay onRefresh={refetchStatus} />
             </Paper>
 
             <UrlList refreshTrigger={refreshUrlsTrigger} />
@@ -194,7 +158,7 @@ const CrawlerInterface: React.FC = () => {
       <SettingsModal
         isOpen={isSettingsModalOpen}
         onClose={() => setIsSettingsModalOpen(false)}
-        isRunning={status.isRunning}
+        isRunning={status?.isRunning || false}
       />
 
       <AddUrlModal

@@ -5,6 +5,9 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { useMemo, useState, useEffect, createContext } from "react";
 import { indigo, pink, blue, deepPurple, grey } from "@mui/material/colors";
 import type { PaletteMode } from "@mui/material";
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
+import { store, persistor } from '../store/store';
 
 // Create a context to allow theme toggling from any component
 export const ColorModeContext = createContext({
@@ -197,32 +200,36 @@ function MyApp({ Component, pageProps }: AppProps) {
   }
 
   return (
-    <ColorModeContext.Provider value={colorMode}>
-      <ThemeProvider theme={theme}>
-        <CssBaseline enableColorScheme />
-        <Head>
-          <title>Web Crawler Interface</title>
-          <meta
-            name="description"
-            content="A modern interface to control web crawling operations"
-          />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="theme-color" content={theme.palette.primary.main} />
-          <link rel="icon" href="/favicon.ico" />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link
-            rel="preconnect"
-            href="https://fonts.gstatic.com"
-            crossOrigin="anonymous"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet"
-          />
-        </Head>
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </ColorModeContext.Provider>
+    <Provider store={store}>
+      <PersistGate loading={<div>Loading...</div>} persistor={persistor}>
+        <ColorModeContext.Provider value={colorMode}>
+          <ThemeProvider theme={theme}>
+            <CssBaseline enableColorScheme />
+            <Head>
+              <title>Web Crawler Interface</title>
+              <meta
+                name="description"
+                content="A modern interface to control web crawling operations"
+              />
+              <meta name="viewport" content="width=device-width, initial-scale=1" />
+              <meta name="theme-color" content={theme.palette.primary.main} />
+              <link rel="icon" href="/favicon.ico" />
+              <link rel="preconnect" href="https://fonts.googleapis.com" />
+              <link
+                rel="preconnect"
+                href="https://fonts.gstatic.com"
+                crossOrigin="anonymous"
+              />
+              <link
+                href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+                rel="stylesheet"
+              />
+            </Head>
+            <Component {...pageProps} />
+          </ThemeProvider>
+        </ColorModeContext.Provider>
+      </PersistGate>
+    </Provider>
   );
 }
 
